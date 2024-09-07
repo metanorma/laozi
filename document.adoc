@@ -4,33 +4,33 @@
 :script: Hant
 :layout: vertical
 
-include::01.adoc[]
+include::sections/01.adoc[]
 
-include::02.adoc[]
+include::sections/02.adoc[]
 
-include::03.adoc[]
+include::sections/03.adoc[]
 
-include::04.adoc[]
+include::sections/04.adoc[]
 
-include::05.adoc[]
+include::sections/05.adoc[]
 
-include::06.adoc[]
+include::sections/06.adoc[]
 
-include::07.adoc[]
+include::sections/07.adoc[]
 
-include::08.adoc[]
+include::sections/08.adoc[]
 
-include::09.adoc[]
+include::sections/09.adoc[]
 
-include::10.adoc[]
+include::sections/10.adoc[]
 
-include::11.adoc[]
+include::sections/11.adoc[]
 
-include::12.adoc[]
+include::sections/12.adoc[]
 
-include::13.adoc[]
+include::sections/13.adoc[]
 
-include::14.adoc[]
+include::sections/14.adoc[]
 
-include::15.adoc[]
+include::sections/15.adoc[]
 
