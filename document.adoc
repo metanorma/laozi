@@ -1,0 +1,15 @@
+= 帛書老子 甲本 with Annotations
+:doctype: book
+:language: zh
+:script: Hant
+:layout: vertical
+
+include::01.adoc[]
+
+include::02.adoc[]
+
+include::03.adoc[]
+
+include::04.adoc[]
+
+include::05.adoc[]
