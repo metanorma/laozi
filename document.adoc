@@ -13,3 +13,24 @@ include::03.adoc[]
 include::04.adoc[]
 
 include::05.adoc[]
+
+include::06.adoc[]
+
+include::07.adoc[]
+
+include::08.adoc[]
+
+include::09.adoc[]
+
+include::10.adoc[]
+
+include::11.adoc[]
+
+include::12.adoc[]
+
+include::13.adoc[]
+
+include::14.adoc[]
+
+include::15.adoc[]
+
