@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plateau-standard xmlns="https://www.metanorma.org/ns/plateau" type="semantic" version="0.1.5" schema-version="v1.3.3">
+<bibdata type="standard">
+
+
+
+<contributor><role type="author"/><organization>
+<name language="ja">国土交通省</name>
+
+<name language="en">Ministry of Land, Infrastructure, Transport and Tourism</name>
+<abbreviation>MLIT</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name language="ja">国土交通省</name>
+
+<name language="en">Ministry of Land, Infrastructure, Transport and Tourism</name>
+<abbreviation>MLIT</abbreviation></organization></contributor><language>zh</language><script>Hant</script><status><stage>60</stage></status><copyright><from>2024</from><owner><organization>
+<name language="ja">国土交通省</name>
+
+<name language="en">Ministry of Land, Infrastructure, Transport and Tourism</name>
+<abbreviation>MLIT</abbreviation></organization></owner></copyright><ext><doctype>book</doctype><editorialgroup><agency>MLIT</agency></editorialgroup><approvalgroup><agency>MLIT</agency></approvalgroup></ext></bibdata><metanorma-extension><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+<sections><clause id="___x7b2c___x4e00___x7ae0_" inline-header="false" obligation="normative">
+<title>第一章</title>
+<p id="L1">道，可道也，非恆道也。</p>
+
+<p id="L2">名，可名也，非恆名也。</p>
+
+<p id="L3">無名萬物之始也，有名萬物之母也。</p>
+
+<p id="L4">故：恆無欲也，以觀其眇；恆有欲也，以觀其徼。</p>
+
+<p id="L5">两者同出，異名同謂。</p>
+
+<p id="L6">玄之又玄，眾妙之門。</p>
+
+<sourcecode id="_a907ed51-a9dd-5f25-e5f1-fa07c09b72f6">- id: 1
+  annotator: 王弼
+  lines: [L1, L2]
+  ranges: [[0, 18]]
+  text: 可道之道，可名之名，指事造形，非其常也。故不可道，不可名也。
+
+- id: 2
+  annotator: 河上公
+  lines: [L1, L2]
+  ranges: [[0, 18]]
+  text: 人能常行道，即合於道。能常名道，即得道意。
+
+- id: 3
+  annotator: 王弼
+  lines: [L3]
+  ranges: [[0, 19]]
+  text: 無名，則物之始也；有名，則物之母也。始，所以未形。母，所以既形。
+
+- id: 4
+  annotator: 河上公
+  lines: [L3]
+  ranges: [[0, 19]]
+  text: 無名，謂道未生萬物時。有名，謂道生萬物後。
+
+- id: 5
+  annotator: 王弼
+  lines: [L4]
+  ranges: [[0, 25]]
+  text: 滌除玄鑒，涉有名之境，即觀其所徼；以無名之妙，即觀其所眇。
+
+- id: 6
+  annotator: 河上公
+  lines: [L4]
+  ranges: [[0, 25]]
+  text: 常無欲，則知道之微妙。常有欲，則知物之所起。
+
+- id: 7
+  annotator: 王弼
+  lines: [L5, L6]
+  ranges: [[0, 19]]
+  text: 同出者，同出於道也。異名者，有無之名異也。同謂者，同謂之為道也。
+
+- id: 8
+  annotator: 河上公
+  lines: [L5, L6]
+  ranges: [[0, 19]]
+  text: 玄，天也。天中復有天焉。玄者，深遠也。言道深遠無窮極，妙本在一，一數之始也。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x7ae0_" inline-header="false" obligation="normative">
+<title>第二章</title>
+<p id="L2-1">天下皆知美之為美，惡已。</p>
+
+<p id="L2-2">皆知善之為善，斯不善已。</p>
+
+<p id="L2-3">有無之相生也，難易之相成也，長短之相刑也，高下之相盈也，音聲之相和也，前後之相隨也，恆也。</p>
+
+<p id="L2-4">是以聖人居無為之事，行不言之教。</p>
+
+<p id="L2-5">萬物作而弗始也，為而弗恃也，成功而弗居也。</p>
+
+<p id="L2-6">夫唯弗居，是以不去。</p>
+
+<sourcecode id="_1e172285-1c32-679a-cc15-f077d277add2">- id: 9
+  annotator: 王弼
+  lines: [L2-1, L2-2]
+  ranges: [[0, 24]]
+  text: 美之所以為美者，惡也。善之所以為善者，不善也。若無惡，則美不可知；若無不善，則善不可知。
+
+- id: 10
+  annotator: 河上公
+  lines: [L2-1, L2-2]
+  ranges: [[0, 24]]
+  text: 陰陽相生，善惡相成。
+
+- id: 11
+  annotator: 王弼
+  lines: [L2-3]
+  ranges: [[0, 57]]
+  text: 此六者，皆相因而有，相待而成。故聖人處無為之事，行不言之教。
+
+- id: 12
+  annotator: 河上公
+  lines: [L2-3]
+  ranges: [[0, 57]]
+  text: 有中有無，無中有有。難中有易，易中有難。如此則長短相形，高下相傾，音聲相和，前後相隨，皆相因而有。
+
+- id: 13
+  annotator: 王弼
+  lines: [L2-4, L2-5]
+  ranges: [[0, 43]]
+  text: 聖人體道，無為而無不為。不言之教，寂然而莫不應。
+
+- id: 14
+  annotator: 河上公
+  lines: [L2-4, L2-5]
+  ranges: [[0, 43]]
+  text: 聖人法道無為，不造作，不施為。萬物自生，不名其主。
+
+- id: 15
+  annotator: 王弼
+  lines: [L2-6]
+  ranges: [[0, 11]]
+  text: 不居其功，功成而不處，故其功不去。
+
+- id: 16
+  annotator: 河上公
+  lines: [L2-6]
+  ranges: [[0, 11]]
+  text: 不自居功，故功成不去。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e09___x7ae0_" inline-header="false" obligation="normative">
+<title>第三章</title>
+<p id="L3-1">不上賢，使民不爭。</p>
+
+<p id="L3-2">不貴難得之貨，使民不為盜。</p>
+
+<p id="L3-3">不見可欲，使民心不亂。</p>
+
+<p id="L3-4">是以聖人之治也，虛其心，實其腹，弱其志，強其骨，</p>
+
+<p id="L3-5">恆使民無知無欲也。</p>
+
+<p id="L3-6">使夫知不敢弗為而已，則無不治矣。</p>
+
+<sourcecode id="_81f6e5ff-328e-6eef-8232-8454dd1ac427">- id: 17
+  annotator: 王弼
+  lines: [L3-1, L3-2, L3-3]
+  ranges: [[0, 38]]
+  text: 不上賢，則民不爭。不貴難得之貨，則民不為盜。不見可欲之物，則民心不亂。
+
+- id: 18
+  annotator: 河上公
+  lines: [L3-1, L3-2, L3-3]
+  ranges: [[0, 38]]
+  text: 不尚賢，不貴奇，不見異物，民則安於本分，不爭、不盜、不亂。
+
+- id: 19
+  annotator: 王弼
+  lines: [L3-4, L3-5]
+  ranges: [[0, 40]]
+  text: 聖人治國，使民各安其分，不以智慧相勝，不以欲望相殘。
+
+- id: 20
+  annotator: 河上公
+  lines: [L3-4, L3-5]
+  ranges: [[0, 40]]
+  text: 聖人治國，使民虛心實腹，弱志強骨，常使民無知無欲。
+
+- id: 21
+  annotator: 王弼
+  lines: [L3-6]
+  ranges: [[0, 22]]
+  text: 使知者不敢為，則無不治也。
+
+- id: 22
+  annotator: 河上公
+  lines: [L3-6]
+  ranges: [[0, 22]]
+  text: 使智者不敢為非，則天下無不治矣。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x56db___x7ae0_" inline-header="false" obligation="normative">
+<title>第四章</title>
+<p id="L4-1">道沖，而用之有弗盈也。</p>
+
+<p id="L4-2">淵呵！似萬物之宗。</p>
+
+<p id="L4-3">銼其銳，解其紛，和其光，同其塵。</p>
+
+<p id="L4-4">湛呵！似或存。</p>
+
+<p id="L4-5">吾不知誰之子，象帝之先。</p>
+
+<sourcecode id="_4929f8fd-34e4-d56a-cd5a-28293ad3f304">- id: 23
+  annotator: 王弼
+  lines: [L4-1, L4-2]
+  ranges: [[0, 25]]
+  text: 道體沖虛，應用無窮，淵深不可測，為萬物之宗主。
+
+- id: 24
+  annotator: 河上公
+  lines: [L4-1, L4-2]
+  ranges: [[0, 25]]
+  text: 道德沖融，應用不窮。淵深不可測量，為萬物之宗祖。
+
+- id: 25
+  annotator: 王弼
+  lines: [L4-3]
+  ranges: [[0, 22]]
+  text: 挫其鋒芒，解其紛亂，和其光耀，同其塵垢。
+
+- id: 26
+  annotator: 河上公
+  lines: [L4-3]
+  ranges: [[0, 22]]
+  text: 挫銳解紛，和光同塵，皆謙退藏密之義。
+
+- id: 27
+  annotator: 王弼
+  lines: [L4-4, L4-5]
+  ranges: [[0, 24]]
+  text: 湛然常存，不知其所從來，乃在天帝之先。
+
+- id: 28
+  annotator: 河上公
+  lines: [L4-4, L4-5]
+  ranges: [[0, 24]]
+  text: 湛然常存，不知其誰之子，乃在天帝之先而生。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e94___x7ae0_" inline-header="false" obligation="normative">
+<title>第五章</title>
+<p id="L5-1">天地不仁，以萬物為芻狗。</p>
+
+<p id="L5-2">聖人不仁，以百姓為芻狗。</p>
+
+<p id="L5-3">天地之間，其猶橐籥與？</p>
+
+<p id="L5-4">虛而不屈，動而愈出。</p>
+
+<p id="L5-5">多言數窮，不如守中。</p>
+
+<sourcecode id="_f79ce3a3-04d3-e592-4e0e-4de453c8450d">- id: 29
+  annotator: 王弼
+  lines: [L5-1, L5-2]
+  ranges: [[0, 28]]
+  text: 天地無心，任自然而養萬物。聖人法天地，無所偏愛，以百姓為芻狗。
+
+- id: 30
+  annotator: 河上公
+  lines: [L5-1, L5-2]
+  ranges: [[0, 28]]
+  text: 天地生養萬物，不以仁恩，任自然。聖人法天地，不以仁恩教民，任自然。
+
+- id: 31
+  annotator: 王弼
+  lines: [L5-3, L5-4]
+  ranges: [[0, 26]]
+  text: 天地之間，空虛而不屈，運動而愈出，如橐籥鼓風。
+
+- id: 32
+  annotator: 河上公
+  lines: [L5-3, L5-4]
+  ranges: [[0, 26]]
+  text: 天地之間，空虛不屈，動而愈出，如橐籥之鼓風。
+
+- id: 33
+  annotator: 王弼
+  lines: [L5-5]
+  ranges: [[0, 12]]
+  text: 多言數窮理，不如守中和。
+
+- id: 34
+  annotator: 河上公
+  lines: [L5-5]
+  ranges: [[0, 12]]
+  text: 多言數窮，不如守中和。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x516d___x7ae0_" inline-header="false" obligation="normative">
+<title>第六章</title>
+<p id="L6-1">谷神不死，是謂玄牝。</p>
+
+<p id="L6-2">玄牝之門，是謂天地根。</p>
+
+<p id="L6-3">綿綿呵若存，用之不勤。</p>
+
+<sourcecode id="_68050c48-7a13-5ec0-f4c5-a797c2cc0ef0">- id: 35
+  annotator: 王弼
+  lines: [L6-1, L6-2]
+  ranges: [[0, 24]]
+  text: 谷神，即道也。玄牝，謂天地之根源，生育萬物之門戶。
+
+- id: 36
+  annotator: 河上公
+  lines: [L6-1, L6-2]
+  ranges: [[0, 24]]
+  text: 谷神，谷中之神也。玄牝，天地之門户，無形無影，故謂之玄。
+
+- id: 37
+  annotator: 王弼
+  lines: [L6-3]
+  ranges: [[0, 14]]
+  text: 綿綿若存，用之不竭。
+
+- id: 38
+  annotator: 河上公
+  lines: [L6-3]
+  ranges: [[0, 14]]
+  text: 綿綿若存，用之不勤，言道綿綿若存，用之不勤勞。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e03___x7ae0_" inline-header="false" obligation="normative">
+<title>第七章</title>
+<p id="L7-1">天長地久。</p>
+
+<p id="L7-2">天地所以能長且久者，以其不自生也，故能長生。</p>
+
+<p id="L7-3">是以聖人後其身而身先，外其身而身存。</p>
+
+<p id="L7-4">不以其無私與，故能成其私。</p>
+
+<sourcecode id="_35d5fdab-ab4d-fcd3-ff61-dcb089919efe">- id: 39
+  annotator: 王弼
+  lines: [L7-1, L7-2]
+  ranges: [[0, 31]]
+  text: 天地長久，以其不自生，不以自為主，故能長久。
+
+- id: 40
+  annotator: 河上公
+  lines: [L7-1, L7-2]
+  ranges: [[0, 31]]
+  text: 天長地久，以其不自生，不自贵，化生萬物，故能長久。
+
+- id: 41
+  annotator: 王弼
+  lines: [L7-3, L7-4]
+  ranges: [[0, 38]]
+  text: 聖人法天地，後己先人，外己存人，無私而成其私。
+
+- id: 42
+  annotator: 河上公
+  lines: [L7-3, L7-4]
+  ranges: [[0, 38]]
+  text: 聖人法天地，不自生，後其身而身先，外其身而身存。不以其私，故能成其私。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x516b___x7ae0_" inline-header="false" obligation="normative">
+<title>第八章</title>
+<p id="L8-1">上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。</p>
+
+<p id="L8-2">居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。</p>
+
+<p id="L8-3">夫唯不爭，故無尤。</p>
+
+<sourcecode id="_83644658-0c35-0605-866c-e053e9d8c8fd">- id: 43
+  annotator: 王弼
+  lines: [L8-1]
+  ranges: [[0, 27]]
+  text: 上善之人如水，利物而不爭，處卑下而近道。
+
+- id: 44
+  annotator: 河上公
+  lines: [L8-1]
+  ranges: [[0, 27]]
+  text: 上善之人如水，善利萬物而不爭，處眾人之所惡，故幾於道。
+
+- id: 45
+  annotator: 王弼
+  lines: [L8-2]
+  ranges: [[0, 36]]
+  text: 善者當如水，處地低下，心靜深淵，施惠及人，言合信實，政教治正，事得其能，舉動合時。
+
+- id: 46
+  annotator: 河上公
+  lines: [L8-2]
+  ranges: [[0, 36]]
+  text: 居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。皆法水而為善。
+
+- id: 47
+  annotator: 王弼
+  lines: [L8-3]
+  ranges: [[0, 9]]
+  text: 不與物爭，故無過失。
+
+- id: 48
+  annotator: 河上公
+  lines: [L8-3]
+  ranges: [[0, 9]]
+  text: 夫唯不爭，故天下無尤咎己者。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e5d___x7ae0_" inline-header="false" obligation="normative">
+<title>第九章</title>
+<p id="L9-1">持而盈之，不如其已。</p>
+
+<p id="L9-2">揣而銳之，不可長保。</p>
+
+<p id="L9-3">金玉滿堂，莫之能守。</p>
+
+<p id="L9-4">富貴而驕，自遺其咎。</p>
+
+<p id="L9-5">功遂身退，天之道也。</p>
+
+<sourcecode id="_bf10fb62-d526-3860-fe29-226e7c1cd4d0">- id: 49
+  annotator: 王弼
+  lines: [L9-1, L9-2]
+  ranges: [[0, 24]]
+  text: 持滿則溢，揣銳則折，不如適可而止。
+
+- id: 50
+  annotator: 河上公
+  lines: [L9-1, L9-2]
+  ranges: [[0, 24]]
+  text: 持滿則溢，揣銳則傷。不如其已，守中也。
+
+- id: 51
+  annotator: 王弼
+  lines: [L9-3, L9-4]
+  ranges: [[0, 24]]
+  text: 財寶滿盈，必生禍患。富貴驕奢，必遺其咎。
+
+- id: 52
+  annotator: 河上公
+  lines: [L9-3, L9-4]
+  ranges: [[0, 24]]
+  text: 金玉滿堂，不可長保。富貴而驕，必遺其咎。
+
+- id: 53
+  annotator: 王弼
+  lines: [L9-5]
+  ranges: [[0, 12]]
+  text: 功成名遂，急流勇退，合乎天道。
+
+- id: 54
+  annotator: 河上公
+  lines: [L9-5]
+  ranges: [[0, 12]]
+  text: 功成名遂，身退居下，合乎天道。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x7ae0_" inline-header="false" obligation="normative">
+<title>第十章</title>
+<p id="L10-1">載營魄抱一，能無離乎？</p>
+
+<p id="L10-2">專氣致柔，能嬰兒乎？</p>
+
+<p id="L10-3">滌除玄覽，能無疵乎？</p>
+
+<p id="L10-4">愛民治國，能無為乎？</p>
+
+<p id="L10-5">天門開闔，能為雌乎？</p>
+
+<p id="L10-6">明白四達，能無知乎？</p>
+
+<sourcecode id="_874e1313-d15e-e38c-88d5-f766b35903b0">- id: 55
+  annotator: 王弼
+  lines: [L10-1, L10-2]
+  ranges: [[0, 24]]
+  text: 載營魄抱一，專氣致柔，如嬰兒之純一無離。
+
+- id: 56
+  annotator: 河上公
+  lines: [L10-1, L10-2]
+  ranges: [[0, 24]]
+  text: 載營魄抱一，專氣致柔，能如嬰兒乎？
+
+- id: 57
+  annotator: 王弼
+  lines: [L10-3, L10-4]
+  ranges: [[0, 24]]
+  text: 滌除妄想，玄覽物情，愛民治國，能無為而治乎？
+
+- id: 58
+  annotator: 河上公
+  lines: [L10-3, L10-4]
+  ranges: [[0, 24]]
+  text: 滌除玄覽，能無疵乎？愛民治國，能無為乎？
+
+- id: 59
+  annotator: 王弼
+  lines: [L10-5, L10-6]
+  ranges: [[0, 24]]
+  text: 天門開闔，能為雌守，明白四達，能無知無欲乎？
+
+- id: 60
+  annotator: 河上公
+  lines: [L10-5, L10-6]
+  ranges: [[0, 24]]
+  text: 天門開闔，能為雌乎？明白四達，能無知乎？</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e00___x7ae0_" inline-header="false" obligation="normative">
+<title>第十一章</title>
+<p id="L11-1">三十輻共一轂，當其無，有車之用。</p>
+
+<p id="L11-2">埏埴以為器，當其無，有器之用。</p>
+
+<p id="L11-3">鑿戶牖以為室，當其無，有室之用。</p>
+
+<p id="L11-4">故有之以為利，無之以為用。</p>
+
+<sourcecode id="_e25e63c4-20eb-8244-50f9-4d42ce502381">- id: 61
+  annotator: 王弼
+  lines: [L11-1, L11-2, L11-3]
+  ranges: [[0, 54]]
+  text: 有無相成，虛實相用。車、器、室皆因無而有用，無乃所以為用。
+
+- id: 62
+  annotator: 河上公
+  lines: [L11-1, L11-2, L11-3]
+  ranges: [[0, 54]]
+  text: 三十輻共一轂，器以土為之，室以空為用，皆取其無有相成之義。
+
+- id: 63
+  annotator: 王弼
+  lines: [L11-4]
+  ranges: [[0, 16]]
+  text: 有無相須，形用相待，有以為利，無以為用。
+
+- id: 64
+  annotator: 河上公
+  lines: [L11-4]
+  ranges: [[0, 16]]
+  text: 有形者以為利，無形者以為用，有無相須，然後成器。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e8c___x7ae0_" inline-header="false" obligation="normative">
+<title>第十二章</title>
+<p id="L12-1">五色令人目盲，五音令人耳聾，五味令人口爽，</p>
+
+<p id="L12-2">馳騁畋獵令人心發狂，難得之貨令人行妨。</p>
+
+<p id="L12-3">是以聖人為腹不為目，故去彼取此。</p>
+
+<sourcecode id="_ab1bece7-7099-0889-d01f-45aa936f6dbd">- id: 65
+  annotator: 王弼
+  lines: [L12-1, L12-2]
+  ranges: [[0, 48]]
+  text: 五色、五音、五味、馳騁畋獵、難得之貨皆能使人迷惑失性。
+
+- id: 66
+  annotator: 河上公
+  lines: [L12-1, L12-2]
+  ranges: [[0, 48]]
+  text: 五色亂目，五音亂耳，五味亂口，馳騁畋獵發狂心，難得之貨妨人道行。
+
+- id: 67
+  annotator: 王弼
+  lines: [L12-3]
+  ranges: [[0, 20]]
+  text: 聖人為腹不為目，去彼欲望，取此道德。
+
+- id: 68
+  annotator: 河上公
+  lines: [L12-3]
+  ranges: [[0, 20]]
+  text: 聖人為腹實不為目視，故去彼五者，取此道德。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e09___x7ae0_" inline-header="false" obligation="normative">
+<title>第十三章</title>
+<p id="L13-1">寵辱若驚，貴大患若身。</p>
+
+<p id="L13-2">何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。</p>
+
+<p id="L13-3">何謂貴大患若身？吾所以有大患者，為吾有身；及吾無身，吾有何患？</p>
+
+<p id="L13-4">故貴以身為天下，若可寄天下。愛以身為天下，若可託天下。</p>
+
+<sourcecode id="_0c7c4537-eca6-3a59-3e69-73711ad974fc">- id: 69
+  annotator: 王弼
+  lines: [L13-1, L13-2]
+  ranges: [[0, 50]]
+  text: 寵辱皆當若驚，不可以喜寵而驕，不可以辱而憂。
+
+- id: 70
+  annotator: 河上公
+  lines: [L13-1, L13-2]
+  ranges: [[0, 50]]
+  text: 寵辱若驚，言不可以寵故驕，不可以辱故憂，當自知者。
+
+- id: 71
+  annotator: 王弼
+  lines: [L13-3]
+  ranges: [[0, 44]]
+  text: 貴身若大患，身為患本，無身則無患。
+
+- id: 72
+  annotator: 河上公
+  lines: [L13-3]
+  ranges: [[0, 44]]
+  text: 貴大患若身，言身為患本，當貴而重之，不可以穢辱。
+
+- id: 73
+  annotator: 王弼
+  lines: [L13-4]
+  ranges: [[0, 36]]
+  text: 以身為天下，可以寄託天下。
+
+- id: 74
+  annotator: 河上公
+  lines: [L13-4]
+  ranges: [[0, 36]]
+  text: 貴身愛身，可以寄託天下，為天下主。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x56db___x7ae0_" inline-header="false" obligation="normative">
+<title>第十四章</title>
+<p id="L14-1">視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。</p>
+
+<p id="L14-2">此三者不可致詰，故混而為一。</p>
+
+<p id="L14-3">其上不皦，其下不昧。繩繩不可名，復歸於無物。</p>
+
+<p id="L14-4">是謂無狀之狀，無物之象，是謂惚恍。</p>
+
+<p id="L14-5">迎之不見其首，隨之不見其後。</p>
+
+<sourcecode id="_d671f341-fbdc-34e4-f6b3-b9b911a46dd2">- id: 75
+  annotator: 王弼
+  lines: [L14-1, L14-2]
+  ranges: [[0, 44]]
+  text: 道之微妙，不可見聞觸知，混而為一，不可分別。
+
+- id: 76
+  annotator: 河上公
+  lines: [L14-1, L14-2]
+  ranges: [[0, 44]]
+  text: 道非色故不可見，非聲故不可聞，非形故不可扪握。此三者微妙無形，故不可致詰，混合為一。
+
+- id: 77
+  annotator: 王弼
+  lines: [L14-3, L14-4]
+  ranges: [[0, 46]]
+  text: 道體玄妙，上不明，下不昧，無狀無象，惚恍難名。
+
+- id: 78
+  annotator: 河上公
+  lines: [L14-3, L14-4]
+  ranges: [[0, 46]]
+  text: 道上不明，下不昧，延長無窮，不可名字，復歸於無形無物。是謂無狀之狀，無物之象，是謂惚恍。
+
+- id: 79
+  annotator: 王弼
+  lines: [L14-5]
+  ranges: [[0, 18]]
+  text: 道無始無終，故迎之不見首，隨之不見後。
+
+- id: 80
+  annotator: 河上公
+  lines: [L14-5]
+  ranges: [[0, 18]]
+  text: 迎之不見其首，隨之不見其後，言道無端無末也。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e94___x7ae0_" inline-header="false" obligation="normative">
+<title>第十五章</title>
+<p id="L15-1">古之善為士者，微妙玄通，深不可識。</p>
+
+<p id="L15-2">夫唯不可識，故強為之容。豫焉若冬涉川；</p>
+
+<p id="L15-3">猶兮若畏四鄰；儼兮其若客；</p>
+
+<p id="L15-4">渙兮若冰之將釋；敦兮其若樸；</p>
+
+<p id="L15-5">曠兮其若谷；混兮其若濁。</p>
+
+<p id="L15-6">孰能濁以靜之徐清？孰能安以久動之徐生？</p>
+
+<p id="L15-7">保此道者不欲盈。夫唯不盈，故能蔽不新成。</p>
+
+<sourcecode id="_43af804a-fd93-86be-c2e7-a40ca38de186">- id: 81
+  annotator: 王弼
+  lines: [L15-1, L15-2, L15-3]
+  ranges: [[0, 52]]
+  text: 古之善為士者，深不可識，故其容貌若豫若猶若儼，如冬涉川，如畏四鄰，如客自持。
+
+- id: 82
+  annotator: 河上公
+  lines: [L15-1, L15-2, L15-3]
+  ranges: [[0, 52]]
+  text: 古之善為士者，微妙玄通，深不可識。故強為之容，豫若冬涉川，猶若畏四鄰，儼若為客。
+
+- id: 83
+  annotator: 王弼
+  lines: [L15-4, L15-5]
+  ranges: [[0, 32]]
+  text: 渙若冰釋，敦若樸素，曠若空谷，混若濁水。
+
+- id: 84
+  annotator: 河上公
+  lines: [L15-4, L15-5]
+  ranges: [[0, 32]]
+  text: 渙若冰之將釋，敦若樸，曠若谷，混若濁。皆喻道士之德。
+
+- id: 85
+  annotator: 王弼
+  lines: [L15-6, L15-7]
+  ranges: [[0, 48]]
+  text: 能使濁者清，安者動，保此道者不欲盈滿，故能蔽不新成。
+
+- id: 86
+  annotator: 河上公
+  lines: [L15-6, L15-7]
+  ranges: [[0, 48]]
+  text: 孰能濁以靜之徐清？孰能安以久動之徐生？保此道者不欲盈，夫唯不盈，故能蔽不新成。言道士能藏光祿德，不為新成。</sourcecode>
+
+</clause>
+</sections>
+</plateau-standard>

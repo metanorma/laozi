@@ -1,0 +1,1620 @@
+
+<!DOCTYPE html>
+<html lang="zh" xml:lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Times New Roman",serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none; }
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 1.0em; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial",sans-serif; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Arial",sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Arial",sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef + a.TableFootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; }
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after; }
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em; }
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all; }
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%; }
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none; }
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none; }
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400; }
+
+a.anchor::before {
+  content: "\00A7";
+  font-size: .85em;
+  display: block;
+  padding-top: .1em; }
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none; }
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible; }
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 12px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: #555; }
+
+.collapsible:after {
+  content: '\25bc';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.active:after {
+  content: "\25b2"; }
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0; }
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body main {
+    margin: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.3; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none; }
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em; }
+
+main {
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em; }
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em; }
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left; }
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em; }
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic; }
+
+.doctitle-part {
+  margin-top: 1em; }
+
+span.title, span.subtitle, span.part {
+  font-weight: 800; }
+
+span.partlabel {
+  display: block; }
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em; }
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2; }
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+p.zzSTDTitle2 {
+  font-size: 1.5em; }
+
+span.obligation {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration-color: black; }
+
+h2 p, .h2 p {
+  display: inline; }
+
+ul > li {
+  list-style: none; }
+
+ul > li > p:first-child::before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em; }
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2; }
+
+p.AltTerms {
+  margin-bottom: 0; }
+
+p.Terms {
+  margin-top: 0em; }
+
+/* Navigation*/
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Times New Roman",serif;
+  font-weight: 400; }
+  #toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+      padding: 5px 10px; }
+    #toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+        box-shadow: none;
+        color: black; }
+  #toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+    padding-left: 30px; }
+  #toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+    padding-left: 50px; }
+  #toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+    padding-left: 70px; }
+  #toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+    padding-left: 90px; }
+  #toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+    padding-left: 110px; }
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: #f7f7f7;
+    box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important; }
+    #toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; }
+  @media print {
+    #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active,
+  #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+  #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    box-shadow: 0px 1px 0px 0px black !important;
+    background: none; }
+  #toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+    content: " ";
+    display: none; }
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%; }
+
+nav {
+  line-height: 1.2em; }
+  @media screen and (min-width: 768px) {
+    nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 278px;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0 0 0 20px;
+      background-color: #f7f7f7; } }
+  @media print {
+    nav {
+      position: relative;
+      width: auto;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0;
+      margin-right: 0;
+      background-color: white; } }
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em; }
+  @media screen and (min-width: 768px) {
+    #toggle {
+      position: fixed;
+      height: 100%;
+      width: 30px;
+      background-color: #f7f7f7;
+      color: black !important;
+      cursor: pointer;
+      z-index: 100; }
+      #toggle span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); } }
+  @media screen and (max-width: 768px) {
+    #toggle {
+      display: none; } }
+  @media print {
+    #toggle {
+      display: none; } }
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em; }
+  main {
+    padding: 0; }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%; } }
+
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img, div.figure > svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+table div.figure {
+  padding: 0;
+  margin: 0; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl; }
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#governance {
+  border-bottom: solid 3px #750697; }
+
+#governance-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft {
+  border-bottom: solid 3px #fda706; }
+
+#working-draft-band {
+  background-color: #fda706; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list ol li {
+  list-style-type: none; }
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="arabic"] {
+  counter-reset: arabic; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper; }
+
+ol[class="roman_upper"] {
+  counter-reset: roman_upper; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: alphabet2; }
+
+ol[class="arabic"] ol[class="arabic"] {
+  counter-reset: arabic2; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: roman2; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper2; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] {
+  counter-reset: roman_upper2; }
+
+ol {
+  counter-reset: alphabet; }
+
+ol > li {
+  list-style: none;
+  position: relative; }
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="roman"] > li::before {
+  left: -2.0em; }
+
+ol[class="roman_upper"] > li::before {
+  left: -2.3em; }
+
+ol[class="alphabet"] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="arabic"] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") "; }
+
+ol[class="roman"] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") "; }
+
+ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") "; }
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") "; }
+
+ol[class="arabic"] ol[class="arabic"] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") "; }
+
+ol[class="roman"] ol[class="roman"] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") "; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") "; }
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left; }
+
+.figure-title, .FigureTitle, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Note p, .note p {
+  margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .zzHelp p {
+  margin: 0; }
+
+div.zzHelp {
+  color: green;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2em;
+  color: black;
+  padding-left: 0.5em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weight: 400; }
+
+td,
+th {
+  padding: 1em !important; }
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important; }
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em; }
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em; }
+
+.TableFootnote {
+  text-align: left !important; }
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888; }
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em; }
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em; }
+
+ol.footnotes-list:first-child {
+  margin-top: 2em; }
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline; }
+
+ol > li > p::before {
+  content: "";
+  display: none; }
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+dl.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .admonition p {
+  margin: 0; }
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>'); }
+
+.collapse {
+  display: none; }
+
+.expand {
+  transform: rotateZ(-180deg); }
+
+-->
+</style><style><!--pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+--></style><title></title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</link></link></head><body lang="zh" xml:lang="zh"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber"> </p>
+    
+
+
+
+
+
+
+
+<p class="coverpage_techcommittee">MLIT</p>
+
+
+
+<div class="doctitle-en"><div><span class="title"></span><span class="subtitle"></span>
+  
+</div>
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title"></span><span class="subtitle"></span>
+  
+</div>
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div id="boilerplate-copyright-destination"></div>
+<div id="boilerplate-feedback-destination"></div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_cff0c294-5dcc-4d84-a065-3e9e910690ec"></a><a class="header" href="#_cff0c294-5dcc-4d84-a065-3e9e910690ec">Table of contents</a></h1><ul><li class="h1"><a href="#_b772691b-7611-4191-ba11-bbcb801ac4d0">      
+  
+  1　第一章
+</a></li>
+<li class="h1"><a href="#_a0adc89c-f5d8-4c66-bb49-e94298dc3534">      
+  
+  2　第二章
+</a></li>
+<li class="h1"><a href="#_52ee75ca-4f05-407d-87db-879732ddeffb">      
+  
+  3　第三章
+</a></li>
+<li class="h1"><a href="#_5870c634-0af9-4cea-9450-4f17d2dedfb5">      
+  
+  4　第四章
+</a></li>
+<li class="h1"><a href="#_9c407fee-c2c8-4b00-a385-c9370f44cca1">      
+  
+  5　第五章
+</a></li>
+<li class="h1"><a href="#_7bc831e4-758e-4f12-bb70-3cbc212f79ff">      
+  
+  6　第六章
+</a></li>
+<li class="h1"><a href="#_9aade923-0a28-4e54-b769-7e6e07de6c2f">      
+  
+  7　第七章
+</a></li>
+<li class="h1"><a href="#_f81570cb-bc00-4a22-8dd1-e010dbcc8db2">      
+  
+  8　第八章
+</a></li>
+<li class="h1"><a href="#_636972c0-153a-4910-9244-371d03d51b15">      
+  
+  9　第九章
+</a></li>
+<li class="h1"><a href="#_24730ad7-fccb-40cf-805a-b640da176847">      
+  
+  10　第十章
+</a></li>
+<li class="h1"><a href="#_d4b0af81-1d4e-4469-a296-406f695aef42">      
+  
+  11　第十一章
+</a></li>
+<li class="h1"><a href="#_c03e09d0-74af-49ef-a4fa-dbbb25217674">      
+  
+  12　第十二章
+</a></li>
+<li class="h1"><a href="#_d429276d-d1c0-49c7-a266-e34860677dcc">      
+  
+  13　第十三章
+</a></li>
+<li class="h1"><a href="#_25f0e842-2b7e-4bdd-90e0-d82d8320e811">      
+  
+  14　第十四章
+</a></li>
+<li class="h1"><a href="#_0b316399-a1f6-4961-b8b1-e64179cda9aa">      
+  
+  15　第十五章
+</a></li></ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br /><div id="___x7b2c___x4e00___x7ae0_"><h1 id="_b772691b-7611-4191-ba11-bbcb801ac4d0"><a class="anchor" href="#___x7b2c___x4e00___x7ae0_"></a><a class="header" href="#___x7b2c___x4e00___x7ae0_">1　第一章</a></h1><p id="L1">道，可道也，非恆道也。</p><p id="L2">名，可名也，非恆名也。</p><p id="L3">無名萬物之始也，有名萬物之母也。</p><p id="L4">故：恆無欲也，以觀其眇；恆有欲也，以觀其徼。</p><p id="L5">两者同出，異名同謂。</p><p id="L6">玄之又玄，眾妙之門。</p><pre id="_a907ed51-a9dd-5f25-e5f1-fa07c09b72f6" class="sourcecode">- id: 1<br />  annotator: 王弼<br />  lines: [L1, L2]<br />  ranges: [[0, 18]]<br />  text: 可道之道，可名之名，指事造形，非其常也。故不可道，不可名也。<br /><br />- id: 2<br />  annotator: 河上公<br />  lines: [L1, L2]<br />  ranges: [[0, 18]]<br />  text: 人能常行道，即合於道。能常名道，即得道意。<br /><br />- id: 3<br />  annotator: 王弼<br />  lines: [L3]<br />  ranges: [[0, 19]]<br />  text: 無名，則物之始也；有名，則物之母也。始，所以未形。母，所以既形。<br /><br />- id: 4<br />  annotator: 河上公<br />  lines: [L3]<br />  ranges: [[0, 19]]<br />  text: 無名，謂道未生萬物時。有名，謂道生萬物後。<br /><br />- id: 5<br />  annotator: 王弼<br />  lines: [L4]<br />  ranges: [[0, 25]]<br />  text: 滌除玄鑒，涉有名之境，即觀其所徼；以無名之妙，即觀其所眇。<br /><br />- id: 6<br />  annotator: 河上公<br />  lines: [L4]<br />  ranges: [[0, 25]]<br />  text: 常無欲，則知道之微妙。常有欲，則知物之所起。<br /><br />- id: 7<br />  annotator: 王弼<br />  lines: [L5, L6]<br />  ranges: [[0, 19]]<br />  text: 同出者，同出於道也。異名者，有無之名異也。同謂者，同謂之為道也。<br /><br />- id: 8<br />  annotator: 河上公<br />  lines: [L5, L6]<br />  ranges: [[0, 19]]<br />  text: 玄，天也。天中復有天焉。玄者，深遠也。言道深遠無窮極，妙本在一，一數之始也。</pre><p class="SourceTitle" style="text-align:center;">Figure 1-1</p></div><div id="___x7b2c___x4e8c___x7ae0_"><h1 id="_a0adc89c-f5d8-4c66-bb49-e94298dc3534"><a class="anchor" href="#___x7b2c___x4e8c___x7ae0_"></a><a class="header" href="#___x7b2c___x4e8c___x7ae0_">2　第二章</a></h1><p id="L2-1">天下皆知美之為美，惡已。</p><p id="L2-2">皆知善之為善，斯不善已。</p><p id="L2-3">有無之相生也，難易之相成也，長短之相刑也，高下之相盈也，音聲之相和也，前後之相隨也，恆也。</p><p id="L2-4">是以聖人居無為之事，行不言之教。</p><p id="L2-5">萬物作而弗始也，為而弗恃也，成功而弗居也。</p><p id="L2-6">夫唯弗居，是以不去。</p><pre id="_1e172285-1c32-679a-cc15-f077d277add2" class="sourcecode">- id: 9<br />  annotator: 王弼<br />  lines: [L2-1, L2-2]<br />  ranges: [[0, 24]]<br />  text: 美之所以為美者，惡也。善之所以為善者，不善也。若無惡，則美不可知；若無不善，則善不可知。<br /><br />- id: 10<br />  annotator: 河上公<br />  lines: [L2-1, L2-2]<br />  ranges: [[0, 24]]<br />  text: 陰陽相生，善惡相成。<br /><br />- id: 11<br />  annotator: 王弼<br />  lines: [L2-3]<br />  ranges: [[0, 57]]<br />  text: 此六者，皆相因而有，相待而成。故聖人處無為之事，行不言之教。<br /><br />- id: 12<br />  annotator: 河上公<br />  lines: [L2-3]<br />  ranges: [[0, 57]]<br />  text: 有中有無，無中有有。難中有易，易中有難。如此則長短相形，高下相傾，音聲相和，前後相隨，皆相因而有。<br /><br />- id: 13<br />  annotator: 王弼<br />  lines: [L2-4, L2-5]<br />  ranges: [[0, 43]]<br />  text: 聖人體道，無為而無不為。不言之教，寂然而莫不應。<br /><br />- id: 14<br />  annotator: 河上公<br />  lines: [L2-4, L2-5]<br />  ranges: [[0, 43]]<br />  text: 聖人法道無為，不造作，不施為。萬物自生，不名其主。<br /><br />- id: 15<br />  annotator: 王弼<br />  lines: [L2-6]<br />  ranges: [[0, 11]]<br />  text: 不居其功，功成而不處，故其功不去。<br /><br />- id: 16<br />  annotator: 河上公<br />  lines: [L2-6]<br />  ranges: [[0, 11]]<br />  text: 不自居功，故功成不去。</pre><p class="SourceTitle" style="text-align:center;">Figure 2-1</p></div><div id="___x7b2c___x4e09___x7ae0_"><h1 id="_52ee75ca-4f05-407d-87db-879732ddeffb"><a class="anchor" href="#___x7b2c___x4e09___x7ae0_"></a><a class="header" href="#___x7b2c___x4e09___x7ae0_">3　第三章</a></h1><p id="L3-1">不上賢，使民不爭。</p><p id="L3-2">不貴難得之貨，使民不為盜。</p><p id="L3-3">不見可欲，使民心不亂。</p><p id="L3-4">是以聖人之治也，虛其心，實其腹，弱其志，強其骨，</p><p id="L3-5">恆使民無知無欲也。</p><p id="L3-6">使夫知不敢弗為而已，則無不治矣。</p><pre id="_81f6e5ff-328e-6eef-8232-8454dd1ac427" class="sourcecode">- id: 17<br />  annotator: 王弼<br />  lines: [L3-1, L3-2, L3-3]<br />  ranges: [[0, 38]]<br />  text: 不上賢，則民不爭。不貴難得之貨，則民不為盜。不見可欲之物，則民心不亂。<br /><br />- id: 18<br />  annotator: 河上公<br />  lines: [L3-1, L3-2, L3-3]<br />  ranges: [[0, 38]]<br />  text: 不尚賢，不貴奇，不見異物，民則安於本分，不爭、不盜、不亂。<br /><br />- id: 19<br />  annotator: 王弼<br />  lines: [L3-4, L3-5]<br />  ranges: [[0, 40]]<br />  text: 聖人治國，使民各安其分，不以智慧相勝，不以欲望相殘。<br /><br />- id: 20<br />  annotator: 河上公<br />  lines: [L3-4, L3-5]<br />  ranges: [[0, 40]]<br />  text: 聖人治國，使民虛心實腹，弱志強骨，常使民無知無欲。<br /><br />- id: 21<br />  annotator: 王弼<br />  lines: [L3-6]<br />  ranges: [[0, 22]]<br />  text: 使知者不敢為，則無不治也。<br /><br />- id: 22<br />  annotator: 河上公<br />  lines: [L3-6]<br />  ranges: [[0, 22]]<br />  text: 使智者不敢為非，則天下無不治矣。</pre><p class="SourceTitle" style="text-align:center;">Figure 3-1</p></div><div id="___x7b2c___x56db___x7ae0_"><h1 id="_5870c634-0af9-4cea-9450-4f17d2dedfb5"><a class="anchor" href="#___x7b2c___x56db___x7ae0_"></a><a class="header" href="#___x7b2c___x56db___x7ae0_">4　第四章</a></h1><p id="L4-1">道沖，而用之有弗盈也。</p><p id="L4-2">淵呵！似萬物之宗。</p><p id="L4-3">銼其銳，解其紛，和其光，同其塵。</p><p id="L4-4">湛呵！似或存。</p><p id="L4-5">吾不知誰之子，象帝之先。</p><pre id="_4929f8fd-34e4-d56a-cd5a-28293ad3f304" class="sourcecode">- id: 23<br />  annotator: 王弼<br />  lines: [L4-1, L4-2]<br />  ranges: [[0, 25]]<br />  text: 道體沖虛，應用無窮，淵深不可測，為萬物之宗主。<br /><br />- id: 24<br />  annotator: 河上公<br />  lines: [L4-1, L4-2]<br />  ranges: [[0, 25]]<br />  text: 道德沖融，應用不窮。淵深不可測量，為萬物之宗祖。<br /><br />- id: 25<br />  annotator: 王弼<br />  lines: [L4-3]<br />  ranges: [[0, 22]]<br />  text: 挫其鋒芒，解其紛亂，和其光耀，同其塵垢。<br /><br />- id: 26<br />  annotator: 河上公<br />  lines: [L4-3]<br />  ranges: [[0, 22]]<br />  text: 挫銳解紛，和光同塵，皆謙退藏密之義。<br /><br />- id: 27<br />  annotator: 王弼<br />  lines: [L4-4, L4-5]<br />  ranges: [[0, 24]]<br />  text: 湛然常存，不知其所從來，乃在天帝之先。<br /><br />- id: 28<br />  annotator: 河上公<br />  lines: [L4-4, L4-5]<br />  ranges: [[0, 24]]<br />  text: 湛然常存，不知其誰之子，乃在天帝之先而生。</pre><p class="SourceTitle" style="text-align:center;">Figure 4-1</p></div><div id="___x7b2c___x4e94___x7ae0_"><h1 id="_9c407fee-c2c8-4b00-a385-c9370f44cca1"><a class="anchor" href="#___x7b2c___x4e94___x7ae0_"></a><a class="header" href="#___x7b2c___x4e94___x7ae0_">5　第五章</a></h1><p id="L5-1">天地不仁，以萬物為芻狗。</p><p id="L5-2">聖人不仁，以百姓為芻狗。</p><p id="L5-3">天地之間，其猶橐籥與？</p><p id="L5-4">虛而不屈，動而愈出。</p><p id="L5-5">多言數窮，不如守中。</p><pre id="_f79ce3a3-04d3-e592-4e0e-4de453c8450d" class="sourcecode">- id: 29<br />  annotator: 王弼<br />  lines: [L5-1, L5-2]<br />  ranges: [[0, 28]]<br />  text: 天地無心，任自然而養萬物。聖人法天地，無所偏愛，以百姓為芻狗。<br /><br />- id: 30<br />  annotator: 河上公<br />  lines: [L5-1, L5-2]<br />  ranges: [[0, 28]]<br />  text: 天地生養萬物，不以仁恩，任自然。聖人法天地，不以仁恩教民，任自然。<br /><br />- id: 31<br />  annotator: 王弼<br />  lines: [L5-3, L5-4]<br />  ranges: [[0, 26]]<br />  text: 天地之間，空虛而不屈，運動而愈出，如橐籥鼓風。<br /><br />- id: 32<br />  annotator: 河上公<br />  lines: [L5-3, L5-4]<br />  ranges: [[0, 26]]<br />  text: 天地之間，空虛不屈，動而愈出，如橐籥之鼓風。<br /><br />- id: 33<br />  annotator: 王弼<br />  lines: [L5-5]<br />  ranges: [[0, 12]]<br />  text: 多言數窮理，不如守中和。<br /><br />- id: 34<br />  annotator: 河上公<br />  lines: [L5-5]<br />  ranges: [[0, 12]]<br />  text: 多言數窮，不如守中和。</pre><p class="SourceTitle" style="text-align:center;">Figure 5-1</p></div><div id="___x7b2c___x516d___x7ae0_"><h1 id="_7bc831e4-758e-4f12-bb70-3cbc212f79ff"><a class="anchor" href="#___x7b2c___x516d___x7ae0_"></a><a class="header" href="#___x7b2c___x516d___x7ae0_">6　第六章</a></h1><p id="L6-1">谷神不死，是謂玄牝。</p><p id="L6-2">玄牝之門，是謂天地根。</p><p id="L6-3">綿綿呵若存，用之不勤。</p><pre id="_68050c48-7a13-5ec0-f4c5-a797c2cc0ef0" class="sourcecode">- id: 35<br />  annotator: 王弼<br />  lines: [L6-1, L6-2]<br />  ranges: [[0, 24]]<br />  text: 谷神，即道也。玄牝，謂天地之根源，生育萬物之門戶。<br /><br />- id: 36<br />  annotator: 河上公<br />  lines: [L6-1, L6-2]<br />  ranges: [[0, 24]]<br />  text: 谷神，谷中之神也。玄牝，天地之門户，無形無影，故謂之玄。<br /><br />- id: 37<br />  annotator: 王弼<br />  lines: [L6-3]<br />  ranges: [[0, 14]]<br />  text: 綿綿若存，用之不竭。<br /><br />- id: 38<br />  annotator: 河上公<br />  lines: [L6-3]<br />  ranges: [[0, 14]]<br />  text: 綿綿若存，用之不勤，言道綿綿若存，用之不勤勞。</pre><p class="SourceTitle" style="text-align:center;">Figure 6-1</p></div><div id="___x7b2c___x4e03___x7ae0_"><h1 id="_9aade923-0a28-4e54-b769-7e6e07de6c2f"><a class="anchor" href="#___x7b2c___x4e03___x7ae0_"></a><a class="header" href="#___x7b2c___x4e03___x7ae0_">7　第七章</a></h1><p id="L7-1">天長地久。</p><p id="L7-2">天地所以能長且久者，以其不自生也，故能長生。</p><p id="L7-3">是以聖人後其身而身先，外其身而身存。</p><p id="L7-4">不以其無私與，故能成其私。</p><pre id="_35d5fdab-ab4d-fcd3-ff61-dcb089919efe" class="sourcecode">- id: 39<br />  annotator: 王弼<br />  lines: [L7-1, L7-2]<br />  ranges: [[0, 31]]<br />  text: 天地長久，以其不自生，不以自為主，故能長久。<br /><br />- id: 40<br />  annotator: 河上公<br />  lines: [L7-1, L7-2]<br />  ranges: [[0, 31]]<br />  text: 天長地久，以其不自生，不自贵，化生萬物，故能長久。<br /><br />- id: 41<br />  annotator: 王弼<br />  lines: [L7-3, L7-4]<br />  ranges: [[0, 38]]<br />  text: 聖人法天地，後己先人，外己存人，無私而成其私。<br /><br />- id: 42<br />  annotator: 河上公<br />  lines: [L7-3, L7-4]<br />  ranges: [[0, 38]]<br />  text: 聖人法天地，不自生，後其身而身先，外其身而身存。不以其私，故能成其私。</pre><p class="SourceTitle" style="text-align:center;">Figure 7-1</p></div><div id="___x7b2c___x516b___x7ae0_"><h1 id="_f81570cb-bc00-4a22-8dd1-e010dbcc8db2"><a class="anchor" href="#___x7b2c___x516b___x7ae0_"></a><a class="header" href="#___x7b2c___x516b___x7ae0_">8　第八章</a></h1><p id="L8-1">上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。</p><p id="L8-2">居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。</p><p id="L8-3">夫唯不爭，故無尤。</p><pre id="_83644658-0c35-0605-866c-e053e9d8c8fd" class="sourcecode">- id: 43<br />  annotator: 王弼<br />  lines: [L8-1]<br />  ranges: [[0, 27]]<br />  text: 上善之人如水，利物而不爭，處卑下而近道。<br /><br />- id: 44<br />  annotator: 河上公<br />  lines: [L8-1]<br />  ranges: [[0, 27]]<br />  text: 上善之人如水，善利萬物而不爭，處眾人之所惡，故幾於道。<br /><br />- id: 45<br />  annotator: 王弼<br />  lines: [L8-2]<br />  ranges: [[0, 36]]<br />  text: 善者當如水，處地低下，心靜深淵，施惠及人，言合信實，政教治正，事得其能，舉動合時。<br /><br />- id: 46<br />  annotator: 河上公<br />  lines: [L8-2]<br />  ranges: [[0, 36]]<br />  text: 居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。皆法水而為善。<br /><br />- id: 47<br />  annotator: 王弼<br />  lines: [L8-3]<br />  ranges: [[0, 9]]<br />  text: 不與物爭，故無過失。<br /><br />- id: 48<br />  annotator: 河上公<br />  lines: [L8-3]<br />  ranges: [[0, 9]]<br />  text: 夫唯不爭，故天下無尤咎己者。</pre><p class="SourceTitle" style="text-align:center;">Figure 8-1</p></div><div id="___x7b2c___x4e5d___x7ae0_"><h1 id="_636972c0-153a-4910-9244-371d03d51b15"><a class="anchor" href="#___x7b2c___x4e5d___x7ae0_"></a><a class="header" href="#___x7b2c___x4e5d___x7ae0_">9　第九章</a></h1><p id="L9-1">持而盈之，不如其已。</p><p id="L9-2">揣而銳之，不可長保。</p><p id="L9-3">金玉滿堂，莫之能守。</p><p id="L9-4">富貴而驕，自遺其咎。</p><p id="L9-5">功遂身退，天之道也。</p><pre id="_bf10fb62-d526-3860-fe29-226e7c1cd4d0" class="sourcecode">- id: 49<br />  annotator: 王弼<br />  lines: [L9-1, L9-2]<br />  ranges: [[0, 24]]<br />  text: 持滿則溢，揣銳則折，不如適可而止。<br /><br />- id: 50<br />  annotator: 河上公<br />  lines: [L9-1, L9-2]<br />  ranges: [[0, 24]]<br />  text: 持滿則溢，揣銳則傷。不如其已，守中也。<br /><br />- id: 51<br />  annotator: 王弼<br />  lines: [L9-3, L9-4]<br />  ranges: [[0, 24]]<br />  text: 財寶滿盈，必生禍患。富貴驕奢，必遺其咎。<br /><br />- id: 52<br />  annotator: 河上公<br />  lines: [L9-3, L9-4]<br />  ranges: [[0, 24]]<br />  text: 金玉滿堂，不可長保。富貴而驕，必遺其咎。<br /><br />- id: 53<br />  annotator: 王弼<br />  lines: [L9-5]<br />  ranges: [[0, 12]]<br />  text: 功成名遂，急流勇退，合乎天道。<br /><br />- id: 54<br />  annotator: 河上公<br />  lines: [L9-5]<br />  ranges: [[0, 12]]<br />  text: 功成名遂，身退居下，合乎天道。</pre><p class="SourceTitle" style="text-align:center;">Figure 9-1</p></div><div id="___x7b2c___x5341___x7ae0_"><h1 id="_24730ad7-fccb-40cf-805a-b640da176847"><a class="anchor" href="#___x7b2c___x5341___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x7ae0_">10　第十章</a></h1><p id="L10-1">載營魄抱一，能無離乎？</p><p id="L10-2">專氣致柔，能嬰兒乎？</p><p id="L10-3">滌除玄覽，能無疵乎？</p><p id="L10-4">愛民治國，能無為乎？</p><p id="L10-5">天門開闔，能為雌乎？</p><p id="L10-6">明白四達，能無知乎？</p><pre id="_874e1313-d15e-e38c-88d5-f766b35903b0" class="sourcecode">- id: 55<br />  annotator: 王弼<br />  lines: [L10-1, L10-2]<br />  ranges: [[0, 24]]<br />  text: 載營魄抱一，專氣致柔，如嬰兒之純一無離。<br /><br />- id: 56<br />  annotator: 河上公<br />  lines: [L10-1, L10-2]<br />  ranges: [[0, 24]]<br />  text: 載營魄抱一，專氣致柔，能如嬰兒乎？<br /><br />- id: 57<br />  annotator: 王弼<br />  lines: [L10-3, L10-4]<br />  ranges: [[0, 24]]<br />  text: 滌除妄想，玄覽物情，愛民治國，能無為而治乎？<br /><br />- id: 58<br />  annotator: 河上公<br />  lines: [L10-3, L10-4]<br />  ranges: [[0, 24]]<br />  text: 滌除玄覽，能無疵乎？愛民治國，能無為乎？<br /><br />- id: 59<br />  annotator: 王弼<br />  lines: [L10-5, L10-6]<br />  ranges: [[0, 24]]<br />  text: 天門開闔，能為雌守，明白四達，能無知無欲乎？<br /><br />- id: 60<br />  annotator: 河上公<br />  lines: [L10-5, L10-6]<br />  ranges: [[0, 24]]<br />  text: 天門開闔，能為雌乎？明白四達，能無知乎？</pre><p class="SourceTitle" style="text-align:center;">Figure 10-1</p></div><div id="___x7b2c___x5341___x4e00___x7ae0_"><h1 id="_d4b0af81-1d4e-4469-a296-406f695aef42"><a class="anchor" href="#___x7b2c___x5341___x4e00___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x4e00___x7ae0_">11　第十一章</a></h1><p id="L11-1">三十輻共一轂，當其無，有車之用。</p><p id="L11-2">埏埴以為器，當其無，有器之用。</p><p id="L11-3">鑿戶牖以為室，當其無，有室之用。</p><p id="L11-4">故有之以為利，無之以為用。</p><pre id="_e25e63c4-20eb-8244-50f9-4d42ce502381" class="sourcecode">- id: 61<br />  annotator: 王弼<br />  lines: [L11-1, L11-2, L11-3]<br />  ranges: [[0, 54]]<br />  text: 有無相成，虛實相用。車、器、室皆因無而有用，無乃所以為用。<br /><br />- id: 62<br />  annotator: 河上公<br />  lines: [L11-1, L11-2, L11-3]<br />  ranges: [[0, 54]]<br />  text: 三十輻共一轂，器以土為之，室以空為用，皆取其無有相成之義。<br /><br />- id: 63<br />  annotator: 王弼<br />  lines: [L11-4]<br />  ranges: [[0, 16]]<br />  text: 有無相須，形用相待，有以為利，無以為用。<br /><br />- id: 64<br />  annotator: 河上公<br />  lines: [L11-4]<br />  ranges: [[0, 16]]<br />  text: 有形者以為利，無形者以為用，有無相須，然後成器。</pre><p class="SourceTitle" style="text-align:center;">Figure 11-1</p></div><div id="___x7b2c___x5341___x4e8c___x7ae0_"><h1 id="_c03e09d0-74af-49ef-a4fa-dbbb25217674"><a class="anchor" href="#___x7b2c___x5341___x4e8c___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x4e8c___x7ae0_">12　第十二章</a></h1><p id="L12-1">五色令人目盲，五音令人耳聾，五味令人口爽，</p><p id="L12-2">馳騁畋獵令人心發狂，難得之貨令人行妨。</p><p id="L12-3">是以聖人為腹不為目，故去彼取此。</p><pre id="_ab1bece7-7099-0889-d01f-45aa936f6dbd" class="sourcecode">- id: 65<br />  annotator: 王弼<br />  lines: [L12-1, L12-2]<br />  ranges: [[0, 48]]<br />  text: 五色、五音、五味、馳騁畋獵、難得之貨皆能使人迷惑失性。<br /><br />- id: 66<br />  annotator: 河上公<br />  lines: [L12-1, L12-2]<br />  ranges: [[0, 48]]<br />  text: 五色亂目，五音亂耳，五味亂口，馳騁畋獵發狂心，難得之貨妨人道行。<br /><br />- id: 67<br />  annotator: 王弼<br />  lines: [L12-3]<br />  ranges: [[0, 20]]<br />  text: 聖人為腹不為目，去彼欲望，取此道德。<br /><br />- id: 68<br />  annotator: 河上公<br />  lines: [L12-3]<br />  ranges: [[0, 20]]<br />  text: 聖人為腹實不為目視，故去彼五者，取此道德。</pre><p class="SourceTitle" style="text-align:center;">Figure 12-1</p></div><div id="___x7b2c___x5341___x4e09___x7ae0_"><h1 id="_d429276d-d1c0-49c7-a266-e34860677dcc"><a class="anchor" href="#___x7b2c___x5341___x4e09___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x4e09___x7ae0_">13　第十三章</a></h1><p id="L13-1">寵辱若驚，貴大患若身。</p><p id="L13-2">何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。</p><p id="L13-3">何謂貴大患若身？吾所以有大患者，為吾有身；及吾無身，吾有何患？</p><p id="L13-4">故貴以身為天下，若可寄天下。愛以身為天下，若可託天下。</p><pre id="_0c7c4537-eca6-3a59-3e69-73711ad974fc" class="sourcecode">- id: 69<br />  annotator: 王弼<br />  lines: [L13-1, L13-2]<br />  ranges: [[0, 50]]<br />  text: 寵辱皆當若驚，不可以喜寵而驕，不可以辱而憂。<br /><br />- id: 70<br />  annotator: 河上公<br />  lines: [L13-1, L13-2]<br />  ranges: [[0, 50]]<br />  text: 寵辱若驚，言不可以寵故驕，不可以辱故憂，當自知者。<br /><br />- id: 71<br />  annotator: 王弼<br />  lines: [L13-3]<br />  ranges: [[0, 44]]<br />  text: 貴身若大患，身為患本，無身則無患。<br /><br />- id: 72<br />  annotator: 河上公<br />  lines: [L13-3]<br />  ranges: [[0, 44]]<br />  text: 貴大患若身，言身為患本，當貴而重之，不可以穢辱。<br /><br />- id: 73<br />  annotator: 王弼<br />  lines: [L13-4]<br />  ranges: [[0, 36]]<br />  text: 以身為天下，可以寄託天下。<br /><br />- id: 74<br />  annotator: 河上公<br />  lines: [L13-4]<br />  ranges: [[0, 36]]<br />  text: 貴身愛身，可以寄託天下，為天下主。</pre><p class="SourceTitle" style="text-align:center;">Figure 13-1</p></div><div id="___x7b2c___x5341___x56db___x7ae0_"><h1 id="_25f0e842-2b7e-4bdd-90e0-d82d8320e811"><a class="anchor" href="#___x7b2c___x5341___x56db___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x56db___x7ae0_">14　第十四章</a></h1><p id="L14-1">視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。</p><p id="L14-2">此三者不可致詰，故混而為一。</p><p id="L14-3">其上不皦，其下不昧。繩繩不可名，復歸於無物。</p><p id="L14-4">是謂無狀之狀，無物之象，是謂惚恍。</p><p id="L14-5">迎之不見其首，隨之不見其後。</p><pre id="_d671f341-fbdc-34e4-f6b3-b9b911a46dd2" class="sourcecode">- id: 75<br />  annotator: 王弼<br />  lines: [L14-1, L14-2]<br />  ranges: [[0, 44]]<br />  text: 道之微妙，不可見聞觸知，混而為一，不可分別。<br /><br />- id: 76<br />  annotator: 河上公<br />  lines: [L14-1, L14-2]<br />  ranges: [[0, 44]]<br />  text: 道非色故不可見，非聲故不可聞，非形故不可扪握。此三者微妙無形，故不可致詰，混合為一。<br /><br />- id: 77<br />  annotator: 王弼<br />  lines: [L14-3, L14-4]<br />  ranges: [[0, 46]]<br />  text: 道體玄妙，上不明，下不昧，無狀無象，惚恍難名。<br /><br />- id: 78<br />  annotator: 河上公<br />  lines: [L14-3, L14-4]<br />  ranges: [[0, 46]]<br />  text: 道上不明，下不昧，延長無窮，不可名字，復歸於無形無物。是謂無狀之狀，無物之象，是謂惚恍。<br /><br />- id: 79<br />  annotator: 王弼<br />  lines: [L14-5]<br />  ranges: [[0, 18]]<br />  text: 道無始無終，故迎之不見首，隨之不見後。<br /><br />- id: 80<br />  annotator: 河上公<br />  lines: [L14-5]<br />  ranges: [[0, 18]]<br />  text: 迎之不見其首，隨之不見其後，言道無端無末也。</pre><p class="SourceTitle" style="text-align:center;">Figure 14-1</p></div><div id="___x7b2c___x5341___x4e94___x7ae0_"><h1 id="_0b316399-a1f6-4961-b8b1-e64179cda9aa"><a class="anchor" href="#___x7b2c___x5341___x4e94___x7ae0_"></a><a class="header" href="#___x7b2c___x5341___x4e94___x7ae0_">15　第十五章</a></h1><p id="L15-1">古之善為士者，微妙玄通，深不可識。</p><p id="L15-2">夫唯不可識，故強為之容。豫焉若冬涉川；</p><p id="L15-3">猶兮若畏四鄰；儼兮其若客；</p><p id="L15-4">渙兮若冰之將釋；敦兮其若樸；</p><p id="L15-5">曠兮其若谷；混兮其若濁。</p><p id="L15-6">孰能濁以靜之徐清？孰能安以久動之徐生？</p><p id="L15-7">保此道者不欲盈。夫唯不盈，故能蔽不新成。</p><pre id="_43af804a-fd93-86be-c2e7-a40ca38de186" class="sourcecode">- id: 81<br />  annotator: 王弼<br />  lines: [L15-1, L15-2, L15-3]<br />  ranges: [[0, 52]]<br />  text: 古之善為士者，深不可識，故其容貌若豫若猶若儼，如冬涉川，如畏四鄰，如客自持。<br /><br />- id: 82<br />  annotator: 河上公<br />  lines: [L15-1, L15-2, L15-3]<br />  ranges: [[0, 52]]<br />  text: 古之善為士者，微妙玄通，深不可識。故強為之容，豫若冬涉川，猶若畏四鄰，儼若為客。<br /><br />- id: 83<br />  annotator: 王弼<br />  lines: [L15-4, L15-5]<br />  ranges: [[0, 32]]<br />  text: 渙若冰釋，敦若樸素，曠若空谷，混若濁水。<br /><br />- id: 84<br />  annotator: 河上公<br />  lines: [L15-4, L15-5]<br />  ranges: [[0, 32]]<br />  text: 渙若冰之將釋，敦若樸，曠若谷，混若濁。皆喻道士之德。<br /><br />- id: 85<br />  annotator: 王弼<br />  lines: [L15-6, L15-7]<br />  ranges: [[0, 48]]<br />  text: 能使濁者清，安者動，保此道者不欲盈滿，故能蔽不新成。<br /><br />- id: 86<br />  annotator: 河上公<br />  lines: [L15-6, L15-7]<br />  ranges: [[0, 48]]<br />  text: 孰能濁以靜之徐清？孰能安以久動之徐生？保此道者不欲盈，夫唯不盈，故能蔽不新成。言道士能藏光祿德，不為新成。</pre><p class="SourceTitle" style="text-align:center;">Figure 15-1</p></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'padding-left': '30px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>
