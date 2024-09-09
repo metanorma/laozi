@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - document.adoc
+
+  collection:
+    organization: "Metanorma"
+    name: "Sample document: Laozi with annotations in vertical format"

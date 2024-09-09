@@ -3,6 +3,7 @@
 :language: zh
 :script: Hant
 :layout: vertical
+:mn-document-class: plateau
 
 include::sections/01.adoc[]
 
