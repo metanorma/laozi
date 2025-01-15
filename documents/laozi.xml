@@ -736,5 +736,373 @@
   text: 孰能濁以靜之徐清？孰能安以久動之徐生？保此道者不欲盈，夫唯不盈，故能蔽不新成。言道士能藏光祿德，不為新成。</sourcecode>
 
 </clause>
+
+<clause id="___x7b2c___x5341___x516d___x7ae0_" inline-header="false" obligation="normative">
+<title>第十六章</title>
+<p id="L16-1">致虛極，守靜篤。萬物並作，吾以觀復。</p>
+
+<p id="L16-2">夫物芸芸，各復歸其根。歸根曰靜，是謂復命。</p>
+
+<p id="L16-3">復命曰常，知常曰明。不知常，妄作凶。</p>
+
+<p id="L16-4">知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</p>
+
+<sourcecode id="_3e8f0638-67f9-c76e-4704-48b44a124501">- id: 87
+  annotator: 王弼
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛守靜，觀物變化，皆復歸根。歸根復命，乃得常道。
+
+- id: 88
+  annotator: 河上公
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛極，守靜篤，萬物並作，吾以觀其復。物芸芸，各復歸其根，靜者道之尊。
+
+- id: 89
+  annotator: 王弼
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 知常則明，不知常則妄作凶。知常容乃至道，與天地同久，終身不殆。
+
+- id: 90
+  annotator: 河上公
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e03___x7ae0_" inline-header="false" obligation="normative">
+<title>第十七章</title>
+<p id="L17-1">太上，下知有之；其次，親而譽之；其次，畏之；其次，侮之。</p>
+
+<p id="L17-2">信不足焉，有不信焉。悠兮其貴言。</p>
+
+<p id="L17-3">功成事遂，百姓皆謂我自然。</p>
+
+<sourcecode id="_70325935-038e-5633-113e-149d1dfae6d4">- id: 91
+  annotator: 王弼
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上之治，民僅知有之。其次，親之譽之。再次，畏之。更次，侮之。
+
+- id: 92
+  annotator: 河上公
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上治國，百姓日用而不知。其次，親之譽之。其次，畏之。其次，侮之。
+
+- id: 93
+  annotator: 王弼
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，則有不信。貴言者，功成事遂，百姓皆以為自然。
+
+- id: 94
+  annotator: 河上公
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，有不信。君子貴言。功成事遂，百姓皆謂我自然，不知君上之功。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x516b___x7ae0_" inline-header="false" obligation="normative">
+<title>第十八章</title>
+<p id="L18-1">大道廢，有仁義；智慧出，有大偽；</p>
+
+<p id="L18-2">六親不和，有孝慈；國家昏亂，有忠臣。</p>
+
+<sourcecode id="_ed56ca9c-2f00-37ec-24ab-c378bbfeab9c">- id: 95
+  annotator: 王弼
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢棄，則有仁義。智慧顯露，則有大偽。六親不和，則有孝慈。國家昏亂，則有忠臣。皆非自然之道。
+
+- id: 96
+  annotator: 河上公
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢，案：大道在無為。有仁義，案：謂人為巧詐。智慧出，案：智慧多令人無質樸。有大偽，案：詐偽生。六親不和，案：謂父子兄弟夫婦。有孝慈，案：孝慈生。國家昏亂，案：謂君臣不明。有忠臣，案：忠臣生。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e5d___x7ae0_" inline-header="false" obligation="normative">
+<title>第十九章</title>
+<p id="L19-1">絕聖棄智，民利百倍；絕仁棄義，民復孝慈；</p>
+
+<p id="L19-2">絕巧棄利，盜賊無有。此三者以為文不足，</p>
+
+<p id="L19-3">故令有所屬。見素抱樸，少私寡欲。</p>
+
+<sourcecode id="_323fd5da-a00f-0e8e-ed63-12eb07f0b5eb">- id: 97
+  annotator: 王弼
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民自利百倍。絕仁棄義，民自復孝慈。絕巧棄利，盜賊自無。此三者為文飾不足。
+
+- id: 98
+  annotator: 河上公
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民利百倍。絕仁棄義，民復孝慈。絕巧棄利，盜賊無有。此三者，聖智仁義巧利也。以為文不足。
+
+- id: 99
+  annotator: 王弼
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲，則民自歸於自然。
+
+- id: 100
+  annotator: 河上公
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲。案：素樸，真也。少私寡欲，則民樸實。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十章</title>
+<p id="L20-1">絕學無憂。唯之與阿，相去幾何？善之與惡，相去若何？</p>
+
+<p id="L20-2">人之所畏，不可不畏。荒兮其未央哉！</p>
+
+<p id="L20-3">眾人熙熙，如享太牢，如春登臺。</p>
+
+<p id="L20-4">我獨泊兮其未兆，如嬰兒之未孩。</p>
+
+<p id="L20-5">儽儽兮若無所歸。眾人皆有餘，而我獨若遺。</p>
+
+<p id="L20-6">我愚人之心也哉！沌沌兮！</p>
+
+<p id="L20-7">俗人昭昭，我獨昏昏；俗人察察，我獨悶悶。</p>
+
+<p id="L20-8">澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。</p>
+
+<p id="L20-9">我獨異於人，而貴食母。</p>
+
+<sourcecode id="_bcbace5c-cae8-16b6-e6c3-f80252178e85">- id: 101
+  annotator: 王弼
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂，唯與阿、善與惡，皆相去不遠。人之所畏，不可不畏，荒兮未央。
+
+- id: 102
+  annotator: 河上公
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂。唯之與阿，善之與惡，其相去幾何？人之所畏，不可不畏。荒兮其未央哉！
+
+- id: 103
+  annotator: 王弼
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙如享太牢、登春臺，我獨泊兮其未兆，如嬰兒未孩。儽儽若無所歸，眾人有餘，我獨若遺。我愚人之心，沌沌然。
+
+- id: 104
+  annotator: 河上公
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙，如享太牢，如春登臺。我獨泊兮其未兆，如嬰兒之未孩。儽儽兮若無所歸。眾人皆有餘，而我獨若遺。我愚人之心也哉！沌沌兮！
+
+- id: 105
+  annotator: 王弼
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮若海，飂兮若無止。眾人皆有以，我獨頑且鄙。我獨異於人，而貴食母。
+
+- id: 106
+  annotator: 河上公
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e00___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十一章</title>
+<p id="L21-1">孔德之容，惟道是從。</p>
+
+<p id="L21-2">道之為物，惟恍惟惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。</p>
+
+<p id="L21-3">窈兮冥兮，其中有精；其精甚真，其中有信。</p>
+
+<p id="L21-4">自古及今，其名不去，以閱眾甫。</p>
+
+<p id="L21-5">吾何以知眾甫之狀哉？以此。</p>
+
+<sourcecode id="_32a8dec1-645c-bf21-044c-8747c61a066d">- id: 107
+  annotator: 王弼
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，恍惚難名，其中有象有物。
+
+- id: 108
+  annotator: 河上公
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，惟恍惟惚。惚兮恍兮，其中有象。恍兮惚兮，其中有物。
+
+- id: 109
+  annotator: 王弼
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈冥之中有精，其精甚真，其中有信。自古及今，其名不去，以閱眾甫。以此知眾甫之狀。
+
+- id: 110
+  annotator: 河上公
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈兮冥兮，其中有精。其精甚真，其中有信。自古及今，其名不去，以閱眾甫。吾何以知眾甫之狀哉？以此。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十二章</title>
+<p id="L22-1">曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。</p>
+
+<p id="L22-2">是以聖人抱一為天下式。</p>
+
+<p id="L22-3">不自見故明，不自是故彰，不自伐故有功，不自矜故長。</p>
+
+<p id="L22-4">夫唯不爭，故天下莫能與之爭。</p>
+
+<p id="L22-5">古之所謂曲則全者，豈虛言哉！誠全而歸之。</p>
+
+<sourcecode id="_c82910bb-435c-7872-6e36-b66776b34232">- id: 111
+  annotator: 王弼
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲全枉直，窪盈敝新，少得多惑，皆相反相成。聖人抱一為天下式。
+
+- id: 112
+  annotator: 河上公
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。
+
+- id: 113
+  annotator: 王弼
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。不爭故天下莫能與之爭。古之所謂曲則全者非虛言，誠能全而歸之。
+
+- id: 114
+  annotator: 河上公
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e09___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十三章</title>
+<p id="L23-1">希言自然。故飄風不終朝，驟雨不終日。</p>
+
+<p id="L23-2">孰為此者？天地。天地尚不能久，而況於人乎？</p>
+
+<p id="L23-3">故從事於道者，道者同於道，德者同於德，失者同於失。</p>
+
+<p id="L23-4">同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。</p>
+
+<p id="L23-5">信不足焉，有不信焉。</p>
+
+<sourcecode id="_00aba58e-d7a0-a15c-b0ad-4f9569ceb98b">- id: 115
+  annotator: 王弼
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然，順乎自然。飄風驟雨尚不能久，況人乎？
+
+- id: 116
+  annotator: 河上公
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？
+
+- id: 117
+  annotator: 王弼
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 從事於道者，與道同。德者與德同，失者與失同。道德樂得同者，失亦樂得同者。信不足，則有不信。
+
+- id: 118
+  annotator: 河上公
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 故從事於道者，道者同於道，德者同於德，失者同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x56db___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十四章</title>
+<p id="L24-1">企者不立，跨者不行。自見者不明，自是者不彰。</p>
+
+<p id="L24-2">自伐者無功，自矜者不長。其在道也，曰餘食贅行。</p>
+
+<p id="L24-3">物或惡之，故有道者不處。</p>
+
+<sourcecode id="_d8d531b2-f948-4663-ac77-742b81672ff2">- id: 119
+  annotator: 王弼
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企跨者不能立行，自見自是者不明不彰，自伐自矜者無功不長。在道者視之如餘食贅行。
+
+- id: 120
+  annotator: 河上公
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企者不立，跨者不行。自見者不明，自是者不彰。自伐者無功，自矜者不長。其在道也，曰餘食贅行。
+
+- id: 121
+  annotator: 王弼
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處此。
+
+- id: 122
+  annotator: 河上公
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e94___x7ae0_" inline-header="false" obligation="normative">
+<title>第二十五章</title>
+<p id="L25-1">有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。</p>
+
+<p id="L25-2">吾不知其名，字之曰道，強為之名曰大。</p>
+
+<p id="L25-3">大曰逝，逝曰遠，遠曰反。</p>
+
+<p id="L25-4">故道大，天大，地大，王亦大。域中有四大，而王居其一焉。</p>
+
+<p id="L25-5">人法地，地法天，天法道，道法自然。</p>
+
+<sourcecode id="_334db2d8-9d3a-21c4-6cee-8231ebc843d7">- id: 123
+  annotator: 王弼
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 道先天地生，寂寥獨立，周行不殆，為天下母。強名曰道，字之曰大。
+
+- id: 124
+  annotator: 河上公
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。吾不知其名，字之曰道，強為之名曰大。
+
+- id: 125
+  annotator: 王弼
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。道大天大地大人大，域中四大。人法地，地法天，天法道，道法自然。
+
+- id: 126
+  annotator: 河上公
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。故道大，天大，地大，王亦大。域中有四大，而王居其一焉。人法地，地法天，天法道，道法自然。</sourcecode>
+
+</clause>
 </sections>
 </plateau-standard>

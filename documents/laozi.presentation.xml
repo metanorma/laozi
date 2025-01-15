@@ -1757,6 +1757,374 @@
   text: 孰能濁以靜之徐清？孰能安以久動之徐生？保此道者不欲盈，夫唯不盈，故能蔽不新成。言道士能藏光祿德，不為新成。</semantic__sourcecode>
 
 </semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x5341___x516d___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第十六章</semantic__title>
+<semantic__p id="semantic__L16-1">致虛極，守靜篤。萬物並作，吾以觀復。</semantic__p>
+
+<semantic__p id="semantic__L16-2">夫物芸芸，各復歸其根。歸根曰靜，是謂復命。</semantic__p>
+
+<semantic__p id="semantic__L16-3">復命曰常，知常曰明。不知常，妄作凶。</semantic__p>
+
+<semantic__p id="semantic__L16-4">知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</semantic__p>
+
+<semantic__sourcecode id="semantic___3e8f0638-67f9-c76e-4704-48b44a124501">- id: 87
+  annotator: 王弼
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛守靜，觀物變化，皆復歸根。歸根復命，乃得常道。
+
+- id: 88
+  annotator: 河上公
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛極，守靜篤，萬物並作，吾以觀其復。物芸芸，各復歸其根，靜者道之尊。
+
+- id: 89
+  annotator: 王弼
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 知常則明，不知常則妄作凶。知常容乃至道，與天地同久，終身不殆。
+
+- id: 90
+  annotator: 河上公
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x5341___x4e03___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第十七章</semantic__title>
+<semantic__p id="semantic__L17-1">太上，下知有之；其次，親而譽之；其次，畏之；其次，侮之。</semantic__p>
+
+<semantic__p id="semantic__L17-2">信不足焉，有不信焉。悠兮其貴言。</semantic__p>
+
+<semantic__p id="semantic__L17-3">功成事遂，百姓皆謂我自然。</semantic__p>
+
+<semantic__sourcecode id="semantic___70325935-038e-5633-113e-149d1dfae6d4">- id: 91
+  annotator: 王弼
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上之治，民僅知有之。其次，親之譽之。再次，畏之。更次，侮之。
+
+- id: 92
+  annotator: 河上公
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上治國，百姓日用而不知。其次，親之譽之。其次，畏之。其次，侮之。
+
+- id: 93
+  annotator: 王弼
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，則有不信。貴言者，功成事遂，百姓皆以為自然。
+
+- id: 94
+  annotator: 河上公
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，有不信。君子貴言。功成事遂，百姓皆謂我自然，不知君上之功。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x5341___x516b___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第十八章</semantic__title>
+<semantic__p id="semantic__L18-1">大道廢，有仁義；智慧出，有大偽；</semantic__p>
+
+<semantic__p id="semantic__L18-2">六親不和，有孝慈；國家昏亂，有忠臣。</semantic__p>
+
+<semantic__sourcecode id="semantic___ed56ca9c-2f00-37ec-24ab-c378bbfeab9c">- id: 95
+  annotator: 王弼
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢棄，則有仁義。智慧顯露，則有大偽。六親不和，則有孝慈。國家昏亂，則有忠臣。皆非自然之道。
+
+- id: 96
+  annotator: 河上公
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢，案：大道在無為。有仁義，案：謂人為巧詐。智慧出，案：智慧多令人無質樸。有大偽，案：詐偽生。六親不和，案：謂父子兄弟夫婦。有孝慈，案：孝慈生。國家昏亂，案：謂君臣不明。有忠臣，案：忠臣生。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x5341___x4e5d___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第十九章</semantic__title>
+<semantic__p id="semantic__L19-1">絕聖棄智，民利百倍；絕仁棄義，民復孝慈；</semantic__p>
+
+<semantic__p id="semantic__L19-2">絕巧棄利，盜賊無有。此三者以為文不足，</semantic__p>
+
+<semantic__p id="semantic__L19-3">故令有所屬。見素抱樸，少私寡欲。</semantic__p>
+
+<semantic__sourcecode id="semantic___323fd5da-a00f-0e8e-ed63-12eb07f0b5eb">- id: 97
+  annotator: 王弼
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民自利百倍。絕仁棄義，民自復孝慈。絕巧棄利，盜賊自無。此三者為文飾不足。
+
+- id: 98
+  annotator: 河上公
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民利百倍。絕仁棄義，民復孝慈。絕巧棄利，盜賊無有。此三者，聖智仁義巧利也。以為文不足。
+
+- id: 99
+  annotator: 王弼
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲，則民自歸於自然。
+
+- id: 100
+  annotator: 河上公
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲。案：素樸，真也。少私寡欲，則民樸實。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十章</semantic__title>
+<semantic__p id="semantic__L20-1">絕學無憂。唯之與阿，相去幾何？善之與惡，相去若何？</semantic__p>
+
+<semantic__p id="semantic__L20-2">人之所畏，不可不畏。荒兮其未央哉！</semantic__p>
+
+<semantic__p id="semantic__L20-3">眾人熙熙，如享太牢，如春登臺。</semantic__p>
+
+<semantic__p id="semantic__L20-4">我獨泊兮其未兆，如嬰兒之未孩。</semantic__p>
+
+<semantic__p id="semantic__L20-5">儽儽兮若無所歸。眾人皆有餘，而我獨若遺。</semantic__p>
+
+<semantic__p id="semantic__L20-6">我愚人之心也哉！沌沌兮！</semantic__p>
+
+<semantic__p id="semantic__L20-7">俗人昭昭，我獨昏昏；俗人察察，我獨悶悶。</semantic__p>
+
+<semantic__p id="semantic__L20-8">澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。</semantic__p>
+
+<semantic__p id="semantic__L20-9">我獨異於人，而貴食母。</semantic__p>
+
+<semantic__sourcecode id="semantic___bcbace5c-cae8-16b6-e6c3-f80252178e85">- id: 101
+  annotator: 王弼
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂，唯與阿、善與惡，皆相去不遠。人之所畏，不可不畏，荒兮未央。
+
+- id: 102
+  annotator: 河上公
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂。唯之與阿，善之與惡，其相去幾何？人之所畏，不可不畏。荒兮其未央哉！
+
+- id: 103
+  annotator: 王弼
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙如享太牢、登春臺，我獨泊兮其未兆，如嬰兒未孩。儽儽若無所歸，眾人有餘，我獨若遺。我愚人之心，沌沌然。
+
+- id: 104
+  annotator: 河上公
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙，如享太牢，如春登臺。我獨泊兮其未兆，如嬰兒之未孩。儽儽兮若無所歸。眾人皆有餘，而我獨若遺。我愚人之心也哉！沌沌兮！
+
+- id: 105
+  annotator: 王弼
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮若海，飂兮若無止。眾人皆有以，我獨頑且鄙。我獨異於人，而貴食母。
+
+- id: 106
+  annotator: 河上公
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x4e00___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十一章</semantic__title>
+<semantic__p id="semantic__L21-1">孔德之容，惟道是從。</semantic__p>
+
+<semantic__p id="semantic__L21-2">道之為物，惟恍惟惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。</semantic__p>
+
+<semantic__p id="semantic__L21-3">窈兮冥兮，其中有精；其精甚真，其中有信。</semantic__p>
+
+<semantic__p id="semantic__L21-4">自古及今，其名不去，以閱眾甫。</semantic__p>
+
+<semantic__p id="semantic__L21-5">吾何以知眾甫之狀哉？以此。</semantic__p>
+
+<semantic__sourcecode id="semantic___32a8dec1-645c-bf21-044c-8747c61a066d">- id: 107
+  annotator: 王弼
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，恍惚難名，其中有象有物。
+
+- id: 108
+  annotator: 河上公
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，惟恍惟惚。惚兮恍兮，其中有象。恍兮惚兮，其中有物。
+
+- id: 109
+  annotator: 王弼
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈冥之中有精，其精甚真，其中有信。自古及今，其名不去，以閱眾甫。以此知眾甫之狀。
+
+- id: 110
+  annotator: 河上公
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈兮冥兮，其中有精。其精甚真，其中有信。自古及今，其名不去，以閱眾甫。吾何以知眾甫之狀哉？以此。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x4e8c___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十二章</semantic__title>
+<semantic__p id="semantic__L22-1">曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。</semantic__p>
+
+<semantic__p id="semantic__L22-2">是以聖人抱一為天下式。</semantic__p>
+
+<semantic__p id="semantic__L22-3">不自見故明，不自是故彰，不自伐故有功，不自矜故長。</semantic__p>
+
+<semantic__p id="semantic__L22-4">夫唯不爭，故天下莫能與之爭。</semantic__p>
+
+<semantic__p id="semantic__L22-5">古之所謂曲則全者，豈虛言哉！誠全而歸之。</semantic__p>
+
+<semantic__sourcecode id="semantic___c82910bb-435c-7872-6e36-b66776b34232">- id: 111
+  annotator: 王弼
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲全枉直，窪盈敝新，少得多惑，皆相反相成。聖人抱一為天下式。
+
+- id: 112
+  annotator: 河上公
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。
+
+- id: 113
+  annotator: 王弼
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。不爭故天下莫能與之爭。古之所謂曲則全者非虛言，誠能全而歸之。
+
+- id: 114
+  annotator: 河上公
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x4e09___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十三章</semantic__title>
+<semantic__p id="semantic__L23-1">希言自然。故飄風不終朝，驟雨不終日。</semantic__p>
+
+<semantic__p id="semantic__L23-2">孰為此者？天地。天地尚不能久，而況於人乎？</semantic__p>
+
+<semantic__p id="semantic__L23-3">故從事於道者，道者同於道，德者同於德，失者同於失。</semantic__p>
+
+<semantic__p id="semantic__L23-4">同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。</semantic__p>
+
+<semantic__p id="semantic__L23-5">信不足焉，有不信焉。</semantic__p>
+
+<semantic__sourcecode id="semantic___00aba58e-d7a0-a15c-b0ad-4f9569ceb98b">- id: 115
+  annotator: 王弼
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然，順乎自然。飄風驟雨尚不能久，況人乎？
+
+- id: 116
+  annotator: 河上公
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？
+
+- id: 117
+  annotator: 王弼
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 從事於道者，與道同。德者與德同，失者與失同。道德樂得同者，失亦樂得同者。信不足，則有不信。
+
+- id: 118
+  annotator: 河上公
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 故從事於道者，道者同於道，德者同於德，失者同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x56db___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十四章</semantic__title>
+<semantic__p id="semantic__L24-1">企者不立，跨者不行。自見者不明，自是者不彰。</semantic__p>
+
+<semantic__p id="semantic__L24-2">自伐者無功，自矜者不長。其在道也，曰餘食贅行。</semantic__p>
+
+<semantic__p id="semantic__L24-3">物或惡之，故有道者不處。</semantic__p>
+
+<semantic__sourcecode id="semantic___d8d531b2-f948-4663-ac77-742b81672ff2">- id: 119
+  annotator: 王弼
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企跨者不能立行，自見自是者不明不彰，自伐自矜者無功不長。在道者視之如餘食贅行。
+
+- id: 120
+  annotator: 河上公
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企者不立，跨者不行。自見者不明，自是者不彰。自伐者無功，自矜者不長。其在道也，曰餘食贅行。
+
+- id: 121
+  annotator: 王弼
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處此。
+
+- id: 122
+  annotator: 河上公
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處。</semantic__sourcecode>
+
+</semantic__clause>
+
+<semantic__clause id="semantic_____x7b2c___x4e8c___x5341___x4e94___x7ae0_" inline-header="false" obligation="normative">
+<semantic__title>第二十五章</semantic__title>
+<semantic__p id="semantic__L25-1">有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。</semantic__p>
+
+<semantic__p id="semantic__L25-2">吾不知其名，字之曰道，強為之名曰大。</semantic__p>
+
+<semantic__p id="semantic__L25-3">大曰逝，逝曰遠，遠曰反。</semantic__p>
+
+<semantic__p id="semantic__L25-4">故道大，天大，地大，王亦大。域中有四大，而王居其一焉。</semantic__p>
+
+<semantic__p id="semantic__L25-5">人法地，地法天，天法道，道法自然。</semantic__p>
+
+<semantic__sourcecode id="semantic___334db2d8-9d3a-21c4-6cee-8231ebc843d7">- id: 123
+  annotator: 王弼
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 道先天地生，寂寥獨立，周行不殆，為天下母。強名曰道，字之曰大。
+
+- id: 124
+  annotator: 河上公
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。吾不知其名，字之曰道，強為之名曰大。
+
+- id: 125
+  annotator: 王弼
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。道大天大地大人大，域中四大。人法地，地法天，天法道，道法自然。
+
+- id: 126
+  annotator: 河上公
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。故道大，天大，地大，王亦大。域中有四大，而王居其一焉。人法地，地法天，天法道，道法自然。</semantic__sourcecode>
+
+</semantic__clause>
 </semantic__sections>
 </semantic__plateau-standard></source></metanorma><source-highlighter-css>sourcecode table td { padding: 5px; }
 sourcecode table pre { margin: 0; }
@@ -1798,9 +2166,9 @@ sourcecode .nt {
 }
 
 </source-highlighter-css></metanorma-extension>
-<preface><clause type="toc" id="_17039c59-0a35-4d6a-9da9-282809a999c0" displayorder="1"><fmt-title depth="1">目　次</fmt-title></clause>
+<preface><clause type="toc" id="_82ca319b-c6a1-4a8a-85fa-72b4fe6a8367" displayorder="1"><fmt-title depth="1">目　次</fmt-title></clause>
  </preface><sections><clause id="___x7b2c___x4e00___x7ae0_" inline-header="false" obligation="normative" displayorder="2">
-<title id="_2f7fe090-cb22-4667-8c63-8bee7ee5de69">第一章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e00___x7ae0_">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_2f7fe090-cb22-4667-8c63-8bee7ee5de69">第一章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e00___x7ae0_">1</semx></fmt-xref-label>
+<title id="_c28e4c34-f93c-4494-bc34-f257d060c0ea">第一章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e00___x7ae0_">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_c28e4c34-f93c-4494-bc34-f257d060c0ea">第一章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e00___x7ae0_">1</semx></fmt-xref-label>
 <p id="L1">道，可道也，非恆道也。</p>
 
 <p id="L2">名，可名也，非恆名也。</p>
@@ -1864,7 +2232,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x4e8c___x7ae0_" inline-header="false" obligation="normative" displayorder="3">
-<title id="_2ee179ce-f27c-41a1-88c9-00d8f4d16e6b">第二章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x7ae0_">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_2ee179ce-f27c-41a1-88c9-00d8f4d16e6b">第二章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x7ae0_">2</semx></fmt-xref-label>
+<title id="_2a784293-cada-4917-8773-d2248228469b">第二章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x7ae0_">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_2a784293-cada-4917-8773-d2248228469b">第二章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x7ae0_">2</semx></fmt-xref-label>
 <p id="L2-1">天下皆知美之為美，惡已。</p>
 
 <p id="L2-2">皆知善之為善，斯不善已。</p>
@@ -1928,7 +2296,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x4e09___x7ae0_" inline-header="false" obligation="normative" displayorder="4">
-<title id="_5a18efa3-b9de-4996-ba1f-f88304a43495">第三章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e09___x7ae0_">3</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_5a18efa3-b9de-4996-ba1f-f88304a43495">第三章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e09___x7ae0_">3</semx></fmt-xref-label>
+<title id="_017b7b32-65fb-48f2-a0c8-de55bdd8d41f">第三章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e09___x7ae0_">3</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_017b7b32-65fb-48f2-a0c8-de55bdd8d41f">第三章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e09___x7ae0_">3</semx></fmt-xref-label>
 <p id="L3-1">不上賢，使民不爭。</p>
 
 <p id="L3-2">不貴難得之貨，使民不為盜。</p>
@@ -1980,7 +2348,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x56db___x7ae0_" inline-header="false" obligation="normative" displayorder="5">
-<title id="_43535346-58c5-4a3d-b7cc-4f3fbe80f61f">第四章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x56db___x7ae0_">4</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_43535346-58c5-4a3d-b7cc-4f3fbe80f61f">第四章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x56db___x7ae0_">4</semx></fmt-xref-label>
+<title id="_d9f026b3-2269-447e-9f18-e9ee0c12634f">第四章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x56db___x7ae0_">4</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_d9f026b3-2269-447e-9f18-e9ee0c12634f">第四章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x56db___x7ae0_">4</semx></fmt-xref-label>
 <p id="L4-1">道沖，而用之有弗盈也。</p>
 
 <p id="L4-2">淵呵！似萬物之宗。</p>
@@ -2030,7 +2398,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x4e94___x7ae0_" inline-header="false" obligation="normative" displayorder="6">
-<title id="_993d643d-6d02-4429-82d5-17f6868d6ad4">第五章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e94___x7ae0_">5</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_993d643d-6d02-4429-82d5-17f6868d6ad4">第五章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e94___x7ae0_">5</semx></fmt-xref-label>
+<title id="_2bbcc945-0c97-4eee-8696-67f41d8bd08f">第五章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e94___x7ae0_">5</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_2bbcc945-0c97-4eee-8696-67f41d8bd08f">第五章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e94___x7ae0_">5</semx></fmt-xref-label>
 <p id="L5-1">天地不仁，以萬物為芻狗。</p>
 
 <p id="L5-2">聖人不仁，以百姓為芻狗。</p>
@@ -2080,7 +2448,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x516d___x7ae0_" inline-header="false" obligation="normative" displayorder="7">
-<title id="_d383ccc6-2576-4f35-9dd9-1b3aee0bb7b8">第六章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x516d___x7ae0_">6</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_d383ccc6-2576-4f35-9dd9-1b3aee0bb7b8">第六章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x516d___x7ae0_">6</semx></fmt-xref-label>
+<title id="_4181770d-f6b3-4430-bab7-241e91ad05e4">第六章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x516d___x7ae0_">6</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_4181770d-f6b3-4430-bab7-241e91ad05e4">第六章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x516d___x7ae0_">6</semx></fmt-xref-label>
 <p id="L6-1">谷神不死，是謂玄牝。</p>
 
 <p id="L6-2">玄牝之門，是謂天地根。</p>
@@ -2114,7 +2482,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x4e03___x7ae0_" inline-header="false" obligation="normative" displayorder="8">
-<title id="_6a5dff2c-1608-4053-a727-43d75f32bdae">第七章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e03___x7ae0_">7</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_6a5dff2c-1608-4053-a727-43d75f32bdae">第七章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e03___x7ae0_">7</semx></fmt-xref-label>
+<title id="_06fe896a-9828-467c-8cfc-79911010fd90">第七章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e03___x7ae0_">7</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_06fe896a-9828-467c-8cfc-79911010fd90">第七章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e03___x7ae0_">7</semx></fmt-xref-label>
 <p id="L7-1">天長地久。</p>
 
 <p id="L7-2">天地所以能長且久者，以其不自生也，故能長生。</p>
@@ -2150,7 +2518,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x516b___x7ae0_" inline-header="false" obligation="normative" displayorder="9">
-<title id="_9a143282-bbeb-4c16-87ec-ac2a95f14215">第八章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x516b___x7ae0_">8</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9a143282-bbeb-4c16-87ec-ac2a95f14215">第八章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x516b___x7ae0_">8</semx></fmt-xref-label>
+<title id="_b2071b15-d61f-4233-8c29-0da283e5f815">第八章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x516b___x7ae0_">8</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_b2071b15-d61f-4233-8c29-0da283e5f815">第八章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x516b___x7ae0_">8</semx></fmt-xref-label>
 <p id="L8-1">上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。</p>
 
 <p id="L8-2">居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。</p>
@@ -2196,7 +2564,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x4e5d___x7ae0_" inline-header="false" obligation="normative" displayorder="10">
-<title id="_6a480e1b-3fa1-4715-b309-9975f1cc9c3c">第九章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e5d___x7ae0_">9</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_6a480e1b-3fa1-4715-b309-9975f1cc9c3c">第九章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e5d___x7ae0_">9</semx></fmt-xref-label>
+<title id="_759169e7-044d-4dde-b049-c614288a4b20">第九章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e5d___x7ae0_">9</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_759169e7-044d-4dde-b049-c614288a4b20">第九章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e5d___x7ae0_">9</semx></fmt-xref-label>
 <p id="L9-1">持而盈之，不如其已。</p>
 
 <p id="L9-2">揣而銳之，不可長保。</p>
@@ -2246,7 +2614,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x7ae0_" inline-header="false" obligation="normative" displayorder="11">
-<title id="_cac3715c-69fe-4652-9e8d-d24aa9b6c31c">第十章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x7ae0_">10</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_cac3715c-69fe-4652-9e8d-d24aa9b6c31c">第十章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x7ae0_">10</semx></fmt-xref-label>
+<title id="_a6be16dd-2fff-40a8-8cee-aa0bbc24024e">第十章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x7ae0_">10</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_a6be16dd-2fff-40a8-8cee-aa0bbc24024e">第十章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x7ae0_">10</semx></fmt-xref-label>
 <p id="L10-1">載營魄抱一，能無離乎？</p>
 
 <p id="L10-2">專氣致柔，能嬰兒乎？</p>
@@ -2298,7 +2666,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x4e00___x7ae0_" inline-header="false" obligation="normative" displayorder="12">
-<title id="_474d2190-bd0d-4f9f-bff9-779073c7c35f">第十一章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e00___x7ae0_">11</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_474d2190-bd0d-4f9f-bff9-779073c7c35f">第十一章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e00___x7ae0_">11</semx></fmt-xref-label>
+<title id="_012d13bf-084c-4753-b1a4-d113dfc6e715">第十一章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e00___x7ae0_">11</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_012d13bf-084c-4753-b1a4-d113dfc6e715">第十一章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e00___x7ae0_">11</semx></fmt-xref-label>
 <p id="L11-1">三十輻共一轂，當其無，有車之用。</p>
 
 <p id="L11-2">埏埴以為器，當其無，有器之用。</p>
@@ -2334,7 +2702,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x4e8c___x7ae0_" inline-header="false" obligation="normative" displayorder="13">
-<title id="_684d1e61-ad7b-472b-bc5f-5ddbdb9d47ef">第十二章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e8c___x7ae0_">12</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_684d1e61-ad7b-472b-bc5f-5ddbdb9d47ef">第十二章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e8c___x7ae0_">12</semx></fmt-xref-label>
+<title id="_d0dabca4-487c-4e98-8028-bcd135ff663c">第十二章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e8c___x7ae0_">12</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_d0dabca4-487c-4e98-8028-bcd135ff663c">第十二章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e8c___x7ae0_">12</semx></fmt-xref-label>
 <p id="L12-1">五色令人目盲，五音令人耳聾，五味令人口爽，</p>
 
 <p id="L12-2">馳騁畋獵令人心發狂，難得之貨令人行妨。</p>
@@ -2368,7 +2736,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x4e09___x7ae0_" inline-header="false" obligation="normative" displayorder="14">
-<title id="_cf7e0fd9-7839-47f2-9a7e-fc643414e8ee">第十三章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e09___x7ae0_">13</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_cf7e0fd9-7839-47f2-9a7e-fc643414e8ee">第十三章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e09___x7ae0_">13</semx></fmt-xref-label>
+<title id="_780cbdea-82e0-4b14-851f-d06b9bfcf45f">第十三章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e09___x7ae0_">13</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_780cbdea-82e0-4b14-851f-d06b9bfcf45f">第十三章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e09___x7ae0_">13</semx></fmt-xref-label>
 <p id="L13-1">寵辱若驚，貴大患若身。</p>
 
 <p id="L13-2">何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。</p>
@@ -2416,7 +2784,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x56db___x7ae0_" inline-header="false" obligation="normative" displayorder="15">
-<title id="_ef8717f6-ea94-44e7-842b-a4c84d1c2463">第十四章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x56db___x7ae0_">14</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_ef8717f6-ea94-44e7-842b-a4c84d1c2463">第十四章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x56db___x7ae0_">14</semx></fmt-xref-label>
+<title id="_9b15f0fd-cd0e-47c5-8de4-5bf51aa3e526">第十四章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x56db___x7ae0_">14</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9b15f0fd-cd0e-47c5-8de4-5bf51aa3e526">第十四章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x56db___x7ae0_">14</semx></fmt-xref-label>
 <p id="L14-1">視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。</p>
 
 <p id="L14-2">此三者不可致詰，故混而為一。</p>
@@ -2466,7 +2834,7 @@ sourcecode .nt {
 </clause>
 
 <clause id="___x7b2c___x5341___x4e94___x7ae0_" inline-header="false" obligation="normative" displayorder="16">
-<title id="_e89585b5-2360-46f5-8209-d698936673c2">第十五章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e94___x7ae0_">15</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_e89585b5-2360-46f5-8209-d698936673c2">第十五章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e94___x7ae0_">15</semx></fmt-xref-label>
+<title id="_e42faedc-103d-41a4-905b-f3dc81af13de">第十五章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e94___x7ae0_">15</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_e42faedc-103d-41a4-905b-f3dc81af13de">第十五章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e94___x7ae0_">15</semx></fmt-xref-label>
 <p id="L15-1">古之善為士者，微妙玄通，深不可識。</p>
 
 <p id="L15-2">夫唯不可識，故強為之容。豫焉若冬涉川；</p>
@@ -2516,6 +2884,374 @@ sourcecode .nt {
   lines: [L15-6, L15-7]
   ranges: [[0, 48]]
   text: 孰能濁以靜之徐清？孰能安以久動之徐生？保此道者不欲盈，夫唯不盈，故能蔽不新成。言道士能藏光祿德，不為新成。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x516d___x7ae0_" inline-header="false" obligation="normative" displayorder="17">
+<title id="_49fc20c8-d543-4695-a00f-2b9c4a1b684e">第十六章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x516d___x7ae0_">16</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_49fc20c8-d543-4695-a00f-2b9c4a1b684e">第十六章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x516d___x7ae0_">16</semx></fmt-xref-label>
+<p id="L16-1">致虛極，守靜篤。萬物並作，吾以觀復。</p>
+
+<p id="L16-2">夫物芸芸，各復歸其根。歸根曰靜，是謂復命。</p>
+
+<p id="L16-3">復命曰常，知常曰明。不知常，妄作凶。</p>
+
+<p id="L16-4">知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</p>
+
+<sourcecode id="_3e8f0638-67f9-c76e-4704-48b44a124501" autonum="16-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x516d___x7ae0_">16</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_3e8f0638-67f9-c76e-4704-48b44a124501">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x516d___x7ae0_">16</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_3e8f0638-67f9-c76e-4704-48b44a124501">1</semx></fmt-xref-label>- id: 87
+  annotator: 王弼
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛守靜，觀物變化，皆復歸根。歸根復命，乃得常道。
+
+- id: 88
+  annotator: 河上公
+  lines: [L16-1, L16-2]
+  ranges: [[0, 40]]
+  text: 致虛極，守靜篤，萬物並作，吾以觀其復。物芸芸，各復歸其根，靜者道之尊。
+
+- id: 89
+  annotator: 王弼
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 知常則明，不知常則妄作凶。知常容乃至道，與天地同久，終身不殆。
+
+- id: 90
+  annotator: 河上公
+  lines: [L16-3, L16-4]
+  ranges: [[0, 58]]
+  text: 復命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃王，王乃天，天乃道，道乃久，沒身不殆。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e03___x7ae0_" inline-header="false" obligation="normative" displayorder="18">
+<title id="_1022aeae-3f43-4e99-a0c0-332ae18a26ce">第十七章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e03___x7ae0_">17</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_1022aeae-3f43-4e99-a0c0-332ae18a26ce">第十七章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e03___x7ae0_">17</semx></fmt-xref-label>
+<p id="L17-1">太上，下知有之；其次，親而譽之；其次，畏之；其次，侮之。</p>
+
+<p id="L17-2">信不足焉，有不信焉。悠兮其貴言。</p>
+
+<p id="L17-3">功成事遂，百姓皆謂我自然。</p>
+
+<sourcecode id="_70325935-038e-5633-113e-149d1dfae6d4" autonum="17-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x4e03___x7ae0_">17</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_70325935-038e-5633-113e-149d1dfae6d4">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x4e03___x7ae0_">17</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_70325935-038e-5633-113e-149d1dfae6d4">1</semx></fmt-xref-label>- id: 91
+  annotator: 王弼
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上之治，民僅知有之。其次，親之譽之。再次，畏之。更次，侮之。
+
+- id: 92
+  annotator: 河上公
+  lines: [L17-1]
+  ranges: [[0, 30]]
+  text: 太上治國，百姓日用而不知。其次，親之譽之。其次，畏之。其次，侮之。
+
+- id: 93
+  annotator: 王弼
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，則有不信。貴言者，功成事遂，百姓皆以為自然。
+
+- id: 94
+  annotator: 河上公
+  lines: [L17-2, L17-3]
+  ranges: [[0, 32]]
+  text: 信不足，有不信。君子貴言。功成事遂，百姓皆謂我自然，不知君上之功。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x516b___x7ae0_" inline-header="false" obligation="normative" displayorder="19">
+<title id="_3b58eb23-dc37-40b1-9e0b-68e0da148162">第十八章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x516b___x7ae0_">18</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_3b58eb23-dc37-40b1-9e0b-68e0da148162">第十八章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x516b___x7ae0_">18</semx></fmt-xref-label>
+<p id="L18-1">大道廢，有仁義；智慧出，有大偽；</p>
+
+<p id="L18-2">六親不和，有孝慈；國家昏亂，有忠臣。</p>
+
+<sourcecode id="_ed56ca9c-2f00-37ec-24ab-c378bbfeab9c" autonum="18-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x516b___x7ae0_">18</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_ed56ca9c-2f00-37ec-24ab-c378bbfeab9c">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x516b___x7ae0_">18</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_ed56ca9c-2f00-37ec-24ab-c378bbfeab9c">1</semx></fmt-xref-label>- id: 95
+  annotator: 王弼
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢棄，則有仁義。智慧顯露，則有大偽。六親不和，則有孝慈。國家昏亂，則有忠臣。皆非自然之道。
+
+- id: 96
+  annotator: 河上公
+  lines: [L18-1, L18-2]
+  ranges: [[0, 36]]
+  text: 大道廢，案：大道在無為。有仁義，案：謂人為巧詐。智慧出，案：智慧多令人無質樸。有大偽，案：詐偽生。六親不和，案：謂父子兄弟夫婦。有孝慈，案：孝慈生。國家昏亂，案：謂君臣不明。有忠臣，案：忠臣生。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x5341___x4e5d___x7ae0_" inline-header="false" obligation="normative" displayorder="20">
+<title id="_439e39f2-9c3b-4389-af43-d293e3616d1d">第十九章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x5341___x4e5d___x7ae0_">19</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_439e39f2-9c3b-4389-af43-d293e3616d1d">第十九章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x5341___x4e5d___x7ae0_">19</semx></fmt-xref-label>
+<p id="L19-1">絕聖棄智，民利百倍；絕仁棄義，民復孝慈；</p>
+
+<p id="L19-2">絕巧棄利，盜賊無有。此三者以為文不足，</p>
+
+<p id="L19-3">故令有所屬。見素抱樸，少私寡欲。</p>
+
+<sourcecode id="_323fd5da-a00f-0e8e-ed63-12eb07f0b5eb" autonum="19-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x4e5d___x7ae0_">19</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_323fd5da-a00f-0e8e-ed63-12eb07f0b5eb">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x5341___x4e5d___x7ae0_">19</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_323fd5da-a00f-0e8e-ed63-12eb07f0b5eb">1</semx></fmt-xref-label>- id: 97
+  annotator: 王弼
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民自利百倍。絕仁棄義，民自復孝慈。絕巧棄利，盜賊自無。此三者為文飾不足。
+
+- id: 98
+  annotator: 河上公
+  lines: [L19-1, L19-2]
+  ranges: [[0, 46]]
+  text: 絕聖棄智，民利百倍。絕仁棄義，民復孝慈。絕巧棄利，盜賊無有。此三者，聖智仁義巧利也。以為文不足。
+
+- id: 99
+  annotator: 王弼
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲，則民自歸於自然。
+
+- id: 100
+  annotator: 河上公
+  lines: [L19-3]
+  ranges: [[0, 20]]
+  text: 見素抱樸，少私寡欲。案：素樸，真也。少私寡欲，則民樸實。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x7ae0_" inline-header="false" obligation="normative" displayorder="21">
+<title id="_73f913e0-687e-4e64-8778-e8113baae4e3">第二十章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x7ae0_">20</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_73f913e0-687e-4e64-8778-e8113baae4e3">第二十章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x7ae0_">20</semx></fmt-xref-label>
+<p id="L20-1">絕學無憂。唯之與阿，相去幾何？善之與惡，相去若何？</p>
+
+<p id="L20-2">人之所畏，不可不畏。荒兮其未央哉！</p>
+
+<p id="L20-3">眾人熙熙，如享太牢，如春登臺。</p>
+
+<p id="L20-4">我獨泊兮其未兆，如嬰兒之未孩。</p>
+
+<p id="L20-5">儽儽兮若無所歸。眾人皆有餘，而我獨若遺。</p>
+
+<p id="L20-6">我愚人之心也哉！沌沌兮！</p>
+
+<p id="L20-7">俗人昭昭，我獨昏昏；俗人察察，我獨悶悶。</p>
+
+<p id="L20-8">澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。</p>
+
+<p id="L20-9">我獨異於人，而貴食母。</p>
+
+<sourcecode id="_bcbace5c-cae8-16b6-e6c3-f80252178e85" autonum="20-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x7ae0_">20</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_bcbace5c-cae8-16b6-e6c3-f80252178e85">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x7ae0_">20</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_bcbace5c-cae8-16b6-e6c3-f80252178e85">1</semx></fmt-xref-label>- id: 101
+  annotator: 王弼
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂，唯與阿、善與惡，皆相去不遠。人之所畏，不可不畏，荒兮未央。
+
+- id: 102
+  annotator: 河上公
+  lines: [L20-1, L20-2]
+  ranges: [[0, 52]]
+  text: 絕學無憂。唯之與阿，善之與惡，其相去幾何？人之所畏，不可不畏。荒兮其未央哉！
+
+- id: 103
+  annotator: 王弼
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙如享太牢、登春臺，我獨泊兮其未兆，如嬰兒未孩。儽儽若無所歸，眾人有餘，我獨若遺。我愚人之心，沌沌然。
+
+- id: 104
+  annotator: 河上公
+  lines: [L20-3, L20-4, L20-5, L20-6]
+  ranges: [[0, 74]]
+  text: 眾人熙熙，如享太牢，如春登臺。我獨泊兮其未兆，如嬰兒之未孩。儽儽兮若無所歸。眾人皆有餘，而我獨若遺。我愚人之心也哉！沌沌兮！
+
+- id: 105
+  annotator: 王弼
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮若海，飂兮若無止。眾人皆有以，我獨頑且鄙。我獨異於人，而貴食母。
+
+- id: 106
+  annotator: 河上公
+  lines: [L20-7, L20-8, L20-9]
+  ranges: [[0, 76]]
+  text: 俗人昭昭，我獨昏昏。俗人察察，我獨悶悶。澹兮其若海，飂兮若無止。眾人皆有以，而我獨頑且鄙。我獨異於人，而貴食母。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e00___x7ae0_" inline-header="false" obligation="normative" displayorder="22">
+<title id="_53b9c26a-05bd-4029-aa7f-e6ad937891d7">第二十一章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e00___x7ae0_">21</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_53b9c26a-05bd-4029-aa7f-e6ad937891d7">第二十一章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e00___x7ae0_">21</semx></fmt-xref-label>
+<p id="L21-1">孔德之容，惟道是從。</p>
+
+<p id="L21-2">道之為物，惟恍惟惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物。</p>
+
+<p id="L21-3">窈兮冥兮，其中有精；其精甚真，其中有信。</p>
+
+<p id="L21-4">自古及今，其名不去，以閱眾甫。</p>
+
+<p id="L21-5">吾何以知眾甫之狀哉？以此。</p>
+
+<sourcecode id="_32a8dec1-645c-bf21-044c-8747c61a066d" autonum="21-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e00___x7ae0_">21</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_32a8dec1-645c-bf21-044c-8747c61a066d">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e00___x7ae0_">21</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_32a8dec1-645c-bf21-044c-8747c61a066d">1</semx></fmt-xref-label>- id: 107
+  annotator: 王弼
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，恍惚難名，其中有象有物。
+
+- id: 108
+  annotator: 河上公
+  lines: [L21-1, L21-2]
+  ranges: [[0, 50]]
+  text: 孔德之容，惟道是從。道之為物，惟恍惟惚。惚兮恍兮，其中有象。恍兮惚兮，其中有物。
+
+- id: 109
+  annotator: 王弼
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈冥之中有精，其精甚真，其中有信。自古及今，其名不去，以閱眾甫。以此知眾甫之狀。
+
+- id: 110
+  annotator: 河上公
+  lines: [L21-3, L21-4, L21-5]
+  ranges: [[0, 58]]
+  text: 窈兮冥兮，其中有精。其精甚真，其中有信。自古及今，其名不去，以閱眾甫。吾何以知眾甫之狀哉？以此。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_" inline-header="false" obligation="normative" displayorder="23">
+<title id="_a277281d-a3f2-4b84-bb4a-bd5c897056b4">第二十二章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_">22</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_a277281d-a3f2-4b84-bb4a-bd5c897056b4">第二十二章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_">22</semx></fmt-xref-label>
+<p id="L22-1">曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。</p>
+
+<p id="L22-2">是以聖人抱一為天下式。</p>
+
+<p id="L22-3">不自見故明，不自是故彰，不自伐故有功，不自矜故長。</p>
+
+<p id="L22-4">夫唯不爭，故天下莫能與之爭。</p>
+
+<p id="L22-5">古之所謂曲則全者，豈虛言哉！誠全而歸之。</p>
+
+<sourcecode id="_c82910bb-435c-7872-6e36-b66776b34232" autonum="22-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_">22</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_c82910bb-435c-7872-6e36-b66776b34232">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e8c___x7ae0_">22</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_c82910bb-435c-7872-6e36-b66776b34232">1</semx></fmt-xref-label>- id: 111
+  annotator: 王弼
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲全枉直，窪盈敝新，少得多惑，皆相反相成。聖人抱一為天下式。
+
+- id: 112
+  annotator: 河上公
+  lines: [L22-1, L22-2]
+  ranges: [[0, 44]]
+  text: 曲則全，枉則直，窪則盈，敝則新，少則得，多則惑。是以聖人抱一為天下式。
+
+- id: 113
+  annotator: 王弼
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。不爭故天下莫能與之爭。古之所謂曲則全者非虛言，誠能全而歸之。
+
+- id: 114
+  annotator: 河上公
+  lines: [L22-3, L22-4, L22-5]
+  ranges: [[0, 74]]
+  text: 不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e09___x7ae0_" inline-header="false" obligation="normative" displayorder="24">
+<title id="_e0e30853-bc33-48c7-b9ad-bb0ab8260f20">第二十三章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e09___x7ae0_">23</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_e0e30853-bc33-48c7-b9ad-bb0ab8260f20">第二十三章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e09___x7ae0_">23</semx></fmt-xref-label>
+<p id="L23-1">希言自然。故飄風不終朝，驟雨不終日。</p>
+
+<p id="L23-2">孰為此者？天地。天地尚不能久，而況於人乎？</p>
+
+<p id="L23-3">故從事於道者，道者同於道，德者同於德，失者同於失。</p>
+
+<p id="L23-4">同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。</p>
+
+<p id="L23-5">信不足焉，有不信焉。</p>
+
+<sourcecode id="_00aba58e-d7a0-a15c-b0ad-4f9569ceb98b" autonum="23-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e09___x7ae0_">23</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_00aba58e-d7a0-a15c-b0ad-4f9569ceb98b">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e09___x7ae0_">23</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_00aba58e-d7a0-a15c-b0ad-4f9569ceb98b">1</semx></fmt-xref-label>- id: 115
+  annotator: 王弼
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然，順乎自然。飄風驟雨尚不能久，況人乎？
+
+- id: 116
+  annotator: 河上公
+  lines: [L23-1, L23-2]
+  ranges: [[0, 50]]
+  text: 希言自然。故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？
+
+- id: 117
+  annotator: 王弼
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 從事於道者，與道同。德者與德同，失者與失同。道德樂得同者，失亦樂得同者。信不足，則有不信。
+
+- id: 118
+  annotator: 河上公
+  lines: [L23-3, L23-4, L23-5]
+  ranges: [[0, 86]]
+  text: 故從事於道者，道者同於道，德者同於德，失者同於失。同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。信不足焉，有不信焉。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x56db___x7ae0_" inline-header="false" obligation="normative" displayorder="25">
+<title id="_209d76d1-3937-4bfa-a98d-5bdd052c99a3">第二十四章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x56db___x7ae0_">24</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_209d76d1-3937-4bfa-a98d-5bdd052c99a3">第二十四章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x56db___x7ae0_">24</semx></fmt-xref-label>
+<p id="L24-1">企者不立，跨者不行。自見者不明，自是者不彰。</p>
+
+<p id="L24-2">自伐者無功，自矜者不長。其在道也，曰餘食贅行。</p>
+
+<p id="L24-3">物或惡之，故有道者不處。</p>
+
+<sourcecode id="_d8d531b2-f948-4663-ac77-742b81672ff2" autonum="24-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x56db___x7ae0_">24</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_d8d531b2-f948-4663-ac77-742b81672ff2">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x56db___x7ae0_">24</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_d8d531b2-f948-4663-ac77-742b81672ff2">1</semx></fmt-xref-label>- id: 119
+  annotator: 王弼
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企跨者不能立行，自見自是者不明不彰，自伐自矜者無功不長。在道者視之如餘食贅行。
+
+- id: 120
+  annotator: 河上公
+  lines: [L24-1, L24-2]
+  ranges: [[0, 54]]
+  text: 企者不立，跨者不行。自見者不明，自是者不彰。自伐者無功，自矜者不長。其在道也，曰餘食贅行。
+
+- id: 121
+  annotator: 王弼
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處此。
+
+- id: 122
+  annotator: 河上公
+  lines: [L24-3]
+  ranges: [[0, 14]]
+  text: 物或惡之，故有道者不處。</sourcecode>
+
+</clause>
+
+<clause id="___x7b2c___x4e8c___x5341___x4e94___x7ae0_" inline-header="false" obligation="normative" displayorder="26">
+<title id="_c237fa27-87f2-442e-8d9f-398a2724956d">第二十五章</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e94___x7ae0_">25</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_c237fa27-87f2-442e-8d9f-398a2724956d">第二十五章</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e94___x7ae0_">25</semx></fmt-xref-label>
+<p id="L25-1">有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。</p>
+
+<p id="L25-2">吾不知其名，字之曰道，強為之名曰大。</p>
+
+<p id="L25-3">大曰逝，逝曰遠，遠曰反。</p>
+
+<p id="L25-4">故道大，天大，地大，王亦大。域中有四大，而王居其一焉。</p>
+
+<p id="L25-5">人法地，地法天，天法道，道法自然。</p>
+
+<sourcecode id="_334db2d8-9d3a-21c4-6cee-8231ebc843d7" autonum="25-1"><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e94___x7ae0_">25</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_334db2d8-9d3a-21c4-6cee-8231ebc843d7">1</semx></span></fmt-name><fmt-xref-label><span class="fmt-element-name">図</span><semx element="autonum" source="___x7b2c___x4e8c___x5341___x4e94___x7ae0_">25</semx><span class="fmt-autonum-delim">-</span><semx element="autonum" source="_334db2d8-9d3a-21c4-6cee-8231ebc843d7">1</semx></fmt-xref-label>- id: 123
+  annotator: 王弼
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 道先天地生，寂寥獨立，周行不殆，為天下母。強名曰道，字之曰大。
+
+- id: 124
+  annotator: 河上公
+  lines: [L25-1, L25-2]
+  ranges: [[0, 62]]
+  text: 有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆，可以為天下母。吾不知其名，字之曰道，強為之名曰大。
+
+- id: 125
+  annotator: 王弼
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。道大天大地大人大，域中四大。人法地，地法天，天法道，道法自然。
+
+- id: 126
+  annotator: 河上公
+  lines: [L25-3, L25-4, L25-5]
+  ranges: [[0, 70]]
+  text: 大曰逝，逝曰遠，遠曰反。故道大，天大，地大，王亦大。域中有四大，而王居其一焉。人法地，地法天，天法道，道法自然。</sourcecode>
 
 </clause>
 </sections>
