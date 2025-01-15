@@ -1,0 +1,11 @@
+/_site
+/.bundle
+/iev
+/relaton
+Gemfile.lock
+*.log
+/.vscode
+/_backups
+.DS_Store
+.ruby-version
+_tmp_images*
