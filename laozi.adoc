@@ -35,3 +35,23 @@ include::sections/14.adoc[]
 
 include::sections/15.adoc[]
 
+include::sections/16.adoc[]
+
+include::sections/17.adoc[]
+
+include::sections/18.adoc[]
+
+include::sections/19.adoc[]
+
+include::sections/20.adoc[]
+
+include::sections/21.adoc[]
+
+include::sections/22.adoc[]
+
+include::sections/23.adoc[]
+
+include::sections/24.adoc[]
+
+include::sections/25.adoc[]
+
