@@ -2,7 +2,8 @@
 metanorma:
   source:
     files:
-      - document.adoc
+      - difan.adoc
+      - laozi.adoc
 
   collection:
     organization: "Metanorma"
