@@ -1,0 +1,1760 @@
+
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "MS Mincho",serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none; }
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 1.0em; }
+
+sub, sup {
+  font-size: 0.75em; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MS Gothic",sans-serif; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "MS Gothic",sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "MS Gothic",sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef + a.TableFootnoteRef::before {
+  content: ", ";
+  vertical-align: super; }
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before; }
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after; }
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em; }
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all; }
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%; }
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none; }
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none; }
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400; }
+
+a.anchor::before {
+  content: "\00A7";
+  font-size: .85em;
+  display: block;
+  padding-top: .1em; }
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none; }
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible; }
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: #555; }
+
+.collapsible:after {
+  content: '\25bc';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.active:after {
+  content: "\25b2"; }
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0; }
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body main {
+    margin: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.3; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none; }
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em; }
+
+main {
+  padding-left: 4em;
+  padding-right: 2em; }
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em; }
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em; }
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left; }
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em; }
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic; }
+
+.doctitle-part {
+  margin-top: 1em; }
+
+span.title, span.subtitle, span.part {
+  font-weight: 800; }
+
+span.partlabel {
+  display: block; }
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em; }
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2; }
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em; }
+
+p.zzSTDTitle2 {
+  font-size: 1.5em; }
+
+span.obligation {
+  font-weight: 400; }
+
+a {
+  color: black;
+  text-decoration-color: black; }
+
+h2 p, .h2 p {
+  display: inline; }
+
+ul > li {
+  list-style: none; }
+
+ul > li > p:first-child::before {
+  content: "\2014";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em; }
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2; }
+
+p.AltTerms {
+  margin-bottom: 0; }
+
+p.Terms {
+  margin-top: 0em; }
+
+/* Navigation*/
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "MS Mincho",serif;
+  font-weight: 400; }
+  #toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+      padding: 5px 10px; }
+    #toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+        box-shadow: none;
+        color: black; }
+  #toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+    padding-left: 30px; }
+  #toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+    padding-left: 50px; }
+  #toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+    padding-left: 70px; }
+  #toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+    padding-left: 90px; }
+  #toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+    padding-left: 110px; }
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: #f7f7f7;
+    box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important; }
+    #toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; }
+  @media print {
+    #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active,
+  #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+  #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    box-shadow: 0px 1px 0px 0px black !important;
+    background: none; }
+  #toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+    content: " ";
+    display: none; }
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%; }
+
+nav {
+  line-height: 1.2em; }
+  @media screen and (min-width: 768px) {
+    nav {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 278px;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0 0 0 20px;
+      background-color: #f7f7f7; } }
+  @media print {
+    nav {
+      position: relative;
+      width: auto;
+      font-size: 0.9em;
+      overflow: auto;
+      padding: 0;
+      margin-right: 0;
+      background-color: white; } }
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em; }
+  @media screen and (min-width: 768px) {
+    #toggle {
+      position: fixed;
+      height: 100%;
+      width: 30px;
+      background-color: #f7f7f7;
+      color: black !important;
+      cursor: pointer;
+      z-index: 100; }
+      #toggle span {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%); } }
+  @media screen and (max-width: 768px) {
+    #toggle {
+      display: none; } }
+  @media print {
+    #toggle {
+      display: none; } }
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em; }
+  main {
+    padding: 0; }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%; } }
+
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img, div.figure > svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+table div.figure {
+  padding: 0;
+  margin: 0; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl; }
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#governance {
+  border-bottom: solid 3px #750697; }
+
+#governance-band {
+  background-color: #750697; }
+
+#guide {
+  border-bottom: solid 3px #48a0e7; }
+
+#guide-band {
+  background-color: #48a0e7; }
+
+.coverpage-maturity {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+#working-draft {
+  border-bottom: solid 3px #fda706; }
+
+#working-draft-band {
+  background-color: #fda706; }
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd; }
+
+#committee-draft-band {
+  background-color: #fd06fd; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906; }
+
+#standard {
+  border-bottom: solid 3px #0ac442; }
+
+#standard-band {
+  background-color: #0ac442; }
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13; }
+
+#obsolete-band {
+  background-color: #7e0d13; }
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list ol li {
+  list-style-type: none; }
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="arabic"] {
+  counter-reset: arabic; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper; }
+
+ol[class="roman_upper"] {
+  counter-reset: roman_upper; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: alphabet2; }
+
+ol[class="arabic"] ol[class="arabic"] {
+  counter-reset: arabic2; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: roman2; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] {
+  counter-reset: alphabet_upper2; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] {
+  counter-reset: roman_upper2; }
+
+ol {
+  counter-reset: alphabet; }
+
+ol > li {
+  list-style: none;
+  position: relative; }
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="roman"] > li::before {
+  left: -2.0em; }
+
+ol[class="roman_upper"] > li::before {
+  left: -2.3em; }
+
+ol[class="alphabet"] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="arabic"] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") "; }
+
+ol[class="roman"] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") "; }
+
+ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") "; }
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") "; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") "; }
+
+ol[class="arabic"] ol[class="arabic"] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") "; }
+
+ol[class="roman"] ol[class="roman"] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") "; }
+
+ol[class="alphabet_upper"] ol[class="alphabet_upper"] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") "; }
+
+ol[class="roman_upper"] ol[class="roman_upper"] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") "; }
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left; }
+
+.figure-title, .FigureTitle, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Note p, .note p {
+  margin: 0; }
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .zzHelp p {
+  margin: 0; }
+
+div.zzHelp {
+  color: green;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2em;
+  color: black;
+  padding-left: 0.5em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weight: 400; }
+
+td,
+th {
+  padding: 1em !important; }
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important; }
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em; }
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em; }
+
+.TableFootnote {
+  text-align: left !important; }
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888; }
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em; }
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em; }
+
+ol.footnotes-list:first-child {
+  margin-top: 2em; }
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline; }
+
+ol > li > p::before {
+  content: "";
+  display: none; }
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+dl.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+
+.Admonition p, .admonition p {
+  margin: 0; }
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>'); }
+
+.collapse {
+  display: none; }
+
+.expand {
+  transform: rotateZ(-180deg); }
+
+-->
+</style><style><!--pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+--></style><title>帝　範</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</link></link></head><body lang="ja" xml:lang="ja"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber">A 1001 </p>
+    
+
+
+<p class="coverpage_docnumber">第一版</p>
+
+
+
+
+
+
+<p class="coverpage_techcommittee">WUL</p>
+
+
+
+<div class="doctitle-en"><div><span class="title"></span><span class="subtitle">帝　範</span>
+  
+</div>
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title"></span><span class="subtitle">The Imperial Model</span>
+  
+</div>
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<p id="_f5c1107b-ae27-5d33-ba00-8f81487d6b4a">主 務 大 臣:経済産業大臣 制定:昭和 26.10.31 改正:</p>
+
+<p id="_4a69ff6f-43f6-e231-bf3a-2d0f569c9f71">官 報 掲 載 日:令和七年1月15日</p>
+
+<p id="_a891b3d5-dc93-a694-99e9-8e204d9d23a4">原 案 作 成 者:一般財団法人日本規格協会</p>
+
+<p id="_3f308807-44c5-1774-9cca-a542eb275ba3">(〒108-0073 東京都港区三田 3-13-12 三田 MT ビル TEL 03-4231-8530)</p>
+
+<p id="_3647e595-b3d5-b642-55eb-9d0c2b147a28">審 議 部 会:欽定四庫全書欽定四庫全書</p>
+</div>
+<div class="boilerplate-feedback">
+
+<p id="_bd2f74a0-2c21-6bcc-0ca0-ba4b7fe6d5f2">この規格についての意見又は質問は，上記原案作成者又は経済産業省産業技術環境局 国際標準課(〒100-8901 東京 都千代田区霞が関 1-3-1)にご連絡ください。</p>
+
+<p id="_1ff2ff04-8371-e86e-bdf6-b95b6fc45f2d">なお，日本産業規格は，産業標準化法の規定によって，少なくとも 5 年を経過する日までに日本産業標準調査会の審 議に付され，速やかに，確認，改正又は廃止されます。</p>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_5c6627ea-2e2a-493c-86a5-50fed7cd5feb"></a><a class="header" href="#_5c6627ea-2e2a-493c-86a5-50fed7cd5feb">目　次</a></h1><ul><li class="h1"><a href="#_543f0fc0-0d3d-446a-9f98-ec7fb86031b0">      
+  
+  まえがき
+</a></li>
+<li class="h1"><a href="#_b7adca23-8d82-462a-ace5-c1fa00e2b77d">      
+  
+  欽定四庫全書　子部一 提要 帝範四卷　儒家類
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_5819c337-17ba-496b-8cfa-fcd3a4901adc">
+  
+  一　帝範卷一
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_c3030805-8c3f-48d6-84eb-906daa1283e2">      
+  
+  一・一　君體第一
+</a>
+</li><li class="h2"><a href="#_db5df8a9-18f9-4349-9b3e-33fbb7d84f48">      
+  
+  一・二　建親第二
+</a></li><li class="h2"><a href="#_45060c4f-82fc-4e6b-90fa-22c4a622e4ad">      
+  
+  一・三　求賢第三
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_7c552b77-1d4d-414a-ab4d-9f9c0da87874">
+  
+  二　帝範卷二
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_bd3dc65d-6a67-455b-be86-d562101a250e">      
+  
+  二・一　審官第四
+</a>
+</li><li class="h2"><a href="#_08e60073-a03f-44f2-9a79-f3c5a55b2c73">      
+  
+  二・二　納諫第五
+</a></li><li class="h2"><a href="#_ff55abff-daee-4078-965b-c80bb151fc78">      
+  
+  二・三　去讒第六
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_23a79407-f21f-4838-8d39-8e68f09a0d6f">
+  
+  三　帝範卷三
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_5248fe30-7a54-49c8-8f4c-9de55de1e5eb">      
+  
+  三・一　誡盈第七
+</a>
+</li><li class="h2"><a href="#_3b292772-7fe9-4b1b-9d23-f84d5e4351c9">      
+  
+  三・二　崇儉第八
+</a></li><li class="h2"><a href="#_c33a699b-c5c9-487e-9578-4ea98d561c4e">      
+  
+  三・三　賞罰第九
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_6916cbb6-25c3-4c35-bcbc-b7480f312ffc">
+  
+  四　帝範卷四
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_80edbf8b-6c88-4774-94c8-462ce8077172">      
+  
+  四・一　務農第十
+</a>
+</li><li class="h2"><a href="#_d48dfa7a-ac5e-4003-94df-244fff6c4f76">      
+  
+  四・二　閱武第十一
+</a></li><li class="h2"><a href="#_1ae4a7f8-d851-43e7-b900-2fe1f68d38c0">      
+  
+  四・三　崇文第十二
+</a></li></ul></li>
+
+
+
+</ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+</div><br /><div id="___x5e1d___x7bc4___x5e8f_"><h1 class="ForewordTitle" id="_543f0fc0-0d3d-446a-9f98-ec7fb86031b0"><a class="anchor" href="#___x5e1d___x7bc4___x5e8f_"></a><a class="header" href="#___x5e1d___x7bc4___x5e8f_">まえがき</a></h1><p id="_7caa32d7-549d-2f95-66e1-26cb724144cb">　　朕聞大德曰生，大寶曰位。辯其上下，樹之君臣，所以撫育黎元，鈞陶庶類，自非克明克哲，允武允文，皇天眷命，歷數在躬，安可以濫握靈圖，叨臨神器！是以翠媯薦唐堯之德，元圭賜夏禹之功。丹字呈祥，周開八百之祚；素靈表瑞，漢啟重世之基。由此觀之，帝王之業，非可以力爭者矣。</p><p id="_00b529a2-7c71-fd33-ba28-604a3a3ffb63">昔隋季版蕩，海內分崩。先皇以神武之姿，當經綸之會，斬靈蛇而定王業，啟金鏡而握天樞。然由五嶽含氣，三光戢曜，豺狼尚梗，風塵未寧。朕以弱冠之年，懷慷慨之誌，思靖大難，以濟蒼生。躬擐甲冑，親當矢石。夕對魚鱗之陣，朝臨鶴翼之圍，敵無大而不摧，兵何堅而不碎，剪長鯨而清四海，掃槍而廓八紘。乘慶天潢，登暉璇極，襲重光之永業，繼大寶之隆基。戰戰兢兢，若臨深而禦朽；日慎一日，思善始而令終。</p><p id="_83cf39b1-34c2-142e-3853-30aa895d9482">汝以幼年，偏鐘慈愛，義方多闕，庭訓有乖。擢自維城之居，屬以少陽之任，未辯君臣之禮節，不知稼穡之艱難。每思此為憂，未嘗不廢寢忘食。自軒昊以降，迄至周隋，以經天緯地之君，纂業承基之主，興亡治亂，其道煥焉。所以披鏡前蹤，博覽史籍，聚其要言，以為近誡雲耳。</p></div><br /><div id="___x6b3d___x5b9a___x56db___x5eab___x5168___x66f8___x5b50___x90e8___x4e00____x63d0___x8981____x5e1d___x7bc4___x56db___x5377___x5112___x5bb6___x985e_" class="Section3"><h1 class="IntroTitle" id="_b7adca23-8d82-462a-ace5-c1fa00e2b77d"><a class="anchor" href="#___x6b3d___x5b9a___x56db___x5eab___x5168___x66f8___x5b50___x90e8___x4e00____x63d0___x8981____x5e1d___x7bc4___x56db___x5377___x5112___x5bb6___x985e_"></a><a class="header" href="#___x6b3d___x5b9a___x56db___x5eab___x5168___x66f8___x5b50___x90e8___x4e00____x63d0___x8981____x5e1d___x7bc4___x56db___x5377___x5112___x5bb6___x985e_">欽定四庫全書　子部一 提要 帝範四卷　儒家類</a></h1><p id="_74d3a48d-36e6-8fed-5571-f2ee7eed1d1e">　　〈臣〉等謹按帝範十二篇唐太宗貞觀二十二年撰以賜太子新舊唐書皆云四卷晁公武讀書志僅載六篇陳振孫書録解題亦題曰一卷元吳萊謂征雲南僰夷時始得完書攷其事在泰定二年蓋此書宋佚其半元乃復完也唐書藝文志載有賈行注而舊唐書敬宗本紀稱寳歴二年秘書省著作郎韋公肅注是書以進是唐時已有二注今本注無姓名觀其體裁似唐人注經之式而其中時稱楊萬里呂祖謙之言疑元人因舊注而補之其援引頗詳洽而詞不免於煩贅〈臣〉等謹為參攷其誤附列注文之下仍依舊史釐為四卷以復其舊雲乾隆三十八年四月恭校上</p><p id="_a809c703-7038-8a72-b788-039113941dc3">　　總纂官〈臣〉紀昀〈臣〉陸錫熊〈臣〉孫士毅</p><p id="_c1fb4e0d-02ed-2084-dcf4-735439ae2312">　　總校官〈臣〉陸費墀</p></div><br /><p class="JapaneseIndustrialStandard">日本工業規格　　　　　　　<span class="JIS">JIS</span></p><p class="StandardNumber">　A 1001: <span class="EffectiveYear">2025</span></p><p class="IDT"></p><p class="zzSTDTitle1">帝範</p><p class="zzSTDTitle2">The Imperial Model</p><div id="___x5e1d___x7bc4___x5377___x4e00_"><h1 id="_5819c337-17ba-496b-8cfa-fcd3a4901adc"><a class="anchor" href="#___x5e1d___x7bc4___x5377___x4e00_"></a><a class="header" href="#___x5e1d___x7bc4___x5377___x4e00_">一　帝範卷一</a></h1><p id="_51164f77-5513-9f95-a819-7e6a5b1796d1"><span style="font-family:&#x22;MS Gothic&#x22;">唐太宗文皇帝撰</span><div id="_568ddbe8-d722-c883-ee2a-94bc0623fbb5" class="Note"><p><span class="note_label">注記　</span>帝者，天之一名。以形體謂之天，以主宰謂之帝。帝者，諦也。言天蕩然，無心忘于物我，公平通逺，舉事審諦。故謂之「帝」，又曰「察道者帝」。又「三皇五帝」。「三王」或曰帝。既天之一名，而以三皇居，先是優於帝而過於天耶。曰：「三皇」不能過天，但優於帝矣。何以為優以遂同天之名。以為優劣耳，何則以五帝有為，而同天三皇無為而同天？以有為無為，故知三皇優也。或曰：「三王抑劣於帝乎」。曰：「三王雖實聖人，但内同天而外，隨時運不得盡其聖用，逐迹為名，故謂之為王也。禮運曰：「大道之行，天下為公。」即帝也，大道既隠，各親其親，即王也。三王亦順帝之則，而不盡故不得，名帝然天之與帝義為一也故繼天則謂之天子其號謂之帝。總三而論，之以帝得其中正矣。皇者，天也。羙也，王者大也。天地人，以一貫三為王天下所法也。王按左氏傳並音于况反範法也，言可以為帝王之法式。故名之「帝範」，以漢孔安國尚書，序曰：「典謨訓誥，誓命之文凡百篇示人主，以軌範也其義同。」</p></div></p><div id="___x541b___x9ad4___x7b2c___x4e00_"><h2 id="_c3030805-8c3f-48d6-84eb-906daa1283e2"><a class="anchor" href="#___x541b___x9ad4___x7b2c___x4e00_"></a><a class="header" href="#___x541b___x9ad4___x7b2c___x4e00_">一・一　君體第一</a></h2>
+
+<div id="_b0ca9e60-afc4-bd99-3a3f-72b8fdce0b09" class="Note"><p><span class="note_label">注記　</span>君，白虎通曰：「君者，羣也。羣，下所歸心。」又苟卿曰：「君者，儀也。民者，影也。」儀正則影正君者盤也民者水也。盤圓則水圓。君者，源也。源清則流清，源濁則流濁。左傳云：「慶賞刑威，曰：『君體者，治體也。君之所治體勢規模第者，次第也。一者，數之始也。萬物得一以生。老子曰：「聖人抱一為天下式。」故君體為第一也。 ○按荀子，無民者，影也。民者，水也。二語又，君者，源也。作君者，人之源也。</p></div>
+
+<p id="_e8bb828f-cfe6-0c09-b279-d8cb6c54c080">　　夫人者，國之先，國者，君之本。人主之體，如山嶽焉，高峻而不動；如日月焉，貞明而普照。兆庶之所瞻仰，天下之所歸往。寬大其誌，足以兼包；平正其心足以制斷。非威德無以致遠，非慈厚無以懷人。撫九族以仁，接大臣以禮。奉先思孝，處位思恭。傾己勤勞，以行德義，此乃君之體也。</p>
+</div><div id="___x5efa___x89aa___x7b2c___x4e8c_"><h2 id="_db5df8a9-18f9-4349-9b3e-33fbb7d84f48"><a class="anchor" href="#___x5efa___x89aa___x7b2c___x4e8c_"></a><a class="header" href="#___x5efa___x89aa___x7b2c___x4e8c_">一・二　建親第二</a></h2>
+
+<div id="_bf286083-49a0-e9e1-3c33-e4caae68d5d5" class="Note"><p><span class="note_label">注記　</span>左傳曰：「封建親戚以藩屏周室，親骨肉也。言有天下者，宜樹立藩鎭，骨肉分置之於内外，以相與維持庶無孤削單弱之患。夫水之無本，縱築而亦涸木之。無柢縱溉而亦焦大厦將興資衆材而後可成千間之廣大鵬將翥藉短羽而後可揚萬里之逺人君欲為國享萬世無疆之休者豈可獨立任其智力者乎左傳曰葛藟猶能庇其根本故君子以為比况國君乎固宜建親建親之道不特骨肉之謂也至如賢徳忠純明哲通才之君子建而親之孰曰不可</p></div>
+
+<p id="_fd27cfce-cef0-f710-e35e-a55f440d99d2">　　夫六合曠道，大寶重任。曠道不可偏制，故與人共理之；重任不可獨居，故與人共守之。是以封建親戚，以為藩衛，安危同力，盛哀一心。遠近相持，親疏兩用。並兼路塞，逆節不生。昔周之興也，割裂山河，分王宗族。內有晉鄭之輔，外有魯衛之虞。故卜祚靈長，歷年數百。秦之季也，棄淳于之策，納李斯之謀。不親其親，獨智其智，顛覆莫恃，二世而亡。斯豈非枝葉不疏，則根柢難拔；股肱既殞，則心腹無依者哉！漢初定關中，誠亡秦之失策，廣封懿親，過於古制。大則專都偶國，小則跨郡連州。末大則危，尾大難掉。六王懷叛逆之誌，七國受鈇鉞之誅。此皆地廣兵強積勢之所致也。魏武創業，暗於遠圖。子弟無封戶之人，宗室無立錐之地。外無維城以自固，內無盤石以為基。遂乃大器保於他人，社稷亡於異姓。語曰：「流盡其源竭，條落則根枯。」此之謂也。</p>
+
+<p id="_9c05a181-8792-9e24-7256-b101fee784f1">　　夫封之太強，則為噬臍之患；致之太弱則無固本之基。由此而言，莫若眾建宗親而少力。使輕重相鎮，憂樂是同。則上無猜忌之心，下無侵冤之慮。此封建之鑒也。斯二者，安國之基。</p>
+
+<p id="_eaba7644-4925-d99c-af1f-1d402ada332b">　　君德之宏，唯資博達。設分縣教，以術化人。應務適時，以道制物。</p>
+
+<p id="_80635ce6-b321-071d-2660-5c43ef5999bd">　　術以神隱為妙，道以光大為功。括蒼旻以體心，則人仰之而不測；包厚地以為量，則人循之而無端。蕩蕩難名，宜其宏遠。且敦穆九族，放勛流美於前；克諧烝乂，重華垂譽於後。無以奸破義，無以疏間親。察之以德，則邦家俱泰，骨肉無虞，良為美矣。</p>
+</div><div id="___x6c42___x8ce2___x7b2c___x4e09_"><h2 id="_45060c4f-82fc-4e6b-90fa-22c4a622e4ad"><a class="anchor" href="#___x6c42___x8ce2___x7b2c___x4e09_"></a><a class="header" href="#___x6c42___x8ce2___x7b2c___x4e09_">一・三　求賢第三</a></h2>
+
+<div id="_2589140e-396d-5c39-f9b0-9dc475300011" class="Note"><p><span class="note_label">注記　</span>周書隂符曰：「凡治國有三常。一曰：『君以舉賢為常。』二曰：『官以任賢為常。』三曰：『士以敬賢為常。』」夫然，雖百代，可知也。故孟子曰：「堯舜之仁，不徧愛人，急親賢也。」是以，知聖人之言，不徒發也。苟賢人在野，小人在朝，縱欲以仁。徧愛人亦狭。矣惟急親賢而牧之天下俱得其所也用賢人則邦家泰用小人則邦家否其泰否之一吉一㐫在易焉泰之彖辭曰泰小徃大來吉亨則是天地交而萬物通也上下交而其志同也内陽而外隂内健而外順内君子而外小人君子道長小人道消也泰之時天地交萬物通天地之極治也上下交其志同天下之極治也極治之功幽至於天地明至於人物無不泰而通焉孰為此者聖人也聖人何道臻此一言以蔽之曰進君子退小人而已消之長之在彼内之外之在此又初九曰㧞茅連茹以其彚征吉夫一茅㧞衆根隨一賢舉衆俊歸堯舉一舜乃得十六舜舜舉一禹乃得九禹所謂彚征吉者此也至否之彖辭曰否之匪人不利君子貞大徃小來則是天地不交而萬物不通也上下不交而天下無邦也内隂而外陽内柔而外剛内小人而外君子小人道長君子道消也楊誠齋曰易中極亂之辭未有痛于否之彖者匪人一用何遽至於天地不交而萬物不通上下不交而天下無邦乎萬物不通則舉天下而為墟天下無邦則舉國家而為墟小人之禍何若是烈也盖秦亡于李斯上書之日漢替于張禹談經之時咸陽之煨燼地皇之塗炭何必見而後悟哉此說深得㫖矣天地之氣不交則萬物無生成之理上下之義不交則天下無邦國之道建邦國所以為治也上施政以治民民戴君而從命上下相交所以治安也今上下不交是天下無邦國之道也隂柔在内陽剛在外君子徃處于外小人来處于内小人道長君子道消之時六二六三包承包羞小人柔諂之資不中不正並包羣小而為宗相援相引濫謀邪慮何所不至也如林甫仙客許史石顯鄭朋五鹿極小人之情狀以䘮國危君此小人之烈酷更有何加焉嗚呼聖君觀此否泰安危之道可不慎歟可不誡歟是不可不求賢也能求賢則必得君子荀子曰天地生君子君子理天地君子者天地之参也萬物之統也民之父母也無君子則天地不理禮義不統上無君師下無父母夫是之謂至亂如用及君子必至泰矣</p></div>
+
+<p id="_474d4408-8f32-d66a-03e6-beb215a4538a">　　夫國之匡輔，必待忠良。任使得人，天下自治。故堯命四嶽，舜舉八元，以成恭己之隆，用贊欽明之道。士之居世，賢之立身，莫不戢翼隱鱗，待風雲之會；懷奇蘊異，思會遇之秋。是明君旁求俊乂，博訪英賢，搜揚側陋。不以卑而不用，不以辱而不尊。昔伊尹，有莘之媵臣；呂望，渭濱之賤老。夷吾困於縲紲；韓信弊於逃亡。商湯不以鼎俎為羞，姬文不以屠釣為恥，終能獻規景毫，光啟殷朝；執旌牧野，會昌周室。</p>
+
+<p id="_33411219-dac5-9ba6-ea93-654ecc5316c9">　　齊成一匡之業，實資仲父之謀；漢以六合為家，是賴淮陰之策。</p>
+
+<p id="_cabe1742-7b1d-88db-32ff-68d3a6065710">　　故舟航之絕海也，必假橈楫之功；鴻鵠之淩雲也，必因羽翮之用；帝王之為國也，必藉匡輔之資。故求之斯勞，任之斯逸。照車十二，黃金累千，豈如多士之隆，一賢之重。此乃求賢之貴也。</p>
+</div></div><div id="___x5e1d___x7bc4___x5377___x4e8c_"><h1 id="_7c552b77-1d4d-414a-ab4d-9f9c0da87874"><a class="anchor" href="#___x5e1d___x7bc4___x5377___x4e8c_"></a><a class="header" href="#___x5e1d___x7bc4___x5377___x4e8c_">二　帝範卷二</a></h1><div id="___x5be9___x5b98___x7b2c___x56db_"><h2 id="_bd3dc65d-6a67-455b-be86-d562101a250e"><a class="anchor" href="#___x5be9___x5b98___x7b2c___x56db_"></a><a class="header" href="#___x5be9___x5b98___x7b2c___x56db_">二・一　審官第四</a></h2>
+
+<div id="_f94c6fec-58e6-ef8c-3662-ff42ad134d34" class="Note"><p><span class="note_label">注記　</span>尚書臯陶曰都在知人在安民禹曰吁咸若時惟帝其難之知人則哲能官人安民則恵黎民懐之能哲而恵何憂乎驩兠何遷乎有苗何畏乎巧言令色孔壬頴逹曰臯陶述此脩身親人之道以吿禹在於知人善惡擇而信任之在於能安下民為政以安定之也禹驚而答曰吁人君如是能知人能安民惟帝堯猶其難之况餘人乎知人善惡則為大智能用官得其人矣能安下民則為恵政衆民皆歸之矣此不易之理也若帝堯能智而恵則當朝無姦佞何憂懼於驩兠之佞而放之何須逺遷徙於有苗之君何畏懼於彼巧言令色為甚佞之人故古之明王用人必先六徴以嘗之然後任之任人之際國之安危民之休戚繫焉故不可不審也審者謂核其實也若核而得實信使守約亷使分財官無曠職職無虚位務成而事濟矣惟人君不可不慎審其官也左傳曰舉不失職官不易方亦審官之義也</p></div>
+
+<p id="_a81ed9e5-2a5a-6ba9-b5b8-580ea2d70bff">　　夫設官分職，所以闡化宣風。故明主之任人，如巧匠之制木，直者以為轅，曲者以為輪；長者以為棟梁，短者以為栱角。無曲直長短，各有所施。明主之任人，亦由是也。智者取其謀，愚者取其力；勇者取其威，怯者取其慎，無智、愚、勇、怯，兼而用之。故良匠無棄材，明主無棄士。不以一惡忘其善；勿以小瑕掩其功。割政分機，盡其所有。然則函牛之鼎，不可處以烹雞；捕鼠之貍，不可使以搏獸；一鈞之器，不能容以江漢之流；百石之車，不可滿以斗筲之粟。何則大非小之量，輕非重之宜。</p>
+
+<p id="_7bdf556f-97dc-7c6e-0c72-9e2a7896277b">　　今人智有短長，能有巨細。或蘊百而尚少，或統一而為多。有輕才者，不可委以重任；有小力者，不可賴以成職。委任責成，不勞而化，此設官之當也。斯二者治亂之源。</p>
+
+<p id="_16d414c0-8300-ce72-9156-caacc20249b0">　　立國制人，資股肱以合德；宣風道俗，俟明賢而寄心。列宿騰天，助陰光之夕照；百川決地，添溟渤之深源。海月之深朗，猶假物而為大。君人禦下，統極理時，獨運方寸之心，以括九區之內，不資眾力何以成功？必須明職審賢，擇材分祿。得其人則風行化洽，失其用則虧教傷人。故雲則哲惟難，良可慎也！</p>
+</div><div id="___x7d0d___x8aeb___x7b2c___x4e94_"><h2 id="_08e60073-a03f-44f2-9a79-f3c5a55b2c73"><a class="anchor" href="#___x7d0d___x8aeb___x7b2c___x4e94_"></a><a class="header" href="#___x7d0d___x8aeb___x7b2c___x4e94_">二・二　納諫第五</a></h2>
+
+<div id="_311b21e4-95f6-6602-9a5a-1f8dbb571d19" class="Note"><p><span class="note_label">注記　</span>尚書曰朝夕納諌以輔台徳又傳說謂髙宗曰惟木從䋲則直后從諫則聖后聖臣不命其承疇敢不祗若王之休命言木以繩直君以諫聖明君能受諫則臣不待其命承意而諫之也既王能如此則誰敢不敬順王之美命而諫者乎是以堯舜衢室之問總章之訪以来天下之諫以通天下之情故至聖至明以配天也至如桀紂拒諌飾非直至於焚放而不自覺者誠可悲哉疇誰也祗敬也休美也</p></div>
+
+<p id="_8391ff4d-d17a-1368-dada-3931e8add40f">　　夫王者，高居深視，虧聽阻明。恐有過而不聞，懼有闕而莫補。所以設鞀樹木，思獻替之謀；傾耳虛心，佇忠正之說。言之而是，雖在仆隸芻蕘，猶不可棄也；言之而非，雖在王侯卿相，未必可容。其義可觀，不責其辯；其理可用，不責其文。至若折檻懷疏，標之以作戒；引裾卻坐，顯之以自非。故雲忠者瀝其心，智者盡其策。臣無隔情於上，君能遍照於下。</p>
+
+<p id="_5518ffa9-d613-6164-9628-91a3e5e142aa">　　昏主則不然，說者拒之以威；勸者窮之以罪。大臣惜祿而莫諫，小臣畏誅而不言。恣暴虐之心，極荒淫之誌。其為雍塞，無由自知。以為德超三皇，材過五帝。至於身亡國滅，豈不悲哉！此拒諫之惡也。</p>
+</div><div id="___x53bb___x8b92___x7b2c___x516d_"><h2 id="_ff55abff-daee-4078-965b-c80bb151fc78"><a class="anchor" href="#___x53bb___x8b92___x7b2c___x516d_"></a><a class="header" href="#___x53bb___x8b92___x7b2c___x516d_">二・三　去讒第六</a></h2>
+
+<div id="_3402027d-c3b6-e3d6-f203-0abaede6e321" class="Note"><p><span class="note_label">注記　</span>䜛譖也荀子曰傷良曰䜛小雅青蠅詩云營營青蠅止于樊豈弟君子無信䜛言孔疏云營營徃來也彼營營徃來青蠅之蟲汙白使黒汙黒使白乃變亂白黒不可近之當逺去之于外止于藩籬之上無令在宫室之内也此周之大夫厭幽王聴信䜛佞作此詩以刺之也以青蠅喻䜛佞之人變亂善惡如青蠅變亂黒白也不可親之當棄于荒野之外無令在朝廷之上䜛人為害如此故云樂易之君子無信䜛言也昔魯欲使樂正子為政孟子聞之喜而不寐公孫丑曰樂正子彊乎曰否有知慮乎曰否多聞識乎曰否然則奚為喜而不寐曰其為人也好善好善足乎曰好善優於天下而况魯國乎夫苟好善則四海之内皆将輕千里而來告之以善夫苟不好善則人將曰訑訑予既已知之矣訑訑之聲音顔色拒人於千里之外士止於千里之外則䜛諂面諛之人至矣與䜛諂面諛之人居國欲治可得乎以此觀之善䜛進退治亂可見矣</p></div>
+
+<p id="_6f7ab7d5-0934-afcd-d96c-54cc8809b89d">　　夫讒佞之徒，國之蟊賊也。爭榮華於旦夕，競勢利於市朝。以其諂諛之姿，惡忠賢之在己上；奸邪之誌，恐富貴之不我先。朋黨相持，無深而不入；比同相習，無高而不升。令色巧言，以親於上；先意承旨，以悅於君。朝有千臣，昭公去國而不悟；弓無九石，寧一終身而不知。</p>
+
+<p id="_3c8e0739-ed65-a2cd-ce28-0c3e6878b794">　　以疏間親，宋有伊戾之禍；以邪敗正，楚有郤宛之誅。斯乃暗主庸君之所迷惑，忠臣孝子之可泣冤。故藂蘭欲茂，秋風敗之；王者欲明，讒人蔽之。此奸佞之危也。斯二者，危國之本。</p>
+
+<p id="_fd36ba7f-b194-228d-f5e0-68c97991fe4c">　　砥躬礪行，莫尚於忠言；敗德敗正，莫逾於讒佞。今人顏貌同於目際，猶不自瞻，況是非在於無形，奚能自睹？何則飾其容者，皆解窺於明鏡，修其德者，不知訪於哲人。詎自庸愚，何迷之甚！良由逆耳之辭難受，順心之說易從。彼難受者，藥石之苦喉也；此易從者，鴆毒之甘口也！明王納諫，病就苦而能消；暗主從諛，命因甘而致殞。可不誡哉！可不誡哉！</p>
+</div></div><div id="___x5e1d___x7bc4___x5377___x4e09_"><h1 id="_23a79407-f21f-4838-8d39-8e68f09a0d6f"><a class="anchor" href="#___x5e1d___x7bc4___x5377___x4e09_"></a><a class="header" href="#___x5e1d___x7bc4___x5377___x4e09_">三　帝範卷三</a></h1><div id="___x8aa1___x76c8___x7b2c___x4e03_"><h2 id="_5248fe30-7a54-49c8-8f4c-9de55de1e5eb"><a class="anchor" href="#___x8aa1___x76c8___x7b2c___x4e03_"></a><a class="header" href="#___x8aa1___x76c8___x7b2c___x4e03_">三・一　誡盈第七</a></h2>
+
+<div id="_97b57612-4f39-b671-b86b-a30f90bd148b" class="Note"><p><span class="note_label">注記　</span>易豐卦彖辭曰日中則昃月盈則食此聖人當豐盛之時憂懼之辭也盖日中者昃所倚月盈者食所伏必然之理人君居至髙至極之位乃豐盛之象固當憂懼守中不至過極則可不然必有傾危之機發矣所以晋武帝不知憂懼則有身後之亂唐元宗不知憂懼則有末年之變知憂其惟堯舜之敬戒禹湯之罪已文王之無逸乎事事物物纔到盈處無有不變音非聖君賢人孰能持盈哉或問揚子持滿曰㧖欹㧖者抑也猶抑損之也言持滿者當自損抑以正其欹不然則覆矣欹欹器也昔孔子入魯桓公廟見有欹器焉曰宥坐之器也虚則欹中則正滿則覆使弟子著水以驗之信然孔子喟然嘆曰吁惡有滿而不覆者哉子路曰敢問持滿有道乎孔子曰聰眀聖知守之以愚功被天下守之以讓勇力撫世守之以怯富有四海守之以謙此所謂挹而損之之道也故太宗達此理而告誡之耳盈滿也欲抑滿得中實難但滿而不溢斯可矣　㧖於革反</p></div>
+
+<p id="_bf3d7dcd-ceec-d2ba-9b7d-3754350bfed9">　　夫君者，儉以養性，靜以修身。儉則人不勞，靜則下不擾。人勞則怨起，下擾則政乖。人主好奇技淫聲、鷙鳥猛獸，遊幸無度，田獵不時。如此則徭役煩，徭役煩則人力竭，人力竭則農桑廢焉。人主好高臺深池，雕琢刻鏤，珠玉珍玩，黼黻絺綌。如此則賦斂重，賦斂重則人才遺，人才遺則饑寒之患生焉。亂世之君，極其驕奢，恣其嗜欲。土木衣緹繡，而人裋褐不全；犬馬厭芻豢，而人糟糠不足。故人神怨憤，上下乖離，佚樂未終，傾危已至。此驕奢之忌也。</p>
+</div><div id="___x5d07___x5109___x7b2c___x516b_"><h2 id="_3b292772-7fe9-4b1b-9d23-f84d5e4351c9"><a class="anchor" href="#___x5d07___x5109___x7b2c___x516b_"></a><a class="header" href="#___x5d07___x5109___x7b2c___x516b_">三・二　崇儉第八</a></h2>
+
+<div id="_b05f1269-deb2-3dab-2d9a-6fd1ba5a6069" class="Note"><p><span class="note_label">注記　</span>夫儉者去奢從約之謂豐國富民之本也考諸今古創業垂統之君莫不以儉約而興敗國䘮身之主莫不以奢侈而亡其興亡成敗載諸簡册昭昭然可為鑒矣故太宗以儉居戒盈之先豈無意哉雖然儉固近於吝矣儉不中禮是為吝也雖有周公才美驕吝猶不足觀况其他乎此所以蜉蝣刺其好奢蟋蟀刺不中禮也然則其何以行之哉曰語不云乎菲飲食而致孝乎鬼神惡衣服而致美乎黻冕卑宫室而盡力乎溝洫此是眀王之盛徳至聖之格言依而行之吾無間然矣〉</p></div>
+
+<p id="_c93b0571-3483-f018-bacc-f787946e37e2">　　夫聖世之君，存乎節儉。富貴廣大，守之以約；睿智聰明，守之以愚。不以身尊而驕人，不以德厚而矜物。茅茨不剪，采椽不斫，舟車不飾，衣服無文，土階不崇，大羹不和。非憎榮而惡味，乃處薄而行儉。</p>
+
+<p id="_5ace4d5c-88cc-8c77-d98b-6de6ea9613a1">　　故風淳俗樸，比屋可封。斯二者，榮辱之端。奢儉由人，安危在己。五關近閉，則嘉命遠盈；千欲內攻，則兇源外發。是以丹桂抱蠹，終摧榮耀之芳；朱火含煙，遂郁淩雲之焰。以是知驕出於誌，不節則誌傾；欲生於心，不遏則身喪。故桀紂肆情而禍結，堯舜約己而福延，可不務乎？</p>
+</div><div id="___x8cde___x7f70___x7b2c___x4e5d_"><h2 id="_c33a699b-c5c9-487e-9578-4ea98d561c4e"><a class="anchor" href="#___x8cde___x7f70___x7b2c___x4e5d_"></a><a class="header" href="#___x8cde___x7f70___x7b2c___x4e5d_">三・三　賞罰第九</a></h2>
+
+<div id="_74b2a990-100a-b696-982c-7ebd486e2028" class="Note"><p><span class="note_label">注記　</span>酬功曰：「賞」黜罪曰罰周禮曰刑賞以馭其威賞罰國之大柄也左傳曰善為國者賞不僭而刑不濫賞僭則福及滛人刑濫則懼及善人又漢書曰賞及無功無以勸善罰及無罪無以懲惡惟賞與罰不可不當賞一人而天下恱者賞之罰一人而天下懼者罰之賞罰又當必信也有功者雖讎亦必賞有罪者雖親亦必罰故孔子曰治國制民不隠其親此之謂也惟知此則大道之行天下為公矣惟天下之至公其聖王能之○按注末句疑有錯誤</p></div>
+
+<p id="_3cf93532-6160-f84c-8dbb-271ccd34c3ba">　　夫天之育物，猶君之禦眾。天以寒暑為德，君以仁愛為心。寒暑既調，則時無疾疫；風雨不節，則歲有饑寒。仁愛下施，則人不雕弊；教令失度，則政有乖違。防其害源者，使民不犯其法；開其利本者，使民各務其業。顯罰以威之，明賞以化之。威立則惡者懼，化行則善者勸。適己而妨於道，不加祿焉；逆己而便於國，不施刑焉。故賞者不德君，功之所致也；罰者不怨上，罪之所當也。故《書》曰：無偏無黨，王道蕩蕩。此賞罰之權也。</p>
+</div></div><div id="___x5e1d___x7bc4___x5377___x56db_"><h1 id="_6916cbb6-25c3-4c35-bcbc-b7480f312ffc"><a class="anchor" href="#___x5e1d___x7bc4___x5377___x56db_"></a><a class="header" href="#___x5e1d___x7bc4___x5377___x56db_">四　帝範卷四</a></h1><div id="___x52d9___x8fb2___x7b2c___x5341_"><h2 id="_80edbf8b-6c88-4774-94c8-462ce8077172"><a class="anchor" href="#___x52d9___x8fb2___x7b2c___x5341_"></a><a class="header" href="#___x52d9___x8fb2___x7b2c___x5341_">四・一　務農第十</a></h2>
+
+<p id="_48646b49-337f-3c77-6416-d4715766dc9b">　　夫食為人天，農為政本。倉廩實則知禮節，衣食足則誌廉恥。故躬耕東郊，敬授人時。國無九歲之儲，不足備水旱；家無一年之服，不足禦寒暑。然而莫不帶犢佩牛，棄堅就偽。求什一之利，廢農桑之基。以一人耕而百人食，其為害也，甚於秋螟。莫若禁絕浮華，勸課耕織，使人還其本，俗反其真，則競懷仁義之心，永絕貪殘之路，此務農之本也。斯二者，制俗之機。</p>
+
+<p id="_207cd5a7-cf73-262d-7aa1-571990aa50a7">　　子育黎黔，惟資威惠。惠而懷也，則殊俗歸風，若披霜而照春日；威可懼也，則中華懾軏，如履刃而戴雷霆。必須威惠並馳，剛柔兩用，畫刑不犯，移木無欺。賞罰既明，則善惡斯別；仁信普著，則遐邇宅心。勸穡務農，則饑寒之患塞；遏奢禁麗，則豐厚之利興。且君之化下，如風偃草。上不節心，則下多逸誌；君不約己，而禁人為非，是猶惡火之燃，添薪望其止焰；忿池之濁，撓浪欲止其流，不可得也。莫若先正其身，則人不言而化矣。</p>
+</div><div id="___x95b1___x6b66___x7b2c___x5341___x4e00_"><h2 id="_d48dfa7a-ac5e-4003-94df-244fff6c4f76"><a class="anchor" href="#___x95b1___x6b66___x7b2c___x5341___x4e00_"></a><a class="header" href="#___x95b1___x6b66___x7b2c___x5341___x4e00_">四・二　閱武第十一</a></h2>
+
+<div id="_f167df14-3379-f716-fcc3-cb8331d8f688" class="Note"><p><span class="note_label">注記　</span>閱，簡也。武，兵事也。左傳曰：「戡亂曰『武』：『古者明王，雖享隆平之時，亦未甞不閱武，以備不虞。故周禮大司馬以中春教振旅中夏教茇舎中秋教治兵中冬教大閱大閱者前期羣吏戒衆庶脩戰法也講脩戰法既成専使大司馬掌之有賊賢害民者則伐之暴内陵外者則壇之野荒民散者則削之負固不服者則侵之賊殺其親者則正之放弑其君者則殘之犯令陵政者則杜之外内亂鳥獸行者則㓕之故諸侯聽命蠻夷賔服也壇音善與墠同廢曠之地也。</p></div>
+
+<p id="_c8f51828-8e5f-0320-847e-8c1d292e8503">　　夫兵甲者，國之兇器也。土地雖廣，好戰則人雕；邦國雖安，亟戰則人殆。雕非保全之術，殆非擬寇之方。不可以全除，不可以常用，故農隙講武，習威儀也。是以勾踐軾蛙，卒成霸業；徐偃棄武，遂以喪邦。何則？越習其威，徐忘其備。孔子曰：不教人戰，是謂棄之。故知弧矢之威，以利天下。此用兵之機也。</p>
+</div><div id="___x5d07___x6587___x7b2c___x5341___x4e8c_"><h2 id="_1ae4a7f8-d851-43e7-b900-2fe1f68d38c0"><a class="anchor" href="#___x5d07___x6587___x7b2c___x5341___x4e8c_"></a><a class="header" href="#___x5d07___x6587___x7b2c___x5341___x4e8c_">四・三　崇文第十二</a></h2>
+
+<div id="_3e3982c2-b7d4-84cd-b299-a7ccc160f703" class="Note"><p><span class="note_label">注記　</span>崇，尊也，重也。左傳曰：「經緯天地，曰『文』：『夫天以文而化，地以文而生，人以文而㑹，國以文而建，王以文而治，天下以文而安。』反是則不得其正矣。盖文者，乃三才事物中和之氣也，以孝悌忠信仁義禮智廣充之。天理存焉，非絺章繡句，華浮藻麗之文而已。如其崇重絺章繡句，華浮藻麗之文，是為晉成帝，梁武帝，李後主矣。</p></div>
+
+<p id="_b5fe053a-ea61-eaa7-7bab-1ed50b39d6ef">　　夫功成設樂，治定製禮。禮樂之興，以儒為本。宏風導俗，莫尚於文；敷教訓人，莫善於學。因文而隆道，假學以光身。不臨深溪，不知地之厚；不遊文翰，不識智之源。然則質蘊吳竿，非筈羽不美；性懷辯慧，非積學不成。是以建明堂，立辟雍。博覽百家，精研六藝，端拱而知天下，無為而鑒古今。飛英聲，騰茂實，光於不朽者，其唯學乎？此文術也。斯二者，遞為國用。</p>
+
+<p id="_1a1bccf7-ae35-c87c-6946-00b0f2d3262b">　　至若長氣亙地，成敗定乎筆端；巨浪滔天，興亡決乎一陣。當此之際，則貴幹戈而賤庠序。及乎海嶽既晏，波塵已清，偃七德之餘威，敷九功之大化。當此之際，則輕甲冑而重詩書。是知文武二途，舍一不可，與時優劣，各有其宜。武士儒人，焉可廢也。</p>
+
+<p id="_4d01b10e-a93d-b914-a6a4-144193110fd3">　　此十二條者，帝王之大綱也。安危興廢，鹹在茲焉。</p>
+
+<p id="_c7df2bdb-5ac0-ec7d-7e58-a0c6631d5a55">　　古人有云，非知之難，惟行之不易；行之可勉，惟終實難。是以暴亂之君，非獨明於惡路；聖哲之主，非獨見於善途。良由大道遠而難遵，邪徑近而易踐。小人俯從其易，不得力行其難，故禍敗及之；君子勞處其難，不能力居其易，故福慶流之。故知禍福無門，惟人所召。欲悔非於既往，惟慎禍於將來。當擇聖主為師。毋以吾為前鑒。取法於上，僅得為中；取法於中，故為其下。自非上德，不可效焉。吾在位以來，所制多矣。奇麗服，錦繡珠玉，不絕於前，此非防欲也；雕楹刻桷，高臺深池，每興其役，此非儉誌也；犬馬鷹鶻，無遠必致，此非節心也；數有行幸，以亟勞人，此非屈己也。斯事者，吾之深過，勿以茲為是而後法焉。但我濟育蒼生其益多，平定寰宇其功大，益多損少，人不怨；功大過微，德未虧。然猶之盡美之蹤，於焉多愧；盡善之道，顧此懷慚。況汝無纖毫之功，直緣基而履慶？若崇善以廣德，則業泰身安；若肆情以從非，則業傾身喪。且成遲敗速者，國基也；失易得難者，天位也。可不惜哉？</p>
+</div></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('body').animate({ 'padding-left': '30px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('body').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>
