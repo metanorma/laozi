@@ -1,0 +1,54 @@
+= Metanorma classical Chinese text samples
+
+image:https://github.com/metanorma/laozi/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/laozi/actions?query=workflow%3Agenerate"]
+image:https://github.com/metanorma/laozi/workflows/docker/badge.svg["Docker Build Status", link="https://github.com/metanorma/laozi/actions?query=workflow%3Adocker"]
+
+These are sample documents for classical Chinese text in Metanorma.
+
+== Structure
+
+`difan.adoc`:: A sample document in classical Chinese. Sourced from:
+https://zh.wikisource.org/wiki/帝範_(四庫全書本)
+
+`laozi.adoc`:: A sample document in classical Chinese. Sourced from:
+https://zh.wikisource.org/wiki/道德經
+
+
+== HTML font rendering requirements
+
+These steps are only necessary for the rendering of JIS standards in HTML (in
+the browser), as the browser relies on system fonts.
+
+The JIS format requires the following fonts in HTML:
+
+* IPA Gothic
+* IPA Mincho
+
+This font can be installed via Fontist, or through your system's font
+installation mechanism.
+
+[source,sh]
+----
+fontist install 'IPA Gothic'
+fontist install 'IPA Mincho'
+----
+
+NOTE: Metanorma for JIS automatically installs these fonts via Fontist that is
+used for PDF generation.
+
+
+== Building
+
+[source,sh]
+----
+bundle exec metanorma site generate
+----
+
+== Viewing
+
+After building the documents, run the following command.
+
+[source,sh]
+----
+open site/index.html
+----
