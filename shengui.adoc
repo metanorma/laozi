@@ -20,6 +20,8 @@
 :presentation-metadata-color-header-footer-background: #0b0968
 :presentation-metadata-vertical-layout: true
 :presentation-metadata-autonumbering-style: japanese
+:presentation-metadata-coverpage-header: 早稲田大学図書館　原文本注
+:presentation-metadata-backpage-boilerplate-text: 未經許可　不得翻印
 :toclevels-pdf: 1
 :mn-document-class: jis
 :mn-output-extensions: xml,html,doc,pdf,rxl
@@ -89,7 +91,9 @@ NOTE: 《列女傳》曰：「文伯相魯，敬薑謂之曰：『吾語汝，�
 
 NOTE: 《列女傳》曰：孟子之少也，既學而歸。孟母方織，問學所至矣。孟子曰：「自若也。」孟母以刀斷其織。孟子懼而問其故。旦夕勤學不息，師事子思，遂成天下之名儒。
 
-良以情隆撫字，心欲助成。比者，太子及王已撰修身之訓，群公列辟未敷忠告之規。NOTE: 《論語》曰：「忠告以善道之。」
+良以情隆撫字，心欲助成。比者，太子及王已撰修身之訓，群公列辟未敷忠告之規。
+
+NOTE: 《論語》曰：「忠告以善道之。」
 
 近以暇辰，遊心策府，
 
