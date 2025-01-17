@@ -1,64 +1,382 @@
-Font "Noto Serif JP,normal,900" not found. Substituting with "Noto Serif JP,normal,700".
-Font "Noto Serif JP,normal,500" not found. Substituting with "Noto Serif JP,normal,400".
-Content overflows the viewport of an fo:block-container in block-progression direction by 1 millipoints. (See position 1:16399)
-Content overflows the viewport of an fo:block-container in block-progression direction by 21440 millipoints. (See position 1:17306)
-Font "Noto Serif JP,normal,200" not found. Substituting with "Noto Serif JP,normal,400".
-Font "STIX Two Math,normal,200" not found. Substituting with "STIX Two Math,normal,400".
-Font "Noto Serif,normal,200" not found. Substituting with "Noto Serif,normal,400".
-Font "Noto Serif HK,normal,200" not found. Substituting with "Noto Serif HK,normal,400".
-Font "Noto Serif KR,normal,200" not found. Substituting with "Noto Serif KR,normal,400".
-Font "Noto Serif SC,normal,200" not found. Substituting with "Noto Serif SC,normal,400".
-Font "Noto Serif TC,normal,200" not found. Substituting with "Noto Serif TC,normal,400".
-The contents of fo:block line 1 exceed the available area in the inline-progression direction by 2500 millipoints. (See position 1:15551)
-The contents of fo:block line 6 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 5 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 4 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 3 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 2 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 1 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15604)
-The contents of fo:block line 2 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15691)
-The contents of fo:block line 1 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15691)
-The contents of fo:block line 1 exceed the available area in the inline-progression direction by 2500 millipoints. (See position 1:15745)
-The contents of fo:block line 2 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15798)
-The contents of fo:block line 1 exceed the available area in the inline-progression direction by 8320 millipoints. (See position 1:15798)
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+Font "Noto Serif JP,normal,900" not found. Substituting with "any,normal,700".
+Glyph "日" (0x65e5) not available in font "Times-Bold".
+Glyph "本" (0x672c) not available in font "Times-Bold".
+Glyph "工" (0x5de5) not available in font "Times-Bold".
+Glyph "業" (0x696d) not available in font "Times-Bold".
+Glyph "規" (0x898f) not available in font "Times-Bold".
+Glyph "格" (0x683c) not available in font "Times-Bold".
+Font "Noto Serif JP,normal,500" not found. Substituting with "any,normal,400".
+Content overflows the viewport of an fo:block-container in block-progression direction by 1 millipoints. (See position 1:16559)
+Content overflows the viewport of an fo:block-container in block-progression direction by 21440 millipoints. (See position 1:17466)
+Font "Noto Serif JP,normal,700" not found. Substituting with "any,normal,700".
+Glyph "帝" (0x5e1d) not available in font "Times-Bold".
+Glyph "範" (0x7bc4) not available in font "Times-Bold".
+Glyph "令" (0x4ee4) not available in font "Times-Roman".
+Glyph "和" (0x548c) not available in font "Times-Roman".
+Glyph "七" (0x4e03) not available in font "Times-Roman".
+Glyph "年" (0x5e74) not available in font "Times-Roman".
+Glyph "一" (0x4e00) not available in font "Times-Roman".
+Glyph "月" (0x6708) not available in font "Times-Roman".
+Glyph "十" (0x5341) not available in font "Times-Roman".
+Glyph "五" (0x4e94) not available in font "Times-Roman".
+Glyph "日" (0x65e5) not available in font "Times-Roman".
+Glyph "改" (0x6539) not available in font "Times-Roman".
+Glyph "正" (0x6b63) not available in font "Times-Roman".
+Font "Noto Serif JP,normal,200" not found. Substituting with "any,normal,400".
+Font "STIX Two Math,normal,200" not found. Substituting with "any,normal,400".
+Font "Noto Serif,normal,200" not found. Substituting with "any,normal,400".
+Font "Noto Serif HK,normal,200" not found. Substituting with "any,normal,400".
+Font "Noto Serif KR,normal,200" not found. Substituting with "any,normal,400".
+Font "Noto Serif SC,normal,200" not found. Substituting with "any,normal,400".
+Font "Noto Serif TC,normal,200" not found. Substituting with "any,normal,400".
+Font "STIX Two Math,normal,700" not found. Substituting with "any,normal,700".
+Font "Noto Serif,normal,700" not found. Substituting with "any,normal,700".
+Font "Noto Serif HK,normal,700" not found. Substituting with "any,normal,700".
+Font "Noto Serif KR,normal,700" not found. Substituting with "any,normal,700".
+Font "Noto Serif SC,normal,700" not found. Substituting with "any,normal,700".
+Font "Noto Serif TC,normal,700" not found. Substituting with "any,normal,700".
+The contents of fo:block line 1 exceed the available area in the inline-progression direction by 2500 millipoints. (See position 1:15711)
+Glyph "欽" (0x6b3d) not available in font "Times-Bold".
+Glyph "定" (0x5b9a) not available in font "Times-Bold".
+Glyph "四" (0x56db) not available in font "Times-Bold".
+Glyph "庫" (0x5eab) not available in font "Times-Bold".
+Glyph "全" (0x5168) not available in font "Times-Bold".
+Glyph "書" (0x66f8) not available in font "Times-Bold".
+The contents of fo:block line 6 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+The contents of fo:block line 5 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+The contents of fo:block line 4 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+The contents of fo:block line 3 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+The contents of fo:block line 2 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+The contents of fo:block line 1 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15764)
+Glyph "発" (0x767a) not available in font "Times-Bold".
+Glyph "行" (0x884c) not available in font "Times-Bold".
+The contents of fo:block line 2 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15851)
+The contents of fo:block line 1 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15851)
+The contents of fo:block line 1 exceed the available area in the inline-progression direction by 2500 millipoints. (See position 1:15905)
+Glyph "審" (0x5be9) not available in font "Times-Bold".
+Glyph "議" (0x8b70) not available in font "Times-Bold".
+The contents of fo:block line 2 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15958)
+The contents of fo:block line 1 exceed the available area in the inline-progression direction by 3320 millipoints. (See position 1:15958)
 PDF/A mode is active. Embedding a PDF file may result in a non-compliant file!
-Font "Noto Sans JP,normal,500" not found. Substituting with "Noto Sans JP,normal,400".
-Content overflows the viewport of an fo:block-container in block-progression direction by 105600 millipoints. (See position 2:80231)
-PDF/A mode is active. Embedding a PDF file may result in a non-compliant file!
-PDF isn't valid PDF/A-3a:
-ValidationResult [flavour=3a, totalAssertions=353941, assertions=[
-TestAssertion [ruleId=RuleId [specification=ISO 19005-3:2012, clause=6.2.8, testNumber=3], status=failed,
-message=If an Image dictionary contains the Interpolate key, its value shall be false. For an inline image, the I key shall have a value of false,
-location=Location [level=CosDocument, context=root/document[0]/pages[11](932 0 obj PDPage)/contentStream[0](930 0 obj PDContentStream)/operators[17]/xObject[0]/contentStream[0](910 0 obj PDContentStream)/operators[9]/xObject[0](908 0 obj PDXImage)], locationContext=null, errorMessage=null]], isCompliant=false]
-PDF isn't valid PDF/UA-1:
-ValidationResult [flavour=ua1, totalAssertions=119772, assertions=[
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[0](70 0 obj PDPage)/contentStream[0](68 0 obj PDSemanticContentStream)/operators[18]/xObject[0]/contentStream[0](30 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[0](70 0 obj PDPage)/contentStream[0](68 0 obj PDSemanticContentStream)/operators[28]/xObject[0]/contentStream[0](33 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[0](70 0 obj PDPage)/contentStream[0](68 0 obj PDSemanticContentStream)/operators[38]/xObject[0]/contentStream[0](36 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[0](70 0 obj PDPage)/contentStream[0](68 0 obj PDSemanticContentStream)/operators[48]/xObject[0]/contentStream[0](39 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[0](70 0 obj PDPage)/contentStream[0](68 0 obj PDSemanticContentStream)/operators[58]/xObject[0]/contentStream[0](42 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[11](932 0 obj PDPage)/contentStream[0](930 0 obj PDSemanticContentStream)/operators[17]/xObject[0]/contentStream[0](910 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[11](932 0 obj PDPage)/contentStream[0](930 0 obj PDSemanticContentStream)/operators[26]/xObject[0]/contentStream[0](914 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[11](932 0 obj PDPage)/contentStream[0](930 0 obj PDSemanticContentStream)/operators[35]/xObject[0]/contentStream[0](918 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.1, testNumber=3], status=failed,
-message=Content shall be marked as Artifact or tagged as real content,
-location=Location [level=CosDocument, context=root/document[0]/pages[11](932 0 obj PDPage)/contentStream[0](930 0 obj PDSemanticContentStream)/operators[44]/xObject[0]/contentStream[0](922 0 obj PDSemanticContentStream)/content[0]/contentItem[0]], locationContext=null, errorMessage=null], 
-TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.2, testNumber=42], status=failed,
-message=Table rows shall have the same number of columns (taking into account column spans),
-location=Location [level=CosDocument, context=root/document[0]/StructTreeRoot[0](1008 0 obj PDStructTreeRoot)/K[0](1011 0 obj SEDocument Document)/K[0](1021 0 obj SEPart Part)/K[1](1028 0 obj SESect Sect)/K[0](1033 0 obj SETable Table)], locationContext=null, errorMessage=null]], isCompliant=false]
+Font "Noto Sans JP,normal,500" not found. Substituting with "any,normal,400".
+Glyph "ま" (0x307e, mahiragana) not available in font "Times-Roman".
+Glyph "え" (0x3048, ehiragana) not available in font "Times-Roman".
+Glyph "が" (0x304c, gahiragana) not available in font "Times-Roman".
+Glyph "き" (0x304d, kihiragana) not available in font "Times-Roman".
+Glyph "此" (0x6b64) not available in font "Times-Roman".
+Glyph "文" (0x6587) not available in font "Times-Roman".
+Glyph "本" (0x672c) not available in font "Times-Roman".
+Glyph "源" (0x6e90) not available in font "Times-Roman".
+Glyph "於" (0x65bc) not available in font "Times-Roman".
+Glyph "早" (0x65e9) not available in font "Times-Roman".
+Glyph "稲" (0x7a32) not available in font "Times-Roman".
+Glyph "田" (0x7530) not available in font "Times-Roman".
+Glyph "大" (0x5927) not available in font "Times-Roman".
+Glyph "学" (0x5b66) not available in font "Times-Roman".
+Glyph "図" (0x56f3) not available in font "Times-Roman".
+Glyph "書" (0x66f8) not available in font "Times-Roman".
+Glyph "館" (0x9928) not available in font "Times-Roman".
+Glyph "藏" (0x85cf) not available in font "Times-Roman".
+Glyph "品" (0x54c1) not available in font "Times-Roman".
+Glyph "《" (0x300a, dblanglebracketleft) not available in font "Times-Roman".
+Glyph "帝" (0x5e1d) not available in font "Times-Roman".
+Glyph "範" (0x7bc4) not available in font "Times-Roman".
+Glyph "臣" (0x81e3) not available in font "Times-Roman".
+Glyph "軌" (0x8ecc) not available in font "Times-Roman".
+Glyph "》" (0x300b, dblanglebracketright) not available in font "Times-Roman".
+Glyph "（" (0xff08, parenleftmonospace) not available in font "Times-Roman".
+Glyph "兩" (0x5169) not available in font "Times-Roman".
+Glyph "冊" (0x518a) not available in font "Times-Roman".
+Glyph "）" (0xff09, parenrightmonospace) not available in font "Times-Roman".
+Glyph "合" (0x5408) not available in font "Times-Roman".
+Glyph "刻" (0x523b) not available in font "Times-Roman".
+Glyph "︐" (0xfe10) not available in font "Times-Roman".
+Glyph "其" (0x5176) not available in font "Times-Roman".
+Glyph "中" (0x4e2d) not available in font "Times-Roman".
+Glyph "寛" (0x5bdb) not available in font "Times-Roman".
+Glyph "由" (0x7531) not available in font "Times-Roman".
+Glyph "京" (0x4eac) not available in font "Times-Roman".
+Glyph "都" (0x90fd) not available in font "Times-Roman".
+Glyph "「" (0x300c, cornerbracketleft) not available in font "Times-Roman".
+Glyph "林" (0x6797) not available in font "Times-Roman".
+Glyph "泉" (0x6cc9) not available in font "Times-Roman".
+Glyph "掾" (0x63be) not available in font "Times-Roman".
+Glyph "」" (0x300d, cornerbracketright) not available in font "Times-Roman".
+Glyph "出" (0x51fa) not available in font "Times-Roman".
+Glyph "版" (0x7248) not available in font "Times-Roman".
+Glyph "。" (0x3002, ideographicperiod) not available in font "Times-Roman".
+Glyph "印" (0x5370) not available in font "Times-Roman".
+Glyph "有" (0x6709) not available in font "Times-Roman".
+Glyph "不" (0x4e0d) not available in font "Times-Roman".
+Glyph "老" (0x8001) not available in font "Times-Roman".
+Glyph "菴" (0x83f4) not available in font "Times-Roman".
+Glyph "去" (0x53bb) not available in font "Times-Roman".
+Glyph "水" (0x6c34) not available in font "Times-Roman".
+Glyph "味" (0x5473) not available in font "Times-Roman".
+Glyph "均" (0x5747) not available in font "Times-Roman".
+Glyph "平" (0x5e73) not available in font "Times-Roman".
+Glyph "蔵" (0x8535) not available in font "Times-Roman".
+Glyph "両" (0x4e21) not available in font "Times-Roman".
+Glyph "□" (0x25a1, H22073) not available in font "Times-Roman".
+Glyph "共" (0x5171) not available in font "Times-Roman".
+Glyph "三" (0x4e09) not available in font "Times-Roman".
+Glyph "二" (0x4e8c) not available in font "Times-Roman".
+Glyph "卷" (0x5377) not available in font "Times-Roman".
+Glyph "為" (0x70ba) not available in font "Times-Roman".
+Glyph "唐" (0x5510) not available in font "Times-Roman".
+Glyph "太" (0x592a) not available in font "Times-Roman".
+Glyph "宗" (0x5b97) not available in font "Times-Roman".
+Glyph "李" (0x674e) not available in font "Times-Roman".
+Glyph "世" (0x4e16) not available in font "Times-Roman".
+Glyph "民" (0x6c11) not available in font "Times-Roman".
+Glyph "所" (0x6240) not available in font "Times-Roman".
+Glyph "撰" (0x64b0) not available in font "Times-Roman".
+Glyph "篇" (0x7bc7) not available in font "Times-Roman".
+Glyph "貞" (0x8c9e) not available in font "Times-Roman".
+Glyph "觀" (0x89c0) not available in font "Times-Roman".
+Glyph "寫" (0x5beb) not available in font "Times-Roman".
+Glyph "賜" (0x8cdc) not available in font "Times-Roman".
+Glyph "予" (0x4e88) not available in font "Times-Roman".
+Glyph "子" (0x5b50) not available in font "Times-Roman".
+Glyph "治" (0x6cbb) not available in font "Times-Roman".
+Glyph "對" (0x5c0d) not available in font "Times-Roman".
+Glyph "的" (0x7684) not available in font "Times-Roman".
+Glyph "教" (0x6559) not available in font "Times-Roman".
+Glyph "誨" (0x8aa8) not available in font "Times-Roman".
+Glyph "內" (0x5167) not available in font "Times-Roman".
+Glyph "容" (0x5bb9) not available in font "Times-Roman".
+Glyph "包" (0x5305) not available in font "Times-Roman".
+Glyph "括" (0x62ec) not available in font "Times-Roman".
+Glyph "君" (0x541b) not available in font "Times-Roman".
+Glyph "之" (0x4e4b) not available in font "Times-Roman".
+Glyph "道" (0x9053) not available in font "Times-Roman".
+Glyph "︑" (0xfe11) not available in font "Times-Roman".
+Glyph "政" (0x653f) not available in font "Times-Roman".
+Glyph "修" (0x4fee) not available in font "Times-Roman".
+Glyph "身" (0x8eab) not available in font "Times-Roman".
+Glyph "等" (0x7b49) not available in font "Times-Roman".
+Glyph "是" (0x662f) not available in font "Times-Roman".
+Glyph "部" (0x90e8) not available in font "Times-Roman".
+Glyph "具" (0x5177) not available in font "Times-Roman".
+Glyph "極" (0x6975) not available in font "Times-Roman".
+Glyph "高" (0x9ad8) not available in font "Times-Roman".
+Glyph "價" (0x50f9) not available in font "Times-Roman".
+Glyph "值" (0x503c) not available in font "Times-Roman".
+Glyph "古" (0x53e4) not available in font "Times-Roman".
+Glyph "代" (0x4ee3) not available in font "Times-Roman".
+Glyph "獻" (0x737b) not available in font "Times-Roman".
+Glyph "著" (0x8457) not available in font "Times-Roman".
+Glyph "作" (0x4f5c) not available in font "Times-Roman".
+Glyph "権" (0x6a29) not available in font "Times-Roman".
+Glyph "法" (0x6cd5) not available in font "Times-Roman".
+Glyph "に" (0x306b, nihiragana) not available in font "Times-Roman".
+Glyph "よ" (0x3088, yohiragana) not available in font "Times-Roman".
+Glyph "り" (0x308a, rihiragana) not available in font "Times-Roman".
+Glyph "無" (0x7121) not available in font "Times-Roman".
+Glyph "断" (0x65ad) not available in font "Times-Roman".
+Glyph "で" (0x3067, dehiragana) not available in font "Times-Roman".
+Glyph "の" (0x306e, nohiragana) not available in font "Times-Roman".
+Glyph "複" (0x8907) not available in font "Times-Roman".
+Glyph "製" (0x88fd) not available in font "Times-Roman".
+Glyph "転" (0x8ee2) not available in font "Times-Roman".
+Glyph "載" (0x8f09) not available in font "Times-Roman".
+Glyph "は" (0x306f, hahiragana) not available in font "Times-Roman".
+Glyph "禁" (0x7981) not available in font "Times-Roman".
+Glyph "止" (0x6b62) not available in font "Times-Roman".
+Glyph "さ" (0x3055, sahiragana) not available in font "Times-Roman".
+Glyph "れ" (0x308c, rehiragana) not available in font "Times-Roman".
+Glyph "て" (0x3066, tehiragana) not available in font "Times-Roman".
+Glyph "お" (0x304a, ohiragana) not available in font "Times-Roman".
+Glyph "す" (0x3059, suhiragana) not available in font "Times-Roman".
+Glyph "工" (0x5de5) not available in font "Times-Roman".
+Glyph "業" (0x696d) not available in font "Times-Roman".
+Glyph "規" (0x898f) not available in font "Times-Roman".
+Glyph "格" (0x683c) not available in font "Times-Roman".
+Glyph "欽" (0x6b3d) not available in font "Times-Roman".
+Glyph "定" (0x5b9a) not available in font "Times-Roman".
+Glyph "四" (0x56db) not available in font "Times-Roman".
+Glyph "庫" (0x5eab) not available in font "Times-Roman".
+Glyph "全" (0x5168) not available in font "Times-Roman".
+Glyph "提" (0x63d0) not available in font "Times-Roman".
+Glyph "要" (0x8981) not available in font "Times-Roman".
+Glyph "儒" (0x5112) not available in font "Times-Roman".
+Glyph "家" (0x5bb6) not available in font "Times-Roman".
+Glyph "類" (0x985e) not available in font "Times-Roman".
+Glyph "〈" (0x3008, anglebracketleft) not available in font "Times-Roman".
+Glyph "〉" (0x3009, anglebracketright) not available in font "Times-Roman".
+Glyph "謹" (0x8b39) not available in font "Times-Roman".
+Glyph "按" (0x6309) not available in font "Times-Roman".
+Glyph "以" (0x4ee5) not available in font "Times-Roman".
+Glyph "新" (0x65b0) not available in font "Times-Roman".
+Glyph "舊" (0x820a) not available in font "Times-Roman".
+Glyph "皆" (0x7686) not available in font "Times-Roman".
+Glyph "云" (0x4e91) not available in font "Times-Roman".
+Glyph "晁" (0x6641) not available in font "Times-Roman".
+Glyph "公" (0x516c) not available in font "Times-Roman".
+Glyph "武" (0x6b66) not available in font "Times-Roman".
+Glyph "讀" (0x8b80) not available in font "Times-Roman".
+Glyph "志" (0x5fd7) not available in font "Times-Roman".
+Glyph "僅" (0x50c5) not available in font "Times-Roman".
+Glyph "六" (0x516d) not available in font "Times-Roman".
+Glyph "陳" (0x9673) not available in font "Times-Roman".
+Glyph "振" (0x632f) not available in font "Times-Roman".
+Glyph "孫" (0x5b6b) not available in font "Times-Roman".
+Glyph "録" (0x9332) not available in font "Times-Roman".
+Glyph "解" (0x89e3) not available in font "Times-Roman".
+Glyph "題" (0x984c) not available in font "Times-Roman".
+Glyph "亦" (0x4ea6) not available in font "Times-Roman".
+Glyph "曰" (0x66f0) not available in font "Times-Roman".
+Glyph "元" (0x5143) not available in font "Times-Roman".
+Glyph "吳" (0x5433) not available in font "Times-Roman".
+Glyph "萊" (0x840a) not available in font "Times-Roman".
+Glyph "謂" (0x8b02) not available in font "Times-Roman".
+Glyph "征" (0x5f81) not available in font "Times-Roman".
+Glyph "雲" (0x96f2) not available in font "Times-Roman".
+Glyph "南" (0x5357) not available in font "Times-Roman".
+Glyph "僰" (0x50f0) not available in font "Times-Roman".
+Glyph "夷" (0x5937) not available in font "Times-Roman".
+Glyph "時" (0x6642) not available in font "Times-Roman".
+Glyph "始" (0x59cb) not available in font "Times-Roman".
+Glyph "得" (0x5f97) not available in font "Times-Roman".
+Glyph "完" (0x5b8c) not available in font "Times-Roman".
+Glyph "攷" (0x6537) not available in font "Times-Roman".
+Glyph "事" (0x4e8b) not available in font "Times-Roman".
+Glyph "在" (0x5728) not available in font "Times-Roman".
+Glyph "泰" (0x6cf0) not available in font "Times-Roman".
+Glyph "蓋" (0x84cb) not available in font "Times-Roman".
+Glyph "宋" (0x5b8b) not available in font "Times-Roman".
+Glyph "佚" (0x4f5a) not available in font "Times-Roman".
+Glyph "半" (0x534a) not available in font "Times-Roman".
+Glyph "乃" (0x4e43) not available in font "Times-Roman".
+Glyph "復" (0x5fa9) not available in font "Times-Roman".
+Glyph "也" (0x4e5f) not available in font "Times-Roman".
+Glyph "藝" (0x85dd) not available in font "Times-Roman".
+Glyph "賈" (0x8cc8) not available in font "Times-Roman".
+Glyph "行" (0x884c) not available in font "Times-Roman".
+Glyph "注" (0x6ce8) not available in font "Times-Roman".
+Glyph "而" (0x800c) not available in font "Times-Roman".
+Glyph "敬" (0x656c) not available in font "Times-Roman".
+Glyph "紀" (0x7d00) not available in font "Times-Roman".
+Glyph "稱" (0x7a31) not available in font "Times-Roman".
+Glyph "寳" (0x5bf3) not available in font "Times-Roman".
+Glyph "歴" (0x6b74) not available in font "Times-Roman".
+Glyph "秘" (0x79d8) not available in font "Times-Roman".
+Glyph "省" (0x7701) not available in font "Times-Roman".
+Glyph "郎" (0x90ce) not available in font "Times-Roman".
+Glyph "韋" (0x97cb) not available in font "Times-Roman".
+Glyph "肅" (0x8085) not available in font "Times-Roman".
+Glyph "進" (0x9032) not available in font "Times-Roman".
+Glyph "已" (0x5df2) not available in font "Times-Roman".
+Glyph "今" (0x4eca) not available in font "Times-Roman".
+Glyph "姓" (0x59d3) not available in font "Times-Roman".
+Glyph "名" (0x540d) not available in font "Times-Roman".
+Glyph "體" (0x9ad4) not available in font "Times-Roman".
+Glyph "裁" (0x88c1) not available in font "Times-Roman".
+Glyph "似" (0x4f3c) not available in font "Times-Roman".
+Glyph "人" (0x4eba) not available in font "Times-Roman".
+Glyph "經" (0x7d93) not available in font "Times-Roman".
+Glyph "式" (0x5f0f) not available in font "Times-Roman".
+Glyph "楊" (0x694a) not available in font "Times-Roman".
+Glyph "萬" (0x842c) not available in font "Times-Roman".
+Glyph "里" (0x91cc) not available in font "Times-Roman".
+Glyph "呂" (0x5442) not available in font "Times-Roman".
+Glyph "祖" (0x7956) not available in font "Times-Roman".
+Glyph "謙" (0x8b19) not available in font "Times-Roman".
+Glyph "言" (0x8a00) not available in font "Times-Roman".
+Glyph "疑" (0x7591) not available in font "Times-Roman".
+Glyph "因" (0x56e0) not available in font "Times-Roman".
+Glyph "補" (0x88dc) not available in font "Times-Roman".
+Glyph "援" (0x63f4) not available in font "Times-Roman".
+Glyph "引" (0x5f15) not available in font "Times-Roman".
+Glyph "頗" (0x9817) not available in font "Times-Roman".
+Glyph "詳" (0x8a73) not available in font "Times-Roman".
+Glyph "洽" (0x6d3d) not available in font "Times-Roman".
+Glyph "詞" (0x8a5e) not available in font "Times-Roman".
+Glyph "免" (0x514d) not available in font "Times-Roman".
+Glyph "煩" (0x7169) not available in font "Times-Roman".
+Glyph "贅" (0x8d05) not available in font "Times-Roman".
+Glyph "參" (0x53c3) not available in font "Times-Roman".
+Glyph "誤" (0x8aa4) not available in font "Times-Roman".
+Glyph "附" (0x9644) not available in font "Times-Roman".
+Glyph "列" (0x5217) not available in font "Times-Roman".
+Glyph "下" (0x4e0b) not available in font "Times-Roman".
+Glyph "仍" (0x4ecd) not available in font "Times-Roman".
+Glyph "依" (0x4f9d) not available in font "Times-Roman".
+Glyph "史" (0x53f2) not available in font "Times-Roman".
+Glyph "釐" (0x91d0) not available in font "Times-Roman".
+Glyph "乾" (0x4e7e) not available in font "Times-Roman".
+Glyph "隆" (0x9686) not available in font "Times-Roman".
+Glyph "八" (0x516b) not available in font "Times-Roman".
+Glyph "恭" (0x606d) not available in font "Times-Roman".
+Glyph "校" (0x6821) not available in font "Times-Roman".
+Glyph "上" (0x4e0a) not available in font "Times-Roman".
+Glyph "總" (0x7e3d) not available in font "Times-Roman".
+Glyph "纂" (0x7e82) not available in font "Times-Roman".
+Glyph "官" (0x5b98) not available in font "Times-Roman".
+Glyph "昀" (0x6600) not available in font "Times-Roman".
+Glyph "陸" (0x9678) not available in font "Times-Roman".
+Glyph "錫" (0x932b) not available in font "Times-Roman".
+Glyph "熊" (0x718a) not available in font "Times-Roman".
+Glyph "士" (0x58eb) not available in font "Times-Roman".
+Glyph "毅" (0x6bc5) not available in font "Times-Roman".
+Glyph "費" (0x8cbb) not available in font "Times-Roman".
+Glyph "墀" (0x5880) not available in font "Times-Roman".
+Glyph "目" (0x76ee) not available in font "Times-Bold".
+Glyph "次" (0x6b21) not available in font "Times-Bold".
+Glyph "ペ" (0x30da, pekatakana) not available in font "Times-Roman".
+Glyph "ー" (0x30fc, prolongedkana) not available in font "Times-Roman".
+Glyph "ジ" (0x30b8, zikatakana) not available in font "Times-Roman".
+Glyph "序" (0x5e8f) not available in font "Times-Roman".
+Glyph "⼆" (0x2f06) not available in font "Times-Roman".
+Glyph "跋" (0x8dcb) not available in font "Times-Roman".
+Glyph "件" (0x4ef6) not available in font "Times-Roman".
+Glyph "目" (0x76ee) not available in font "Times-Roman".
+Glyph "次" (0x6b21) not available in font "Times-Roman".
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+javax.xml.transform.TransformerException: org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:536)
+	at org.metanorma.fop.PDFGenerator.runFOP(PDFGenerator.java:663)
+	at org.metanorma.fop.PDFGenerator.convertmn2pdf(PDFGenerator.java:489)
+	at org.metanorma.fop.PDFGenerator.process(PDFGenerator.java:320)
+	at org.metanorma.fop.mn2pdf.main(mn2pdf.java:338)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanSurrogates(XMLScanner.java:1435)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2835)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:519)
+	... 4 more
+---------
+org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 20662; An invalid XML character (Unicode: 0xd863) was found in the element content of the document.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanSurrogates(XMLScanner.java:1435)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2835)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at org.apache.xalan.transformer.TransformerIdentityImpl.transform(TransformerIdentityImpl.java:519)
+	at org.metanorma.fop.PDFGenerator.runFOP(PDFGenerator.java:663)
+	at org.metanorma.fop.PDFGenerator.convertmn2pdf(PDFGenerator.java:489)
+	at org.metanorma.fop.PDFGenerator.process(PDFGenerator.java:320)
+	at org.metanorma.fop.mn2pdf.main(mn2pdf.java:338)
+

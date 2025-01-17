@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?><jis-standard xmlns="https://www.metanorma.org/ns/jis" type="presentation" version="0.4.4" schema-version="v1.4.1">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The Imperial Model</title>
+
+<title language="en" format="text/plain" type="title-main">The Imperial Model</title>
+
+<title language="ja" format="text/plain" type="main">帝　範</title>
+
+<title language="ja" format="text/plain" type="title-main">帝　範</title>
+<docidentifier type="JIS" primary="true">A 1001:2025</docidentifier><docnumber>1001</docnumber><date type="published">令和七年一月十五日</date><date type="announced">令和七年一月十五日</date><contributor><role type="author"/><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Investigative organization</description></role><organization>
+<name language="ja">欽定四庫全書</name>
+
+<name language="en">Investigative Committee for the Compilation of the Complete Library in Four Sections</name>
+</organization></contributor><contributor><role type="authorizer"><description>Investigative committee</description></role><organization>
+<name>欽定四庫全書</name>
+</organization></contributor><edition language="">1</edition><edition language="ja">第一版</edition><edition language="ja" numberonly="true">一</edition><language current="true">ja</language><script current="true">Jpan</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2025</from><owner><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></owner></copyright><ext><doctype language="">japanese-industrial-standard</doctype><doctype language="ja">日本産業規格</doctype><flavor>jis</flavor><editorialgroup identifier="WUL"><agency>WUL</agency></editorialgroup><approvalgroup identifier="JIS"><agency>JIS</agency></approvalgroup><structuredidentifier><project-number>1001</project-number></structuredidentifier></ext></bibdata><localized-strings><localized-string key="scope" language="ja">適用範囲</localized-string><localized-string key="symbolsabbrev" language="ja">記号及び略語</localized-string><localized-string key="abbrev" language="ja">略語</localized-string><localized-string key="symbols" language="ja">記号</localized-string><localized-string key="table_of_contents" language="ja">目次</localized-string><localized-string key="introduction" language="ja">序文</localized-string><localized-string key="foreword" language="ja">まえがき</localized-string><localized-string key="abstract" language="ja">はじめに</localized-string><localized-string key="acknowledgements" language="ja">謝辞</localized-string><localized-string key="termsdef" language="ja">用語及び定義</localized-string><localized-string key="termsdefsymbolsabbrev" language="ja">用語及び定義並びに記号及び略語</localized-string><localized-string key="termsdefsymbols" language="ja">用語及び定義並びに記号</localized-string><localized-string key="termsdefabbrev" language="ja">用語及び定義並びに略語</localized-string><localized-string key="normref" language="ja">引用規格</localized-string><localized-string key="bibliography" language="ja">参考文献</localized-string><localized-string key="index" language="ja">索引</localized-string><localized-string key="see" language="ja">参照</localized-string><localized-string key="see_also" language="ja">第参照</localized-string><localized-string key="preface" language="ja">序文</localized-string><localized-string key="section" language="ja">セクション</localized-string><localized-string key="clause" language="ja">箇条</localized-string><localized-string key="annex" language="ja">附属書</localized-string><localized-string key="appendix" language="ja">Appendix</localized-string><localized-string key="continued" language="ja">続き</localized-string><localized-string key="no_terms_boilerplate" language="ja">この規格には，定義する用語はない。
+</localized-string><localized-string key="internal_terms_boilerplate" language="ja">この規格で用いる主な用語及び定義は，次による。
+</localized-string><localized-string key="norm_with_refs_pref" language="ja">次に掲げる引用規格は，この規格に引用されることによって，その一部又は全部がこの規格の要 求事項を構成している。これらの引用規格のうち，西暦年を付記してあるものは，記載の年の版を適 用し，その後の改正版(追補を含む。)は適用しない。西暦年の付記がない引用規格は，その最新版(追 補を含む。)を適用する。</localized-string><localized-string key="norm_empty_pref" language="ja">この規格には，引用規格はない。</localized-string><localized-string key="external_terms_boilerplate" language="ja">この規格で用いる主な用語及び定義は，% による。
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="ja">この規格で用いる主な用語及び定義は，次によるほか，% による。
+</localized-string><localized-string key="no_information_available" language="ja">[情報はありません]</localized-string><localized-string key="term_defined_in" language="ja">(%)</localized-string><localized-string key="binary_and" language="ja">%1 <conn>及び</conn> %2</localized-string><localized-string key="multiple_and" language="ja">%1<enum-comma>、</enum-comma>%2</localized-string><localized-string key="binary_or" language="ja">%1 <conn>または</conn> %2</localized-string><localized-string key="multiple_or" language="ja">%1<enum-comma>、</enum-comma> <conn>または</conn> %2</localized-string><localized-string key="chain_and" language="ja">%1 <conn>及び</conn> %2</localized-string><localized-string key="chain_or" language="ja">%1 <conn>または</conn> %2</localized-string><localized-string key="chain_from" language="ja">%1 <conn>から</conn> %2</localized-string><localized-string key="chain_to" language="ja">%1<conn>～</conn>%2</localized-string><localized-string key="nested_xref" language="ja">%1<conn>の</conn>%2</localized-string><localized-string key="list_nested_xref" language="ja">%1<conn>の</conn>%2</localized-string><localized-string key="no_conflate_xref_locations" language="ja">true</localized-string><localized-string key="SpelloutRules" language="ja">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="ja">digits-ordinal</localized-string><localized-string key="note" language="ja">注記</localized-string><localized-string key="note_xref" language="ja">注記</localized-string><localized-string key="termnote" language="ja">注釈%</localized-string><localized-string key="list" language="ja">リスト</localized-string><localized-string key="deflist" language="ja">定義リスト</localized-string><localized-string key="figure" language="ja">図</localized-string><localized-string key="diagram" language="ja">Diagram</localized-string><localized-string key="formula" language="ja">式</localized-string><localized-string key="inequality" language="ja">式</localized-string><localized-string key="table" language="ja">表</localized-string><localized-string key="requirement" language="ja">要求</localized-string><localized-string key="recommendation" language="ja">推奨</localized-string><localized-string key="permission" language="ja">許可</localized-string><localized-string key="box" language="ja">Box</localized-string><localized-string key="standard_no" language="ja">規格番号</localized-string><localized-string key="number" language="ja">番号</localized-string><localized-string key="recommendationtest" language="ja">推奨テスト</localized-string><localized-string key="requirementtest" language="ja">要件テスト</localized-string><localized-string key="permissiontest" language="ja">許可テスト</localized-string><localized-string key="recommendationclass" language="ja">推奨群</localized-string><localized-string key="requirementclass" language="ja">要件群</localized-string><localized-string key="permissionclass" language="ja">許可群</localized-string><localized-string key="abstracttest" language="ja">抽象テスト</localized-string><localized-string key="conformanceclass" language="ja">適合性テスト群</localized-string><localized-string key="key" language="ja">記号説明</localized-string><localized-string key="example" language="ja">例</localized-string><localized-string key="example_xref" language="ja">例</localized-string><localized-string key="where" language="ja">ここで，</localized-string><localized-string key="where_one" language="ja">ここで，</localized-string><localized-string key="wholeoftext" language="ja">Whole of text</localized-string><localized-string key="draft_label" language="ja">案</localized-string><localized-string key="inform_annex" language="ja">参考</localized-string><localized-string key="norm_annex" language="ja">規定</localized-string><localized-string key="modified" language="ja">修正された</localized-string><localized-string key="adapted" language="ja">適合しました</localized-string><localized-string key="deprecated" language="ja">推奨しない用語</localized-string><localized-string key="source" language="ja">出典</localized-string><localized-string key="and" language="ja">and</localized-string><localized-string key="no_identifier" language="ja">(識別子なし)</localized-string><localized-string key="all_parts" language="ja">規格群</localized-string><localized-string key="edition_ordinal" language="ja">第{{ var1 }}版</localized-string><localized-string key="edition" language="ja">版</localized-string><localized-string key="version" language="ja">version</localized-string><localized-string key="toc_figures" language="ja">List of figures</localized-string><localized-string key="toc_tables" language="ja">List of tables</localized-string><localized-string key="toc_recommendations" language="ja">List of recommendations</localized-string><localized-string key="month_january" language="ja">1月</localized-string><localized-string key="month_february" language="ja">2月</localized-string><localized-string key="month_march" language="ja">3月</localized-string><localized-string key="month_april" language="ja">4月</localized-string><localized-string key="month_may" language="ja">5月</localized-string><localized-string key="month_june" language="ja">6月</localized-string><localized-string key="month_july" language="ja">7月</localized-string><localized-string key="month_august" language="ja">8月</localized-string><localized-string key="month_september" language="ja">9月</localized-string><localized-string key="month_october" language="ja">10月</localized-string><localized-string key="month_november" language="ja">11月</localized-string><localized-string key="month_december" language="ja">12月</localized-string><localized-string key="obligation" language="ja">Obligation</localized-string><localized-string key="admonition.danger" language="ja">危険です</localized-string><localized-string key="admonition.warning" language="ja">警告</localized-string><localized-string key="admonition.caution" language="ja">注意</localized-string><localized-string key="admonition.important" language="ja">重要</localized-string><localized-string key="admonition.safety_precautions" language="ja">安全上の注意</localized-string><localized-string key="admonition.editorial" language="ja">編集者注</localized-string><localized-string key="locality.section" language="ja">セクション</localized-string><localized-string key="locality.clause" language="ja">箇条</localized-string><localized-string key="locality.subclause" language="ja">細分箇条</localized-string><localized-string key="locality.part" language="ja">部</localized-string><localized-string key="locality.paragraph" language="ja">段落</localized-string><localized-string key="locality.chapter" language="ja">第章</localized-string><localized-string key="locality.page" language="ja">ページ</localized-string><localized-string key="locality.table" language="ja">表</localized-string><localized-string key="locality.annex" language="ja">附属書</localized-string><localized-string key="locality.figure" language="ja">図</localized-string><localized-string key="locality.example" language="ja">例</localized-string><localized-string key="locality.note" language="ja">注記</localized-string><localized-string key="locality.formula" language="ja">式</localized-string><localized-string key="grammar_abbrevs.masculine" language="ja">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="ja">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="ja">n</localized-string><localized-string key="grammar_abbrevs.common" language="ja">common</localized-string><localized-string key="grammar_abbrevs.singular" language="ja">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="ja">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="ja">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="ja">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="ja">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="ja">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="ja">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="ja">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="ja">verb</localized-string><localized-string key="relatedterms.deprecates" language="ja">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="ja">supersedes</localized-string><localized-string key="relatedterms.narrower" language="ja">narrower</localized-string><localized-string key="relatedterms.broader" language="ja">broader</localized-string><localized-string key="relatedterms.equivalent" language="ja">equivalent</localized-string><localized-string key="relatedterms.compare" language="ja">compare</localized-string><localized-string key="relatedterms.contrast" language="ja">contrast</localized-string><localized-string key="relatedterms.see" language="ja">参照</localized-string><localized-string key="relatedterms.seealso" language="ja">see also</localized-string><localized-string key="Clause.sg" language="ja">Clause</localized-string><localized-string key="Clause.pl" language="ja">Clauses</localized-string><localized-string key="Annex.sg" language="ja">Annex</localized-string><localized-string key="Annex.pl" language="ja">Annexes</localized-string><localized-string key="Appendix.sg" language="ja">Appendix</localized-string><localized-string key="Appendix.pl" language="ja">Appendixes</localized-string><localized-string key="Note.sg" language="ja">Note</localized-string><localized-string key="Note.pl" language="ja">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="ja">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="ja">Notes % to entry</localized-string><localized-string key="List.sg" language="ja">List</localized-string><localized-string key="List.pl" language="ja">Lists</localized-string><localized-string key="Figure.sg" language="ja">Figure</localized-string><localized-string key="Figure.pl" language="ja">Figures</localized-string><localized-string key="Formula.sg" language="ja">Formula</localized-string><localized-string key="Formula.pl" language="ja">Formulas</localized-string><localized-string key="Table.sg" language="ja">Table</localized-string><localized-string key="Table.pl" language="ja">Tables</localized-string><localized-string key="Requirement.sg" language="ja">Requirement</localized-string><localized-string key="Requirement.pl" language="ja">Requirements</localized-string><localized-string key="Recommendation.sg" language="ja">Recommendation</localized-string><localized-string key="Recommendation.pl" language="ja">Recommendations</localized-string><localized-string key="Permission.sg" language="ja">Permission</localized-string><localized-string key="Permission.pl" language="ja">Permissions</localized-string><localized-string key="Example.sg" language="ja">Example</localized-string><localized-string key="Example.pl" language="ja">Examples</localized-string><localized-string key="Part.sg" language="ja">Part</localized-string><localized-string key="Part.pl" language="ja">Parts</localized-string><localized-string key="Section.sg" language="ja">Section</localized-string><localized-string key="Section.pl" language="ja">Sections</localized-string><localized-string key="Paragraph.sg" language="ja">Paragraph</localized-string><localized-string key="Paragraph.pl" language="ja">Paragraphs</localized-string><localized-string key="Chapter.sg" language="ja">Chapter</localized-string><localized-string key="Chapter.pl" language="ja">Chapters</localized-string><localized-string key="Page.sg" language="ja">Page</localized-string><localized-string key="Page.pl" language="ja">Pages</localized-string><localized-string key="doctype_dict.international-standard" language="ja">日本産業規格</localized-string><localized-string key="doctype_dict.technical-specification" language="ja">標準仕様書</localized-string><localized-string key="doctype_dict.technical-report" language="ja">標準報告書</localized-string><localized-string key="doctype_dict.publicly-available-specification" language="ja">Publicly Available Specification</localized-string><localized-string key="doctype_dict.international-workshop-agreement" language="ja">International Workshop Agreement</localized-string><localized-string key="doctype_dict.guide" language="ja">ガイドブック</localized-string><localized-string key="doctype_dict.amendment" language="ja">追補</localized-string><localized-string key="doctype_dict.technical-corrigendum" language="ja">Technical Corrigendum</localized-string><localized-string key="doctype_dict.directive" language="ja">Directive</localized-string><localized-string key="doctype_dict.japanese-industrial-standard" language="ja">日本産業規格</localized-string><localized-string key="descriptor" language="ja">記述子</localized-string><localized-string key="fast-track-procedure" language="ja">ファストトラック手順</localized-string><localized-string key="availablefrom" language="ja">入手先</localized-string><localized-string key="website" language="ja">ウェブサイト</localized-string><localized-string key="stage_dict.00" language="ja">Preliminary work item</localized-string><localized-string key="stage_dict.10" language="ja">New work item proposal</localized-string><localized-string key="stage_dict.20" language="ja">Working draft</localized-string><localized-string key="stage_dict.30" language="ja">Committee draft</localized-string><localized-string key="40.international-standard" language="ja">Draft International Standard</localized-string><localized-string key="40.technical-specification" language="ja">Draft Technical Specification</localized-string><localized-string key="40.technical-report" language="ja">Draft Technical Report</localized-string><localized-string key="40.publicly-available-specification" language="ja">Draft Publicly Available Specification</localized-string><localized-string key="40.international-workshop-agreement" language="ja">Draft International Workshop Agreement</localized-string><localized-string key="40.guide" language="ja">Draft Guide</localized-string><localized-string key="40.amendment" language="ja">Draft Amendment</localized-string><localized-string key="40.technical-corrigendum" language="ja">Draft Technical Corrigendum</localized-string><localized-string key="40.directive" language="ja">Draft Directive</localized-string><localized-string key="50.international-standard" language="ja">Final Draft International Standard</localized-string><localized-string key="50.technical-specification" language="ja">Final Draft Technical Specification</localized-string><localized-string key="50.technical-report" language="ja">Final Draft Technical Report</localized-string><localized-string key="50.publicly-available-specification" language="ja">Final Draft Publicly Available Specification</localized-string><localized-string key="50.international-workshop-agreement" language="ja">Final Draft International Workshop Agreement</localized-string><localized-string key="50.guide" language="ja">Final Draft Guide</localized-string><localized-string key="50.amendment" language="ja">Final Draft Amendment</localized-string><localized-string key="50.technical-corrigendum" language="ja">Final Draft Technical Corrigendum</localized-string><localized-string key="50.directive" language="ja">Final Draft Directive</localized-string><localized-string key="60.international-standard" language="ja">International Standard</localized-string><localized-string key="60.technical-specification" language="ja">Technical Specification</localized-string><localized-string key="60.technical-report" language="ja">Technical Report</localized-string><localized-string key="60.publicly-available-specification" language="ja">Publicly Available Specification</localized-string><localized-string key="60.international-workshop-agreement" language="ja">International Workshop Agreement</localized-string><localized-string key="60.guide" language="ja">Guide</localized-string><localized-string key="60.amendment" language="ja">Amendment</localized-string><localized-string key="60.technical-corrigendum" language="ja">Technical Corrigendum</localized-string><localized-string key="60.directive" language="ja">Directive</localized-string><localized-string key="stage_dict.90" language="ja">Review</localized-string><localized-string key="stage_dict.95" language="ja">Withdrawal</localized-string><localized-string key="stage_dict.international-standard" language="ja">日本産業規格</localized-string><localized-string key="under_preparation" language="ja">準備中。（掲載時のステージ％）。</localized-string><localized-string key="cancelled_and_replaced" language="ja">キャンセルされ、%に置き換えられました。</localized-string><localized-string key="norm_with_refs_pref_all_dated" language="ja">次に掲げる引用規格は，この規格に引用されることによって，その一部又は全部がこの規格の要 求事項を構成している。これらの引用規格は，記載の年の版を適用し，その後の改正版(追補を含む。) は適用しない。</localized-string><localized-string key="norm_with_refs_pref_none_dated" language="ja">次に掲げる引用規格は，この規格に引用されることによって，その一部又は全部がこの規格の要求事項 を構成している。これらの引用規格は，その最新版(追補を含む。)を適用する。</localized-string><localized-string key="permission_footer" language="ja">著作権法により無断での複製，転載等は禁止されております。</localized-string><localized-string key="admitted" language="ja">代替用語</localized-string><localized-string key="table_footnote" language="ja">注</localized-string><localized-string key="commentary" language="ja">解説</localized-string><localized-string key="commentary_page" language="ja">解</localized-string><localized-string key="JIS" language="ja">日本工業規格</localized-string><localized-string key="white-paper" language="ja">白紙</localized-string><localized-string key="chairperson" language="ja">委員会長</localized-string><localized-string key="membership_table" language="ja">構成表</localized-string><localized-string key="full_name" language="ja">氏名</localized-string><localized-string key="affiliation" language="ja">所属</localized-string><localized-string key="toc_page" language="ja">頁</localized-string><localized-string key="language" language="ja">ja</localized-string><localized-string key="script" language="ja">Jpan</localized-string><localized-string key="0" language="ja">〇</localized-string>
+<localized-string key="1" language="ja">一</localized-string>
+<localized-string key="2" language="ja">二</localized-string>
+<localized-string key="3" language="ja">三</localized-string>
+<localized-string key="4" language="ja">四</localized-string>
+<localized-string key="5" language="ja">五</localized-string>
+<localized-string key="6" language="ja">六</localized-string>
+<localized-string key="7" language="ja">七</localized-string>
+<localized-string key="8" language="ja">八</localized-string>
+<localized-string key="9" language="ja">九</localized-string>
+<localized-string key="10" language="ja">十</localized-string>
+<localized-string key="11" language="ja">十一</localized-string>
+<localized-string key="12" language="ja">十二</localized-string>
+<localized-string key="13" language="ja">十三</localized-string>
+<localized-string key="14" language="ja">十四</localized-string>
+<localized-string key="15" language="ja">十五</localized-string>
+<localized-string key="16" language="ja">十六</localized-string>
+<localized-string key="17" language="ja">十七</localized-string>
+<localized-string key="18" language="ja">十八</localized-string>
+<localized-string key="19" language="ja">十九</localized-string>
+<localized-string key="20" language="ja">二十</localized-string>
+<localized-string key="21" language="ja">二十一</localized-string>
+<localized-string key="22" language="ja">二十二</localized-string>
+<localized-string key="23" language="ja">二十三</localized-string>
+<localized-string key="24" language="ja">二十四</localized-string>
+<localized-string key="25" language="ja">二十五</localized-string>
+<localized-string key="26" language="ja">二十六</localized-string>
+<localized-string key="27" language="ja">二十七</localized-string>
+<localized-string key="28" language="ja">二十八</localized-string>
+<localized-string key="29" language="ja">二十九</localized-string>
+<localized-string key="30" language="ja">三十</localized-string>
+<localized-string key="31" language="ja">三十一</localized-string>
+<localized-string key="32" language="ja">三十二</localized-string>
+<localized-string key="33" language="ja">三十三</localized-string>
+<localized-string key="34" language="ja">三十四</localized-string>
+<localized-string key="35" language="ja">三十五</localized-string>
+<localized-string key="36" language="ja">三十六</localized-string>
+<localized-string key="37" language="ja">三十七</localized-string>
+<localized-string key="38" language="ja">三十八</localized-string>
+<localized-string key="39" language="ja">三十九</localized-string>
+<localized-string key="40" language="ja">四十</localized-string>
+<localized-string key="41" language="ja">四十一</localized-string>
+<localized-string key="42" language="ja">四十二</localized-string>
+<localized-string key="43" language="ja">四十三</localized-string>
+<localized-string key="44" language="ja">四十四</localized-string>
+<localized-string key="45" language="ja">四十五</localized-string>
+<localized-string key="46" language="ja">四十六</localized-string>
+<localized-string key="47" language="ja">四十七</localized-string>
+<localized-string key="48" language="ja">四十八</localized-string>
+<localized-string key="49" language="ja">四十九</localized-string>
+<localized-string key="50" language="ja">五十</localized-string>
+<localized-string key="51" language="ja">五十一</localized-string>
+<localized-string key="52" language="ja">五十二</localized-string>
+<localized-string key="53" language="ja">五十三</localized-string>
+<localized-string key="54" language="ja">五十四</localized-string>
+<localized-string key="55" language="ja">五十五</localized-string>
+<localized-string key="56" language="ja">五十六</localized-string>
+<localized-string key="57" language="ja">五十七</localized-string>
+<localized-string key="58" language="ja">五十八</localized-string>
+<localized-string key="59" language="ja">五十九</localized-string>
+<localized-string key="60" language="ja">六十</localized-string>
+<localized-string key="61" language="ja">六十一</localized-string>
+<localized-string key="62" language="ja">六十二</localized-string>
+<localized-string key="63" language="ja">六十三</localized-string>
+<localized-string key="64" language="ja">六十四</localized-string>
+<localized-string key="65" language="ja">六十五</localized-string>
+<localized-string key="66" language="ja">六十六</localized-string>
+<localized-string key="67" language="ja">六十七</localized-string>
+<localized-string key="68" language="ja">六十八</localized-string>
+<localized-string key="69" language="ja">六十九</localized-string>
+<localized-string key="70" language="ja">七十</localized-string>
+<localized-string key="71" language="ja">七十一</localized-string>
+<localized-string key="72" language="ja">七十二</localized-string>
+<localized-string key="73" language="ja">七十三</localized-string>
+<localized-string key="74" language="ja">七十四</localized-string>
+<localized-string key="75" language="ja">七十五</localized-string>
+<localized-string key="76" language="ja">七十六</localized-string>
+<localized-string key="77" language="ja">七十七</localized-string>
+<localized-string key="78" language="ja">七十八</localized-string>
+<localized-string key="79" language="ja">七十九</localized-string>
+<localized-string key="80" language="ja">八十</localized-string>
+<localized-string key="81" language="ja">八十一</localized-string>
+<localized-string key="82" language="ja">八十二</localized-string>
+<localized-string key="83" language="ja">八十三</localized-string>
+<localized-string key="84" language="ja">八十四</localized-string>
+<localized-string key="85" language="ja">八十五</localized-string>
+<localized-string key="86" language="ja">八十六</localized-string>
+<localized-string key="87" language="ja">八十七</localized-string>
+<localized-string key="88" language="ja">八十八</localized-string>
+<localized-string key="89" language="ja">八十九</localized-string>
+<localized-string key="90" language="ja">九十</localized-string>
+<localized-string key="91" language="ja">九十一</localized-string>
+<localized-string key="92" language="ja">九十二</localized-string>
+<localized-string key="93" language="ja">九十三</localized-string>
+<localized-string key="94" language="ja">九十四</localized-string>
+<localized-string key="95" language="ja">九十五</localized-string>
+<localized-string key="96" language="ja">九十六</localized-string>
+<localized-string key="97" language="ja">九十七</localized-string>
+<localized-string key="98" language="ja">九十八</localized-string>
+<localized-string key="99" language="ja">九十九</localized-string>
+<localized-string key="100" language="ja">百</localized-string>
+<localized-string key="101" language="ja">百一</localized-string>
+<localized-string key="102" language="ja">百二</localized-string>
+<localized-string key="103" language="ja">百三</localized-string>
+<localized-string key="104" language="ja">百四</localized-string>
+<localized-string key="105" language="ja">百五</localized-string>
+<localized-string key="106" language="ja">百六</localized-string>
+<localized-string key="107" language="ja">百七</localized-string>
+<localized-string key="108" language="ja">百八</localized-string>
+<localized-string key="109" language="ja">百九</localized-string>
+<localized-string key="110" language="ja">百十</localized-string>
+<localized-string key="111" language="ja">百十一</localized-string>
+<localized-string key="112" language="ja">百十二</localized-string>
+<localized-string key="113" language="ja">百十三</localized-string>
+<localized-string key="114" language="ja">百十四</localized-string>
+<localized-string key="115" language="ja">百十五</localized-string>
+<localized-string key="116" language="ja">百十六</localized-string>
+<localized-string key="117" language="ja">百十七</localized-string>
+<localized-string key="118" language="ja">百十八</localized-string>
+<localized-string key="119" language="ja">百十九</localized-string>
+<localized-string key="120" language="ja">百二十</localized-string>
+<localized-string key="121" language="ja">百二十一</localized-string>
+<localized-string key="122" language="ja">百二十二</localized-string>
+<localized-string key="123" language="ja">百二十三</localized-string>
+<localized-string key="124" language="ja">百二十四</localized-string>
+<localized-string key="125" language="ja">百二十五</localized-string>
+<localized-string key="126" language="ja">百二十六</localized-string>
+<localized-string key="127" language="ja">百二十七</localized-string>
+<localized-string key="128" language="ja">百二十八</localized-string>
+<localized-string key="129" language="ja">百二十九</localized-string>
+<localized-string key="130" language="ja">百三十</localized-string>
+<localized-string key="131" language="ja">百三十一</localized-string>
+<localized-string key="132" language="ja">百三十二</localized-string>
+<localized-string key="133" language="ja">百三十三</localized-string>
+<localized-string key="134" language="ja">百三十四</localized-string>
+<localized-string key="135" language="ja">百三十五</localized-string>
+<localized-string key="136" language="ja">百三十六</localized-string>
+<localized-string key="137" language="ja">百三十七</localized-string>
+<localized-string key="138" language="ja">百三十八</localized-string>
+<localized-string key="139" language="ja">百三十九</localized-string>
+<localized-string key="140" language="ja">百四十</localized-string>
+<localized-string key="141" language="ja">百四十一</localized-string>
+<localized-string key="142" language="ja">百四十二</localized-string>
+<localized-string key="143" language="ja">百四十三</localized-string>
+<localized-string key="144" language="ja">百四十四</localized-string>
+<localized-string key="145" language="ja">百四十五</localized-string>
+<localized-string key="146" language="ja">百四十六</localized-string>
+<localized-string key="147" language="ja">百四十七</localized-string>
+<localized-string key="148" language="ja">百四十八</localized-string>
+<localized-string key="149" language="ja">百四十九</localized-string>
+<localized-string key="150" language="ja">百五十</localized-string>
+<localized-string key="151" language="ja">百五十一</localized-string>
+<localized-string key="152" language="ja">百五十二</localized-string>
+<localized-string key="153" language="ja">百五十三</localized-string>
+<localized-string key="154" language="ja">百五十四</localized-string>
+<localized-string key="155" language="ja">百五十五</localized-string>
+<localized-string key="156" language="ja">百五十六</localized-string>
+<localized-string key="157" language="ja">百五十七</localized-string>
+<localized-string key="158" language="ja">百五十八</localized-string>
+<localized-string key="159" language="ja">百五十九</localized-string>
+<localized-string key="160" language="ja">百六十</localized-string>
+<localized-string key="161" language="ja">百六十一</localized-string>
+<localized-string key="162" language="ja">百六十二</localized-string>
+<localized-string key="163" language="ja">百六十三</localized-string>
+<localized-string key="164" language="ja">百六十四</localized-string>
+<localized-string key="165" language="ja">百六十五</localized-string>
+<localized-string key="166" language="ja">百六十六</localized-string>
+<localized-string key="167" language="ja">百六十七</localized-string>
+<localized-string key="168" language="ja">百六十八</localized-string>
+<localized-string key="169" language="ja">百六十九</localized-string>
+<localized-string key="170" language="ja">百七十</localized-string>
+<localized-string key="171" language="ja">百七十一</localized-string>
+<localized-string key="172" language="ja">百七十二</localized-string>
+<localized-string key="173" language="ja">百七十三</localized-string>
+<localized-string key="174" language="ja">百七十四</localized-string>
+<localized-string key="175" language="ja">百七十五</localized-string>
+<localized-string key="176" language="ja">百七十六</localized-string>
+<localized-string key="177" language="ja">百七十七</localized-string>
+<localized-string key="178" language="ja">百七十八</localized-string>
+<localized-string key="179" language="ja">百七十九</localized-string>
+<localized-string key="180" language="ja">百八十</localized-string>
+<localized-string key="181" language="ja">百八十一</localized-string>
+<localized-string key="182" language="ja">百八十二</localized-string>
+<localized-string key="183" language="ja">百八十三</localized-string>
+<localized-string key="184" language="ja">百八十四</localized-string>
+<localized-string key="185" language="ja">百八十五</localized-string>
+<localized-string key="186" language="ja">百八十六</localized-string>
+<localized-string key="187" language="ja">百八十七</localized-string>
+<localized-string key="188" language="ja">百八十八</localized-string>
+<localized-string key="189" language="ja">百八十九</localized-string>
+<localized-string key="190" language="ja">百九十</localized-string>
+<localized-string key="191" language="ja">百九十一</localized-string>
+<localized-string key="192" language="ja">百九十二</localized-string>
+<localized-string key="193" language="ja">百九十三</localized-string>
+<localized-string key="194" language="ja">百九十四</localized-string>
+<localized-string key="195" language="ja">百九十五</localized-string>
+<localized-string key="196" language="ja">百九十六</localized-string>
+<localized-string key="197" language="ja">百九十七</localized-string>
+<localized-string key="198" language="ja">百九十八</localized-string>
+<localized-string key="199" language="ja">百九十九</localized-string>
+<localized-string key="200" language="ja">二百</localized-string>
+<localized-string key="201" language="ja">二百一</localized-string>
+<localized-string key="202" language="ja">二百二</localized-string>
+<localized-string key="203" language="ja">二百三</localized-string>
+<localized-string key="204" language="ja">二百四</localized-string>
+<localized-string key="205" language="ja">二百五</localized-string>
+<localized-string key="206" language="ja">二百六</localized-string>
+<localized-string key="207" language="ja">二百七</localized-string>
+<localized-string key="208" language="ja">二百八</localized-string>
+<localized-string key="209" language="ja">二百九</localized-string>
+<localized-string key="210" language="ja">二百十</localized-string>
+<localized-string key="211" language="ja">二百十一</localized-string>
+<localized-string key="212" language="ja">二百十二</localized-string>
+<localized-string key="213" language="ja">二百十三</localized-string>
+<localized-string key="214" language="ja">二百十四</localized-string>
+<localized-string key="215" language="ja">二百十五</localized-string>
+<localized-string key="216" language="ja">二百十六</localized-string>
+<localized-string key="217" language="ja">二百十七</localized-string>
+<localized-string key="218" language="ja">二百十八</localized-string>
+<localized-string key="219" language="ja">二百十九</localized-string>
+<localized-string key="220" language="ja">二百二十</localized-string>
+<localized-string key="221" language="ja">二百二十一</localized-string>
+<localized-string key="222" language="ja">二百二十二</localized-string>
+<localized-string key="223" language="ja">二百二十三</localized-string>
+<localized-string key="224" language="ja">二百二十四</localized-string>
+<localized-string key="225" language="ja">二百二十五</localized-string>
+<localized-string key="226" language="ja">二百二十六</localized-string>
+<localized-string key="227" language="ja">二百二十七</localized-string>
+<localized-string key="228" language="ja">二百二十八</localized-string>
+<localized-string key="229" language="ja">二百二十九</localized-string>
+<localized-string key="230" language="ja">二百三十</localized-string>
+<localized-string key="231" language="ja">二百三十一</localized-string>
+<localized-string key="232" language="ja">二百三十二</localized-string>
+<localized-string key="233" language="ja">二百三十三</localized-string>
+<localized-string key="234" language="ja">二百三十四</localized-string>
+<localized-string key="235" language="ja">二百三十五</localized-string>
+<localized-string key="236" language="ja">二百三十六</localized-string>
+<localized-string key="237" language="ja">二百三十七</localized-string>
+<localized-string key="238" language="ja">二百三十八</localized-string>
+<localized-string key="239" language="ja">二百三十九</localized-string>
+<localized-string key="240" language="ja">二百四十</localized-string>
+<localized-string key="241" language="ja">二百四十一</localized-string>
+<localized-string key="242" language="ja">二百四十二</localized-string>
+<localized-string key="243" language="ja">二百四十三</localized-string>
+<localized-string key="244" language="ja">二百四十四</localized-string>
+<localized-string key="245" language="ja">二百四十五</localized-string>
+<localized-string key="246" language="ja">二百四十六</localized-string>
+<localized-string key="247" language="ja">二百四十七</localized-string>
+<localized-string key="248" language="ja">二百四十八</localized-string>
+<localized-string key="249" language="ja">二百四十九</localized-string>
+<localized-string key="250" language="ja">二百五十</localized-string>
+<localized-string key="251" language="ja">二百五十一</localized-string>
+<localized-string key="252" language="ja">二百五十二</localized-string>
+<localized-string key="253" language="ja">二百五十三</localized-string>
+<localized-string key="254" language="ja">二百五十四</localized-string>
+<localized-string key="255" language="ja">二百五十五</localized-string>
+<localized-string key="256" language="ja">二百五十六</localized-string>
+<localized-string key="257" language="ja">二百五十七</localized-string>
+<localized-string key="258" language="ja">二百五十八</localized-string>
+<localized-string key="259" language="ja">二百五十九</localized-string>
+<localized-string key="260" language="ja">二百六十</localized-string>
+<localized-string key="261" language="ja">二百六十一</localized-string>
+<localized-string key="262" language="ja">二百六十二</localized-string>
+<localized-string key="263" language="ja">二百六十三</localized-string>
+<localized-string key="264" language="ja">二百六十四</localized-string>
+<localized-string key="265" language="ja">二百六十五</localized-string>
+<localized-string key="266" language="ja">二百六十六</localized-string>
+<localized-string key="267" language="ja">二百六十七</localized-string>
+<localized-string key="268" language="ja">二百六十八</localized-string>
+<localized-string key="269" language="ja">二百六十九</localized-string>
+<localized-string key="270" language="ja">二百七十</localized-string>
+<localized-string key="271" language="ja">二百七十一</localized-string>
+<localized-string key="272" language="ja">二百七十二</localized-string>
+<localized-string key="273" language="ja">二百七十三</localized-string>
+<localized-string key="274" language="ja">二百七十四</localized-string>
+<localized-string key="275" language="ja">二百七十五</localized-string>
+<localized-string key="276" language="ja">二百七十六</localized-string>
+<localized-string key="277" language="ja">二百七十七</localized-string>
+<localized-string key="278" language="ja">二百七十八</localized-string>
+<localized-string key="279" language="ja">二百七十九</localized-string>
+<localized-string key="280" language="ja">二百八十</localized-string>
+<localized-string key="281" language="ja">二百八十一</localized-string>
+<localized-string key="282" language="ja">二百八十二</localized-string>
+<localized-string key="283" language="ja">二百八十三</localized-string>
+<localized-string key="284" language="ja">二百八十四</localized-string>
+<localized-string key="285" language="ja">二百八十五</localized-string>
+<localized-string key="286" language="ja">二百八十六</localized-string>
+<localized-string key="287" language="ja">二百八十七</localized-string>
+<localized-string key="288" language="ja">二百八十八</localized-string>
+<localized-string key="289" language="ja">二百八十九</localized-string>
+<localized-string key="290" language="ja">二百九十</localized-string>
+<localized-string key="291" language="ja">二百九十一</localized-string>
+<localized-string key="292" language="ja">二百九十二</localized-string>
+<localized-string key="293" language="ja">二百九十三</localized-string>
+<localized-string key="294" language="ja">二百九十四</localized-string>
+<localized-string key="295" language="ja">二百九十五</localized-string>
+<localized-string key="296" language="ja">二百九十六</localized-string>
+<localized-string key="297" language="ja">二百九十七</localized-string>
+<localized-string key="298" language="ja">二百九十八</localized-string>
+<localized-string key="299" language="ja">二百九十九</localized-string>
+<localized-string key="300" language="ja">三百</localized-string>
+<localized-string key="301" language="ja">三百一</localized-string>
+<localized-string key="302" language="ja">三百二</localized-string>
+<localized-string key="303" language="ja">三百三</localized-string>
+<localized-string key="304" language="ja">三百四</localized-string>
+<localized-string key="305" language="ja">三百五</localized-string>
+<localized-string key="306" language="ja">三百六</localized-string>
+<localized-string key="307" language="ja">三百七</localized-string>
+<localized-string key="308" language="ja">三百八</localized-string>
+<localized-string key="309" language="ja">三百九</localized-string>
+<localized-string key="310" language="ja">三百十</localized-string>
+<localized-string key="311" language="ja">三百十一</localized-string>
+<localized-string key="312" language="ja">三百十二</localized-string>
+<localized-string key="313" language="ja">三百十三</localized-string>
+<localized-string key="314" language="ja">三百十四</localized-string>
+<localized-string key="315" language="ja">三百十五</localized-string>
+<localized-string key="316" language="ja">三百十六</localized-string>
+<localized-string key="317" language="ja">三百十七</localized-string>
+<localized-string key="318" language="ja">三百十八</localized-string>
+<localized-string key="319" language="ja">三百十九</localized-string>
+<localized-string key="320" language="ja">三百二十</localized-string>
+<localized-string key="321" language="ja">三百二十一</localized-string>
+<localized-string key="322" language="ja">三百二十二</localized-string>
+<localized-string key="323" language="ja">三百二十三</localized-string>
+<localized-string key="324" language="ja">三百二十四</localized-string>
+<localized-string key="325" language="ja">三百二十五</localized-string>
+<localized-string key="326" language="ja">三百二十六</localized-string>
+<localized-string key="327" language="ja">三百二十七</localized-string>
+<localized-string key="328" language="ja">三百二十八</localized-string>
+<localized-string key="329" language="ja">三百二十九</localized-string>
+<localized-string key="330" language="ja">三百三十</localized-string>
+<localized-string key="331" language="ja">三百三十一</localized-string>
+<localized-string key="332" language="ja">三百三十二</localized-string>
+<localized-string key="333" language="ja">三百三十三</localized-string>
+<localized-string key="334" language="ja">三百三十四</localized-string>
+<localized-string key="335" language="ja">三百三十五</localized-string>
+<localized-string key="336" language="ja">三百三十六</localized-string>
+<localized-string key="337" language="ja">三百三十七</localized-string>
+<localized-string key="338" language="ja">三百三十八</localized-string>
+<localized-string key="339" language="ja">三百三十九</localized-string>
+<localized-string key="340" language="ja">三百四十</localized-string>
+<localized-string key="341" language="ja">三百四十一</localized-string>
+<localized-string key="342" language="ja">三百四十二</localized-string>
+<localized-string key="343" language="ja">三百四十三</localized-string>
+<localized-string key="344" language="ja">三百四十四</localized-string>
+<localized-string key="345" language="ja">三百四十五</localized-string>
+<localized-string key="346" language="ja">三百四十六</localized-string>
+<localized-string key="347" language="ja">三百四十七</localized-string>
+<localized-string key="348" language="ja">三百四十八</localized-string>
+<localized-string key="349" language="ja">三百四十九</localized-string>
+<localized-string key="350" language="ja">三百五十</localized-string>
+<localized-string key="351" language="ja">三百五十一</localized-string>
+<localized-string key="352" language="ja">三百五十二</localized-string>
+<localized-string key="353" language="ja">三百五十三</localized-string>
+<localized-string key="354" language="ja">三百五十四</localized-string>
+<localized-string key="355" language="ja">三百五十五</localized-string>
+<localized-string key="356" language="ja">三百五十六</localized-string>
+<localized-string key="357" language="ja">三百五十七</localized-string>
+<localized-string key="358" language="ja">三百五十八</localized-string>
+<localized-string key="359" language="ja">三百五十九</localized-string>
+<localized-string key="360" language="ja">三百六十</localized-string>
+<localized-string key="361" language="ja">三百六十一</localized-string>
+<localized-string key="362" language="ja">三百六十二</localized-string>
+<localized-string key="363" language="ja">三百六十三</localized-string>
+<localized-string key="364" language="ja">三百六十四</localized-string>
+<localized-string key="365" language="ja">三百六十五</localized-string>
+<localized-string key="366" language="ja">三百六十六</localized-string>
+<localized-string key="367" language="ja">三百六十七</localized-string>
+<localized-string key="368" language="ja">三百六十八</localized-string>
+<localized-string key="369" language="ja">三百六十九</localized-string>
+<localized-string key="370" language="ja">三百七十</localized-string>
+<localized-string key="371" language="ja">三百七十一</localized-string>
+<localized-string key="372" language="ja">三百七十二</localized-string>
+<localized-string key="373" language="ja">三百七十三</localized-string>
+<localized-string key="374" language="ja">三百七十四</localized-string>
+<localized-string key="375" language="ja">三百七十五</localized-string>
+<localized-string key="376" language="ja">三百七十六</localized-string>
+<localized-string key="377" language="ja">三百七十七</localized-string>
+<localized-string key="378" language="ja">三百七十八</localized-string>
+<localized-string key="379" language="ja">三百七十九</localized-string>
+<localized-string key="380" language="ja">三百八十</localized-string>
+<localized-string key="381" language="ja">三百八十一</localized-string>
+<localized-string key="382" language="ja">三百八十二</localized-string>
+<localized-string key="383" language="ja">三百八十三</localized-string>
+<localized-string key="384" language="ja">三百八十四</localized-string>
+<localized-string key="385" language="ja">三百八十五</localized-string>
+<localized-string key="386" language="ja">三百八十六</localized-string>
+<localized-string key="387" language="ja">三百八十七</localized-string>
+<localized-string key="388" language="ja">三百八十八</localized-string>
+<localized-string key="389" language="ja">三百八十九</localized-string>
+<localized-string key="390" language="ja">三百九十</localized-string>
+<localized-string key="391" language="ja">三百九十一</localized-string>
+<localized-string key="392" language="ja">三百九十二</localized-string>
+<localized-string key="393" language="ja">三百九十三</localized-string>
+<localized-string key="394" language="ja">三百九十四</localized-string>
+<localized-string key="395" language="ja">三百九十五</localized-string>
+<localized-string key="396" language="ja">三百九十六</localized-string>
+<localized-string key="397" language="ja">三百九十七</localized-string>
+<localized-string key="398" language="ja">三百九十八</localized-string>
+<localized-string key="399" language="ja">三百九十九</localized-string>
+<localized-string key="400" language="ja">四百</localized-string>
+<localized-string key="401" language="ja">四百一</localized-string>
+<localized-string key="402" language="ja">四百二</localized-string>
+<localized-string key="403" language="ja">四百三</localized-string>
+<localized-string key="404" language="ja">四百四</localized-string>
+<localized-string key="405" language="ja">四百五</localized-string>
+<localized-string key="406" language="ja">四百六</localized-string>
+<localized-string key="407" language="ja">四百七</localized-string>
+<localized-string key="408" language="ja">四百八</localized-string>
+<localized-string key="409" language="ja">四百九</localized-string>
+<localized-string key="410" language="ja">四百十</localized-string>
+<localized-string key="411" language="ja">四百十一</localized-string>
+<localized-string key="412" language="ja">四百十二</localized-string>
+<localized-string key="413" language="ja">四百十三</localized-string>
+<localized-string key="414" language="ja">四百十四</localized-string>
+<localized-string key="415" language="ja">四百十五</localized-string>
+<localized-string key="416" language="ja">四百十六</localized-string>
+<localized-string key="417" language="ja">四百十七</localized-string>
+<localized-string key="418" language="ja">四百十八</localized-string>
+<localized-string key="419" language="ja">四百十九</localized-string>
+<localized-string key="420" language="ja">四百二十</localized-string>
+<localized-string key="421" language="ja">四百二十一</localized-string>
+<localized-string key="422" language="ja">四百二十二</localized-string>
+<localized-string key="423" language="ja">四百二十三</localized-string>
+<localized-string key="424" language="ja">四百二十四</localized-string>
+<localized-string key="425" language="ja">四百二十五</localized-string>
+<localized-string key="426" language="ja">四百二十六</localized-string>
+<localized-string key="427" language="ja">四百二十七</localized-string>
+<localized-string key="428" language="ja">四百二十八</localized-string>
+<localized-string key="429" language="ja">四百二十九</localized-string>
+<localized-string key="430" language="ja">四百三十</localized-string>
+<localized-string key="431" language="ja">四百三十一</localized-string>
+<localized-string key="432" language="ja">四百三十二</localized-string>
+<localized-string key="433" language="ja">四百三十三</localized-string>
+<localized-string key="434" language="ja">四百三十四</localized-string>
+<localized-string key="435" language="ja">四百三十五</localized-string>
+<localized-string key="436" language="ja">四百三十六</localized-string>
+<localized-string key="437" language="ja">四百三十七</localized-string>
+<localized-string key="438" language="ja">四百三十八</localized-string>
+<localized-string key="439" language="ja">四百三十九</localized-string>
+<localized-string key="440" language="ja">四百四十</localized-string>
+<localized-string key="441" language="ja">四百四十一</localized-string>
+<localized-string key="442" language="ja">四百四十二</localized-string>
+<localized-string key="443" language="ja">四百四十三</localized-string>
+<localized-string key="444" language="ja">四百四十四</localized-string>
+<localized-string key="445" language="ja">四百四十五</localized-string>
+<localized-string key="446" language="ja">四百四十六</localized-string>
+<localized-string key="447" language="ja">四百四十七</localized-string>
+<localized-string key="448" language="ja">四百四十八</localized-string>
+<localized-string key="449" language="ja">四百四十九</localized-string>
+<localized-string key="450" language="ja">四百五十</localized-string>
+<localized-string key="451" language="ja">四百五十一</localized-string>
+<localized-string key="452" language="ja">四百五十二</localized-string>
+<localized-string key="453" language="ja">四百五十三</localized-string>
+<localized-string key="454" language="ja">四百五十四</localized-string>
+<localized-string key="455" language="ja">四百五十五</localized-string>
+<localized-string key="456" language="ja">四百五十六</localized-string>
+<localized-string key="457" language="ja">四百五十七</localized-string>
+<localized-string key="458" language="ja">四百五十八</localized-string>
+<localized-string key="459" language="ja">四百五十九</localized-string>
+<localized-string key="460" language="ja">四百六十</localized-string>
+<localized-string key="461" language="ja">四百六十一</localized-string>
+<localized-string key="462" language="ja">四百六十二</localized-string>
+<localized-string key="463" language="ja">四百六十三</localized-string>
+<localized-string key="464" language="ja">四百六十四</localized-string>
+<localized-string key="465" language="ja">四百六十五</localized-string>
+<localized-string key="466" language="ja">四百六十六</localized-string>
+<localized-string key="467" language="ja">四百六十七</localized-string>
+<localized-string key="468" language="ja">四百六十八</localized-string>
+<localized-string key="469" language="ja">四百六十九</localized-string>
+<localized-string key="470" language="ja">四百七十</localized-string>
+<localized-string key="471" language="ja">四百七十一</localized-string>
+<localized-string key="472" language="ja">四百七十二</localized-string>
+<localized-string key="473" language="ja">四百七十三</localized-string>
+<localized-string key="474" language="ja">四百七十四</localized-string>
+<localized-string key="475" language="ja">四百七十五</localized-string>
+<localized-string key="476" language="ja">四百七十六</localized-string>
+<localized-string key="477" language="ja">四百七十七</localized-string>
+<localized-string key="478" language="ja">四百七十八</localized-string>
+<localized-string key="479" language="ja">四百七十九</localized-string>
+<localized-string key="480" language="ja">四百八十</localized-string>
+<localized-string key="481" language="ja">四百八十一</localized-string>
+<localized-string key="482" language="ja">四百八十二</localized-string>
+<localized-string key="483" language="ja">四百八十三</localized-string>
+<localized-string key="484" language="ja">四百八十四</localized-string>
+<localized-string key="485" language="ja">四百八十五</localized-string>
+<localized-string key="486" language="ja">四百八十六</localized-string>
+<localized-string key="487" language="ja">四百八十七</localized-string>
+<localized-string key="488" language="ja">四百八十八</localized-string>
+<localized-string key="489" language="ja">四百八十九</localized-string>
+<localized-string key="490" language="ja">四百九十</localized-string>
+<localized-string key="491" language="ja">四百九十一</localized-string>
+<localized-string key="492" language="ja">四百九十二</localized-string>
+<localized-string key="493" language="ja">四百九十三</localized-string>
+<localized-string key="494" language="ja">四百九十四</localized-string>
+<localized-string key="495" language="ja">四百九十五</localized-string>
+<localized-string key="496" language="ja">四百九十六</localized-string>
+<localized-string key="497" language="ja">四百九十七</localized-string>
+<localized-string key="498" language="ja">四百九十八</localized-string>
+<localized-string key="499" language="ja">四百九十九</localized-string>
+<localized-string key="500" language="ja">五百</localized-string>
+<localized-string key="501" language="ja">五百一</localized-string>
+<localized-string key="502" language="ja">五百二</localized-string>
+<localized-string key="503" language="ja">五百三</localized-string>
+<localized-string key="504" language="ja">五百四</localized-string>
+<localized-string key="505" language="ja">五百五</localized-string>
+<localized-string key="506" language="ja">五百六</localized-string>
+<localized-string key="507" language="ja">五百七</localized-string>
+<localized-string key="508" language="ja">五百八</localized-string>
+<localized-string key="509" language="ja">五百九</localized-string>
+<localized-string key="510" language="ja">五百十</localized-string>
+<localized-string key="511" language="ja">五百十一</localized-string>
+<localized-string key="512" language="ja">五百十二</localized-string>
+<localized-string key="513" language="ja">五百十三</localized-string>
+<localized-string key="514" language="ja">五百十四</localized-string>
+<localized-string key="515" language="ja">五百十五</localized-string>
+<localized-string key="516" language="ja">五百十六</localized-string>
+<localized-string key="517" language="ja">五百十七</localized-string>
+<localized-string key="518" language="ja">五百十八</localized-string>
+<localized-string key="519" language="ja">五百十九</localized-string>
+<localized-string key="520" language="ja">五百二十</localized-string>
+<localized-string key="521" language="ja">五百二十一</localized-string>
+<localized-string key="522" language="ja">五百二十二</localized-string>
+<localized-string key="523" language="ja">五百二十三</localized-string>
+<localized-string key="524" language="ja">五百二十四</localized-string>
+<localized-string key="525" language="ja">五百二十五</localized-string>
+<localized-string key="526" language="ja">五百二十六</localized-string>
+<localized-string key="527" language="ja">五百二十七</localized-string>
+<localized-string key="528" language="ja">五百二十八</localized-string>
+<localized-string key="529" language="ja">五百二十九</localized-string>
+<localized-string key="530" language="ja">五百三十</localized-string>
+<localized-string key="531" language="ja">五百三十一</localized-string>
+<localized-string key="532" language="ja">五百三十二</localized-string>
+<localized-string key="533" language="ja">五百三十三</localized-string>
+<localized-string key="534" language="ja">五百三十四</localized-string>
+<localized-string key="535" language="ja">五百三十五</localized-string>
+<localized-string key="536" language="ja">五百三十六</localized-string>
+<localized-string key="537" language="ja">五百三十七</localized-string>
+<localized-string key="538" language="ja">五百三十八</localized-string>
+<localized-string key="539" language="ja">五百三十九</localized-string>
+<localized-string key="540" language="ja">五百四十</localized-string>
+<localized-string key="541" language="ja">五百四十一</localized-string>
+<localized-string key="542" language="ja">五百四十二</localized-string>
+<localized-string key="543" language="ja">五百四十三</localized-string>
+<localized-string key="544" language="ja">五百四十四</localized-string>
+<localized-string key="545" language="ja">五百四十五</localized-string>
+<localized-string key="546" language="ja">五百四十六</localized-string>
+<localized-string key="547" language="ja">五百四十七</localized-string>
+<localized-string key="548" language="ja">五百四十八</localized-string>
+<localized-string key="549" language="ja">五百四十九</localized-string>
+<localized-string key="550" language="ja">五百五十</localized-string>
+<localized-string key="551" language="ja">五百五十一</localized-string>
+<localized-string key="552" language="ja">五百五十二</localized-string>
+<localized-string key="553" language="ja">五百五十三</localized-string>
+<localized-string key="554" language="ja">五百五十四</localized-string>
+<localized-string key="555" language="ja">五百五十五</localized-string>
+<localized-string key="556" language="ja">五百五十六</localized-string>
+<localized-string key="557" language="ja">五百五十七</localized-string>
+<localized-string key="558" language="ja">五百五十八</localized-string>
+<localized-string key="559" language="ja">五百五十九</localized-string>
+<localized-string key="560" language="ja">五百六十</localized-string>
+<localized-string key="561" language="ja">五百六十一</localized-string>
+<localized-string key="562" language="ja">五百六十二</localized-string>
+<localized-string key="563" language="ja">五百六十三</localized-string>
+<localized-string key="564" language="ja">五百六十四</localized-string>
+<localized-string key="565" language="ja">五百六十五</localized-string>
+<localized-string key="566" language="ja">五百六十六</localized-string>
+<localized-string key="567" language="ja">五百六十七</localized-string>
+<localized-string key="568" language="ja">五百六十八</localized-string>
+<localized-string key="569" language="ja">五百六十九</localized-string>
+<localized-string key="570" language="ja">五百七十</localized-string>
+<localized-string key="571" language="ja">五百七十一</localized-string>
+<localized-string key="572" language="ja">五百七十二</localized-string>
+<localized-string key="573" language="ja">五百七十三</localized-string>
+<localized-string key="574" language="ja">五百七十四</localized-string>
+<localized-string key="575" language="ja">五百七十五</localized-string>
+<localized-string key="576" language="ja">五百七十六</localized-string>
+<localized-string key="577" language="ja">五百七十七</localized-string>
+<localized-string key="578" language="ja">五百七十八</localized-string>
+<localized-string key="579" language="ja">五百七十九</localized-string>
+<localized-string key="580" language="ja">五百八十</localized-string>
+<localized-string key="581" language="ja">五百八十一</localized-string>
+<localized-string key="582" language="ja">五百八十二</localized-string>
+<localized-string key="583" language="ja">五百八十三</localized-string>
+<localized-string key="584" language="ja">五百八十四</localized-string>
+<localized-string key="585" language="ja">五百八十五</localized-string>
+<localized-string key="586" language="ja">五百八十六</localized-string>
+<localized-string key="587" language="ja">五百八十七</localized-string>
+<localized-string key="588" language="ja">五百八十八</localized-string>
+<localized-string key="589" language="ja">五百八十九</localized-string>
+<localized-string key="590" language="ja">五百九十</localized-string>
+<localized-string key="591" language="ja">五百九十一</localized-string>
+<localized-string key="592" language="ja">五百九十二</localized-string>
+<localized-string key="593" language="ja">五百九十三</localized-string>
+<localized-string key="594" language="ja">五百九十四</localized-string>
+<localized-string key="595" language="ja">五百九十五</localized-string>
+<localized-string key="596" language="ja">五百九十六</localized-string>
+<localized-string key="597" language="ja">五百九十七</localized-string>
+<localized-string key="598" language="ja">五百九十八</localized-string>
+<localized-string key="599" language="ja">五百九十九</localized-string>
+<localized-string key="600" language="ja">六百</localized-string>
+<localized-string key="601" language="ja">六百一</localized-string>
+<localized-string key="602" language="ja">六百二</localized-string>
+<localized-string key="603" language="ja">六百三</localized-string>
+<localized-string key="604" language="ja">六百四</localized-string>
+<localized-string key="605" language="ja">六百五</localized-string>
+<localized-string key="606" language="ja">六百六</localized-string>
+<localized-string key="607" language="ja">六百七</localized-string>
+<localized-string key="608" language="ja">六百八</localized-string>
+<localized-string key="609" language="ja">六百九</localized-string>
+<localized-string key="610" language="ja">六百十</localized-string>
+<localized-string key="611" language="ja">六百十一</localized-string>
+<localized-string key="612" language="ja">六百十二</localized-string>
+<localized-string key="613" language="ja">六百十三</localized-string>
+<localized-string key="614" language="ja">六百十四</localized-string>
+<localized-string key="615" language="ja">六百十五</localized-string>
+<localized-string key="616" language="ja">六百十六</localized-string>
+<localized-string key="617" language="ja">六百十七</localized-string>
+<localized-string key="618" language="ja">六百十八</localized-string>
+<localized-string key="619" language="ja">六百十九</localized-string>
+<localized-string key="620" language="ja">六百二十</localized-string>
+<localized-string key="621" language="ja">六百二十一</localized-string>
+<localized-string key="622" language="ja">六百二十二</localized-string>
+<localized-string key="623" language="ja">六百二十三</localized-string>
+<localized-string key="624" language="ja">六百二十四</localized-string>
+<localized-string key="625" language="ja">六百二十五</localized-string>
+<localized-string key="626" language="ja">六百二十六</localized-string>
+<localized-string key="627" language="ja">六百二十七</localized-string>
+<localized-string key="628" language="ja">六百二十八</localized-string>
+<localized-string key="629" language="ja">六百二十九</localized-string>
+<localized-string key="630" language="ja">六百三十</localized-string>
+<localized-string key="631" language="ja">六百三十一</localized-string>
+<localized-string key="632" language="ja">六百三十二</localized-string>
+<localized-string key="633" language="ja">六百三十三</localized-string>
+<localized-string key="634" language="ja">六百三十四</localized-string>
+<localized-string key="635" language="ja">六百三十五</localized-string>
+<localized-string key="636" language="ja">六百三十六</localized-string>
+<localized-string key="637" language="ja">六百三十七</localized-string>
+<localized-string key="638" language="ja">六百三十八</localized-string>
+<localized-string key="639" language="ja">六百三十九</localized-string>
+<localized-string key="640" language="ja">六百四十</localized-string>
+<localized-string key="641" language="ja">六百四十一</localized-string>
+<localized-string key="642" language="ja">六百四十二</localized-string>
+<localized-string key="643" language="ja">六百四十三</localized-string>
+<localized-string key="644" language="ja">六百四十四</localized-string>
+<localized-string key="645" language="ja">六百四十五</localized-string>
+<localized-string key="646" language="ja">六百四十六</localized-string>
+<localized-string key="647" language="ja">六百四十七</localized-string>
+<localized-string key="648" language="ja">六百四十八</localized-string>
+<localized-string key="649" language="ja">六百四十九</localized-string>
+<localized-string key="650" language="ja">六百五十</localized-string>
+<localized-string key="651" language="ja">六百五十一</localized-string>
+<localized-string key="652" language="ja">六百五十二</localized-string>
+<localized-string key="653" language="ja">六百五十三</localized-string>
+<localized-string key="654" language="ja">六百五十四</localized-string>
+<localized-string key="655" language="ja">六百五十五</localized-string>
+<localized-string key="656" language="ja">六百五十六</localized-string>
+<localized-string key="657" language="ja">六百五十七</localized-string>
+<localized-string key="658" language="ja">六百五十八</localized-string>
+<localized-string key="659" language="ja">六百五十九</localized-string>
+<localized-string key="660" language="ja">六百六十</localized-string>
+<localized-string key="661" language="ja">六百六十一</localized-string>
+<localized-string key="662" language="ja">六百六十二</localized-string>
+<localized-string key="663" language="ja">六百六十三</localized-string>
+<localized-string key="664" language="ja">六百六十四</localized-string>
+<localized-string key="665" language="ja">六百六十五</localized-string>
+<localized-string key="666" language="ja">六百六十六</localized-string>
+<localized-string key="667" language="ja">六百六十七</localized-string>
+<localized-string key="668" language="ja">六百六十八</localized-string>
+<localized-string key="669" language="ja">六百六十九</localized-string>
+<localized-string key="670" language="ja">六百七十</localized-string>
+<localized-string key="671" language="ja">六百七十一</localized-string>
+<localized-string key="672" language="ja">六百七十二</localized-string>
+<localized-string key="673" language="ja">六百七十三</localized-string>
+<localized-string key="674" language="ja">六百七十四</localized-string>
+<localized-string key="675" language="ja">六百七十五</localized-string>
+<localized-string key="676" language="ja">六百七十六</localized-string>
+<localized-string key="677" language="ja">六百七十七</localized-string>
+<localized-string key="678" language="ja">六百七十八</localized-string>
+<localized-string key="679" language="ja">六百七十九</localized-string>
+<localized-string key="680" language="ja">六百八十</localized-string>
+<localized-string key="681" language="ja">六百八十一</localized-string>
+<localized-string key="682" language="ja">六百八十二</localized-string>
+<localized-string key="683" language="ja">六百八十三</localized-string>
+<localized-string key="684" language="ja">六百八十四</localized-string>
+<localized-string key="685" language="ja">六百八十五</localized-string>
+<localized-string key="686" language="ja">六百八十六</localized-string>
+<localized-string key="687" language="ja">六百八十七</localized-string>
+<localized-string key="688" language="ja">六百八十八</localized-string>
+<localized-string key="689" language="ja">六百八十九</localized-string>
+<localized-string key="690" language="ja">六百九十</localized-string>
+<localized-string key="691" language="ja">六百九十一</localized-string>
+<localized-string key="692" language="ja">六百九十二</localized-string>
+<localized-string key="693" language="ja">六百九十三</localized-string>
+<localized-string key="694" language="ja">六百九十四</localized-string>
+<localized-string key="695" language="ja">六百九十五</localized-string>
+<localized-string key="696" language="ja">六百九十六</localized-string>
+<localized-string key="697" language="ja">六百九十七</localized-string>
+<localized-string key="698" language="ja">六百九十八</localized-string>
+<localized-string key="699" language="ja">六百九十九</localized-string>
+<localized-string key="700" language="ja">七百</localized-string>
+<localized-string key="701" language="ja">七百一</localized-string>
+<localized-string key="702" language="ja">七百二</localized-string>
+<localized-string key="703" language="ja">七百三</localized-string>
+<localized-string key="704" language="ja">七百四</localized-string>
+<localized-string key="705" language="ja">七百五</localized-string>
+<localized-string key="706" language="ja">七百六</localized-string>
+<localized-string key="707" language="ja">七百七</localized-string>
+<localized-string key="708" language="ja">七百八</localized-string>
+<localized-string key="709" language="ja">七百九</localized-string>
+<localized-string key="710" language="ja">七百十</localized-string>
+<localized-string key="711" language="ja">七百十一</localized-string>
+<localized-string key="712" language="ja">七百十二</localized-string>
+<localized-string key="713" language="ja">七百十三</localized-string>
+<localized-string key="714" language="ja">七百十四</localized-string>
+<localized-string key="715" language="ja">七百十五</localized-string>
+<localized-string key="716" language="ja">七百十六</localized-string>
+<localized-string key="717" language="ja">七百十七</localized-string>
+<localized-string key="718" language="ja">七百十八</localized-string>
+<localized-string key="719" language="ja">七百十九</localized-string>
+<localized-string key="720" language="ja">七百二十</localized-string>
+<localized-string key="721" language="ja">七百二十一</localized-string>
+<localized-string key="722" language="ja">七百二十二</localized-string>
+<localized-string key="723" language="ja">七百二十三</localized-string>
+<localized-string key="724" language="ja">七百二十四</localized-string>
+<localized-string key="725" language="ja">七百二十五</localized-string>
+<localized-string key="726" language="ja">七百二十六</localized-string>
+<localized-string key="727" language="ja">七百二十七</localized-string>
+<localized-string key="728" language="ja">七百二十八</localized-string>
+<localized-string key="729" language="ja">七百二十九</localized-string>
+<localized-string key="730" language="ja">七百三十</localized-string>
+<localized-string key="731" language="ja">七百三十一</localized-string>
+<localized-string key="732" language="ja">七百三十二</localized-string>
+<localized-string key="733" language="ja">七百三十三</localized-string>
+<localized-string key="734" language="ja">七百三十四</localized-string>
+<localized-string key="735" language="ja">七百三十五</localized-string>
+<localized-string key="736" language="ja">七百三十六</localized-string>
+<localized-string key="737" language="ja">七百三十七</localized-string>
+<localized-string key="738" language="ja">七百三十八</localized-string>
+<localized-string key="739" language="ja">七百三十九</localized-string>
+<localized-string key="740" language="ja">七百四十</localized-string>
+<localized-string key="741" language="ja">七百四十一</localized-string>
+<localized-string key="742" language="ja">七百四十二</localized-string>
+<localized-string key="743" language="ja">七百四十三</localized-string>
+<localized-string key="744" language="ja">七百四十四</localized-string>
+<localized-string key="745" language="ja">七百四十五</localized-string>
+<localized-string key="746" language="ja">七百四十六</localized-string>
+<localized-string key="747" language="ja">七百四十七</localized-string>
+<localized-string key="748" language="ja">七百四十八</localized-string>
+<localized-string key="749" language="ja">七百四十九</localized-string>
+<localized-string key="750" language="ja">七百五十</localized-string>
+<localized-string key="751" language="ja">七百五十一</localized-string>
+<localized-string key="752" language="ja">七百五十二</localized-string>
+<localized-string key="753" language="ja">七百五十三</localized-string>
+<localized-string key="754" language="ja">七百五十四</localized-string>
+<localized-string key="755" language="ja">七百五十五</localized-string>
+<localized-string key="756" language="ja">七百五十六</localized-string>
+<localized-string key="757" language="ja">七百五十七</localized-string>
+<localized-string key="758" language="ja">七百五十八</localized-string>
+<localized-string key="759" language="ja">七百五十九</localized-string>
+<localized-string key="760" language="ja">七百六十</localized-string>
+<localized-string key="761" language="ja">七百六十一</localized-string>
+<localized-string key="762" language="ja">七百六十二</localized-string>
+<localized-string key="763" language="ja">七百六十三</localized-string>
+<localized-string key="764" language="ja">七百六十四</localized-string>
+<localized-string key="765" language="ja">七百六十五</localized-string>
+<localized-string key="766" language="ja">七百六十六</localized-string>
+<localized-string key="767" language="ja">七百六十七</localized-string>
+<localized-string key="768" language="ja">七百六十八</localized-string>
+<localized-string key="769" language="ja">七百六十九</localized-string>
+<localized-string key="770" language="ja">七百七十</localized-string>
+<localized-string key="771" language="ja">七百七十一</localized-string>
+<localized-string key="772" language="ja">七百七十二</localized-string>
+<localized-string key="773" language="ja">七百七十三</localized-string>
+<localized-string key="774" language="ja">七百七十四</localized-string>
+<localized-string key="775" language="ja">七百七十五</localized-string>
+<localized-string key="776" language="ja">七百七十六</localized-string>
+<localized-string key="777" language="ja">七百七十七</localized-string>
+<localized-string key="778" language="ja">七百七十八</localized-string>
+<localized-string key="779" language="ja">七百七十九</localized-string>
+<localized-string key="780" language="ja">七百八十</localized-string>
+<localized-string key="781" language="ja">七百八十一</localized-string>
+<localized-string key="782" language="ja">七百八十二</localized-string>
+<localized-string key="783" language="ja">七百八十三</localized-string>
+<localized-string key="784" language="ja">七百八十四</localized-string>
+<localized-string key="785" language="ja">七百八十五</localized-string>
+<localized-string key="786" language="ja">七百八十六</localized-string>
+<localized-string key="787" language="ja">七百八十七</localized-string>
+<localized-string key="788" language="ja">七百八十八</localized-string>
+<localized-string key="789" language="ja">七百八十九</localized-string>
+<localized-string key="790" language="ja">七百九十</localized-string>
+<localized-string key="791" language="ja">七百九十一</localized-string>
+<localized-string key="792" language="ja">七百九十二</localized-string>
+<localized-string key="793" language="ja">七百九十三</localized-string>
+<localized-string key="794" language="ja">七百九十四</localized-string>
+<localized-string key="795" language="ja">七百九十五</localized-string>
+<localized-string key="796" language="ja">七百九十六</localized-string>
+<localized-string key="797" language="ja">七百九十七</localized-string>
+<localized-string key="798" language="ja">七百九十八</localized-string>
+<localized-string key="799" language="ja">七百九十九</localized-string>
+<localized-string key="800" language="ja">八百</localized-string>
+<localized-string key="801" language="ja">八百一</localized-string>
+<localized-string key="802" language="ja">八百二</localized-string>
+<localized-string key="803" language="ja">八百三</localized-string>
+<localized-string key="804" language="ja">八百四</localized-string>
+<localized-string key="805" language="ja">八百五</localized-string>
+<localized-string key="806" language="ja">八百六</localized-string>
+<localized-string key="807" language="ja">八百七</localized-string>
+<localized-string key="808" language="ja">八百八</localized-string>
+<localized-string key="809" language="ja">八百九</localized-string>
+<localized-string key="810" language="ja">八百十</localized-string>
+<localized-string key="811" language="ja">八百十一</localized-string>
+<localized-string key="812" language="ja">八百十二</localized-string>
+<localized-string key="813" language="ja">八百十三</localized-string>
+<localized-string key="814" language="ja">八百十四</localized-string>
+<localized-string key="815" language="ja">八百十五</localized-string>
+<localized-string key="816" language="ja">八百十六</localized-string>
+<localized-string key="817" language="ja">八百十七</localized-string>
+<localized-string key="818" language="ja">八百十八</localized-string>
+<localized-string key="819" language="ja">八百十九</localized-string>
+<localized-string key="820" language="ja">八百二十</localized-string>
+<localized-string key="821" language="ja">八百二十一</localized-string>
+<localized-string key="822" language="ja">八百二十二</localized-string>
+<localized-string key="823" language="ja">八百二十三</localized-string>
+<localized-string key="824" language="ja">八百二十四</localized-string>
+<localized-string key="825" language="ja">八百二十五</localized-string>
+<localized-string key="826" language="ja">八百二十六</localized-string>
+<localized-string key="827" language="ja">八百二十七</localized-string>
+<localized-string key="828" language="ja">八百二十八</localized-string>
+<localized-string key="829" language="ja">八百二十九</localized-string>
+<localized-string key="830" language="ja">八百三十</localized-string>
+<localized-string key="831" language="ja">八百三十一</localized-string>
+<localized-string key="832" language="ja">八百三十二</localized-string>
+<localized-string key="833" language="ja">八百三十三</localized-string>
+<localized-string key="834" language="ja">八百三十四</localized-string>
+<localized-string key="835" language="ja">八百三十五</localized-string>
+<localized-string key="836" language="ja">八百三十六</localized-string>
+<localized-string key="837" language="ja">八百三十七</localized-string>
+<localized-string key="838" language="ja">八百三十八</localized-string>
+<localized-string key="839" language="ja">八百三十九</localized-string>
+<localized-string key="840" language="ja">八百四十</localized-string>
+<localized-string key="841" language="ja">八百四十一</localized-string>
+<localized-string key="842" language="ja">八百四十二</localized-string>
+<localized-string key="843" language="ja">八百四十三</localized-string>
+<localized-string key="844" language="ja">八百四十四</localized-string>
+<localized-string key="845" language="ja">八百四十五</localized-string>
+<localized-string key="846" language="ja">八百四十六</localized-string>
+<localized-string key="847" language="ja">八百四十七</localized-string>
+<localized-string key="848" language="ja">八百四十八</localized-string>
+<localized-string key="849" language="ja">八百四十九</localized-string>
+<localized-string key="850" language="ja">八百五十</localized-string>
+<localized-string key="851" language="ja">八百五十一</localized-string>
+<localized-string key="852" language="ja">八百五十二</localized-string>
+<localized-string key="853" language="ja">八百五十三</localized-string>
+<localized-string key="854" language="ja">八百五十四</localized-string>
+<localized-string key="855" language="ja">八百五十五</localized-string>
+<localized-string key="856" language="ja">八百五十六</localized-string>
+<localized-string key="857" language="ja">八百五十七</localized-string>
+<localized-string key="858" language="ja">八百五十八</localized-string>
+<localized-string key="859" language="ja">八百五十九</localized-string>
+<localized-string key="860" language="ja">八百六十</localized-string>
+<localized-string key="861" language="ja">八百六十一</localized-string>
+<localized-string key="862" language="ja">八百六十二</localized-string>
+<localized-string key="863" language="ja">八百六十三</localized-string>
+<localized-string key="864" language="ja">八百六十四</localized-string>
+<localized-string key="865" language="ja">八百六十五</localized-string>
+<localized-string key="866" language="ja">八百六十六</localized-string>
+<localized-string key="867" language="ja">八百六十七</localized-string>
+<localized-string key="868" language="ja">八百六十八</localized-string>
+<localized-string key="869" language="ja">八百六十九</localized-string>
+<localized-string key="870" language="ja">八百七十</localized-string>
+<localized-string key="871" language="ja">八百七十一</localized-string>
+<localized-string key="872" language="ja">八百七十二</localized-string>
+<localized-string key="873" language="ja">八百七十三</localized-string>
+<localized-string key="874" language="ja">八百七十四</localized-string>
+<localized-string key="875" language="ja">八百七十五</localized-string>
+<localized-string key="876" language="ja">八百七十六</localized-string>
+<localized-string key="877" language="ja">八百七十七</localized-string>
+<localized-string key="878" language="ja">八百七十八</localized-string>
+<localized-string key="879" language="ja">八百七十九</localized-string>
+<localized-string key="880" language="ja">八百八十</localized-string>
+<localized-string key="881" language="ja">八百八十一</localized-string>
+<localized-string key="882" language="ja">八百八十二</localized-string>
+<localized-string key="883" language="ja">八百八十三</localized-string>
+<localized-string key="884" language="ja">八百八十四</localized-string>
+<localized-string key="885" language="ja">八百八十五</localized-string>
+<localized-string key="886" language="ja">八百八十六</localized-string>
+<localized-string key="887" language="ja">八百八十七</localized-string>
+<localized-string key="888" language="ja">八百八十八</localized-string>
+<localized-string key="889" language="ja">八百八十九</localized-string>
+<localized-string key="890" language="ja">八百九十</localized-string>
+<localized-string key="891" language="ja">八百九十一</localized-string>
+<localized-string key="892" language="ja">八百九十二</localized-string>
+<localized-string key="893" language="ja">八百九十三</localized-string>
+<localized-string key="894" language="ja">八百九十四</localized-string>
+<localized-string key="895" language="ja">八百九十五</localized-string>
+<localized-string key="896" language="ja">八百九十六</localized-string>
+<localized-string key="897" language="ja">八百九十七</localized-string>
+<localized-string key="898" language="ja">八百九十八</localized-string>
+<localized-string key="899" language="ja">八百九十九</localized-string>
+<localized-string key="900" language="ja">九百</localized-string>
+<localized-string key="901" language="ja">九百一</localized-string>
+<localized-string key="902" language="ja">九百二</localized-string>
+<localized-string key="903" language="ja">九百三</localized-string>
+<localized-string key="904" language="ja">九百四</localized-string>
+<localized-string key="905" language="ja">九百五</localized-string>
+<localized-string key="906" language="ja">九百六</localized-string>
+<localized-string key="907" language="ja">九百七</localized-string>
+<localized-string key="908" language="ja">九百八</localized-string>
+<localized-string key="909" language="ja">九百九</localized-string>
+<localized-string key="910" language="ja">九百十</localized-string>
+<localized-string key="911" language="ja">九百十一</localized-string>
+<localized-string key="912" language="ja">九百十二</localized-string>
+<localized-string key="913" language="ja">九百十三</localized-string>
+<localized-string key="914" language="ja">九百十四</localized-string>
+<localized-string key="915" language="ja">九百十五</localized-string>
+<localized-string key="916" language="ja">九百十六</localized-string>
+<localized-string key="917" language="ja">九百十七</localized-string>
+<localized-string key="918" language="ja">九百十八</localized-string>
+<localized-string key="919" language="ja">九百十九</localized-string>
+<localized-string key="920" language="ja">九百二十</localized-string>
+<localized-string key="921" language="ja">九百二十一</localized-string>
+<localized-string key="922" language="ja">九百二十二</localized-string>
+<localized-string key="923" language="ja">九百二十三</localized-string>
+<localized-string key="924" language="ja">九百二十四</localized-string>
+<localized-string key="925" language="ja">九百二十五</localized-string>
+<localized-string key="926" language="ja">九百二十六</localized-string>
+<localized-string key="927" language="ja">九百二十七</localized-string>
+<localized-string key="928" language="ja">九百二十八</localized-string>
+<localized-string key="929" language="ja">九百二十九</localized-string>
+<localized-string key="930" language="ja">九百三十</localized-string>
+<localized-string key="931" language="ja">九百三十一</localized-string>
+<localized-string key="932" language="ja">九百三十二</localized-string>
+<localized-string key="933" language="ja">九百三十三</localized-string>
+<localized-string key="934" language="ja">九百三十四</localized-string>
+<localized-string key="935" language="ja">九百三十五</localized-string>
+<localized-string key="936" language="ja">九百三十六</localized-string>
+<localized-string key="937" language="ja">九百三十七</localized-string>
+<localized-string key="938" language="ja">九百三十八</localized-string>
+<localized-string key="939" language="ja">九百三十九</localized-string>
+<localized-string key="940" language="ja">九百四十</localized-string>
+<localized-string key="941" language="ja">九百四十一</localized-string>
+<localized-string key="942" language="ja">九百四十二</localized-string>
+<localized-string key="943" language="ja">九百四十三</localized-string>
+<localized-string key="944" language="ja">九百四十四</localized-string>
+<localized-string key="945" language="ja">九百四十五</localized-string>
+<localized-string key="946" language="ja">九百四十六</localized-string>
+<localized-string key="947" language="ja">九百四十七</localized-string>
+<localized-string key="948" language="ja">九百四十八</localized-string>
+<localized-string key="949" language="ja">九百四十九</localized-string>
+<localized-string key="950" language="ja">九百五十</localized-string>
+<localized-string key="951" language="ja">九百五十一</localized-string>
+<localized-string key="952" language="ja">九百五十二</localized-string>
+<localized-string key="953" language="ja">九百五十三</localized-string>
+<localized-string key="954" language="ja">九百五十四</localized-string>
+<localized-string key="955" language="ja">九百五十五</localized-string>
+<localized-string key="956" language="ja">九百五十六</localized-string>
+<localized-string key="957" language="ja">九百五十七</localized-string>
+<localized-string key="958" language="ja">九百五十八</localized-string>
+<localized-string key="959" language="ja">九百五十九</localized-string>
+<localized-string key="960" language="ja">九百六十</localized-string>
+<localized-string key="961" language="ja">九百六十一</localized-string>
+<localized-string key="962" language="ja">九百六十二</localized-string>
+<localized-string key="963" language="ja">九百六十三</localized-string>
+<localized-string key="964" language="ja">九百六十四</localized-string>
+<localized-string key="965" language="ja">九百六十五</localized-string>
+<localized-string key="966" language="ja">九百六十六</localized-string>
+<localized-string key="967" language="ja">九百六十七</localized-string>
+<localized-string key="968" language="ja">九百六十八</localized-string>
+<localized-string key="969" language="ja">九百六十九</localized-string>
+<localized-string key="970" language="ja">九百七十</localized-string>
+<localized-string key="971" language="ja">九百七十一</localized-string>
+<localized-string key="972" language="ja">九百七十二</localized-string>
+<localized-string key="973" language="ja">九百七十三</localized-string>
+<localized-string key="974" language="ja">九百七十四</localized-string>
+<localized-string key="975" language="ja">九百七十五</localized-string>
+<localized-string key="976" language="ja">九百七十六</localized-string>
+<localized-string key="977" language="ja">九百七十七</localized-string>
+<localized-string key="978" language="ja">九百七十八</localized-string>
+<localized-string key="979" language="ja">九百七十九</localized-string>
+<localized-string key="980" language="ja">九百八十</localized-string>
+<localized-string key="981" language="ja">九百八十一</localized-string>
+<localized-string key="982" language="ja">九百八十二</localized-string>
+<localized-string key="983" language="ja">九百八十三</localized-string>
+<localized-string key="984" language="ja">九百八十四</localized-string>
+<localized-string key="985" language="ja">九百八十五</localized-string>
+<localized-string key="986" language="ja">九百八十六</localized-string>
+<localized-string key="987" language="ja">九百八十七</localized-string>
+<localized-string key="988" language="ja">九百八十八</localized-string>
+<localized-string key="989" language="ja">九百八十九</localized-string>
+<localized-string key="990" language="ja">九百九十</localized-string>
+<localized-string key="991" language="ja">九百九十一</localized-string>
+<localized-string key="992" language="ja">九百九十二</localized-string>
+<localized-string key="993" language="ja">九百九十三</localized-string>
+<localized-string key="994" language="ja">九百九十四</localized-string>
+<localized-string key="995" language="ja">九百九十五</localized-string>
+<localized-string key="996" language="ja">九百九十六</localized-string>
+<localized-string key="997" language="ja">九百九十七</localized-string>
+<localized-string key="998" language="ja">九百九十八</localized-string>
+<localized-string key="999" language="ja">九百九十九</localized-string>
+<localized-string key="1000" language="ja">千</localized-string></localized-strings><metanorma-extension><presentation-metadata><color-header-footer-background>#0b0968</color-header-footer-background></presentation-metadata><presentation-metadata><vertical-layout>true</vertical-layout></presentation-metadata><presentation-metadata><autonumbering-style>japanese</autonumbering-style></presentation-metadata><presentation-metadata><coverpage-header>早稲田大学図書館　原文本注</coverpage-header></presentation-metadata><presentation-metadata><backpage-boilerplate-text>未經許可　不得翻印</backpage-boilerplate-text></presentation-metadata><presentation-metadata><name>coverpage-image</name><value><image src="/__w/laozi/laozi/_site/documents/_tmp_images_cbfbfda2-7e77-4c15-ae35-b1c5f4160914/a72a417a-fc9c-4065-aa5d-7a1510587105.pdf" extracted="true"/></value></presentation-metadata><presentation-metadata><name>backpage-image</name><value><image src="/__w/laozi/laozi/_site/documents/_tmp_images_cbfbfda2-7e77-4c15-ae35-b1c5f4160914/84cf8ce7-4af3-4e61-814f-70d68f985138.pdf" extracted="true"/></value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>1</value></presentation-metadata><metanorma><source/></metanorma><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<p id="_f5c1107b-ae27-5d33-ba00-8f81487d6b4a">主 務 大 臣:経済産業大臣 制定:昭和 26.10.31 改正:</p>
+
+<p id="_4a69ff6f-43f6-e231-bf3a-2d0f569c9f71">官 報 掲 載 日:令和七年1月15日</p>
+
+<p id="_a891b3d5-dc93-a694-99e9-8e204d9d23a4">原 案 作 成 者:一般財団法人日本規格協会</p>
+
+<p id="_3f308807-44c5-1774-9cca-a542eb275ba3">(〒108-0073 東京都港区三田 3-13-12 三田 MT ビル TEL 03-4231-8530)</p>
+
+<p id="_3647e595-b3d5-b642-55eb-9d0c2b147a28">審 議 部 会:欽定四庫全書欽定四庫全書</p>
+</copyright-statement>
+
+<feedback-statement>
+
+<p id="_bd2f74a0-2c21-6bcc-0ca0-ba4b7fe6d5f2">この規格についての意見又は質問は，上記原案作成者又は経済産業省産業技術環境局 国際標準課(〒100-8901 東京 都千代田区霞が関 1-3-1)にご連絡ください。</p>
+
+<p id="_1ff2ff04-8371-e86e-bdf6-b95b6fc45f2d">なお，日本産業規格は，産業標準化法の規定によって，少なくとも 5 年を経過する日までに日本産業標準調査会の審 議に付され，速やかに，確認，改正又は廃止されます。</p>
+</feedback-statement>
+</boilerplate><preface><foreword id="___x5e8f_" obligation="informative" displayorder="1">
+<title id="_83c361d9-e571-4026-b0ca-feaac5dce696">まえがき</title><fmt-title depth="1"><semx element="title" source="_83c361d9-e571-4026-b0ca-feaac5dce696">まえがき</semx></fmt-title>
+<p id="_0f167795-4c3d-0b0d-15c0-cc4201a009f5">此文本源於早稲田大学図書館藏品《帝範臣軌》（兩冊）合刻本，其中《帝範》一冊，於寛文8年（1668）由京都「林和泉掾」出版。</p>
+
+<p id="_70c4c3c1-d6c3-0bba-972f-4d29b5956ab5">冊中印有「不老菴」「去水 五味均平蔵」和「両□」共三印。</p>
+
+<p id="_edcfee3c-c80b-1db9-2bb7-bccd872bac05">《帝範》共二卷。</p>
+
+<p id="_7800613c-55ad-55f5-31f7-2aadb3d682ea">《帝範》為唐太宗李世民所撰，共十二篇，為太宗於貞觀二十二年（648）撰寫，賜予太子李治。《帝範》一書，為太宗對太子的教誨，內容包括君臣之道、政治之道、修身之道等，是一部具有極高價值的古代文獻。</p>
+</foreword><clause id="___x6b3d___x5b9a___x56db___x5eab___x5168___x66f8___x5b50___x90e8___x4e00____x63d0___x8981____x5e1d___x7bc4___x56db___x5377___x5112___x5bb6___x985e_" inline-header="false" obligation="informative" displayorder="2">
+<title id="_320af490-795e-44c2-8fbe-d2c83e4c32b2">欽定四庫全書　子部一 提要 帝範四卷　儒家類</title><fmt-title depth="1"><semx element="title" source="_320af490-795e-44c2-8fbe-d2c83e4c32b2">欽定四庫全書　子部一 提要 帝範四卷　儒家類</semx></fmt-title>
+<p id="_74d3a48d-36e6-8fed-5571-f2ee7eed1d1e">　　〈臣〉等謹按帝範十二篇唐太宗貞觀二十二年撰以賜太子新舊唐書皆云四卷晁公武讀書志僅載六篇陳振孫書録解題亦題曰一卷元吳萊謂征雲南僰夷時始得完書攷其事在泰定二年蓋此書宋佚其半元乃復完也唐書藝文志載有賈行注而舊唐書敬宗本紀稱寳歴二年秘書省著作郎韋公肅注是書以進是唐時已有二注今本注無姓名觀其體裁似唐人注經之式而其中時稱楊萬里呂祖謙之言疑元人因舊注而補之其援引頗詳洽而詞不免於煩贅〈臣〉等謹為參攷其誤附列注文之下仍依舊史釐為四卷以復其舊雲乾隆三十八年四月恭校上</p>
+
+<p id="_a809c703-7038-8a72-b788-039113941dc3">　　總纂官〈臣〉紀昀〈臣〉陸錫熊〈臣〉孫士毅</p>
+
+<p id="_c1fb4e0d-02ed-2084-dcf4-735439ae2312">　　總校官〈臣〉陸費墀</p>
+</clause><clause type="toc" id="_c8d894c2-686a-447b-87ab-08abf7aa3dc3" displayorder="3"><fmt-title depth="1">目　次</fmt-title></clause>
+ </preface><sections><p class="JapaneseIndustrialStandard" displayorder="4">日本工業規格<tab/><tab/><tab/><tab/><tab/><tab/><tab/><span class="JIS">JIS</span></p><p class="StandardNumber" displayorder="5"><tab/>A 1001: <span class="EffectiveYear">2025</span></p><p class="IDT" displayorder="6"/><p class="zzSTDTitle1" displayorder="7">帝範</p><p class="zzSTDTitle2" displayorder="8">The Imperial Model</p>
+
+
+<clause id="___x5e1d___x7bc4___x5e8f_" inline-header="false" obligation="normative" displayorder="9">
+<title id="_057c987e-e410-44db-a8e5-ae5b16460aee">帝範序</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5e8f_">一</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_057c987e-e410-44db-a8e5-ae5b16460aee">帝範序</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5e8f_">一</semx></fmt-xref-label>
+<p id="_da7cbc2c-dc58-5281-5324-0ef43618dea4">　　朕聞大德曰生，大寶曰位。辯其上下，樹之君臣，所以撫育黎元，鈞陶庶類，自非克明克哲，允武允文，皇天眷命，歷數在躬，安可以濫握靈圖，叨臨神器！是以翠媯薦唐堯之德，元圭賜夏禹之功。丹字呈祥，周開八百之祚；素靈表瑞，漢啟重世之基。由此觀之，帝王之業，非可以力爭者矣。</p>
+
+<p id="_0643eb7a-622a-96b3-c360-319059243c50">昔隋季版蕩，海內分崩。先皇以神武之姿，當經綸之會，斬靈蛇而定王業，啟金鏡而握天樞。然由五嶽含氣，三光戢曜，豺狼尚梗，風塵未寧。朕以弱冠之年，懷慷慨之誌，思靖大難，以濟蒼生。躬擐甲冑，親當矢石。夕對魚鱗之陣，朝臨鶴翼之圍，敵無大而不摧，兵何堅而不碎，剪長鯨而清四海，掃槍而廓八紘。乘慶天潢，登暉璇極，襲重光之永業，繼大寶之隆基。戰戰兢兢，若臨深而禦朽；日慎一日，思善始而令終。</p>
+
+<p id="_de9a8490-f636-ebfd-97e4-57d7eb1feab7">汝以幼年，偏鐘慈愛，義方多闕，庭訓有乖。擢自維城之居，屬以少陽之任，未辯君臣之禮節，不知稼穡之艱難。每思此為憂，未嘗不廢寢忘食。自軒昊以降，迄至周隋，以經天緯地之君，纂業承基之主，興亡治亂，其道煥焉。所以披鏡前蹤，博覽史籍，聚其要言，以為近誡雲耳。</p>
+</clause>
+
+<clause id="___x5e1d___x7bc4___x5377___x4e00_" inline-header="false" obligation="normative" displayorder="10">
+<title id="_df80bc27-2f78-4f88-9be7-a2697d347d84">帝範卷一</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_df80bc27-2f78-4f88-9be7-a2697d347d84">帝範卷一</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx></fmt-xref-label>
+<p id="_bc7db79f-95bd-fdef-534f-0a6c280f38ba"><span style="font-family:&quot;MS Gothic&quot;">唐太宗文皇帝撰</span><note id="_92193832-63a1-218a-6055-d7a9921e7d45" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x5e1d___x7bc4___x5377___x4e00_"><span class="fmt-xref-container"><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_40172953-eef6-8ee6-0129-38fc137cdd4f">帝者，天之一名。以形體謂之天，以主宰謂之帝。帝者，諦也。言天蕩然，無心忘于物我，公平通逺，舉事審諦。故謂之「帝」，又曰「察道者帝」。又「三皇五帝」。「三王」或曰帝。既天之一名，而以三皇居，先是優於帝而過於天耶。曰：「三皇」不能過天，但優於帝矣。何以為優以遂同天之名。以為優劣耳，何則以五帝有為，而同天三皇無為而同天？以有為無為，故知三皇優也。或曰：「三王抑劣於帝乎」。曰：「三王雖實聖人，但内同天而外，隨時運不得盡其聖用，逐迹為名，故謂之為王也。禮運曰：「大道之行，天下為公。」即帝也，大道既隠，各親其親，即王也。三王亦順帝之則，而不盡故不得，名帝然天之與帝義為一也故繼天則謂之天子其號謂之帝。總三而論，之以帝得其中正矣。皇者，天也。羙也，王者大也。天地人，以一貫三為王天下所法也。王按左氏傳並音于况反範法也，言可以為帝王之法式。故名之「帝範」，以漢孔安國尚書，序曰：「典謨訓誥，誓命之文凡百篇示人主，以軌範也其義同。」</p>
+</note></p>
+
+
+
+<clause id="___x541b___x9ad4___x7b2c___x4e00_" inline-header="false" obligation="normative">
+<title id="_b6c4ab36-3503-42bd-a23a-87ca8e7d808c">君體第一</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x541b___x9ad4___x7b2c___x4e00_">一</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_b6c4ab36-3503-42bd-a23a-87ca8e7d808c">君體第一</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x541b___x9ad4___x7b2c___x4e00_">一</semx></fmt-xref-label>
+<note id="_91e44ddc-bf16-5f86-9b82-44aaf954dc40" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x541b___x9ad4___x7b2c___x4e00_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x541b___x9ad4___x7b2c___x4e00_">一</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_3bff0c11-97ee-b613-91dc-9a4ac7096a1f">君，白虎通曰：「君者，羣也。羣，下所歸心。」又苟卿曰：「君者，儀也。民者，影也。」儀正則影正君者盤也民者水也。盤圓則水圓。君者，源也。源清則流清，源濁則流濁。左傳云：「慶賞刑威，曰：『君體者，治體也。君之所治體勢規模第者，次第也。一者，數之始也。萬物得一以生。老子曰：「聖人抱一為天下式。」故君體為第一也。 ○按荀子，無民者，影也。民者，水也。二語又，君者，源也。作君者，人之源也。</p>
+</note>
+
+<p id="_1288eb5a-4374-8fbc-3f6c-7e0d2a2d97d0">　　夫人者，國之先，國者，君之本。人主之體，如山嶽焉，高峻而不動；如日月焉，貞明而普照。兆庶之所瞻仰，天下之所歸往。寬大其誌，足以兼包；平正其心足以制斷。非威德無以致遠，非慈厚無以懷人。撫九族以仁，接大臣以禮。奉先思孝，處位思恭。傾己勤勞，以行德義，此乃君之體也。</p>
+</clause>
+
+<clause id="___x5efa___x89aa___x7b2c___x4e8c_" inline-header="false" obligation="normative">
+<title id="_5a1c4990-514d-4328-b421-038b9277f3f9">建親第二</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5efa___x89aa___x7b2c___x4e8c_">二</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_5a1c4990-514d-4328-b421-038b9277f3f9">建親第二</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5efa___x89aa___x7b2c___x4e8c_">二</semx></fmt-xref-label>
+<note id="_46ca8d96-524d-0ce6-9bc1-0b725cf6f2d0" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x5efa___x89aa___x7b2c___x4e8c_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5efa___x89aa___x7b2c___x4e8c_">二</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_b186ea5e-7acc-cc6a-89ce-e4b3c4e5fb76">左傳曰：「封建親戚以藩屏周室，親骨肉也。言有天下者，宜樹立藩鎭，骨肉分置之於内外，以相與維持庶無孤削單弱之患。夫水之無本，縱築而亦涸木之，無柢縱溉而亦焦。大厦將興資衆材，而後可成千間之廣。大鵬將翥藉短羽，而後可揚萬里之逺。人君欲為國享萬世無疆之休者，豈可獨立，任其智力者乎。左傳曰：「葛藟猶能庇其根本，故君子以為比况國君乎，固宜建親。」建親之道，不特骨肉之謂也。至如賢徳忠純，明哲通才之君子，建而親之，孰曰：『不可。』」</p>
+</note>
+
+<p id="_31c438e0-2983-acf1-8133-d5b800ce70f6">　　夫六合曠道，大寶重任。曠道不可偏制，故與人共理之；重任不可獨居，故與人共守之。是以封建親戚，以為藩衛，安危同力，盛哀一心。遠近相持，親疏兩用。並兼路塞，逆節不生。昔周之興也，割裂山河，分王宗族。內有晉鄭之輔，外有魯衛之虞。故卜祚靈長，歷年數百。秦之季也，棄淳于之策，納李斯之謀。不親其親，獨智其智，顛覆莫恃，二世而亡。斯豈非枝葉不疏，則根柢難拔；股肱既殞，則心腹無依者哉！漢初定關中，誠亡秦之失策，廣封懿親，過於古制。大則專都偶國，小則跨郡連州。末大則危，尾大難掉。六王懷叛逆之誌，七國受鈇鉞之誅。此皆地廣兵強積勢之所致也。魏武創業，暗於遠圖。子弟無封戶之人，宗室無立錐之地。外無維城以自固，內無盤石以為基。遂乃大器保於他人，社稷亡於異姓。語曰：「流盡其源竭，條落則根枯。」此之謂也。</p>
+
+<p id="_d39ac083-3bca-1005-ed00-43224ff6b172">　　夫封之太強，則為噬臍之患；致之太弱則無固本之基。由此而言，莫若眾建宗親而少力。使輕重相鎮，憂樂是同。則上無猜忌之心，下無侵冤之慮。此封建之鑒也。斯二者，安國之基。</p>
+
+<p id="_cc1f7626-3d62-2444-d679-271e2c3b197f">　　君德之宏，唯資博達。設分縣教，以術化人。應務適時，以道制物。</p>
+
+<p id="_1b5df061-95d4-b592-c9f3-a8ae7ffc8ae3">　　術以神隱為妙，道以光大為功。括蒼旻以體心，則人仰之而不測；包厚地以為量，則人循之而無端。蕩蕩難名，宜其宏遠。且敦穆九族，放勛流美於前；克諧烝乂，重華垂譽於後。無以奸破義，無以疏間親。察之以德，則邦家俱泰，骨肉無虞，良為美矣。</p>
+</clause>
+
+<clause id="___x6c42___x8ce2___x7b2c___x4e09_" inline-header="false" obligation="normative">
+<title id="_ee3939d6-0f8d-46b1-9ac4-7a64c9a3ef40">求賢第三</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x6c42___x8ce2___x7b2c___x4e09_">三</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_ee3939d6-0f8d-46b1-9ac4-7a64c9a3ef40">求賢第三</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x6c42___x8ce2___x7b2c___x4e09_">三</semx></fmt-xref-label>
+<note id="_2b5e3622-50dd-0ac5-9cfe-8fa751637859" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x6c42___x8ce2___x7b2c___x4e09_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e00_">二</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x6c42___x8ce2___x7b2c___x4e09_">三</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_9d402c86-2721-1dfd-02e4-4001034d698e">周書《隂符》曰：「凡治國有三常。一曰：『君以舉賢為常。』二曰：『官以任賢為常。』三曰：『士以敬賢為常。』」 夫然，雖百代，可知也。故《孟子》曰：「堯舜之仁，不徧愛人，急親賢也。」 是以知聖人之言，不徒發也。苟賢人在野，小人在朝，縱欲以仁。徧愛人亦狭矣。惟急親賢，而牧之天下，俱得其所也。 用賢人，則邦家泰。用小人，則邦家否。其泰否之，一吉一凶，在易焉。泰之彖辭曰：「泰，小徃大來，吉，亨。」則是天地交，而萬物通也。 上下交，而其志同也。内陽而外隂，内健而外順。内君子而外小人。君子道長，小人道消也。泰之時，天地交，萬物通。天地之極治也。 上下交其志同，天下之極治也。極治之功幽，至於天地明，至於人物無不泰而通焉。孰為此者，聖人也。 聖人何道臻此？一言以蔽之，曰：「進君子，退小人，而已。消之，長之，在彼。内之，外之，在此。又初九曰：「㧞茅連茹，以其彚征，吉。」夫一茅㧞，衆根隨；一賢舉，衆俊歸。堯舉一舜，乃得十六舜。舜舉一禹，乃得九禹。所謂彚征吉者，此也。至否之彖辭曰：「否之匪人，不利君子貞。大徃小來，則是天地不交，而萬物不通也。上下不交，而天下無邦也。内隂而外陽，内柔而外剛，内小人而外君子。小人道長，君子道消也。 《楊誠齋》曰:「《易》中極亂之辭，未有痛于『否』之彖者，『匪人』一用何遽至於『天地不交而萬物不通』。『上下不交而天下無邦』乎？萬物不通，則舉天下而為墟。天下無邦，則舉國家而為墟。小人之禍，何若是烈也。盖秦亡于李斯上書之日，漢替于張禹談《經》之時。咸陽之煨燼，地皇之塗炭，何必見而後悟哉？」 此說深得㫖矣。天地之氣不交，則萬物無生成之理。上下之義不交，則天下無邦國之道。建邦國，所以為治也。上施政以治民，民戴君而從命。上下相交，所以治安也。今上下不交，是天下無邦國之道也。陰柔在内，陽剛在外，君子徃處于外，小人來處于内。小人道長，君子道消之時，六二、六三，包承、包羞，小人柔諂之資，不中不正，並包羣小，而為宗相援相引，濫謀邪慮，何所不至也。如林甫、仙客；許史、石顯，鄭朋、五鹿，極小人之情狀，以喪國危君。此小人之烈酷，更有何加焉。嗚呼！聖君觀此否泰安危之道，可不慎歟？可不誡歟？是不可不求賢也。能求賢則必得君子。《荀子》曰：「天地生君子，君子理天地。君子者，天地之参也。萬物之統也。民之父母也。無君子，則天地不理，禮義不統，上無君師，下無父母。」夫是之謂：「至亂」。如用及，君子必至泰矣。</p>
+</note>
+
+<p id="_26ebdfc3-59ad-6b04-d1f6-44b8b5d61ff6">　　夫國之匡輔，必待忠良。任使得人，天下自治。故堯命四嶽，舜舉八元，以成恭己之隆，用贊欽明之道。士之居世，賢之立身，莫不戢翼隱鱗，待風雲之會；懷奇蘊異，思會遇之秋。是明君旁求俊乂，博訪英賢，搜揚側陋。不以卑而不用，不以辱而不尊。昔伊尹，有莘之媵臣；呂望，渭濱之賤老。夷吾困於縲紲；韓信弊於逃亡。商湯不以鼎俎為羞，姬文不以屠釣為恥，終能獻規景毫，光啟殷朝；執旌牧野，會昌周室。</p>
+
+<p id="_6478cc82-9e4c-ecad-9f7a-330078f17364">　　齊成一匡之業，實資仲父之謀；漢以六合為家，是賴淮陰之策。</p>
+
+<p id="_514dcc79-14fd-a2c8-3fcc-36968438bf66">　　故舟航之絕海也，必假橈楫之功；鴻鵠之淩雲也，必因羽翮之用；帝王之為國也，必藉匡輔之資。故求之斯勞，任之斯逸。照車十二，黃金累千，豈如多士之隆，一賢之重。此乃求賢之貴也。</p>
+</clause>
+</clause>
+
+<clause id="___x5e1d___x7bc4___x5377___x4e8c_" inline-header="false" obligation="normative" displayorder="11">
+<title id="_665354fe-84e3-490c-9a98-4589b4828cc6">帝範卷二</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_665354fe-84e3-490c-9a98-4589b4828cc6">帝範卷二</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx></fmt-xref-label>
+<clause id="___x5be9___x5b98___x7b2c___x56db_" inline-header="false" obligation="normative">
+<title id="_7475b93e-60e7-47f0-a2a0-6b848e241457">審官第四</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5be9___x5b98___x7b2c___x56db_">一</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_7475b93e-60e7-47f0-a2a0-6b848e241457">審官第四</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5be9___x5b98___x7b2c___x56db_">一</semx></fmt-xref-label>
+<note id="_50bb7fcc-4886-7ef0-8804-45947fb6163f" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x5be9___x5b98___x7b2c___x56db_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5be9___x5b98___x7b2c___x56db_">一</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_ad9cfe6b-a838-f409-b76d-114a117145c8">《尚書》臯陶曰：「都！在知人，在安民。」禹曰：「吁！咸若時，惟帝其難之知人則哲，能官人。安民則恵，黎民懐之。能哲而恵，何憂乎驩兠？何遷乎有苗？何畏乎巧言令色？」孔壬頴逹曰：「臯陶述此脩身親人之道，以吿禹，在於知人善惡，擇而信任之，在於能安下民，為政以安定之也。」禹驚而答曰：「吁！人君如是能知人，能安民，惟帝堯。猶其難之况，餘人乎，知人善惡，則為大智。能用官，得其人矣。能安下民，則為恵政，衆民皆歸之矣。此不易之理也。若帝堯能智而恵，則當朝無姦佞，何憂懼於驩兠之佞而放之？何須遠遷徙於有苗之君？何畏懼於彼巧言令色，為甚佞之人故？古之明王，用人必先六徴以嘗之，然後任之。任人之際，國之安危，民之休戚繫焉，故不可不審也。審者，謂核，其實也。若核而得實，信使守約，亷使分財，官無曠職，職無虚位，務成而事，濟矣。惟人君不可不慎審其官也。《左傳》曰：「舉不失職，官不易方，亦審官之義也。」</p>
+</note>
+
+<p id="_76537730-42a8-3b1f-e4e2-7703f55754ed">　　夫設官分職，所以闡化宣風。故明主之任人，如巧匠之制木，直者以為轅，曲者以為輪；長者以為棟梁，短者以為栱角。無曲直長短，各有所施。明主之任人，亦由是也。智者取其謀，愚者取其力；勇者取其威，怯者取其慎，無智、愚、勇、怯，兼而用之。故良匠無棄材，明主無棄士。不以一惡忘其善；勿以小瑕掩其功。割政分機，盡其所有。然則函牛之鼎，不可處以烹雞；捕鼠之貍，不可使以搏獸；一鈞之器，不能容以江漢之流；百石之車，不可滿以斗筲之粟。何則大非小之量，輕非重之宜。</p>
+
+<p id="_288d33ed-f154-fd3c-43a4-1639de96a16f">　　今人智有短長，能有巨細。或蘊百而尚少，或統一而為多。有輕才者，不可委以重任；有小力者，不可賴以成職。委任責成，不勞而化，此設官之當也。斯二者治亂之源。</p>
+
+<p id="_b6b595e7-d17b-c6f6-0190-908409e7544e">　　立國制人，資股肱以合德；宣風道俗，俟明賢而寄心。列宿騰天，助陰光之夕照；百川決地，添溟渤之深源。海月之深朗，猶假物而為大。君人禦下，統極理時，獨運方寸之心，以括九區之內，不資眾力何以成功？必須明職審賢，擇材分祿。得其人則風行化洽，失其用則虧教傷人。故雲則哲惟難，良可慎也！</p>
+</clause>
+
+<clause id="___x7d0d___x8aeb___x7b2c___x4e94_" inline-header="false" obligation="normative">
+<title id="_8eb8fac7-bc39-47bf-b3ea-66bfcc33e65a">納諫第五</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x7d0d___x8aeb___x7b2c___x4e94_">二</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_8eb8fac7-bc39-47bf-b3ea-66bfcc33e65a">納諫第五</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x7d0d___x8aeb___x7b2c___x4e94_">二</semx></fmt-xref-label>
+<note id="_d7606926-f2d6-6619-c84a-15dc6fe15297" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x7d0d___x8aeb___x7b2c___x4e94_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x7d0d___x8aeb___x7b2c___x4e94_">二</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_edd11a71-308b-2a0d-e7b6-de7e9af26124">《尚書》曰：「朝夕納諌，以輔台徳。」又《傳說》謂髙宗曰：「惟木從䋲，則直。后從諫，則聖后。聖臣不命其承，疇敢不祗，若王之休命。言木以繩直，君以諫聖，明君能受諫，則臣不待其命，承意而諫之也。既王能如此，則誰敢不敬順王之美命而諫者乎？是以堯舜衢室之問，總章之訪以来天下之諫，以通天下之情。故至聖至明以配天也。至如桀紂拒諌，飾非直至於焚放而不自覺者，誠可悲哉！疇誰也祗敬也。休美也。</p>
+</note>
+
+<p id="_ab738a45-d7c5-94c5-cc5a-2aa3be9a8176">　　夫王者，高居深視，虧聽阻明。恐有過而不聞，懼有闕而莫補。所以設鞀樹木，思獻替之謀；傾耳虛心，佇忠正之說。言之而是，雖在仆隸芻蕘，猶不可棄也；言之而非，雖在王侯卿相，未必可容。其義可觀，不責其辯；其理可用，不責其文。至若折檻懷疏，標之以作戒；引裾卻坐，顯之以自非。故雲忠者瀝其心，智者盡其策。臣無隔情於上，君能遍照於下。</p>
+
+<p id="_75ba66b5-2464-bda9-5e58-c97732512df5">　　昏主則不然，說者拒之以威；勸者窮之以罪。大臣惜祿而莫諫，小臣畏誅而不言。恣暴虐之心，極荒淫之誌。其為雍塞，無由自知。以為德超三皇，材過五帝。至於身亡國滅，豈不悲哉！此拒諫之惡也。</p>
+</clause>
+
+<clause id="___x53bb___x8b92___x7b2c___x516d_" inline-header="false" obligation="normative">
+<title id="_151a72af-f570-4f4a-bf91-4eda48eed664">去讒第六</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x53bb___x8b92___x7b2c___x516d_">三</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_151a72af-f570-4f4a-bf91-4eda48eed664">去讒第六</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x53bb___x8b92___x7b2c___x516d_">三</semx></fmt-xref-label>
+<note id="_778183e9-9ab7-ced5-040b-13d57e1f3787" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x53bb___x8b92___x7b2c___x516d_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e8c_">三</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x53bb___x8b92___x7b2c___x516d_">三</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_f48ff39b-e451-ee8d-8226-f62f60397d98">「䜛」，譖也。荀子曰：「《傷良》曰：「䜛，小雅青蠅。《詩》云：『營營青蠅，止于樊。豈弟君子，無信䜛言。』《孔疏》云：『營營，徃來也。彼營營徃來，青蠅之蟲汙白。使黒汙黒使白，乃變亂白黒。不可近之，當逺去之。于外止于藩籬之上，無令在宫室之内也。此周之大夫厭幽王聴信䜛佞，作此詩以刺之也。以青蠅喻䜛佞之人，變亂善惡，如青蠅變亂黒白也。不可親之，當棄于荒野之外。無令在朝廷之上，䜛人為害如此。故云：「樂易之君子，無信䜛言也。」昔魯欲使樂正子為政，孟子聞之，喜而不寐。公孫丑曰：「樂正子彊乎？」曰：「否，有知慮乎？」曰：「否，多聞識乎？」曰：「否，然則奚為喜而不寐？」曰：「其為人也好善。好善足乎？」曰：「好善，優於天下，而况魯國乎？夫苟好善，則四海之内，皆将輕千里而來告之以善。夫苟不好善，則人將曰『訑訑予，既已知之矣！』訑訑之聲音顔色，拒人於千里之外。士止於千里之外，則䜛諂面諛之人至矣。與䜛諂面諛之人居國，欲治可得乎？以此觀之，善䜛進退，治亂可見矣。」</p>
+</note>
+
+<p id="_445b53eb-b38b-0f58-7f9e-8589ec0a1113">　　夫讒佞之徒，國之蟊賊也。爭榮華於旦夕，競勢利於市朝。以其諂諛之姿，惡忠賢之在己上；奸邪之誌，恐富貴之不我先。朋黨相持，無深而不入；比同相習，無高而不升。令色巧言，以親於上；先意承旨，以悅於君。朝有千臣，昭公去國而不悟；弓無九石，寧一終身而不知。</p>
+
+<p id="_9b94b82b-b9a5-4db9-ca19-cea67394bd4c">　　以疏間親，宋有伊戾之禍；以邪敗正，楚有郤宛之誅。斯乃暗主庸君之所迷惑，忠臣孝子之可泣冤。故藂蘭欲茂，秋風敗之；王者欲明，讒人蔽之。此奸佞之危也。斯二者，危國之本。</p>
+
+<p id="_e568ee4b-d631-8c7e-dec0-a477fa8a88ae">　　砥躬礪行，莫尚於忠言；敗德敗正，莫逾於讒佞。今人顏貌同於目際，猶不自瞻，況是非在於無形，奚能自睹？何則飾其容者，皆解窺於明鏡，修其德者，不知訪於哲人。詎自庸愚，何迷之甚！良由逆耳之辭難受，順心之說易從。彼難受者，藥石之苦喉也；此易從者，鴆毒之甘口也！明王納諫，病就苦而能消；暗主從諛，命因甘而致殞。可不誡哉！可不誡哉！</p>
+</clause>
+</clause>
+
+<clause id="___x5e1d___x7bc4___x5377___x4e09_" inline-header="false" obligation="normative" displayorder="12">
+<title id="_9259fd53-67f0-4d85-b3be-a29f32ee3d74">帝範卷三</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9259fd53-67f0-4d85-b3be-a29f32ee3d74">帝範卷三</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx></fmt-xref-label>
+<clause id="___x8aa1___x76c8___x7b2c___x4e03_" inline-header="false" obligation="normative">
+<title id="_5fc1dc6d-1914-49a7-8d86-f7e88e16f2df">誡盈第七</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8aa1___x76c8___x7b2c___x4e03_">一</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_5fc1dc6d-1914-49a7-8d86-f7e88e16f2df">誡盈第七</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8aa1___x76c8___x7b2c___x4e03_">一</semx></fmt-xref-label>
+<note id="_4472f9d4-5990-001c-4e96-05b365b28fb6" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x8aa1___x76c8___x7b2c___x4e03_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8aa1___x76c8___x7b2c___x4e03_">一</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_e3a3227b-2df7-9547-d269-82c8953e4561">「易豐」卦《彖辭》曰：「日中則昃，月盈則食。此聖人當豐盛之時，憂懼之辭也。盖日中者，昃所倚；月盈者，食所伏。必然之理。人君居至髙至極之位，乃豐盛之象，固當憂懼守中不至。過極則可不然，必有傾危之機發矣。所以晋武帝不知憂懼，則有身後之亂。唐元宗不知憂懼，則有末年之變。知憂，其惟堯舜之敬戒，禹湯之罪已，文王之無逸乎。事事物物，纔到盈處，無有不變音，非聖君賢人，孰能持盈哉？或問揚子，持滿曰：「㧖、欹、㧖者，抑也。猶抑損之也。言持滿者，當自損抑，以正。其欹不然，則覆矣。欹，欹器也。昔孔子入魯桓公廟，見有欹器焉。曰：「宥坐之器也。虚則欹，中則正，滿則覆。」使弟子著水，以驗之信然。孔子喟然嘆曰：「吁！惡有滿而不覆者哉？」子路曰：「敢問持滿有道乎？」孔子曰：「聰眀聖知，守之以愚。功被天下，守之以讓。勇力撫世，守之以怯。富有四海，守之以謙。」此所謂挹而損之之道也。故太宗達此理，而告誡之耳。盈，滿也。欲抑滿得中實難，但滿而不溢，斯可矣。「㧖：於革反」</p>
+</note>
+
+<p id="_f85d33b3-0f0b-f8f3-5198-f2035d3e8250">　　夫君者，儉以養性，靜以修身。儉則人不勞，靜則下不擾。人勞則怨起，下擾則政乖。人主好奇技淫聲、鷙鳥猛獸，遊幸無度，田獵不時。如此則徭役煩，徭役煩則人力竭，人力竭則農桑廢焉。人主好高臺深池，雕琢刻鏤，珠玉珍玩，黼黻絺綌。如此則賦斂重，賦斂重則人才遺，人才遺則饑寒之患生焉。亂世之君，極其驕奢，恣其嗜欲。土木衣緹繡，而人裋褐不全；犬馬厭芻豢，而人糟糠不足。故人神怨憤，上下乖離，佚樂未終，傾危已至。此驕奢之忌也。</p>
+</clause>
+
+<clause id="___x5d07___x5109___x7b2c___x516b_" inline-header="false" obligation="normative">
+<title id="_d6ceb9a9-ef65-4ad6-86f4-68b7c8e4adf1">崇儉第八</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x5109___x7b2c___x516b_">二</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_d6ceb9a9-ef65-4ad6-86f4-68b7c8e4adf1">崇儉第八</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x5109___x7b2c___x516b_">二</semx></fmt-xref-label>
+<note id="_13c47f7a-2de5-bd6d-b6f9-15540c292672" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x5d07___x5109___x7b2c___x516b_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x5109___x7b2c___x516b_">二</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_d89e73b8-a0f4-bfcb-de40-39a4ed93a3e0">夫儉者，去奢，從約之謂。豐國富民之本也。考諸今古創業垂統之君，莫不以儉約而興。敗國䘮身之主，莫不以奢侈而亡。其興亡成敗，載諸簡册昭昭然，可為鑒矣。故太宗以儉居戒盈之先，豈無意哉？雖然儉，固近於吝矣。儉不中禮，是為吝也。雖有周公才美，驕吝猶不足觀，况其他乎？此所以蜉蝣刺其好奢，蟋蟀刺不中禮也。然則其何以行之哉。曰《語》不云乎：「菲飲食，而致孝乎鬼神。惡衣服，而致美乎黻冕。卑宫室，而盡力乎溝洫。」此是眀王之盛徳，至聖之格言，依而行之，吾無間然矣。</p>
+</note>
+
+<p id="_f7a31d67-8ec4-de45-268d-dedba3c3f374">　　夫聖世之君，存乎節儉。富貴廣大，守之以約；睿智聰明，守之以愚。不以身尊而驕人，不以德厚而矜物。茅茨不剪，采椽不斫，舟車不飾，衣服無文，土階不崇，大羹不和。非憎榮而惡味，乃處薄而行儉。</p>
+
+<p id="_979fcefc-a141-0dd1-2511-b7847e311992">　　故風淳俗樸，比屋可封。斯二者，榮辱之端。奢儉由人，安危在己。五關近閉，則嘉命遠盈；千欲內攻，則兇源外發。是以丹桂抱蠹，終摧榮耀之芳；朱火含煙，遂郁淩雲之焰。以是知驕出於誌，不節則誌傾；欲生於心，不遏則身喪。故桀紂肆情而禍結，堯舜約己而福延，可不務乎？</p>
+</clause>
+
+<clause id="___x8cde___x7f70___x7b2c___x4e5d_" inline-header="false" obligation="normative">
+<title id="_1d166485-4b4b-4090-bd87-83509acb1e52">賞罰第九</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8cde___x7f70___x7b2c___x4e5d_">三</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_1d166485-4b4b-4090-bd87-83509acb1e52">賞罰第九</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8cde___x7f70___x7b2c___x4e5d_">三</semx></fmt-xref-label>
+<note id="_50cf1bed-a058-f099-d8d2-7e016fada3c7" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x8cde___x7f70___x7b2c___x4e5d_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x4e09_">四</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x8cde___x7f70___x7b2c___x4e5d_">三</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_ae587de1-5646-1b3a-566d-270fa646939b">酬功，曰：「賞」。黜罪，曰：「罰」。《周禮》曰：「刑賞以馭其威。賞罰，國之大柄也。」《左傳》曰：「善為國者賞，不僭而刑。不濫賞僭則福及滛人，刑濫則懼及善人。又《漢書》曰：『賞及無功，無以勸善。罰及無罪，無以懲惡。惟賞與罰，不可不當。賞一人而天下悅者，賞之；罰一人而天下懼者，罰之。賞罰，又當必信也。有功者雖讎，亦必賞；有罪者雖親，亦必罰。故孔子曰：「治國制民，不隠其親。」此之謂也。惟知此則，大道之行天下為公矣。惟天下之至公，其聖王能之。（○ 按注末句疑有錯誤）</p>
+</note>
+
+<p id="_3bc4dd28-71aa-c7ed-4ca5-4f1e5d1f64bb">　　夫天之育物，猶君之禦眾。天以寒暑為德，君以仁愛為心。寒暑既調，則時無疾疫；風雨不節，則歲有饑寒。仁愛下施，則人不雕弊；教令失度，則政有乖違。防其害源者，使民不犯其法；開其利本者，使民各務其業。顯罰以威之，明賞以化之。威立則惡者懼，化行則善者勸。適己而妨於道，不加祿焉；逆己而便於國，不施刑焉。故賞者不德君，功之所致也；罰者不怨上，罪之所當也。故《書》曰：無偏無黨，王道蕩蕩。此賞罰之權也。</p>
+</clause>
+</clause>
+
+<clause id="___x5e1d___x7bc4___x5377___x56db_" inline-header="false" obligation="normative" displayorder="13">
+<title id="_3b8e6284-6666-4948-a438-f0144f1d1aa8">帝範卷四</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_3b8e6284-6666-4948-a438-f0144f1d1aa8">帝範卷四</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx></fmt-xref-label>
+<clause id="___x52d9___x8fb2___x7b2c___x5341_" inline-header="false" obligation="normative">
+<title id="_c9e0c5d3-fc47-4a6b-a89e-07c731701706">務農第十</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x52d9___x8fb2___x7b2c___x5341_">一</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_c9e0c5d3-fc47-4a6b-a89e-07c731701706">務農第十</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x52d9___x8fb2___x7b2c___x5341_">一</semx></fmt-xref-label>
+<note id="_23ca3026-52d1-4433-8ea9-a27fcecf6ffa" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x52d9___x8fb2___x7b2c___x5341_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x52d9___x8fb2___x7b2c___x5341_">一</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_011475d6-2fbc-d6d8-87d5-149431ce8daf">専力於事，曰：「務」。 闢土殖榖，曰：「農」。天生聖人，為天下主，以務農立國，以足食為政。凡一毫便於農者，必極力行之也。 嘗觀諸詩，而知周人重農之意矣。詩曰：「曾孫来止，以見君之尊嚴。出入田畝，而不為屈也。」 又曰：「嘗其㫖否，以見田畯之官，相忘豆觴，而不為恥也。」 夫櫛風沐雨，莫勞乎農。沾體塗足，莫賤乎農。周之君臣，從事於襏襫之間，交孚於閭里之所，則當時為農者，安得不相勸勉哉。 然周人之意不止此也。 天子所命者農，命官所先者農，朝廷所加恵者農，官府所分理者農。下至州郷閭巷，婦人女子，賤𨽻小夫，歌詠讃頌亦無一不在農，噫盛矣！ 夫自後，世民不里，居農非前。世之農，勸相之方視為末務去，而為㳺手棄而為末作，散而為諸侯之食客，聚而為山澤之盗賊。 漢復古意，多方勸率，免其租以優之，設其科以貴之。民未知種麥，則勸之種麥。民未知養苗，則教之養苗。 春事欲作，則鑄耕種之器田。務正殷，則不行發卒令。至其法之最良者，則自天子而下，無不以農為務故。 國彊永而民富康也。嗚呼！有國家者，詎可不務農哉。不務則惰，惰則廢，廢則曠，曠而民至逰矣。 《記》曰：「國無曠土，則食無逰民至於土。曠民逰，天下何所倚頼？ 《周禮》命：「遂大夫以正嵗簡，稼器，脩稼政。」命里宰：「以嵗時合耦于鋤，以治稼穡。」趨其耕耨，行其秩序。命：「遂師廵其稼穡，而移用其民，以救其時事也。」 太宗之務，農實得其本矣。</p>
+</note>
+
+<p id="_7b651b33-a0f5-b9fb-5465-3043c35c2a15">　　夫食為人天，農為政本。倉廩實則知禮節，衣食足則誌廉恥。故躬耕東郊，敬授人時。國無九歲之儲，不足備水旱；家無一年之服，不足禦寒暑。然而莫不帶犢佩牛，棄堅就偽。求什一之利，廢農桑之基。以一人耕而百人食，其為害也，甚於秋螟。莫若禁絕浮華，勸課耕織，使人還其本，俗反其真，則競懷仁義之心，永絕貪殘之路，此務農之本也。斯二者，制俗之機。</p>
+
+<p id="_c9e2c99a-5eae-dc2a-b5c4-dd84d6642d43">　　子育黎黔，惟資威惠。惠而懷也，則殊俗歸風，若披霜而照春日；威可懼也，則中華懾軏，如履刃而戴雷霆。必須威惠並馳，剛柔兩用，畫刑不犯，移木無欺。賞罰既明，則善惡斯別；仁信普著，則遐邇宅心。勸穡務農，則饑寒之患塞；遏奢禁麗，則豐厚之利興。且君之化下，如風偃草。上不節心，則下多逸誌；君不約己，而禁人為非，是猶惡火之燃，添薪望其止焰；忿池之濁，撓浪欲止其流，不可得也。莫若先正其身，則人不言而化矣。</p>
+</clause>
+
+<clause id="___x95b1___x6b66___x7b2c___x5341___x4e00_" inline-header="false" obligation="normative">
+<title id="_93b50da6-ec02-4164-a49d-6325fa018110">閱武第十一</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x95b1___x6b66___x7b2c___x5341___x4e00_">二</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_93b50da6-ec02-4164-a49d-6325fa018110">閱武第十一</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x95b1___x6b66___x7b2c___x5341___x4e00_">二</semx></fmt-xref-label>
+<note id="_20982c3f-c813-7d87-a3dd-d3e8c66e15fd" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x95b1___x6b66___x7b2c___x5341___x4e00_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x95b1___x6b66___x7b2c___x5341___x4e00_">二</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_7480d5f2-dda5-874a-89ee-27fd8c05eb80">閱，簡也。武，兵事也。左傳曰：「戡亂，曰『武』」。古者明王，雖享隆平之時，亦未甞不閱武，以備不虞。故《周禮》大司馬以：中春教振旅，中夏教茇舎，中秋教治兵，中冬教大閱。大閱者，前期羣吏，戒衆庶脩戰法也。講脩戰法既成，専使大司馬掌之有賊賢害民者，則伐之暴。内陵外者，則壇之野荒。民散者，則削之負固。不服者，則侵之。賊殺其親者，則正之。放弑其君者，則殘之犯令。陵政者，則杜之外。内亂鳥獸行者，則㓕之。故諸侯聽命，蠻夷賔服也。「壇」音「善」與「墠」，同廢曠之地也。</p>
+</note>
+
+<p id="_8ddc0066-c79b-6dca-bfb3-a273e6942190">　　夫兵甲者，國之兇器也。土地雖廣，好戰則人雕；邦國雖安，亟戰則人殆。雕非保全之術，殆非擬寇之方。不可以全除，不可以常用，故農隙講武，習威儀也。是以勾踐軾蛙，卒成霸業；徐偃棄武，遂以喪邦。何則？越習其威，徐忘其備。孔子曰：不教人戰，是謂棄之。故知弧矢之威，以利天下。此用兵之機也。</p>
+</clause>
+
+<clause id="___x5d07___x6587___x7b2c___x5341___x4e8c_" inline-header="false" obligation="normative">
+<title id="_37e92ae8-50ed-48e3-80c6-9c52720761a2">崇文第十二</title><fmt-title depth="2"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x6587___x7b2c___x5341___x4e8c_">三</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_37e92ae8-50ed-48e3-80c6-9c52720761a2">崇文第十二</semx></fmt-title><fmt-xref-label><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x6587___x7b2c___x5341___x4e8c_">三</semx></fmt-xref-label>
+<note id="_dc4f11c4-35d4-0c84-879e-f4d70b3d6606" autonum=""><fmt-name><span class="fmt-caption-label"><span class="fmt-element-name">注記</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">注記</span></fmt-xref-label><fmt-xref-label container="___x5d07___x6587___x7b2c___x5341___x4e8c_"><span class="fmt-xref-container"><semx element="autonum" source="___x5e1d___x7bc4___x5377___x56db_">五</semx><span class="fmt-autonum-delim">・</span><semx element="autonum" source="___x5d07___x6587___x7b2c___x5341___x4e8c_">三</semx></span><span class="fmt-conn">の</span><span class="fmt-element-name">注記</span></fmt-xref-label><p id="_6faa5b77-1457-82e4-11b3-984c838bd19d">崇，尊也，重也。左傳曰：「經緯天地，曰『文』：『夫天以文而化，地以文而生，人以文而㑹，國以文而建，王以文而治，天下以文而安。』反是則不得其正矣。盖文者，乃三才事物中和之氣也，以孝悌忠信仁義禮智廣充之。天理存焉，非絺章繡句，華浮藻麗之文而已。如其崇重絺章繡句，華浮藻麗之文，是為晉成帝，梁武帝，李後主矣。</p>
+</note>
+
+<p id="_8644bf6a-271c-32f1-b9ab-25bc94fe5e2c">　　夫功成設樂，治定製禮。禮樂之興，以儒為本。宏風導俗，莫尚於文；敷教訓人，莫善於學。因文而隆道，假學以光身。不臨深溪，不知地之厚；不遊文翰，不識智之源。然則質蘊吳竿，非筈羽不美；性懷辯慧，非積學不成。是以建明堂，立辟雍。博覽百家，精研六藝，端拱而知天下，無為而鑒古今。飛英聲，騰茂實，光於不朽者，其唯學乎？此文術也。斯二者，遞為國用。</p>
+
+<p id="_f80fcee6-2418-9093-1e20-52bcdc0a7ad6">　　至若長氣亙地，成敗定乎筆端；巨浪滔天，興亡決乎一陣。當此之際，則貴幹戈而賤庠序。及乎海嶽既晏，波塵已清，偃七德之餘威，敷九功之大化。當此之際，則輕甲冑而重詩書。是知文武二途，舍一不可，與時優劣，各有其宜。武士儒人，焉可廢也。</p>
+
+<p id="_63545521-4b3f-d52a-4341-dd04e70de06d">　　此十二條者，帝王之大綱也。安危興廢，皆在茲乎。古人有言，非知之難，惟行之不易；行之可勉，惟終實難。是以暴亂之君，非獨明於惡路；聖哲之主，非獨見於善途。良由大道遠而難遵，邪徑近而易踐。小人俯從其易，不得力行其難，故禍敗及之；君子勞處其難，不能力居其易，故福慶流之。故知禍福無門，惟人所召。欲悔非於既往，惟慎禍於將來。當擇聖主為師。毋以吾為前鑒。取法於上，僅得為中；取法於中，故為其下。自非上德，不可效焉。吾在位以來，所制多矣。奇麗服，錦繡珠玉，不絕於前，此非防欲也；雕楹刻桷，高臺深池，每興其役，此非儉誌也；犬馬鷹鶻，無遠必致，此非節心也；數有行幸，以亟勞人，此非屈己也。斯事者，吾之深過，勿以茲為是而後法焉。但我濟育蒼生其益多，平定寰宇其功大，益多損少，人不怨；功大過微，德未虧。然猶之盡美之蹤，於焉多愧；盡善之道，顧此懷慚。況汝無纖毫之功，直緣基而履慶？若崇善以廣德，則業泰身安；若肆情以從非，則業傾身喪。且成遲敗速者，國基也；失易得難者，天位也。可不惜哉？</p>
+</clause>
+</clause>
+
+<clause id="___x5e1d___x7bc4___x81e3___x8ecc___x66f8___x8dcb_" inline-header="false" obligation="normative" displayorder="14">
+<title id="_18ec9172-8a96-4758-a92c-a14f7fa43874">帝範臣軌⼆書跋</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x5e1d___x7bc4___x81e3___x8ecc___x66f8___x8dcb_">六</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_18ec9172-8a96-4758-a92c-a14f7fa43874">帝範臣軌⼆書跋</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x5e1d___x7bc4___x81e3___x8ecc___x66f8___x8dcb_">六</semx></fmt-xref-label>
+<p id="_4ccf9e5f-ee95-9f51-3d8e-99dccce1ec85">帝範⼆卷臣軌⼆卷也者共成于唐帝。 唐帝受隋氏弊，聰明神武[恶]幾成康，功德兼備。 ⾃漢以來未之有。 ⾃吁咨都嗟之後，⽽元首股肱互為治道。 故所以帝範臣軌之有作者也。</p>
+
+<p id="_a34ca0dc-9bdc-d906-c90c-d4abb805f59a">本朝慱⼠讀之，尤尊之至。 若鐮倉將軍家皆讀之，有助治道久。 何啻中華⽽已哉。 洛⼈林⽩⽔新鏤之梓， 以欲⾏于世良有故哉。⽩⽔需書其後於是題之。</p>
+
+<p id="_b067b497-4261-93f2-cc88-7f8a5539ee14">寛⽂八年秋八⽉⽇</p>
+
+<p id="_00f85c57-7ae1-bab2-197d-7ce94111a528">柳⾕散⼈埜⼦苞⽗書</p>
+
+<p id="_438c4351-7527-aa07-7bf3-f62977814ca1">林和泉掾版行</p>
+</clause>
+
+<clause id="___x4ef6___x66f8___x4e0a___x5377___x4e91_" inline-header="false" obligation="normative" displayorder="15">
+<title id="_e1de6a6a-7fa4-4446-8134-6171e06f4677">件書上卷云</title><fmt-title depth="1"><span class="fmt-caption-label"><semx element="autonum" source="___x4ef6___x66f8___x4e0a___x5377___x4e91_">七</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_e1de6a6a-7fa4-4446-8134-6171e06f4677">件書上卷云</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">箇条</span><semx element="autonum" source="___x4ef6___x66f8___x4e0a___x5377___x4e91_">七</semx></fmt-xref-label>
+<p id="_59e4d5ef-670b-5a22-cfea-fa8b6340fb6e">康平三年五月五日點之 札部郎中江匡房</p>
+
+<p id="_4cadf9a4-8535-1dd9-fe9e-2e67895d0744">同下卷云</p>
+
+<p id="_bbf107b1-9b45-ed38-7a84-0a103dd85000">康平三年五月六月點之 治部少丞江匡房寬治八年七月十六目於楊梅亭點了尤可秘藏而已  藤永實長寬二年正月廿八目奉授主上已訖 式部大輔藤永範</p>
+
+<p id="_dc3c89b0-4dac-4290-4fcb-b34a1253f2c7">【樣】安元年七月廿四日椰讀畢此書奉授一代   聖主【已】家之【裏】寶</p>
+
+<p id="_4338f0b0-b5b6-fad8-1344-35cf96ca0cd2">從三位行宮内鄉兼式部大輔藤永範 建久三年六月十五日御讀畢此  書繼家蹤已及  聖主三代誠是家之秘本也  正四位下行式部大轉藤朝臣光範</p>
+
+<p id="_eecfeee6-1a84-39a8-62d5-eca79f772def">【樣】元二年四月廿三日書寫畢</p>
+
+<p id="_c73f37a4-15f0-9f4e-afd1-f770b0a3ceb6">以二品戶部（永範）本移點畢 菅原淳高</p>
+
+<p id="_52065d3c-920a-68bd-1350-32a4977af7a6">元仁二年三月廿五日 侍御讀畢  翰林學士菅淳高</p>
+</clause>
+</sections>
+</jis-standard>
