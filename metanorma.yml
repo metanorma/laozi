@@ -4,6 +4,7 @@ metanorma:
     files:
       - difan.adoc
       - laozi.adoc
+      - shengui.adoc
 
   collection:
     organization: "Metanorma"
