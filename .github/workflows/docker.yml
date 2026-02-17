@@ -25,16 +25,15 @@ jobs:
       image: metanorma/metanorma:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Flavor
-        uses: actions-mn/setup-flavors@v1
+      - name: Setup Metanorma with JIS flavor
+        uses: actions-mn/setup@v3
         with:
+          installation-method: gem
           extra-flavors: jis
-          github-pakages-token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
-          use-bundler: true
 
       - name: Setup Fonts
         run: |
