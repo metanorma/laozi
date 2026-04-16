@@ -1,0 +1,3707 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" xml:lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "MS Mincho",serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 1.0em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MS Gothic",sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "MS Gothic",sans-serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "MS Gothic",sans-serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body main {
+  margin: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.3;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: "";
+  content: none;
+}
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em;
+}
+
+main {
+  padding-left: 4em;
+  padding-right: 2em;
+}
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em;
+}
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em;
+}
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left;
+}
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em;
+}
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic;
+}
+
+.doctitle-part {
+  margin-top: 1em;
+}
+
+span.title, span.subtitle, span.part {
+  font-weight: 800;
+}
+
+span.partlabel {
+  display: block;
+}
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em;
+}
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2;
+}
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+p.zzSTDTitle2 {
+  font-size: 1.5em;
+}
+
+span.obligation {
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li > p:first-child::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+}
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+p.AltTerms {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  margin-top: 0em;
+}
+
+/* Navigation*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: black;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #f7f7f7;
+  box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: black;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "MS Mincho",serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  box-shadow: 0px 1px 0px 0px black !important;
+  background: none;
+}
+#toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+  content: " ";
+  display: none;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 278px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 20px;
+    background-color: #f7f7f7;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+nav {
+  line-height: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #f7f7f7;
+    color: black !important;
+    cursor: pointer;
+    z-index: 100;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em;
+  }
+  main {
+    padding: 0;
+  }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+}
+figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ;
+}
+
+figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure > img, figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl;
+}
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#governance {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft {
+  border-bottom: solid 3px #fda706;
+}
+
+#working-draft-band {
+  background-color: #fda706;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list ol li {
+  list-style-type: none;
+}
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class=alphabet] {
+  counter-reset: alphabet;
+}
+
+ol[class=arabic] {
+  counter-reset: arabic;
+}
+
+ol[class=roman] {
+  counter-reset: roman;
+}
+
+ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper;
+}
+
+ol[class=roman_upper] {
+  counter-reset: roman_upper;
+}
+
+ol[class=alphabet] ol[class=alphabet] {
+  counter-reset: alphabet2;
+}
+
+ol[class=arabic] ol[class=arabic] {
+  counter-reset: arabic2;
+}
+
+ol[class=roman] ol[class=roman] {
+  counter-reset: roman2;
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper2;
+}
+
+ol[class=roman_upper] ol[class=roman_upper] {
+  counter-reset: roman_upper2;
+}
+
+ol {
+  counter-reset: alphabet;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em;
+}
+
+ol[class=roman] > li::before {
+  left: -2em;
+}
+
+ol[class=roman_upper] > li::before {
+  left: -2.3em;
+}
+
+ol[class=alphabet] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=arabic] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") ";
+}
+
+ol[class=roman] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") ";
+}
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=alphabet] ol[class=alphabet] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") ";
+}
+
+ol[class=arabic] ol[class=arabic] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") ";
+}
+
+ol[class=roman] ol[class=roman] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") ";
+}
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0;
+}
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef, div.Biblio, div.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.Biblio.note, .Biblio.Note, .NormRef.note, .NormRef.Note {
+  margin-left: 3.5em;
+}
+
+/*
+3.6 Source Code + figures
+*/
+figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: ;
+}
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+figcaption, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Note p, .note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p {
+  margin: 0;
+}
+
+div.Admonition.AdmonitionEditorial {
+  color: green;
+}
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example {
+  color: black;
+  padding-left: 0.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+td,
+th {
+  padding: 1em !important;
+}
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important;
+}
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em;
+}
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em;
+}
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.TableFootnote {
+  text-align: left !important;
+}
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+sup a {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888;
+}
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em;
+}
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em;
+}
+
+ol.footnotes-list:first-child {
+  margin-top: 2em;
+}
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline;
+}
+
+ol > li > p::before {
+  content: "";
+  display: none;
+}
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p, .admonition p {
+  margin: 0;
+}
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
+}
+
+.collapse {
+  display: none;
+}
+
+.expand {
+  transform: rotateZ(-180deg);
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>臣　軌</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="ja" xml:lang="ja"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber">A 1001 </p>
+    
+
+
+<p class="coverpage_docnumber">第一版</p>
+
+
+
+
+
+
+<p class="coverpage_techcommittee"></p>
+
+
+
+<div class="doctitle-en"><div><span class="title"></span><span class="subtitle">臣　軌</span>
+  
+</div>
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title"></span><span class="subtitle">The Minister’s Guide</span>
+  
+</div>
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<p id="_52caba0f-d8f8-41e0-e1d2-43413c91168a">主 務 大 臣:経済産業大臣 制定:昭和 26.10.31 改正:</p>
+
+<p id="_0b1b7948-cb68-2b5c-3d8a-562dbb90953f">官 報 掲 載 日:令和七年1月15日</p>
+
+<p id="_24f538bf-5cf3-4a28-668d-414f3f91048f">原 案 作 成 者:一般財団法人日本規格協会</p>
+
+<p id="_987b92e7-be63-33a9-16ca-530de872c05f">(〒108-0073 東京都港区三田 3-13-12 三田 MT ビル TEL 03-4231-8530)</p>
+
+<p id="_505b597d-5f68-394a-8985-9d0d520ab2f8">審 議 部 会:欽定四庫全書欽定四庫全書</p>
+</div>
+<div class="boilerplate-feedback">
+
+<p id="_3611cfb8-baba-b1d7-c468-074ea071ae3a">この規格についての意見又は質問は，上記原案作成者又は経済産業省産業技術環境局 国際標準課(〒100-8901 東京 都千代田区霞が関 1-3-1)にご連絡ください。</p>
+
+<p id="_f9197d69-0477-c93c-078b-affc4ffc768e">なお，日本産業規格は，産業標準化法の規定によって，少なくとも 5 年を経過する日までに日本産業標準調査会の審 議に付され，速やかに，確認，改正又は廃止されます。</p>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_60873f59-28bc-c817-eeb9-33864c02403a"></a><a class="header" href="#_60873f59-28bc-c817-eeb9-33864c02403a">目　次</a></h1><ul><li class="h1"><a href="#_e47c1ffd-027a-49b9-b912-530aa1736c19">      
+  
+  まえがき
+</a></li>
+<li class="h1"><a href="#_099a5add-cdf3-44c3-86fd-2e936aae12b2">      
+  
+  一　臣軌序 御撰
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_058bf147-3523-438b-84af-2cd94b644284">
+  
+  二　卷　上
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_bed0ad6f-d263-4aae-84da-cb9ad12cb8c4">      
+  
+  二・一　卷上·同體章
+</a>
+</li><li class="h2"><a href="#_7ff8a20f-0caf-40d0-a967-d05fe60c79b2">      
+  
+  二・二　卷上·至忠章
+</a></li><li class="h2"><a href="#_e2880ccb-d5dd-414c-a56a-0853a7b4eb73">      
+  
+  二・三　卷上·守道章
+</a></li><li class="h2"><a href="#_2073de32-173b-4018-9ca0-4c6f7f822918">      
+  
+  二・四　卷上·公正章
+</a></li><li class="h2"><a href="#_1b66a5ab-e818-4729-b99d-cf3e053a71cf">      
+  
+  二・五　卷上·匡諫章
+</a></li></ul></li>
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_4eecfc83-71c9-40ce-8444-047190607d8a">
+  
+  三　卷　下
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_945f00a5-5259-4695-96df-0908dbeee148">      
+  
+  三・一　卷下·誠信章
+</a>
+</li><li class="h2"><a href="#_dd8f1008-659b-4d40-a89f-07cae611221a">      
+  
+  三・二　卷下·慎密章
+</a></li><li class="h2"><a href="#_094430e4-836f-44c0-a8d8-7bd2e3c4e3e7">      
+  
+  三・三　卷下·廉潔章
+</a></li><li class="h2"><a href="#_fc4fc974-44e7-44ad-bb6f-40b77260eec2">      
+  
+  三・四　卷下·良將章
+</a></li><li class="h2"><a href="#_bf4c5ea9-8ff5-4bd9-9d48-b04a7ac70d50">      
+  
+  三・五　卷下·利人章
+</a></li></ul></li>
+
+
+
+
+
+
+<li class="h1"><a href="#_efa351b2-552f-4f55-adb5-eee31178fca8">      
+  
+  四　帝範臣軌⼆書跋
+</a></li></ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+</div><br /><div id="_e2459809-3887-a344-50dd-2792e2c3ed13"><h1 class="ForewordTitle" id="_e47c1ffd-027a-49b9-b912-530aa1736c19"><a class="anchor" href="#_e2459809-3887-a344-50dd-2792e2c3ed13"></a><a class="header" href="#_e2459809-3887-a344-50dd-2792e2c3ed13">まえがき</a></h1><p id="_46e63c59-bdb4-09d3-6e18-64966d0df9c9">此文本源於早稲田大学図書館藏品《帝範臣軌》（兩冊）合刻本，其中《臣軌》一冊，於寛文8年（1668）由京都「林和泉掾」出版。</p><p id="_d519380a-b020-0085-e620-672b25df2419">冊中印有「不老菴」「去水 五味均平蔵」和「両□」共三印。</p><p id="_f1b13e69-be87-6f4c-e5e0-bfe6046a1798">唐上元二年（675）三月，唐高宗皇后武則天引文學之士著作郎元萬頃、左史劉禕之等人，修撰此書，作為臣僚借鑒之書。</p><p id="_ca883319-c543-7520-df60-38257efeace0">《臣軌》共二卷。</p><p id="_5c4e226a-eac3-ccca-c0a4-79380c8f4647">武曌（624～705），即武則天。唐高宗后、武周皇帝。（690～705）年在位。並州文水（山西文水）人。《舊唐書》言其「素多智計，兼涉文史」。在位能「尊時憲而抑幸臣，聽忠言而誅酷吏」。初為太宗才人。高宗即位，被立為皇后。參決朝政，與高宗並稱「二聖」。中宗即位，臨朝稱制。後廢中宗立睿宗，仍握大權。690年廢睿宗，自稱聖神皇帝，改國號為周，改元天授，史稱武周。神龍元年中宗復位，上尊號為則天大聖皇帝。掌政期間，雖多弊政，但保持了唐前期之盛。</p></div><br /><p class="JapaneseIndustrialStandard">日本工業規格　　　　　　　<span class="JIS">JIS</span></p><p class="StandardNumber">　A 1001: <span class="EffectiveYear">2025</span></p><p class="IDT"></p><p class="zzSTDTitle1">臣軌</p><p class="zzSTDTitle2">The Minister’s Guide</p><div id="_efe81cb1-af1f-7357-660c-db53aa2df10b"><h1 id="_099a5add-cdf3-44c3-86fd-2e936aae12b2"><a class="anchor" href="#_efe81cb1-af1f-7357-660c-db53aa2df10b"></a><a class="header" href="#_efe81cb1-af1f-7357-660c-db53aa2df10b">一　臣軌序 御撰</a></h1><p id="_97d53cb0-d21d-0156-6329-974cf39cb951">蓋聞惟天著象，庶品同於照臨；惟地含章，群生等於亭育。朕以庸昧，忝位坤元。思齊厚載之仁，式馨普覃之惠。乃中乃外，思養之志靡殊；惟子惟臣，慈誘之情無隔。</p><div id="_ea87fbf7-2b85-062a-9134-ee79882144c8" class="Note"><p><span class="note_label">注記 1　</span>靡，無也。聖心無私，故視之若一也。</p></div><p id="_6b82c09b-55a3-ccbf-2544-573c077a3ff8">常願甫殫微懇，上翊紫機，爰須眾僚，聿匡玄化。伏以天皇，明逾則哲，志切旁求。</p><div id="_c1219d5c-5df7-9c14-be27-b486f4becfa6" class="Note"><p><span class="note_label">注記 2　</span>《書》曰：「知人則哲，惟帝其難之。」又曰：「旁求俊彥，啟迪後人。」</p></div><p id="_9fa3bfc0-3195-c3d1-1d29-6f2d56e30259">簪裾總川嶽之靈；珩珮聚星辰之秀。</p><div id="_c9465130-3fb1-fe4f-97a2-ab442aa03389" class="Note"><p><span class="note_label">注記 3　</span>簪裾、珩珮所以別貴賤也。左思《蜀都賦》曰：「近則江漢炳靈，代載其英，蔚若相如忄爵，若君王。」《毛詩》曰：「嵩高惟嶽，峻極於天。惟嶽降神，生甫及申。」《春秋佐助期》曰：「漢將蕭何，昴精生於豐，通於製度也。」</p></div><p id="_b787eda5-59f3-dd79-4d40-333052f868d8">群英蒞職，眾彥分司。</p><div id="_5a7a13f8-62a9-ace2-78b4-ad01ec74e110" class="Note"><p><span class="note_label">注記 4　</span>蒞，臨也。《文子》曰：「知過萬人謂之英。」孔安國《尚書傳》曰：「美德曰彥。」</p></div><p id="_b7e659b9-32f5-9605-8f2b-ab662ce37562">足以廣扇淳風，長隆寶祚。</p><div id="_25e7496a-4fa9-b30a-ccdc-2f1e88575866" class="Note"><p><span class="note_label">注記 5　</span>《易》曰： 「聖人之大寶曰位。」</p></div><p id="_3e32e2b8-eaa8-7657-4b52-aa8ee546873e">但母之於子，慈愛特深。雖復已積忠良，猶且思垂勸勵。</p><div id="_4a72fcd6-e64d-b2c5-8fd9-90295991396b" class="Note"><p><span class="note_label">注記 6　</span>《書》曰：「咸懷忠良。」</p></div><p id="_a29f72de-a9d6-9161-74e6-ac39ba109ffd">昔文伯既達，仍加喻軸之言；</p><div id="_4448b6a5-9fa7-707d-75a6-edb0c60ac0df" class="Note"><p><span class="note_label">注記 7　</span>《列女傳》曰：「文伯相魯，敬薑謂之曰：『吾語汝，理國之要，盡在經耳。夫服重任行遠，道正直而固者，軸也。軸可以為相。』文伯再拜，受教矣。」</p></div><p id="_503bfe00-0847-96dc-1136-df41f0bfda65">孟軻已賢，更益斷機之誨。</p><div id="_e45ab19e-80e4-6e55-5a2f-775cd4a3ea9f" class="Note"><p><span class="note_label">注記 8　</span>《列女傳》曰：孟子之少也，既學而歸。孟母方織，問學所至矣。孟子曰：「自若也。」孟母以刀斷其織。孟子懼而問其故。旦夕勤學不息，師事子思，遂成天下之名儒。</p></div><p id="_16cef2c3-58e0-ae93-8500-40d205c0bc82">良以情隆撫字，心欲助成。比者，太子及王已撰修身之訓，群公列辟未敷忠告之規。</p><div id="_18a3a91f-2e5f-cc37-6b3b-691b4139d6da" class="Note"><p><span class="note_label">注記 9　</span>《論語》曰：「忠告以善道之。」</p></div><p id="_5b1e23e9-4702-48a6-2bb1-7680cf9b8d88">近以暇辰，遊心策府，</p><div id="_d295618b-d63e-32da-af02-d91d3f5149ff" class="Note"><p><span class="note_label">注記 10　</span>《穆天子傳》曰：「觀先王之策府。」</p></div><p id="_55b6e4ee-f052-0a05-62aa-80329ffb9f96">聊因煒管，用寫虛襟。</p><div id="_b6dea726-9e75-e7e1-0571-817bc1daab3c" class="Note"><p><span class="note_label">注記 11　</span>襟，心也。《毛詩》曰：「靜女其孌，貽我彤管。彤管有煒，悅懌女美。」</p></div><p id="_0d772e65-ce85-f782-0d1d-b40aa054960d">故綴敘所聞，以為《臣軌》一部。想周朝之十亂，爰著十章；</p><div id="_e408faee-3c14-74bd-f1d2-5e8c25ded8b6" class="Note"><p><span class="note_label">注記 12　</span>《論語》曰：「武王曰：『予有亂臣十人。』」鄭玄曰：「亂，治也。武王言我有治政事者十人。謂文母、周公、召公、太公、畢公、榮公、太顛、閎夭、散宜生、南宮括也。」</p></div><p id="_90e9493d-b0d1-61fa-6f9b-a1ecc9e74cc5">思殷室之兩臣，分為兩卷。</p><div id="_4ab0ab9c-cbf2-c85c-9024-62f659a979fd" class="Note"><p><span class="note_label">注記 13　</span>謂伊尹、傅說也。</p></div><p id="_e1bfaa16-d468-1d09-fbe5-4027946e6930">所以發揮言行，鎔範身心。</p><div id="_447a507d-ec83-d582-0b1f-4cc3d3b0855b" class="Note"><p><span class="note_label">注記 14　</span>《易》曰：「六爻發揮，旁通情也。」</p></div><p id="_b20c204a-e285-fc9e-8693-e4f62f392d38">為事上之軌模，作臣下之繩準。</p><div id="_99c21c2e-3620-0bbd-607d-8d56f6956905" class="Note"><p><span class="note_label">注記 15　</span>《□□》曰：禹之為君也，左準繩，右規矩。</p></div><p id="_76a62cdb-4942-c73e-b696-b404d55f9f2c">若乃遐想綿載，眇鑒前修；</p><div id="_520e8270-538c-f928-b78c-211d33211328" class="Note"><p><span class="note_label">注記 16　</span>《楚辭》曰：「謇吾法夫前修。」</p></div><p id="_f138a164-4c9e-d3c8-8523-bf1ff943eee1">莫不元首居尊，股肱宣力。</p><div id="_abebcb12-cf20-7b03-cbe2-45e6b84ff2c1" class="Note"><p><span class="note_label">注記 17　</span>《書》曰：「元首明哉，股肱良哉。」又曰：「予欲宣力四方，汝為。」</p></div><p id="_2d3920e1-8cfb-2317-304d-3f6dc14f8847">資棟梁而成大廈，憑舟楫而濟巨川。</p><div id="_5ca42f50-6c47-c699-d36d-fa54ee3e7c67" class="Note"><p><span class="note_label">注記 18　</span>《書》曰：「若濟巨川，用汝作舟楫。」</p></div><p id="_7b2c9830-01bf-c651-865f-396425a918cc">唱和相依，同功共體。</p><div id="_4982a9a6-404f-56d9-7ca5-93e297054897" class="Note"><p><span class="note_label">注記 19　</span>《毛詩》曰：「唱予和汝。」</p></div><p id="_ce58d129-6f83-14cb-ff07-e4ec3c325092">然則君親既立，忠孝形焉。奉國奉家，率由之道寧二；</p><div id="_acdb1bb7-02ed-bd63-5a26-80f11e8c2c91" class="Note"><p><span class="note_label">注記 20　</span>《毛詩》曰：「率由舊章。」</p></div><p id="_a7ea553c-cf8b-2960-9c4e-78599d6661d4">事君事父，資敬之途斯一。</p><div id="_5a818e41-4b61-2abf-dc23-b1a04537daad" class="Note"><p><span class="note_label">注記 21　</span>《孝經》曰：「資於事父以事君而敬同。」</p></div><p id="_e2a1db8e-8b58-32a4-ad08-d84130a37907">臣主之義，其至矣乎！</p><div id="_14525b5e-bad5-bddb-9a8a-d09c4afce62e" class="Note"><p><span class="note_label">注記 22　</span>父子雖至親，猶未若君臣之同體。故曰「其至矣乎。」</p></div><p id="_da6de9f8-3b04-158d-0c19-f22d3e22d77c">休戚是均，可不深鑒。</p><div id="_ccf39355-656d-9463-5000-156a929f73c5" class="Note"><p><span class="note_label">注記 23　</span>休，美也。戚，憂也。</p></div><p id="_80e0f872-eceb-3d0f-d694-0283fd407c16">夫麗容雖麗，猶待鏡以端形；明德雖明，終假言而榮行。</p><div id="_d12d9c3e-73aa-bbcb-c94f-0073c3a16bc5" class="Note"><p><span class="note_label">注記 24　</span>《漢書》張良言：「忠言逆於耳利於行，毒藥苦於口利於病也。」</p></div><p id="_7f600f75-2aac-6275-4f84-10aecd55784a">今故以茲所撰，普錫具僚，誠非筆削之工，貴申裨導之益。</p><div id="_7fb2f8cf-cea5-5352-d3cd-a07ef47730f5" class="Note"><p><span class="note_label">注記 25　</span>《史記》曰：孔子文辭有可與人共者，弗獨有也。至於為《春秋》，筆則笑，削則削，子夏之徒不能讚一辭。《說文》曰：裨，倍益也。</p></div><p id="_e64704e9-b0b0-56d8-95a5-870aa63d6c11">何則？正言斯重，玄珠比而尚輕；巽語為珍，蒼璧喻而非寶。</p><div id="_d8843cd0-e216-4579-12c6-18a4f25a0e16" class="Note"><p><span class="note_label">注記 26　</span>《莊子》曰：「黃帝遊於赤水之北，遂歸，遺其玄疏。」《論語》曰：「巽與之言，能無悅乎？」《周禮》曰：「蒼璧祀天。」</p></div><p id="_491bfaa3-20c6-be88-60ac-2a859845d7ac">是知贈人以財者，唯申即目之歡；贈人以言者，能致終身之福。</p><div id="_16d37c2a-90f6-18ac-2aa3-e18272d46763" class="Note"><p><span class="note_label">注記 27　</span>《家語》曰：孔子去周，老子送之，曰：「富者贈人以財，仁者贈人以言。吾雖不能富而竊仁者之跡，請送子以言也。」</p></div><p id="_698d40c3-5f18-bf6f-7fc7-aaee98e84c68">若使佩茲箴戒，同彼韋弦，</p><div id="_312e0b9c-b082-6b8a-a647-7a0ff484d11e" class="Note"><p><span class="note_label">注記 28　</span>《韓子》曰：西門豹之情急，故佩韋以緩巳。董安幹之心緩，故佩弦以急己也。</p></div><p id="_623a9348-e2f8-18f1-51bd-aa2ae55e86d3">修己必顧其規，立行每觀其則，自然榮隨歲積，慶與時新，家將國而共安，下與上而俱泰。察微之士，所宜三思。</p><div id="_04172fde-6a78-9778-2efb-4d0a2d73426c" class="Note"><p><span class="note_label">注記 29　</span>《論語》曰：季文子三思而後行也。庶照鄙誠，敬終高德，凡諸章目，列於後云。</p></div><p id="_4254451a-cf67-4592-88aa-0d9e785dca95">御撰</p></div><div id="_7d3543d2-bc30-041f-bbdf-d89273972140"><h1 id="_058bf147-3523-438b-84af-2cd94b644284"><a class="anchor" href="#_7d3543d2-bc30-041f-bbdf-d89273972140"></a><a class="header" href="#_7d3543d2-bc30-041f-bbdf-d89273972140">二　卷　上</a></h1><div id="_50cab647-d6df-4799-6666-6f338f496acc"><h2 id="_bed0ad6f-d263-4aae-84da-cb9ad12cb8c4"><a class="anchor" href="#_50cab647-d6df-4799-6666-6f338f496acc"></a><a class="header" href="#_50cab647-d6df-4799-6666-6f338f496acc">二・一　卷上·同體章</a></h2>
+
+<p id="_851ae3d6-617a-a7ea-845a-71f6c098c720">夫人臣之於君也，猶四肢之載元首，耳目之為心使也。</p><div id="_69acafb8-19a1-9e94-c8cd-3ee7be16f65a" class="Note"><p><span class="note_label">注記 1　</span>四肢謂手足也。元亦首也。《左氏傳》曰：狄人歸先軫之元。耳聽目視皆由於心，故為心之使也。</p></div>
+
+
+
+<p id="_43ad4f5b-c71d-a869-d790-f7313802e045">相須而後成體，</p><div id="_cb8c7378-5388-276a-d27c-e6bae573cdfb" class="Note"><p><span class="note_label">注記 2　</span>君為元首，臣為股肱，上下相須，乃成其體也。</p></div>
+
+
+
+<p id="_e7778e8f-99ab-8e8d-e210-aa5b7fbf09f8">相得而後成用。</p><div id="_78ff720a-3de5-a2ac-1aad-be210c6ae698" class="Note"><p><span class="note_label">注記 3　</span>君俟臣理，臣俟君食，上下相得，乃成其用也。</p></div>
+
+
+
+<p id="_74fcb4b8-9075-7235-5da9-8a89de7c7a8d">故臣之事君，猶子之事父。</p><div id="_574c6e64-9fb1-50e9-ba6d-39b0a4c90036" class="Note"><p><span class="note_label">注記 4　</span>資敬同也。</p></div>
+
+
+
+<p id="_270d0ba3-42f4-8b1a-db38-c3205a06ce65">父子雖至親，猶未若君臣之同體也。</p><div id="_8402eec7-703b-337d-f8e8-4306677bf362" class="Note"><p><span class="note_label">注記 5　</span>古有無子之父，無父之家，未有無臣之君，無君之國，故云未若也。</p></div>
+
+
+
+<p id="_11c30ccb-99ba-dd12-73e9-568214ead042">故《虞書》曰：「臣作朕股肱耳目，</p><div id="_d0a7ccef-240b-9983-885f-79cd5e6d582e" class="Note"><p><span class="note_label">注記 6　</span>孔安國曰：「言大體若身。」</p></div>
+
+
+
+<p id="_447222fe-49bf-b9f2-8963-e7c0deae6561">余欲左右有人，汝翼；</p><div id="_04bd06c7-86ac-5877-b37d-62e4a201babf" class="Note"><p><span class="note_label">注記 7　</span>孔安國曰：「左右，助也。我所有之人，富而教之，汝翼成我也。」</p></div>
+
+
+
+<p id="_af593c2d-b802-7203-a706-688d9216202c">余欲宣力四方，汝為。」</p><div id="_934a6f07-37f1-0bb8-e3c7-ab1221b08a47" class="Note"><p><span class="note_label">注記 8　</span>宣，布也。孔安國曰：「布力立理之功，汝群臣當為之也。」</p></div>
+
+
+
+<p id="_342cc1c1-dbcd-3973-c12f-31573f1b9129">故知臣以君為心，君以臣為體。</p><div id="_8ac1bc84-c0e2-c3db-328c-179d039bc0b3" class="Note"><p><span class="note_label">注記 9　</span>臣稟君令，故以君為心；君須臣力，故以臣為體也。</p></div>
+
+
+
+<p id="_dddd08e4-8a7f-b747-7ca4-b53ac4e2583f">心安則體安，君泰則臣泰。未有心瘁於中，而體悅於外，君憂於上，而臣樂於下。</p><div id="_7d0093be-1948-9047-73cb-1569bd98d6da" class="Note"><p><span class="note_label">注記 10　</span>瘁，病也。言心病則體病，君憂則臣憂也。</p></div>
+
+
+
+<p id="_72ef7763-27a2-aa20-6072-1ad380c46caf">古人所謂「共其安危，同其休戚」者，豈不信歟！夫欲構大廈者，必藉眾材。雖楹柱棟梁、栱櫨榱桷，長短方圓，所用各異，自非眾材同體，則不能成其構。</p><div id="_7eb7c0b1-4755-dce4-fdec-5498f331c7ed" class="Note"><p><span class="note_label">注記 11　</span>言有棟梁櫨栱之材，長短相扶，然後成其廣廈。</p></div>
+
+
+
+<p id="_3abe90b8-0bd5-b578-e06c-701f12e579c9">為國者亦猶是焉。</p><div id="_d22bad3f-d7f2-f3d5-eebd-a82d5566e307" class="Note"><p><span class="note_label">注記 12　</span>謂人夙欲理國者，亦必資其眾賢也。</p></div>
+
+
+
+<p id="_8dd04af9-fbbb-b0c2-f19a-952593913342">雖人之才能天性殊稟，或仁或智、或武或文，然非群臣同體，則不能興其業。</p><div id="_b6392b9d-acf3-92d7-60cf-1553fe507afa" class="Note"><p><span class="note_label">注記 13　</span>言有仁智文武之臣，同其心體，然後興其功業也。</p></div>
+
+
+
+<p id="_47aefcae-f845-7b7a-f637-d890932a21df">故《周書》稱殷紂有億兆夷人，離心離德，</p><div id="_b933b23b-425d-c108-96a0-85c5e334f4be" class="Note"><p><span class="note_label">注記 14　</span>夷，平也。孔安國曰：「平人，凡人也。雖多而執心，用德不同也。」</p></div>
+
+
+
+<p id="_657436d2-6074-c9e1-8d08-b879841f2ed6">此其所以亡也；</p><div id="_63a76a6c-2b83-b3ef-4efc-1386a5c604bd" class="Note"><p><span class="note_label">注記 15　</span>言殷以離心而亡也。</p></div>
+
+
+
+<p id="_2168655d-21c4-7b29-f210-dba3e3802272">周武有亂臣十人，同心同德，</p><div id="_cb30580c-87cf-d117-5a50-6d66578365c8" class="Note"><p><span class="note_label">注記 16　</span>亂，治也。孔安國曰：「言治理之臣雖少，而心德同。」</p></div>
+
+
+
+<p id="_9ce9d054-5b79-360c-1b4f-4a159eade4dd">此其所以興也。</p><div id="_fc8788c4-3761-29e7-9362-2884406d816e" class="Note"><p><span class="note_label">注記 17　</span>言周以同德而興也。</p></div>
+
+
+
+<p id="_298fe5ae-9f5a-c657-3b44-98f0668b9898">《尚書》曰：「明四目，達四聰。」</p><div id="_a661bb53-dd49-05ae-8185-e2a0618f6672" class="Note"><p><span class="note_label">注記 18　</span>孔安國曰：「廣視聽於四方，使天下無壅塞也。」</p></div>
+
+
+
+<p id="_77741f2d-c99e-90a0-6702-a4368121371a">謂舜求賢，使代己視聽於四方也。昔屠蒯亦云：「汝為君目，將司明也。</p><div id="_45a58198-4192-0333-9813-0952478ae7d3" class="Note"><p><span class="note_label">注記 19　</span>汝，嬖舛也。杜預曰：「職在外，故主視也。」</p></div>
+
+
+
+<p id="_4b19f0bb-a1c1-391d-5412-cfed0899218d">汝為君耳，將司聽也。」</p><div id="_5680abd0-f508-a3ce-590d-a27a76f97392" class="Note"><p><span class="note_label">注記 20　</span>汝，師曠也。杜預曰：「樂所以聽，耳也。」</p></div>
+
+
+
+<p id="_68ef89c5-db64-3cc4-e774-30c6dcb293ce">軒轅氏有四臣，以察四方，故《屍子》云：「黃帝四目。」</p><div id="_92c36b8f-d184-be5b-8d3b-7c03237b4014" class="Note"><p><span class="note_label">注記 21　</span>言有賢臣。為君視於四方。</p></div>
+
+
+
+<p id="_c1a34d2e-1fd2-b4de-7997-bc6242e9b3f3">是知君位尊高，九重奧絕，</p><div id="_b2628470-113c-f289-fe28-98b502cdd6f4" class="Note"><p><span class="note_label">注記 22　</span>《楚詞》曰：君之門，若九重也。</p></div>
+
+
+
+<p id="_966b106b-7c34-70c9-f7d1-7983c6337014">萬方之事，不可獨臨，故置群官，以備爪牙耳目，</p><div id="_68098b35-db65-db5d-4890-587e6047627f" class="Note"><p><span class="note_label">注記 23　</span>《毛詩》曰：「圻父予王之爪牙。」《書》曰「臣作朕肱耳目。」</p></div>
+
+
+
+<p id="_bf9cc99f-b41f-16b6-4d6a-eb124588f6d6">各盡其能，則天下自化。</p><div id="_315da17d-d997-8634-bd87-b6f8d074bde0" class="Note"><p><span class="note_label">注記 24　</span>盡其臣之所能。</p></div>
+
+
+
+<p id="_826a9a14-cc2d-cf67-0cf7-38e2dd1beebf">故冕旒垂拱無為於上者，人君之任也；</p><div id="_d8d35574-e492-ab54-8184-77661acb6692" class="Note"><p><span class="note_label">注記 25　</span>《晏子》曰：「古者，人君冕前有旒，惡多所見也。」《書》曰：「垂拱而天下理。」《論語》曰：「無為而理者，其舜歟？」</p></div>
+
+
+
+<p id="_27f48335-c96e-b506-1d16-06084cfcf402">憂國恤人竭力於下者，人臣之職也。</p><div id="_450ce601-6925-50c5-5737-ca26cb0f22fc" class="Note"><p><span class="note_label">注記 26　</span>《書》曰：「臣為上為德，為下為人。」又曰：「乃命三後，恤功於人。」《至忠章》曰：竭力盡勞而不望其報。</p></div>
+
+
+
+<p id="_73f056a7-2184-b4a2-9ea7-ac82d7e15e5f">《漢名臣奏》曰：「夫體有痛者，手不能無存；心有懼者，口不能勿言。</p><div id="_1c41e29e-900c-615b-9701-0b983ba45268" class="Note"><p><span class="note_label">注記 27　</span>言手必存之，口必言之，以喻忠臣事君，有過必諫也。</p></div>
+
+
+
+<p id="_78d58073-7bfd-1914-6de1-fc4dd29e18bd">忠臣之獻直於君者，非願觸鱗犯上也，良由與君同體，憂患者深，志欲君之安也。」</p><div id="_1f42658e-ea4b-163f-edd7-483b56f3faea" class="Note"><p><span class="note_label">注記 28　</span>《韓子》曰：「龍之為蟲也，擾柔而可狎而騎。然而喉下有逆鱗，若嬰之，則殺人。人主亦有逆鱗，說者嬰之，則不幾全也。」</p></div>
+
+
+
+<p id="_9fd28eb6-9d5f-d2ed-a3af-7f3a898d791a">陸景《典語》曰：「國之所以有臣，臣之所以事上，非但欲備員而已。</p><div id="_7649aa21-d7d8-dba6-e4d6-3a18fb792137" class="Note"><p><span class="note_label">注記 29　</span>言君之俟臣，欲其助己宣化，豈但備其員數而已。</p></div>
+
+
+
+<p id="_d94456b1-72e0-b6e8-4faa-079c3a339335">天下至廣，庶事至繁，非一人之身所能周也。</p><div id="_991db8a2-5578-fb4e-0ea7-6b0e68d3539f" class="Note"><p><span class="note_label">注記 30　</span>必俟賢臣之力。</p></div>
+
+
+
+<p id="_89c3739b-01e0-5102-383a-3184420e9927">故分官列職，各守其位，</p><div id="_27dba21c-d741-e1bf-c473-fede336697f1" class="Note"><p><span class="note_label">注記 31　</span>各有司在。</p></div>
+
+
+
+<p id="_03a8b846-b8fb-aa91-4422-563eaaf4a0b5">處其任者，必荷其憂。</p><div id="_cccdf0ea-ddfb-ca13-2c97-b2eece83f101" class="Note"><p><span class="note_label">注記 32　</span>憂其所主事也。</p></div>
+
+
+
+<p id="_d6583af3-a720-5479-a456-8736a417c1e1">臣之與主，同體合用。主之任臣，既如身之信手；臣之事主，亦如手之係身。上下協心，以理國事。</p><div id="_1309efc0-7081-387b-ac7c-e4a59e8e5a59" class="Note"><p><span class="note_label">注記 33　</span>協，合也。</p></div>
+
+
+
+<p id="_120afb0f-39ce-f90c-f97e-8553ce6ce24b">不俟命而自勤，</p><div id="_c1e4326c-ed12-c789-8668-541f4400ab60" class="Note"><p><span class="note_label">注記 34　</span>同體故也。</p></div>
+
+
+
+<p id="_06f97769-7cbc-3ea5-8caf-d3a42932beaf">不求容而自親，</p><div id="_561cf552-51a8-4a4c-0557-278ef89ac50e" class="Note"><p><span class="note_label">注記 35　</span>協心故也。</p></div>
+
+
+
+<p id="_2faffc72-2e22-9c29-7009-1be800c20ef2">則君臣之道著也。」</p><div id="_eee91a03-bf1b-202d-c35e-e0f0031f7db7" class="Note"><p><span class="note_label">注記 36　</span>臣主同體，上下協心，是其道著。</p></div>
+
+
+</div><div id="_550570fc-3ef4-96e9-123c-6077c5caad46"><h2 id="_7ff8a20f-0caf-40d0-a967-d05fe60c79b2"><a class="anchor" href="#_550570fc-3ef4-96e9-123c-6077c5caad46"></a><a class="header" href="#_550570fc-3ef4-96e9-123c-6077c5caad46">二・二　卷上·至忠章</a></h2>
+
+<p id="_69f22c9c-bb8f-65d9-0ab0-16e93102574f">蓋聞古之忠臣事其君也，盡心焉，盡力焉。稱才居位，</p><div id="_f51de34e-490b-48ec-699a-512bf4be1886" class="Note"><p><span class="note_label">注記 1　</span>稱己之才而居其位。</p></div>
+
+
+
+<p id="_3faa6985-1c08-d2cb-4eeb-38999c429af9">稱能受祿。</p><div id="_f6e3f231-360a-1802-58c6-c4a39344f00e" class="Note"><p><span class="note_label">注記 2　</span>稱己之能而受其祿。</p></div>
+
+
+
+<p id="_6b973048-943c-8e9a-8e53-39b9281381a9">不面譽以求親，</p><div id="_e331d806-602b-8fb4-8ef9-dacbb186297f" class="Note"><p><span class="note_label">注記 3　</span>不面譽其君，以求親己也。</p></div>
+
+
+
+<p id="_3a6b3429-ddcd-4a84-bab6-4bd970f6dbdd">不愉悅以苟合。</p><div id="_a6c2f8d7-2f87-687f-c4e4-bf6694bc8d6d" class="Note"><p><span class="note_label">注記 4　</span>不苟悅君心，而與之合。</p></div>
+
+
+
+<p id="_62aacb30-852c-c316-420a-f63491464bdf">公家之利，知無不為。</p><div id="_e84fc062-14f3-3d59-01bc-d08651c275f8" class="Note"><p><span class="note_label">注記 5　</span>《左傳》曰：「公家之利知無不為，忠也。」</p></div>
+
+
+
+<p id="_3903526f-1190-50ac-e43e-6a7b8d674647">上足以尊主安國，下足以豐財阜人。內匡君之過，外揚君之美。不以邪損正，</p><div id="_9d451a7c-d1b4-5c60-96f2-a9902d3d1459" class="Note"><p><span class="note_label">注記 6　</span>為正不為邪也。</p></div>
+
+
+
+<p id="_e34eaaf6-d4aa-b3d9-51fb-b533ad9adf1c">不為私害公。</p><div id="_848d4b76-6114-0dff-6794-7b20ddd0bd68" class="Note"><p><span class="note_label">注記 7　</span>納公而奔私也。</p></div>
+
+
+
+<p id="_808edfe7-0484-1ea8-b456-a66a943353d3">見善行之如不及，</p><div id="_07d26769-98f9-6e48-1d6f-36f508b2fe2f" class="Note"><p><span class="note_label">注記 8　</span>《論語》曰： 「見善如不及。」</p></div>
+
+
+
+<p id="_656b023f-6436-c497-a493-146b15ff6fb4">見賢舉之如不逮。</p><div id="_abb87493-1035-3024-47d7-4702f55469f8" class="Note"><p><span class="note_label">注記 9　</span>若鮑叔薦管仲，子皮升子產也。</p></div>
+
+
+
+<p id="_c3a22f45-f461-662d-0501-8c4dfb161631">竭力盡勞而不望其報，程功積事而不求其賞。務有益於國，務有濟於人。</p><div id="_7ec1a3b4-9a90-7080-a102-5ab83795dc8c" class="Note"><p><span class="note_label">注記 10　</span>言臣竭力盡勞，程功積事而不求其賞報者，務其益國濟人故也。</p></div>
+
+
+
+<p id="_07509e28-cdb7-74c7-83ea-f4c1ac49d817">夫事君者以忠正為基，忠正者以慈惠為本。故為臣不能慈惠於百姓而曰忠正於其君者，斯非至忠也。</p><div id="_bea50dda-0fe6-b67f-c213-5f5004074f43" class="Note"><p><span class="note_label">注記 11　</span>至忠之臣，則先行慈惠於百姓，而後忠正於其君也。</p></div>
+
+
+
+<p id="_c6bffaea-aec2-4be1-a059-4900a7eff1fa">所以大臣必懷養人之德，而有恤下之心。利不可並，</p><div id="_b6cc208f-75a3-0d69-7fa4-90449d0df334" class="Note"><p><span class="note_label">注記 12　</span>去小利也。</p></div>
+
+
+
+<p id="_80e97d85-5cb0-a4a9-599a-34bfb93c9e42">忠不可兼。</p><div id="_33519f1d-2155-d1a0-010a-ac696cb9f35e" class="Note"><p><span class="note_label">注記 13　</span>行大忠也。</p></div>
+
+
+
+<p id="_c4f63c36-c922-8f37-a32d-d09c8b2f5e5e">不去小利，則大利不得；不去小忠，則大忠不至。故小利，大利之殘也；小忠，大忠之賊也。</p><div id="_056bc4e8-b5c0-5f7d-a6c6-d4a0e0424483" class="Note"><p><span class="note_label">注記 14　</span>若存小利，則大利不成；若守小忠，則大忠必廢。故小利為大利之殘，小忠為大忠之賊，所以必舍小而取大也。</p></div>
+
+
+
+<p id="_9f25e0c5-653e-3842-6216-51a62b3b3bc3">昔孔子曰：「為人下者，其猶土乎！</p><div id="_af72e651-7f0d-3b5c-0166-6e3c5bd87cc2" class="Note"><p><span class="note_label">注記 15　</span>言臣之事君，竭忠盡節，夙夜匪懈，勤勞不倦，無所不為，如土之性也。</p></div>
+
+
+
+<p id="_d43021f4-fb40-aae9-2737-5f35c794c0ae">種之則五穀生焉，掘之則甘泉出焉。草木殖焉，禽獸育焉。多其功而不言。」</p><div id="_9d0f0f74-1268-f551-1139-c52415fb93e3" class="Note"><p><span class="note_label">注記 16　</span>不自伐其功也。</p></div>
+
+
+
+<p id="_f288651d-2160-7e6c-1e10-929ff24ea5c0">此忠臣之道也。《尚書》曰：「成王謂君陳曰：『爾有嘉謀嘉猷，則入告爾後於內，爾乃順之於外。』」</p><div id="_3a8145ff-fa4a-bdb1-7aa1-b39e2b0baa69" class="Note"><p><span class="note_label">注記 17　</span>孔安國曰：「汝有善謀善道，則入以告汝君於內，汝乃順行之於外也。」</p></div>
+
+
+
+<p id="_85d37d16-4fcf-da03-3542-0575437a960d">曰：「斯謀斯猷，惟我後之德。」</p><div id="_2fefb18e-c744-87c2-d637-50c1ca1c09c8" class="Note"><p><span class="note_label">注記 18　</span>孔安國曰：「此善謀此善道，惟我君之德善。則稱君人臣之義。」</p></div>
+
+
+
+<p id="_0e52cd24-de60-d20c-633c-c3b4daa64e6a">&#x3c;上丙下心&#x3e;人咸若時，惟良顯哉。」</p><div id="_2fdc34ce-24cc-984c-e4df-734ec2451434" class="Note"><p><span class="note_label">注記 19　</span>孔安國曰：「臣於人者，皆順此道，是惟良臣，則君顯明於世也。」</p></div>
+
+
+
+<p id="_a636655d-48d8-3a06-b8e2-3cc308f8d8c4">《禮記》曰：「善則稱君，過則稱己，則人作忠。」「善則稱親，過則稱己，則人作孝。」《昌言》曰：「人之事親也，不去乎父母之側，</p><div id="_a1def531-f349-5d4e-2ab3-afac89d04de6" class="Note"><p><span class="note_label">注記 20　</span>言常在其左右也。</p></div>
+
+
+
+<p id="_e05f9aaf-7708-347b-ed45-9b27c12cadf4">不倦乎勞辱之事。</p><div id="_c30ff8a0-d004-4b03-7a61-8bfd4218d63d" class="Note"><p><span class="note_label">注記 21　</span>言雖有勞辱之苦，而不以為倦也。</p></div>
+
+
+
+<p id="_3d7eab07-fd58-6e71-1d37-d5c9587e6e5e">見父母體之不安，則不能寢；見父母食之不飽，則不能食。</p><div id="_5837a667-fb66-9a01-08ac-ef030a5cba8f" class="Note"><p><span class="note_label">注記 22　</span>憂思在心，故忘其寢食。《孝經》曰：「病則致其憂。」</p></div>
+
+
+
+<p id="_24592b94-a319-5da8-51f1-e81a43279238">見父母之有善，則欣喜而戴之；</p><div id="_845a78ca-7667-a321-c878-7ea44967125f" class="Note"><p><span class="note_label">注記 23　</span>樂之而不厭。</p></div>
+
+
+
+<p id="_eb6b949b-a565-33b3-7111-e16ec4ccd562">見父母之有過，則泣涕而諫之。</p><div id="_27dafc27-a2cb-718f-7afe-8f2a250b7cec" class="Note"><p><span class="note_label">注記 24　</span>恐其不從己，故涕泣以感之。</p></div>
+
+
+
+<p id="_e4554205-d641-5502-13fd-38715b5b2389">孜孜為此以事其親，焉有為人父母而憎之者也。</p><div id="_7c098ea5-7090-15f4-f524-a9d15c534c4d" class="Note"><p><span class="note_label">注記 25　</span>孔安國《尚書傳》曰：孜孜，勸勉不怠也。</p></div>
+
+
+
+<p id="_7c34890d-ac6c-38df-b4a3-a223bd35e7c1">人之事君也，使無難易，無所憚也；事無勞逸，無所避也。</p><div id="_04758484-a055-2b46-88a8-a2db49a8f3df" class="Note"><p><span class="note_label">注記 26　</span>言皆樂為之，不以難易勞逸而生憚避也。</p></div>
+
+
+
+<p id="_57fd224e-017b-fe4d-91d1-ccb21ecebfb0">其見委任也，則不恃恩寵而加敬；其見遺忘也，則不敢怨恨而加勤。</p><div id="_c0747b26-30fc-68ef-88ca-17f35916d6fc" class="Note"><p><span class="note_label">注記 27　</span>見君之委任，則拾恩而加敬。見君之遺忘，則不怨而加勤。此為臣之道。</p></div>
+
+
+
+<p id="_95b10476-5cc9-e8e8-b8e9-48be621ca63b">險易不革其心，安危不變其志。</p><div id="_121c4f55-3bbc-5647-9892-e65ba846203c" class="Note"><p><span class="note_label">注記 28　</span>革，改也。言不以安危險易而改變其心志也。</p></div>
+
+
+
+<p id="_2e11cedd-32e0-7be8-a33c-444b9d618691">見君之一善，則竭力以顯譽，唯恐四海之不聞；</p><div id="_a83f93f8-c35c-28ef-1225-5d691a522e5c" class="Note"><p><span class="note_label">注記 29　</span>欲君之善遍於天下。</p></div>
+
+
+
+<p id="_a246b82d-3344-7b3c-b425-12c82a79ac8e">見君之微過，則盡心而潛諫，唯慮一德之有失。</p><div id="_9a2405cc-965b-5bc0-29f5-e945854284e6" class="Note"><p><span class="note_label">注記 30　</span>恐君之過聞於他人。</p></div>
+
+
+
+<p id="_62f88edc-3667-b0cd-81e8-c60de30a5db5">孜孜為此以事其君，焉有為人君主而憎之者也。故事親而不為親所知，是孝未至也；</p><div id="_60092ac9-d86b-261e-f290-26f1ff39a932" class="Note"><p><span class="note_label">注記 31　</span>親知然後乃為孝也。</p></div>
+
+
+
+<p id="_70efe96b-ab5c-79dd-b8c8-bcc763e06ea8">事君而不為君所知，是忠未至也。</p><div id="_114fb1d1-5ef4-b02a-fa2b-6053a2865157" class="Note"><p><span class="note_label">注記 32　</span>君知然後乃為忠也。</p></div>
+
+
+
+<p id="_56c162fe-3f71-0811-df70-162338ed4886">古語云：「欲求忠臣，出於孝子之門。」</p><div id="_0cec7478-290f-8203-f019-0ec12109f961" class="Note"><p><span class="note_label">注記 33　</span>言忠臣必出於孝子也。《孝經》曰：「故以事君則忠也。」</p></div>
+
+
+
+<p id="_e0f6a408-9a29-cedd-843e-7f34bdbb9c20">非夫純孝者，則不能立大忠。</p><div id="_1cdae1e5-c6ed-508d-79b0-b0ad99ee4116" class="Note"><p><span class="note_label">注記 34　</span>言大忠必出於純孝也。《左傳》曰：潁考叔純孝。愛其母，施及莊公也。</p></div>
+
+
+
+<p id="_17a11612-a48d-7c89-a35f-163f8d41ccf6">夫純孝者，則能以大義修身，知立行之本。</p><div id="_1df1ba18-a01a-0d0f-217e-b3b84342daa6" class="Note"><p><span class="note_label">注記 35　</span>《論語》曰：「孝悌也者，其為人之本歟！」鄭玄曰：「言人有其本性，則成功立行也。」</p></div>
+
+
+
+<p id="_923c8f2f-1412-875f-b6b4-5956eb3c94f5">欲尊其親，必先尊於君；</p><div id="_684643ef-6d9a-5991-606a-ed934baad7ca" class="Note"><p><span class="note_label">注記 36　</span>君尊而親卑故。</p></div>
+
+
+
+<p id="_a434ebf2-7a1f-5304-9a8e-c8cf5c0f389c">欲安其家，必先安於國。</p><div id="_7717296f-e0b3-862e-9ea9-9d2e5d282e1f" class="Note"><p><span class="note_label">注記 37　</span>國大而家小故。</p></div>
+
+
+
+<p id="_41bf6d6a-9e78-bb06-2b8d-0315ca8b055e">故古之忠臣，先其君而後其親，先其國而後其家。何則？君者，親之本也，親非君而不存；國者，家之基也，家非國而不立。」</p><div id="_cd46a460-6648-3f01-614b-c3bacec2a6af" class="Note"><p><span class="note_label">注記 38　</span>親由君而得存，家因國而得立。故先君而後親，後家而先國。</p></div>
+
+
+
+<p id="_c994cac2-e929-fefd-636e-5bcfa3339724">昔楚恭王召令尹而謂之曰：「常侍管蘇，</p><div id="_9f55f49a-41b1-1462-0f30-292287dae460" class="Note"><p><span class="note_label">注記 39　</span>管氏蘇名，常侍於君。</p></div>
+
+
+
+<p id="_79b0a9b9-a896-dd59-c24d-6c2b28c98a18">與我處，常勸我以道，正我以義。</p><div id="_9da97228-8aa1-3abd-229d-5ee228906e73" class="Note"><p><span class="note_label">注記 40　</span>言常以為君之道義勸正我已。</p></div>
+
+
+
+<p id="_19ce3bc7-82d3-8246-f9ca-4d9b66774a95">吾與處不安也，不見不思也。</p><div id="_f0a2d5f3-2065-4f6a-c11a-0423bbe3616e" class="Note"><p><span class="note_label">注記 41　</span>以其勸正己故。</p></div>
+
+
+
+<p id="_1f30712d-132a-fa41-a52c-8aec2bbcde21">雖然，吾有得也，</p><div id="_a9ed8e67-53ff-4792-b186-c9dea4953659" class="Note"><p><span class="note_label">注記 42　</span>謂得其為君之道義。</p></div>
+
+
+
+<p id="_624001d4-da01-bc98-83a8-b87b80c49f5b">其功不細，</p><div id="_591fc373-31f6-091b-4e82-59a66a9077b8" class="Note"><p><span class="note_label">注記 43　</span>言勸正之功甚大。</p></div>
+
+
+
+<p id="_39827026-8db0-deb5-af18-64eeb542d246">必厚祿之。」乃拜管蘇為上卿。若管蘇者，可謂至忠至正，能以道濟其君者也。</p>
+</div><div id="_54fc7531-1a2f-dd96-48d1-aeb03bb412d4"><h2 id="_e2880ccb-d5dd-414c-a56a-0853a7b4eb73"><a class="anchor" href="#_54fc7531-1a2f-dd96-48d1-aeb03bb412d4"></a><a class="header" href="#_54fc7531-1a2f-dd96-48d1-aeb03bb412d4">二・三　卷上·守道章</a></h2>
+
+<p id="_ec5fddf2-12a8-e69e-fbec-b6c20cccedf9">夫道者，覆天載地，高不可際，深不可測。</p><div id="_17712e0e-acc4-961f-7490-e1568053cb76" class="Note"><p><span class="note_label">注記 1　</span>言道之廣大，無所不包。故上覆於天，下載於地，高而不可窮其際，深而不可測其原。</p></div>
+
+
+
+<p id="_d6ca6d3c-6d07-1275-4591-144358d1ad1e">苞裹萬物，</p><div id="_18d59eaf-9c8f-a4a7-cf97-4d98eab554d4" class="Note"><p><span class="note_label">注記 2　</span>道之放布，無不含容。</p></div>
+
+
+
+<p id="_b3d37efd-e506-dd67-7996-14b502ad2678">稟授無形。</p><div id="_c3a50cef-5c26-bb0b-86df-eb5d0b443f70" class="Note"><p><span class="note_label">注記 3　</span>千品萬物，皆始於道。</p></div>
+
+
+
+<p id="_4e67ade8-6354-e640-f949-cda247630468">舒之覆於六合，卷之不盈一握。</p><div id="_12527402-6fc2-d31b-c0c7-1d42ba71f3fe" class="Note"><p><span class="note_label">注記 4　</span>言能屈伸隨變。</p></div>
+
+
+
+<p id="_1da854d4-fd68-6ba1-a628-4fd1caec0611">小而能大，</p><div id="_5420e1f4-f8a6-3f29-ad3e-6fab1d1fa2de" class="Note"><p><span class="note_label">注記 5　</span>小入無間，大苞無外。</p></div>
+
+
+
+<p id="_b1dd9176-bbe8-0636-2fd2-71b3eed4843f">昧而能明，</p><div id="_9d3775d8-65c7-1da7-a95c-e13f0d50ba4e" class="Note"><p><span class="note_label">注記 6　</span>外暗而內明也。</p></div>
+
+
+
+<p id="_11b08f29-e10f-bff7-41c1-5591f6d5814e">弱而能強，</p><div id="_4bb41fb8-4fdb-8bff-bcab-3f0694f520e0" class="Note"><p><span class="note_label">注記 7　</span>後身而身先也。</p></div>
+
+
+
+<p id="_748fd05b-ec9a-0bba-faa8-98336b5196d3">柔而能剛。</p><div id="_130b2441-e95c-ed82-ca5f-6a9bbedd8c49" class="Note"><p><span class="note_label">注記 8　</span>卑而不可逾也。</p></div>
+
+
+
+<p id="_6a9fb209-c3b4-813a-78b5-ae952a054408">夫知道者，必達於理；</p><div id="_e1418360-7313-5763-ce45-4087d7cb11b9" class="Note"><p><span class="note_label">注記 9　</span>理由道達。</p></div>
+
+
+
+<p id="_7102a189-c62c-7f03-9363-ae48047456c4">達於理者，必明於權；</p><div id="_f83241ff-8a33-203b-dc2a-e5715c2d6456" class="Note"><p><span class="note_label">注記 10　</span>權由理明。</p></div>
+
+
+
+<p id="_19d2fa53-4121-867e-d949-24ec39278963">明於權者，不以物害己。</p><div id="_bd268bcc-5766-7e0e-9496-27056076b1c4" class="Note"><p><span class="note_label">注記 11　</span>不以外物而害於己。</p></div>
+
+
+
+<p id="_133be97f-f19c-da42-c026-61579d540ed8">言察於安危，寧於禍福，謹於去就，莫之能害也。</p><div id="_46133a5a-d60e-543c-75f6-32e1bcf56090" class="Note"><p><span class="note_label">注記 12　</span>夫權道反經合義，無所不通，審其安危，明其去就，福至不喜，禍至不憂，唯變所適，故莫之能害也。</p></div>
+
+
+
+<p id="_8eae2564-22f6-d68a-99bb-38b8968a712e">以此退居而閑遊，江海山林之士服；以此佐時而匡主，忠立名顯而身榮。</p><div id="_5ea8e394-1479-7a12-4743-30c5f0d8d09a" class="Note"><p><span class="note_label">注記 13　</span>言以此道退居，而閑遊潛遁，則江海山林之士皆服從於己；以此道佐時，而匡其君主，則忠名顯而身先榮也。</p></div>
+
+
+
+<p id="_a198bc6c-3f44-7486-a1a6-754d652f42d6">退則巢、許之流，進則伊、望之倫也。</p><div id="_cb0a9458-1878-ec8c-7009-12f11cf66f78" class="Note"><p><span class="note_label">注記 14　</span>退謂閑遊，進謂匡主。</p></div>
+
+
+
+<p id="_c3dca24a-4616-e5ec-c3fa-0cbea6dd0959">故道之所在，聖人尊之。</p><div id="_16d22f5e-60c5-dbbd-89a8-70ea09fb13cf" class="Note"><p><span class="note_label">注記 15　</span>言道之所在者，聖人尊貴之。故黃帝問廣成於峒山，唐堯見四子於汾水。</p></div>
+
+
+
+<p id="_97d89ee1-db8d-ba98-9a26-505741b205e6">《老子》曰：「道常無為而無不為。</p><div id="_84af7478-fdb7-01c3-19e0-65c7378dc093" class="Note"><p><span class="note_label">注記 16　</span>河上公曰：「道以無為為常也。」</p></div>
+
+
+
+<p id="_da437208-45b8-7b8d-111c-e98642673b84">侯王若能守之，萬物將自化。」</p><div id="_fc6f0d91-4e37-96b4-f8ea-7eafb233b4fe" class="Note"><p><span class="note_label">注記 17　</span>河上公曰：言候王而能守道，萬物將自化效於己也。</p></div>
+
+
+
+<p id="_d8098195-eda9-879c-a1e5-ad79cb452e96">「以道佐入主者，</p><div id="_7e42ed8b-ac7b-0f87-ac9e-81631b45f0e1" class="Note"><p><span class="note_label">注記 18　</span>河上公曰：謂人主能。以道自輔佐。</p></div>
+
+
+
+<p id="_c1a432c9-c5ab-2a92-8cbc-d7ce9db9fd60">不以兵強於天下。」</p><div id="_33883209-8203-6279-9479-964da1dd2f2c" class="Note"><p><span class="note_label">注記 19　</span>河上公曰：以道自佐之主，不以兵革順天任德，敵人自服。</p></div>
+
+
+
+<p id="_cacc0946-b1d3-9b1d-dc5e-56854ced6910">「夫佳兵者，不祥之器，</p><div id="_4e55bc6a-883b-b00f-bd5d-a3bb55642a5e" class="Note"><p><span class="note_label">注記 20　</span>河上公曰：祥，善也。兵者，驚精神，濁和氣，不善人之器也。不當修飭也。</p></div>
+
+
+
+<p id="_496af4ba-df0f-86dd-0190-6b1084b34961">故有道者不處。」</p><div id="_b9a65d96-4828-7725-815a-2dc36b9e011c" class="Note"><p><span class="note_label">注記 21　</span>河上公曰：有道之人，不處其國也。</p></div>
+
+
+
+<p id="_e83a3654-eb0b-6c8f-57bd-91814e6637ba">又曰： 「上士聞道，勤而行之；</p><div id="_bda89040-416f-ec34-3d89-7a60532bdf27" class="Note"><p><span class="note_label">注記 22　</span>河上公曰：上士聞道，自勤苦竭力而行。</p></div>
+
+
+
+<p id="_128d46af-7c9f-9f9f-30d6-7f510c313e20">中士聞道，若存若亡；</p><div id="_0f6afb22-26c5-47e4-74c7-5a2c0d7b313b" class="Note"><p><span class="note_label">注記 23　</span>河上公曰：中士聞道，治身則長存，治國則太平，欣然而存之。退見財色榮利，感於情欲，而復亡也。</p></div>
+
+
+
+<p id="_0b28008f-efc0-08f9-0238-abe6f1567e53">下士聞道，大笑之。</p><div id="_b9767e21-ea67-cfde-efcb-5e551c35f821" class="Note"><p><span class="note_label">注記 24　</span>河上公曰：下士貪狠多欲，見道柔弱，謂之恐懼；見道質樸，謂之鄙陋，故大笑也。</p></div>
+
+
+
+<p id="_3aa8af77-9e26-28e8-e0e8-8000bf5bdea6">不笑不足以為道。」</p><div id="_9e459802-9a8b-b002-a170-b7b8f578ee12" class="Note"><p><span class="note_label">注記 25　</span>河上公曰：不為下士所笑，不足名之為道也。</p></div>
+
+
+
+<p id="_8fcb2f7c-87ea-4378-1d5d-76cc29d93e93">《莊子》曰：「夫體道者，無天怨，無人非，無物累，無鬼責。</p><div id="_10465c86-ccf9-2ec1-98fe-7e589e89d42f" class="Note"><p><span class="note_label">注記 26　</span>言體道之人，隨物變化，故自天祐之吉，無不利也。</p></div>
+
+
+
+<p id="_3c9c5a94-175e-cdb8-07df-b1c7483ea042">一心定而萬事得。」</p><div id="_46d0c52e-edf7-98d3-ecbb-dfa24b81a73e" class="Note"><p><span class="note_label">注記 27　</span>事得由乎心定。</p></div>
+
+
+
+<p id="_841d0b17-6557-76d1-b1a1-f64bf84d2f29">《文子》曰：「夫道者，無為無形，</p><div id="_07b03827-76da-8bb8-7295-1bd061dab25e" class="Note"><p><span class="note_label">注記 28　</span>湛然安靜，莫見其形。</p></div>
+
+
+
+<p id="_66f344e9-c3c4-2203-41c8-e79b8e12131f">內以修身，外以理人。</p><div id="_03e52c5c-f1a5-86fd-d1de-dc4be11b9517" class="Note"><p><span class="note_label">注記 29　</span>言理人修身皆資於道。</p></div>
+
+
+
+<p id="_f711238d-f5a9-260b-08d0-ac078c86e965">故君臣有道即忠惠；</p><div id="_ece5e44b-875d-c513-4ae7-98afa7f40b35" class="Note"><p><span class="note_label">注記 30　</span>君惠而臣忠也。</p></div>
+
+
+
+<p id="_844880be-73f9-7e71-123e-da616a34a716">父子有道即慈孝，</p><div id="_82adbd65-9b30-47a8-24c4-c7928ab4f050" class="Note"><p><span class="note_label">注記 31　</span>父慈而子孝也。</p></div>
+
+
+
+<p id="_989f1d83-5606-287f-22ef-d6e602e46e3f">士庶有道即相親。</p><div id="_12dc772b-a99b-5561-d110-0ee80dae5e56" class="Note"><p><span class="note_label">注記 32　</span>更相親愛。</p></div>
+
+
+
+<p id="_1a4842c0-7325-d08e-28e2-31c2c1d2e80f">故有道即和同，無道即離貳。</p><div id="_c418dfa8-f30f-2420-f86a-7e08c10b032a" class="Note"><p><span class="note_label">注記 33　</span>言人有道者雖疏遠而必和同，無道者雖親近而必離貳，言道不可不貴也。</p></div>
+
+
+
+<p id="_1ebd7233-2e2e-4314-7ec3-967550d3d0dd">由是觀之，無道不宜也。」</p><div id="_1cd59b24-c9d8-f262-4133-a827656c8feb" class="Note"><p><span class="note_label">注記 34　</span>道周萬物，故所在皆宜也。</p></div>
+
+
+
+<p id="_4043fb22-49e1-bce6-e82a-f21b92916322">《管子》曰：「道者，一人用之不聞有餘，</p><div id="_24a4713c-6093-3bdc-e10e-a1a630733014" class="Note"><p><span class="note_label">注記 35　</span>才自足也。</p></div>
+
+
+
+<p id="_bff629ec-b41a-1c96-770a-833f7dee9381">天下行之不聞不足。</p><div id="_bc33fa93-0efd-138c-5dc6-dddbc9a95cb6" class="Note"><p><span class="note_label">注記 36　</span>道濟群品，故皆足也。</p></div>
+
+
+
+<p id="_3e9b0735-1f33-e9f2-122a-43fedb2704cc">所謂道者，小取焉則小得福，大取焉則大得福。</p><div id="_c1531595-9e7d-9a57-d87a-2c1f1b05b707" class="Note"><p><span class="note_label">注記 37　</span>言福之大小，在其所取之也。</p></div>
+
+
+
+<p id="_f1162e3b-695b-c70b-ed3f-123f029d56bf">道者，所以正其身，而清其心者也。</p><div id="_924e0a61-339b-0217-c657-8a36db9a9f00" class="Note"><p><span class="note_label">注記 38　</span>言正身清心，非道不可矣。</p></div>
+
+
+
+<p id="_0520c49c-62a2-ed5f-d798-9cfe707317b3">故道在身則言自順，行自正，事君自忠，事父自孝。」</p><div id="_bd50dd0d-0def-fc4a-32aa-a8b22cb44b10" class="Note"><p><span class="note_label">注記 39　</span>夫言行合宜，忠孝得節，皆由於道，故君子守之也。</p></div>
+
+
+
+<p id="_ffbad18f-9798-d8b7-4180-b7d407f190b2">《淮南子》曰：「大道之行，猶日月，</p><div id="_f4738c3e-6fc7-90c2-c4dc-24f9b73a368f" class="Note"><p><span class="note_label">注記 40　</span>言道明自廣遠，如日月臨天下，無所不至也。</p></div>
+
+
+
+<p id="_fb0a8855-b1fc-2710-c660-62ad5809ebad">江南河北不能易其所，馳騖千裏不能移其處。</p><div id="_283923b2-446e-722a-8b92-2ffba0ec0901" class="Note"><p><span class="note_label">注記 41　</span>自江至河不能千裏，故其所不易。千裏之內晷景同，故其處不移。道亦然也。</p></div>
+
+
+
+<p id="_c40bba22-84ed-3184-f4d4-96b550ea268a">其趨舍禮俗，無所不通。</p><div id="_6742d0a8-7521-5b5d-a8cf-22ddc97314ad" class="Note"><p><span class="note_label">注記 42　</span>道能通於萬事。</p></div>
+
+
+
+<p id="_39e96062-93b4-bedf-40f8-87065f03fd56">是以容成得之而為軒輔，傅說得之而為殷相。</p><div id="_f99e12fd-7d89-9cfd-be39-a22fde1a9910" class="Note"><p><span class="note_label">注記 43　</span>得，謂得道。</p></div>
+
+
+
+<p id="_8680e133-6eda-82ff-347b-716545be2005">故欲致魚者先通水，</p><div id="_02fa6d4e-60cf-59d9-13fc-74ff14637e49" class="Note"><p><span class="note_label">注記 44　</span>泉深而魚自至。</p></div>
+
+
+
+<p id="_4fc26fda-e036-13a7-b347-400f10b3eab5">欲致鳥者先樹木，</p><div id="_39ade737-c980-2bff-0a85-1157cb0f8f16" class="Note"><p><span class="note_label">注記 45　</span>林茂而鳥自歸。</p></div>
+
+
+
+<p id="_d8c52b34-5b8a-e2ed-a0c1-566113b0b348">欲立忠者先知道。」</p><div id="_752e0fd2-7ea2-27c8-2206-db61e2df78dc" class="Note"><p><span class="note_label">注記 46　</span>知道而忠自立。</p></div>
+
+
+
+<p id="_a1734acc-0560-5f91-ea7f-9fcd3b274bfc">又曰：「古之立德者，樂道而忘賤，故名不動心；樂道而忘貧，故利不動志。</p><div id="_9cf51d2a-af4f-1e68-7375-750c0e36db14" class="Note"><p><span class="note_label">注記 47　</span>言立德之人，志在於道，貧賤之辱尚乃忘之，則名利之榮豈能動矣也。</p></div>
+
+
+
+<p id="_547c2c04-5988-7745-28a8-d45caf4b9514">職繁而身逾逸，官大而事逾少。</p><div id="_0ffeaf33-8e34-5d8e-64c8-7c34e5390b2d" class="Note"><p><span class="note_label">注記 48　</span>以道理之故也。</p></div>
+
+
+
+<p id="_e8da5842-a42c-d852-89ca-4e4b8e21d3c6">靜而無欲，</p><div id="_b9ba8c74-ce4d-e4a8-cfba-1b88bbb4becd" class="Note"><p><span class="note_label">注記 49　</span>志清靜而無所欲也。</p></div>
+
+
+
+<p id="_dbf0bdbe-6b6c-f7dc-95ef-b658c097557b">淡而能閑。</p><div id="_c0b88110-f4f5-447d-39d5-b6189fdc925a" class="Note"><p><span class="note_label">注記 50　</span>心恬憺而能閑逸也。</p></div>
+
+
+
+<p id="_eaf18df6-255f-de86-c10f-a9ab8500439d">以此修身，乃可謂知道矣。</p><div id="_775065d9-41be-8a3f-200b-220dc528cb3e" class="Note"><p><span class="note_label">注記 51　</span>言能以此六者修身，然後乃可謂之知道矣也。</p></div>
+
+
+
+<p id="_4d9db67c-f0aa-a981-6697-0c558fbd4a13">不知道者，釋其所以有，求其所未得。</p><div id="_71a6b929-90ce-162c-b2a2-d2f3c5b6401f" class="Note"><p><span class="note_label">注記 52　</span>不知道之人，則釋其已之所以有，而求其已之所未得者也。</p></div>
+
+
+
+<p id="_74470c3e-da00-1d83-dcc9-bbf4251b9b29">神勞於謀，知煩於事。</p><div id="_9e8b5893-4787-789b-acc7-dcf2f6426236" class="Note"><p><span class="note_label">注記 53　</span>勞於分外故也。</p></div>
+
+
+
+<p id="_7fccf57b-d958-f697-9698-d429162cc706">福至則喜，禍至則憂。禍福萌生，終身不悟，此由於不知道也。《說苑》曰：「山致其高而雲雨起焉，</p><div id="_9d9af59c-226c-e1da-476d-6114f66c2102" class="Note"><p><span class="note_label">注記 54　</span>山高而後有雲雨也。</p></div>
+
+
+
+<p id="_fff20266-43e1-248f-35bb-15ca9cf7c960">水致其深而蛟龍生焉，</p><div id="_2be2dbe7-4b56-bd6b-c063-188b1f02014a" class="Note"><p><span class="note_label">注記 55　</span>水深而後有蛟龍也。</p></div>
+
+
+
+<p id="_6ecd8c98-cc3b-4d59-17b9-194afedc0dde">君子致其道而福祿歸矣。</p><div id="_c5c09748-ddec-dc7c-49fc-f6836308591a" class="Note"><p><span class="note_label">注記 56　</span>道成而後有福祿也。萬物得其本則生焉，百事得其道則成焉。」</p></div><div id="_462339e0-741e-72c4-2714-f09765358774" class="Note"><p><span class="note_label">注記 57　</span>本亦道也。</p></div>
+
+
+
+
+</div><div id="_6c701683-0045-659b-3ad2-adb618813e62"><h2 id="_2073de32-173b-4018-9ca0-4c6f7f822918"><a class="anchor" href="#_6c701683-0045-659b-3ad2-adb618813e62"></a><a class="header" href="#_6c701683-0045-659b-3ad2-adb618813e62">二・四　卷上·公正章</a></h2>
+
+<p id="_8457ac15-d0a8-a1c9-cefd-8f1ff6a95f31">天無私覆，地無私載。日月無私燭，四時無私為。</p><div id="_25f10fe5-f4c4-cbe3-5b89-62df8c449bfb" class="Note"><p><span class="note_label">注記 1　</span>夫天覆於上，地載於下，日月之為臨燭，四時之有代謝，而豈有私哉。</p></div>
+
+
+
+<p id="_4ca9c930-2961-1d70-efa9-f7c16b377f9a">忍所私而行大義，可謂公矣。</p><div id="_adf96467-289a-dc6b-4150-16a642519e85" class="Note"><p><span class="note_label">注記 2　</span>夫志士仁人，佐時匡主，順天地之道，行公正之心。不以親昵而變其情，不以利害而易其操。故周公誅其弟，石碏戮其子，行大義而滅其親，如此者，可謂公矣也。</p></div>
+
+
+
+<p id="_1f10fcaf-472e-b739-4315-4673259dc53a">智而用私，不若愚而用公。</p><div id="_102b64d3-af84-afb7-df54-651b73a0ac84" class="Note"><p><span class="note_label">注記 3　</span>智而用私，彌長其邪愚，而用公，轉近於正。</p></div>
+
+
+
+<p id="_711a8d88-13a3-0aef-a666-432cc53dab42">人臣之公者，理官事則不營私家，</p><div id="_8c98dab5-e5ef-f41f-158f-f569ba991563" class="Note"><p><span class="note_label">注記 4　</span>營私家則官事不成。</p></div>
+
+
+
+<p id="_104b7208-59ab-7472-f9f3-bd95f7c41b02">在公門則不言貨利，</p><div id="_24df86af-39da-1a90-438a-afa72357327d" class="Note"><p><span class="note_label">注記 5　</span>言貨利則公門不正。</p></div>
+
+
+
+<p id="_c055239f-4e7e-a284-5742-2fc559dd0e8a">當公法則不阿親戚，</p><div id="_ec01514a-23cb-91aa-a15c-0da82c0a8122" class="Note"><p><span class="note_label">注記 6　</span>阿親戚則公法不行。</p></div>
+
+
+
+<p id="_40000309-f631-9b01-5473-152af73ef34b">奉公舉賢則不避仇讎。</p><div id="_4570e429-7990-4e71-a9f0-ba8839d3258a" class="Note"><p><span class="note_label">注記 7　</span>避仇讎則野有遺賢。《左傳》曰：外舉不棄讎。</p></div>
+
+
+
+<p id="_ab641608-5d38-d84d-e2c5-ea32732bd953">忠於事君，仁於利下。</p><div id="_f0a87343-6db9-8b93-2171-44aa9b260b37" class="Note"><p><span class="note_label">注記 8　</span>言人臣之公者，事君則盡忠，利下則盡仁。</p></div>
+
+
+
+<p id="_f5265eba-f481-c9f2-11a0-e72378c24b60">推之以恕道，行之以不黨，伊、呂是也。</p><div id="_2f15d4f8-35b7-d9ef-979a-444acb04ab1a" class="Note"><p><span class="note_label">注記 9　</span>伊尹、呂望也。《論語》曰：「夫子之道，忠恕而已。」又曰：「君子群而不黨。」</p></div>
+
+
+
+<p id="_8833f91e-f2d4-7e18-9094-2f12238187d0">故顯名存於今，是之謂公也。</p><div id="_13ab737f-55a4-b4bc-14ff-7cb11aa82ec8" class="Note"><p><span class="note_label">注記 10　</span>伊、呂忠義於湯、武，公正於殷、周，竭意君朝，無心私室，故得功存於古，名顯於今，可謂人臣之公也。</p></div>
+
+
+
+<p id="_4ac20a5e-f8af-bdeb-6e25-f631a71517d3">理人之道萬端，所以行之在一。一者何？公而已矣。</p><div id="_574afb6d-db13-24e7-ead3-1d491f541f19" class="Note"><p><span class="note_label">注記 11　</span>唯公可以當此一焉。</p></div>
+
+
+
+<p id="_276709c0-6aa1-0a9c-0a5d-6106743cdcef">唯公心可以奉國，唯公心可以理家。</p><div id="_9558cf84-cc17-1367-5d9b-e84580ae717a" class="Note"><p><span class="note_label">注記 12　</span>言無公心則不可理家奉國矣。</p></div>
+
+
+
+<p id="_bc763d2f-fd6f-4033-73f4-370bb65d3b58">公道行，則神明不勞而邪自息；</p><div id="_a1f21372-79e6-e105-fc3f-32c965ba14a0" class="Note"><p><span class="note_label">注記 13　</span>公道既行，則人皆正直，故神明不勞而奸邪自息也。</p></div>
+
+
+
+<p id="_79d01165-eb1e-7dec-298d-12e2909e99d2">私道行，則刑罰繁而邪不禁。</p><div id="_ec10763c-85c7-0ad3-7c95-44e7dcec7544" class="Note"><p><span class="note_label">注記 14　</span>私道既行，則人皆虛詐，故雖繁其刑罰而奸邪不止也。</p></div>
+
+
+
+<p id="_433b8f51-ba04-1bb9-3caa-0bec8b154b4c">故公之為道也，言甚少而用甚博。</p><div id="_ec154e41-396f-4014-f59f-6fccc03de3c7" class="Note"><p><span class="note_label">注記 15　</span>公正無私，其事易立。故出言雖少，而所用則博也。</p></div>
+
+
+
+<p id="_2b7a8c11-d84a-6a2e-9a02-413bc524c1b2">夫心者，神明之主，</p><div id="_b54d8759-577b-d5e4-b514-c652e2ed8151" class="Note"><p><span class="note_label">注記 16　</span>神不心不明，故以心為主。</p></div>
+
+
+
+<p id="_3c72cf23-fb74-e66c-7042-191066d334ee">萬理之統也。</p><div id="_9dcd3886-acd4-7c92-4bd4-a283440148af" class="Note"><p><span class="note_label">注記 17　</span>統攝萬理，皆由於心也。</p></div>
+
+
+
+<p id="_b6eda13c-3a28-5351-6cec-ed00ad5715f1">動不失正，天地可感，而況於人乎！故古之君子，先正其心。</p><div id="_306d7a66-0cb3-2706-cbdd-2f2ea1e7fc4a" class="Note"><p><span class="note_label">注記 18　</span>言動發心神，不失其正，則雖天地之大亦可感矣。天地可感，而況於人乎！是以古之君子樹德立功者，莫不先正其心矣也。</p></div>
+
+
+
+<p id="_37de104d-5e6e-49dc-fe6c-f7d2fc670f9a">夫不正於昧金而照於瑩鏡者，以瑩能明也；不鑒於流波而鑒於靜水者，以靜能清也。鏡、水以明清之性，故能形物之形，見其善惡。而物無怨者，以鏡水至公而無私也。鏡水至公，猶免於怨，而況於人乎！</p><div id="_09282da8-df8f-e220-da88-119b70bce2ec" class="Note"><p><span class="note_label">注記 19　</span>言人能公正者，則必不能怨也矣。</p></div>
+
+
+
+<p id="_6e67e777-730c-4b1b-a65d-bb0942e8b8aa">孔子曰：「苟正其身，於從政乎？何有不能正其身，如正人何？」又曰：「其身正，不令而行；其身不正，雖令不從。」《說苑》曰：人臣之行有六正、六邪，行六正則榮，犯六邪則辱。</p><div id="_5ea60c5c-b264-5e02-bd1f-1fe591dbf9e0" class="Note"><p><span class="note_label">注記 20　</span>言榮辱隨其所行也。</p></div>
+
+
+
+<p id="_0700640b-8fdb-a44a-a709-d08a02e8dd02">夫榮辱者，禍福之門也。</p><div id="_a8673de7-247b-02e5-2233-ba8f2286d985" class="Note"><p><span class="note_label">注記 21　</span>禍福由榮辱而生也。</p></div>
+
+
+
+<p id="_e577816c-25d4-0b04-0886-910bd8d2ab36">何謂六正六邪？六正：一曰萌芽未動，形兆未見，</p><div id="_a073edc4-88dd-01ee-a3ce-e44f65c8304e" class="Note"><p><span class="note_label">注記 22　</span>謂事未發之時。</p></div>
+
+
+
+<p id="_6d2b830c-4594-fbb8-e4c3-b40abeb94f4f">照然獨見存亡之機，得失之要，預禁乎未然之前，使主超然立乎顯榮之處，</p><div id="_a6fc31c5-1f07-0be7-4dac-fc9b0326414e" class="Note"><p><span class="note_label">注記 23　</span>謂使功格上天，德流後裔也。</p></div>
+
+
+
+<p id="_4ad2d3af-153f-3182-850a-87665af876d5">天下稱孝焉。</p><div id="_e242a12a-8080-cc53-d3cb-ca01ac5f2740" class="Note"><p><span class="note_label">注記 24　</span>稱主之孝。</p></div>
+
+
+
+<p id="_9670addc-3bc1-c216-54b9-47546dfb54e6">如此者，聖臣也。二曰虛心白意，</p><div id="_44515168-107c-4e38-29cb-9c33c678da12" class="Note"><p><span class="note_label">注記 25　</span>白謂潔白。</p></div>
+
+
+
+<p id="_7f9ec241-7d08-8df0-a79d-4ce0e3e9fc4f">進善通道，</p><div id="_9f3d8c3d-4952-c59f-e802-c91815eef503" class="Note"><p><span class="note_label">注記 26　</span>通有道之人於其君。</p></div>
+
+
+
+<p id="_90a90601-317e-f8e3-94f8-2384d572bf38">勉主以禮義，諭主以長策，</p><div id="_e8a77377-2b79-d9c2-5a01-81da63b9d42c" class="Note"><p><span class="note_label">注記 27　</span>勉謂勸勉，諭猶曉也。長策，若張良八難，陳平六奇。</p></div>
+
+
+
+<p id="_9737f332-c385-45ec-d805-76ab7ce1c8f6">將順其美，匡救其惡。</p><div id="_1f05a83d-f132-ebda-8e97-cac04e93c330" class="Note"><p><span class="note_label">注記 28　</span>《孝經》曰：「將順其美。」。鄭玄曰：「善則稱君。」又曰：「匡救其惡。」鄭玄曰：「過則稱己。」</p></div>
+
+
+
+<p id="_5e8f829a-d4c0-115d-9c14-9842201f5e4c">功成事立，歸善於君，不敢獨伐其勞。</p><div id="_4abbc755-279a-9dc4-671d-2966d07791f7" class="Note"><p><span class="note_label">注記 29　</span>伐猶取也。言功事立雖由於己，而皆歸之於君，不敢獨取其勞也。</p></div>
+
+
+
+<p id="_82bf0e7a-2c53-e4c0-be8c-fd14950ff007">如此者，大臣也。三曰畢身賤體，夙興夜寐，</p><div id="_48bde442-8d6d-3ef0-0625-36c01315c6fc" class="Note"><p><span class="note_label">注記 30　</span>《毛詩》曰：「夙興夜寐，。無忝爾所生。」</p></div>
+
+
+
+<p id="_6c6f72cd-9884-e2a9-5eeb-9ee134dcc8f3">進賢不懈，</p><div id="_35099ba6-e02c-5edc-b50b-78a218ae9986" class="Note"><p><span class="note_label">注記 31　</span>進舉賢良而不解怠。</p></div>
+
+
+
+<p id="_eb049041-b0cf-b5e1-5e2a-be27b5af2ead">數稱於往古行事，以勵主意，庶幾有益，以安國家。</p><div id="_89b2cf98-1b4b-7cc2-dae1-1b67ff292114" class="Note"><p><span class="note_label">注記 32　</span>往古行事者，謂往君所行之事。若堯、舜、禹、湯者，稱之以勵其君。</p></div>
+
+
+
+<p id="_28a05009-9986-b346-2390-30b089f14f91">如此者，忠臣也。四曰察見成敗，早防而救之，</p><div id="_8232c647-84d0-6549-2dcc-8b037123eb27" class="Note"><p><span class="note_label">注記 33　</span>謂察見其君有成敗之事，則早設智謀以防救之也。</p></div>
+
+
+
+<p id="_a60402d9-5128-8ae0-1f24-266e1efabda6">引而復之，</p><div id="_7089cc84-5d54-6428-d14e-b340417eefe4" class="Note"><p><span class="note_label">注記 34　</span>君若已有傾敗，則引使復其未有之時。</p></div>
+
+
+
+<p id="_887d4b84-52b3-715b-3760-9c92f7b42a81">塞其間，</p><div id="_c5283a0b-a930-873c-e1ba-6effcbb9edfe" class="Note"><p><span class="note_label">注記 35　</span>塞君為惡之間隙也。</p></div>
+
+
+
+<p id="_f5c010c0-c60e-68d8-b523-445b89ecaf28">絕其源，</p><div id="_6766f5aa-4ba7-988f-dee9-1fd89459d2ee" class="Note"><p><span class="note_label">注記 36　</span>絕君為過之根源也。</p></div>
+
+
+
+<p id="_18245537-1454-6d6c-19a7-6073ab43a49b">轉禍以為福，令君終以無憂。</p><div id="_afcca6fd-5bea-38f1-a5d0-d1c567a930ab" class="Note"><p><span class="note_label">注記 37　</span>能轉君昔時之福，以為今日之福，而令終世無憂也。</p></div>
+
+
+
+<p id="_0a82f23b-5fee-ab38-d77f-65d4d5ef9564">如此者，智臣也。五曰守文奉法，任官職事，</p><div id="_11510062-81ec-f4a1-5b57-cf812c847ced" class="Note"><p><span class="note_label">注記 38　</span>文謂簿書也。職，主也。</p></div>
+
+
+
+<p id="_d7e3ed04-ddbb-dc3e-082c-b55fd4450fa4">辭祿讓賜，不受贈遺，</p><div id="_404f2157-1d75-e183-a0c3-b2beb353f9ce" class="Note"><p><span class="note_label">注記 39　</span>言以貞白自居，故雖有祿贈，皆讓而不受也。</p></div>
+
+
+
+<p id="_8c64283c-f138-3e8b-b131-b20f6a7b94a0">衣服端齊，食飲節素。</p><div id="_40128f7a-536c-5972-0004-b81ef45a41a0" class="Note"><p><span class="note_label">注記 40　</span>守其廉潔，不為奢侈。</p></div>
+
+
+
+<p id="_bfb32502-8264-c1aa-8c98-bc0151f1518e">如此者，貞臣也。六曰國家昏亂，所為不諛，</p><div id="_d05d47c3-3201-c805-3323-18adcc6405ed" class="Note"><p><span class="note_label">注記 41　</span>雖國之昏亂，惡貞醜正，任奸用邪，而不諂諛以曲從君意。</p></div>
+
+
+
+<p id="_b8601c03-0562-5830-1abd-d7908501c394">然而敢犯主之嚴顏，面言主之過失，不辭其誅，身死國安，不悔所行。</p><div id="_028e652f-f4ef-1aca-f7ed-0062864f5eaa" class="Note"><p><span class="note_label">注記 42　</span>夫昏虐之君，好行誅戮，怒忠直之士，喜諂佞之人而能不憚嚴顏，面言過失，不辭身死，冀護國得安。故龍逢以亡，比干以喪，志存必誅，故不悔所行也。</p></div>
+
+
+
+<p id="_1d416f07-ea07-765a-55ea-b182a4ee02ce">如此者，直臣也。是謂六正也。六邪：一曰安官貪祿，</p><div id="_031125ba-2b95-7baf-3058-ec0dd3e4f697" class="Note"><p><span class="note_label">注記 43　</span>安其所居之官，貪其君之爵祿。</p></div>
+
+
+
+<p id="_895d70b9-7e28-a3bc-9a0d-62e2b9d25d9a">營於私家，不務公事，</p><div id="_40144a1c-136e-5dc7-025d-2f8735df0122" class="Note"><p><span class="note_label">注記 44　</span>營私家之榮，弄公室之事。</p></div>
+
+
+
+<p id="_5736d83b-f18a-f0d0-44f3-6013d276783f">懷其智，藏其能，</p><div id="_6d5bc260-c2b0-9b21-1bf0-0e264ef10faa" class="Note"><p><span class="note_label">注記 45　</span>不用之以匡其君也。</p></div>
+
+
+
+<p id="_cdc9bf46-5db8-7396-dc85-d22b863e0e79">主饑於論渴於策，猶不肯盡節，</p><div id="_88c7fb38-6190-63ab-ea3e-9c1a834291cd" class="Note"><p><span class="note_label">注記 46　</span>言君思其善論，想其良策，同於饑渴，猶不肯盡節以告之也。</p></div>
+
+
+
+<p id="_ade6efd0-7252-e5d5-c28d-1b115424638c">容容乎與代沉浮，上下左右觀望。</p><div id="_17a24458-ffd9-fa72-c390-c6a8208feb02" class="Note"><p><span class="note_label">注記 47　</span>容容，自安之貌。左右觀望，言希旨而取容。</p></div>
+
+
+
+<p id="_23ff6e38-0f23-8ef4-ede0-356491b0a0ec">如此者，具臣也。二曰主所言皆曰善，主所為皆曰可，</p><div id="_0b1620ad-e04e-fdda-9b1a-41efde7d7752" class="Note"><p><span class="note_label">注記 48　</span>言進退隨君，不為匡諫也。</p></div>
+
+
+
+<p id="_19fb4907-2281-250e-aa03-b0cdbfe67b39">隱而求主之所好而進之，以快主之耳目，</p><div id="_36d04a09-c2cc-1445-dd8f-1c0e24ac5e07" class="Note"><p><span class="note_label">注記 49　</span>隱猶私也。言私求具主之所好之物而進之，以快其主之耳目心意也。</p></div>
+
+
+
+<p id="_b348feba-b614-b70c-71c0-73411d632195">偷合苟容，與主為樂，不顧其後害。</p><div id="_be140ac3-e171-421f-a0e7-fa8dd11ece9e" class="Note"><p><span class="note_label">注記 50　</span>言苟得與君合志，同為歡樂，豈顧有其後害也。</p></div>
+
+
+
+<p id="_687868dd-c21a-8b50-0015-fb18ebaff32f">如此者，諛臣也。三曰中實詖險，外貌小謹，</p><div id="_49f6b32a-4fe6-a5eb-f61c-eaeacba8c6f8" class="Note"><p><span class="note_label">注記 51　</span>內慢而外恭也。</p></div>
+
+
+
+<p id="_780fd152-ddd8-beb4-193e-510a6097e7c1">巧言令色，</p><div id="_52f6d6a8-3c8a-7fe2-52c7-d3d7ac27a7e2" class="Note"><p><span class="note_label">注記 52　</span>《論語》曰：「巧言令色，鮮矣仁。」</p></div>
+
+
+
+<p id="_5f2a592b-23a3-cd91-f15d-2ae6b44b39a3">又心疾賢，</p><div id="_8452e9fb-9dce-cde0-0799-0df3dea5af3e" class="Note"><p><span class="note_label">注記 53　</span>疾害賢能，恐君用之。</p></div>
+
+
+
+<p id="_df2563aa-1267-22b1-19ad-aa2a448aa4f7">所欲進，則明其美而隱其惡；所欲退則明其過而匿其美，</p><div id="_9378bcf1-15e3-46e3-a0b3-7bfef8997d48" class="Note"><p><span class="note_label">注記 54　</span>冀己意之得行。</p></div>
+
+
+
+<p id="_46dae80a-f3e5-e4f3-3758-9a78f8efbd2d">使主妄行過任，賞罰不當，號令不行。</p><div id="_68ef42fe-d0b4-668f-704e-ab7d822502fc" class="Note"><p><span class="note_label">注記 55　</span>皆由進人退人不實故也。</p></div>
+
+
+
+<p id="_07b02158-4acd-4e09-89e2-22a45edb97fd">如此者，奸臣也。四曰智足以飭非，辨足以行說，反言易辭而成文章，</p><div id="_f4b88d52-9a9c-ea0f-cab4-596de68c0999" class="Note"><p><span class="note_label">注記 56　</span>能令是非無定所也。</p></div>
+
+
+
+<p id="_5832b506-1c14-20ff-fba5-ba9d6c6d400c">內離骨肉之親，</p><div id="_8cd933d2-f53a-ff93-d48d-eeee906e9af2" class="Note"><p><span class="note_label">注記 57　</span>棄宗族也。</p></div>
+
+
+
+<p id="_faf56077-ca30-7967-7895-2be69f3aa574">外妒亂朝廷。</p><div id="_4351ea27-dc7f-8594-79fc-57ea0d2dc117" class="Note"><p><span class="note_label">注記 58　</span>陷良善也。</p></div>
+
+
+
+<p id="_d05bbb0c-ae85-d651-a7de-3f00f239f743">如是者，讒臣也。五曰專權擅威，</p><div id="_1968da6e-0030-03ac-a5a3-9a9ebf3156d1" class="Note"><p><span class="note_label">注記 59　</span>威權皆在於己而不由其君也。</p></div>
+
+
+
+<p id="_4a4b01bc-0a95-e02b-0571-8de3fa4dc047">持操國事，以為輕重，於私門成黨，以富其家，</p><div id="_70d868ee-4a22-6ec0-1f98-6a95dcae7ebe" class="Note"><p><span class="note_label">注記 60　</span>擅發己情，持操國事，以為輕重。於其私門，成其朋黨，以富其家業也。</p></div>
+
+
+
+<p id="_18e786da-4ea3-f8f9-02bd-96547ec7fe42">又復增加威權，擅矯主命，以自貴顯。</p><div id="_637a285e-8cf4-2b07-19d1-a42fc2219fa0" class="Note"><p><span class="note_label">注記 61　</span>又增己之權，矯主之命，而作威作福，以自尊顯也。</p></div>
+
+
+
+<p id="_64a77aaa-6191-c1a9-22b1-160bd03b1b28">如此者，賊臣也。六曰諂主以邪，墜主不義，</p><div id="_b88b04d4-8e8b-8a1c-aaac-feba23d64ff3" class="Note"><p><span class="note_label">注記 62　</span>進諂媚之言，用邪僻之行，而使其君陷於不義。</p></div>
+
+
+
+<p id="_ce8b01cf-2ec0-1013-c4d1-a31c259fa406">朋黨比周，以蔽主明。</p><div id="_d3238c05-d7bb-1b3a-8c81-0705d09ba856" class="Note"><p><span class="note_label">注記 63　</span>讒佞之人共為朋黨，以蔽主之明，不得使其彰著也。</p></div>
+
+
+
+<p id="_447a24c0-2baa-e864-d2de-f11af8d46568">入則辯言好辭，</p><div id="_d4775214-2501-742d-d09d-aa534779f5df" class="Note"><p><span class="note_label">注記 64　</span>諂於主也。</p></div>
+
+
+
+<p id="_21ee47d5-2990-6d50-b532-a46eb51732bd">出則更復異其言語，</p><div id="_9cb8cdbb-30c6-6426-f401-4986227596f5" class="Note"><p><span class="note_label">注記 65　</span>謗其君也。</p></div>
+
+
+
+<p id="_4d45bef6-c96a-b1b4-64e1-b01a082b69db">使白黑無別，是非無間。</p><div id="_879754ae-bdf5-89e0-7b4d-44ce202132e2" class="Note"><p><span class="note_label">注記 66　</span>間，猶隔也。言能點白作黑，飾非為是，使白黑是非無隔別也。</p></div>
+
+
+
+<p id="_a42f2b5d-d42d-c7a0-f12f-02ec6a7ff40d">候伺可不，推因而附然，使主惡布於境內，聞於四鄰。</p><div id="_9c9e08b1-f0f2-456f-086c-09a46143bd7b" class="Note"><p><span class="note_label">注記 67　</span>謂候伺君之行事，謗毀以成其惡，如可推尋，因而附會，以為突然，遂使主之過惡彰布境內，流聞四鄰也。</p></div>
+
+
+
+<p id="_cb3f8bdd-7f8d-7485-54a7-d4f0523ac63c">如此者，亡國之臣也。是謂六邪。賢臣處六正之道，不行六邪之術，故上安而下理，生則見樂，</p><div id="_0bf16bef-74e2-6007-d1b7-6f3d9b30e8a6" class="Note"><p><span class="note_label">注記 68　</span>見人所樂。</p></div>
+
+
+
+<p id="_35dd436b-049a-ac08-dca1-594a878d92d0">死則見思，</p><div id="_c3c883de-ee05-70d4-5955-89585b8acf2e" class="Note"><p><span class="note_label">注記 69　</span>見人所思，</p></div>
+
+
+
+<p id="_8aaebbb4-0362-6d22-4a81-7a671826c1b0">此人臣之術也。</p>
+</div><div id="_2c1023a2-17ce-567a-7ab9-09d875155375"><h2 id="_1b66a5ab-e818-4729-b99d-cf3e053a71cf"><a class="anchor" href="#_2c1023a2-17ce-567a-7ab9-09d875155375"></a><a class="header" href="#_2c1023a2-17ce-567a-7ab9-09d875155375">二・五　卷上·匡諫章</a></h2>
+
+<p id="_f6db0036-6686-f3a4-23f5-50ace1698911">夫諫者，所以匡君於正也。</p><div id="_73e225e9-5a68-9932-e03d-5b5898f2fdbf" class="Note"><p><span class="note_label">注記 1　</span>謂匡救其君使合於正道。</p></div>
+
+
+
+<p id="_599bc673-857f-a182-4ccf-7612d2ac58ec">《易》曰：「王臣蹇蹇，匪躬之故。」</p><div id="_0d8f76d0-1ea8-cbfc-8b80-6b0bd5c99633" class="Note"><p><span class="note_label">注記 2　</span>《易》曰，《蹇卦》六二爻辭也。王輔嗣曰：處難之時，履當其位，居不失中，以應於五，不以五在難中，私身遠害，執心不回，志匡王室者也。故曰「王臣蹇蹇，匪躬之故」也。</p></div>
+
+
+
+<p id="_1fa2b45c-7efd-ffad-8698-cf9f8d0b7bff">人臣之所以蹇蹇為難。</p><div id="_d7fa9faf-2363-7cf7-f69f-e484535f6835" class="Note"><p><span class="note_label">注記 3　</span>臣之事君鮮能忠正，故以蹇蹇之材為難也。</p></div>
+
+
+
+<p id="_b8b485fd-2ea5-4584-c9d0-938aaa5845a0">而諫其君者，非為身也，將欲以除君之過，矯君之失也。君有過失而不諫者，忠臣不忍為也。</p><div id="_6906cd70-ba69-35ab-6c68-d6f19b1eae28" class="Note"><p><span class="note_label">注記 4　</span>忠臣則必諫其君。</p></div>
+
+
+
+<p id="_40e83989-e02e-8b94-8b28-3315ab66a0ad">《春秋》傳曰：齊景公坐於遄台，梁丘據馳而造焉。公曰：「唯據與我和夫！」晏子曰：「據亦同也，焉得為和？」公曰：「和與同異乎？」對曰：「異。和如羹焉，水、火、醯、醢、鹽、梅，以享魚肉，宰夫和之，齊之以味，濟其不及。」</p><div id="_d9bad186-8378-dc05-8bad-fc9183799472" class="Note"><p><span class="note_label">注記 5　</span>杜預曰：「濟，益也。」</p></div>
+
+
+
+<p id="_437a058c-91a4-9db6-3fef-c5ac17c391b0">君臣亦然。</p><div id="_4a763c86-c2c8-0b95-bacf-a2ef9faff6d5" class="Note"><p><span class="note_label">注記 6　</span>杜預曰：「亦如羹。」</p></div>
+
+
+
+<p id="_532a9193-961c-292d-853c-1d3c23afe1b5">君所謂可而有否焉，</p><div id="_93e5b6ec-377d-88ef-ddf7-c5813902bae1" class="Note"><p><span class="note_label">注記 7　</span>杜預曰：「否不可也。」</p></div>
+
+
+
+<p id="_47ad8e0a-54f0-7173-6ad4-c586e1234e04">臣獻其否以成其可；</p><div id="_e674cb16-dd0c-f2b9-a1f1-68431415cb3b" class="Note"><p><span class="note_label">注記 8　</span>杜預曰：「獻君之否，以成君之可也。」</p></div>
+
+
+
+<p id="_c8786cc4-2db9-7b0b-9595-e7a853e51f40">君所謂否而有可焉，臣獻其可以去其否，是以政平而人無爭心。故《詩》曰：「亦有和羹，既戒既平。」</p><div id="_8f6b4dd7-4641-68a9-4002-23310473671d" class="Note"><p><span class="note_label">注記 9　</span>杜預曰：《詩》頌殷中宗也。言中宗能與賢者和齊可否，其政如羹，敬戒旦平也。和羹備五味，異於大羹也。</p></div>
+
+
+
+<p id="_bdac3727-f73a-650d-4507-cf944615e1e7">今據不然。君所謂可，據亦曰可；君所謂否，據亦曰否。若以水濟水，誰能食之？同之不可也如是。」《家語》曰：「哀公問於孔子曰：『子從父命孝乎？臣從君命忠乎？’孔子不對。又問三，皆不對。趨而出，告於子貢曰：」公問如此，爾以為何如？’</p><div id="_96fd8c0a-f33a-363a-e097-28174fcec2c4" class="Note"><p><span class="note_label">注記 10　</span>爾，汝也。</p></div>
+
+
+
+<p id="_e17f139a-3dc8-e76a-a2b3-109340c04f54">子貢曰：「子從父命，孝矣；臣從君命，忠矣。夫子奚疑焉。」</p><div id="_c7c9848d-cf2c-10bc-4e40-d8a55d739871" class="Note"><p><span class="note_label">注記 11　</span>奚，何也。</p></div>
+
+
+
+<p id="_702f78a2-1ea4-7e68-f9ad-e5d0c58af851">孔子曰：「鄙哉！爾不知也。昔萬乘之主，有諍臣七人，則主無過舉；</p><div id="_b9d854dd-18e0-8eb6-941c-a0d6496fb56b" class="Note"><p><span class="note_label">注記 12　</span>言舉事無過失也。《孝經》曰：「天子有諍臣七人，雖無道，不失天下。」</p></div>
+
+
+
+<p id="_ecbe753e-20ae-eb32-1319-a01fdc017b93">千乘之國，有諍臣五人，則社稷不危；</p><div id="_8e9901d0-07fc-6816-0444-458191d1851f" class="Note"><p><span class="note_label">注記 13　</span>《孝經》曰：「諸侯有諍臣五人，雖無道，不失其國。」</p></div>
+
+
+
+<p id="_0f9f3720-425f-52a2-4383-a9f82578f841">百乘之家，有諍臣三人，則祿位不替。</p><div id="_61310959-f3c7-cc3c-9866-6e9c0c16a9e2" class="Note"><p><span class="note_label">注記 14　</span>替，廢也。《孝經》曰：「大夫有諍臣三人，雖無道，不失其家。」</p></div>
+
+
+
+<p id="_a00b86d6-3d61-ac03-6a25-499879e2c782">父有諍子，不陷無禮；</p><div id="_fd351581-ee4a-89d0-f709-4486ff7dafee" class="Note"><p><span class="note_label">注記 15　</span>《孝經》曰：「父有諍子，則身不陷於不義」</p></div>
+
+
+
+<p id="_335bb271-c5cc-1396-db40-4a7735a2c092">士有諍友，不行不義。</p><div id="_23ee22ea-fc58-757c-a453-1711db8c6915" class="Note"><p><span class="note_label">注記 16　</span>《孝經》曰：「士有諍友，則身不離於令名。」</p></div>
+
+
+
+<p id="_873b0c10-b7d4-53b6-43f0-47f1d67c2956">子從父命，奚詎為孝！臣從君命，奚詎為忠！」</p><div id="_9f99d52f-3e9c-237f-28f7-bea5672226f4" class="Note"><p><span class="note_label">注記 17　</span>言其不得為忠孝也。《孝經》曰：「從父之令，焉得為孝乎？」鄭玄曰：「委曲從君父之令，善隻為善，惡隻為惡，又焉得為忠臣孝子乎！」</p></div>
+
+
+
+<p id="_3a92f31a-44d0-c29b-7383-2e2c09ad3ad4">《新序》曰：「主暴不諫，非忠臣也；畏死不言，非勇士也。</p><div id="_ac0c26fc-d031-5b53-39be-3fe2e34f3a15" class="Note"><p><span class="note_label">注記 18　</span>能諫暴君，不畏其死，乃為忠勇。</p></div>
+
+
+
+<p id="_a321fab6-40a7-58c0-2f2d-acf0409e7a3b">見過則諫，不用即死，忠之至也。」</p><div id="_b3a4a9ed-aab7-e6a1-32e6-efa991e539ad" class="Note"><p><span class="note_label">注記 19　</span>見君之有過，則犯顏而諫之。諫而不用，則以死繼之。可謂忠之至也。</p></div>
+
+
+
+<p id="_12503d51-61b6-06c1-8058-4f114516c698">晉平公問叔向曰：「國家之患孰為大？」對曰：「大臣重祿而不極諫；近臣畏罪而不敢言；下情不得上通。此患之大者也。」</p><div id="_3ee7e44a-aed1-194a-10b4-754fa1527df3" class="Note"><p><span class="note_label">注記 20　</span>言此三者皆國家之大患也。</p></div>
+
+
+
+<p id="_c752278e-6302-6ce6-109d-6f253404b2eb">公曰：「善。」乃令曰：「臣有欲進善言而謁者不通，罪至死，」</p><div id="_34e5dd38-dd10-f098-2f95-50ea3cfc2453" class="Note"><p><span class="note_label">注記 21　</span>謁者，官名也。言臣欲有進善言於其君，而謁者之官不通聞於上，則罪至於死。</p></div>
+
+
+
+<p id="_1ebd098c-948b-56cf-53e5-4c5bb7029d5b">《說苑》曰「從命利君謂之順；從命病君謂之諛。逆命利君謂之忠；逆命病君謂之亂。</p><div id="_197ecd1b-694a-c1d8-6bca-88694a2b04d9" class="Note"><p><span class="note_label">注記 22　</span>夫臣於人者，不其難乎！察通變之理，識安危之機，然後可以事其君矣。故《書》曰「為臣不易。」</p></div>
+
+
+
+<p id="_cf2d0227-8f85-e102-89a4-43cd45b3ce11">君有過失而不諫諍，將危國家殞社稷也；</p><div id="_7a45f145-9f2c-d5b1-159e-bde94ffae3f4" class="Note"><p><span class="note_label">注記 23　</span>見君之有過失不能盡忠以諫諍，則是將欲危其國家殞其社稷也。</p></div>
+
+
+
+<p id="_f9318168-5e01-b1da-d4f8-e433eb617ab0">有能盡言於君，</p><div id="_fe321c71-d9f8-bca6-625e-e13d90100bee" class="Note"><p><span class="note_label">注記 24　</span>謂盡忠貞之言於其君，無所藏隱也。</p></div>
+
+
+
+<p id="_d4a49634-52bf-aee4-cd61-e824400472c8">用則留，不用則去，謂之諫；</p><div id="_5d9c653b-f151-d314-e788-41d6b73a66a8" class="Note"><p><span class="note_label">注記 25　</span>君用其言則留，不用其言則去也。</p></div>
+
+
+
+<p id="_d48ff534-9ad4-3879-cc06-1d4c3c9732fc">用則可，不用則死，謂之諍；</p><div id="_9cf8a4d1-2b52-8c6a-2fe9-8b4c85bdb3a2" class="Note"><p><span class="note_label">注記 26　</span>謂能以死諍其君也。</p></div>
+
+
+
+<p id="_38808256-d9ad-fa87-9aaf-afcf87af5a07">有能率群下以諫君，</p><div id="_3aea66ba-37b4-67cf-b2ee-27904e704d6d" class="Note"><p><span class="note_label">注記 27　</span>群下，謂眾臣也。</p></div>
+
+
+
+<p id="_3be54ce2-1c34-dff3-5ac9-f66709464592">君不能不聽，</p><div id="_66d883ea-e43d-9ddd-10e9-b86766f17eca" class="Note"><p><span class="note_label">注記 28　</span>言必聽也。</p></div>
+
+
+
+<p id="_6a83ab82-4cdc-3d5a-bb28-34fe75ca291e">遂解國之大患，除國之大害，</p><div id="_ecdc00e3-ec92-e4fb-cdce-2a774799fe36" class="Note"><p><span class="note_label">注記 29　</span>由其用諫故也。</p></div>
+
+
+
+<p id="_0600da6b-4bfb-dfb3-5043-21d7fa375fc5">竟能尊主安國者，謂之輔；有能抗君之命。反君之事，</p><div id="_f4f9d4dc-9be1-6df9-ae05-0f7ea97d1487" class="Note"><p><span class="note_label">注記 30　</span>謂奪君之私心歸之於正義。</p></div>
+
+
+
+<p id="_2a8ca80c-6bf4-f3c1-f033-ff59fd1c5078">以安國之危，除主之辱，而成國之大利者，謂之弼。故諫諍輔弼者，所謂社稷之臣，明君之所貴也。」</p><div id="_128c7526-861a-2b57-cf35-143adba49018" class="Note"><p><span class="note_label">注記 31　</span>言諫諍輔弼，雖事跡有殊，至於安國寧人，其功不異，故俱謂社稷之臣，而明君之所貴也。</p></div>
+
+
+
+<p id="_d9ba4db1-1606-fa32-58d4-27a1eb4ec692">又曰：「夫登高棟臨危簷而目不朐、心不懼者，此工匠之勇也；</p><div id="_ce26587e-a914-b401-3199-b0891ce9f883" class="Note"><p><span class="note_label">注記 32　</span>朐猶動也。</p></div>
+
+
+
+<p id="_404036d5-48d0-752b-56a3-0d4bd0800f49">入深泉刺蛟龍，抱黿鼉而出者，此漁父之勇也；入深山刺猛獸抱熊羆而出者，此獵夫之勇也；臨戰先登暴骨流血而不辭者，此武士之勇也；居於廣廷作色端辯以犯君之嚴顏，前雖有乘軒之賞未為之動，</p><div id="_67e4d6a2-38f9-d883-ccfd-7bdc7185b635" class="Note"><p><span class="note_label">注記 33　</span>杜預《左傳》注曰： 「軒，大夫車。」</p></div>
+
+
+
+<p id="_3b1d6c0d-d643-507f-8c98-681d617de0b7">後雖有斧锧之誅未為之懼者，此忠臣之勇也。君子於此五者，以忠臣之勇為貴也。」</p><div id="_96552029-a27c-f2d4-1050-37b178803ec9" class="Note"><p><span class="note_label">注記 34　</span>夫武士、獵夫、工匠、漁父，雖有匹夫小勇，而不能成其大功。至於忠果之臣、公正之士，廣庭作色犯主嚴，不願乘軒之榮，不憂斧锧之戮，而使國安人泰，理定功成，道著當時，名流後代，故為君子之所貴也。</p></div>
+
+
+
+<p id="_75d1c260-9549-93be-f5ad-027c14b01dec">《代要論》曰：「夫諫諍者，所以納君於道，矯枉正非，</p><div id="_840ff176-67fb-51b2-ce48-f56ea87287a6" class="Note"><p><span class="note_label">注記 35　</span>矯君之枉，正君之非。</p></div>
+
+
+
+<p id="_a3ebd092-7672-a269-94e0-efc44796c043">救上之謬也。</p><div id="_cf5dc98e-cd64-7213-fac4-a05b1cc80db5" class="Note"><p><span class="note_label">注記 36　</span>救君上之謬誤。</p></div>
+
+
+
+<p id="_6452daf2-544c-9fca-0f81-b0488b64b915">上苟有謬而無救焉，則害於事。</p><div id="_dbf19c92-da96-32a2-92a0-144aff8be3d8" class="Note"><p><span class="note_label">注記 37　</span>害於理人之事。</p></div>
+
+
+
+<p id="_9eb4c842-1950-e956-67f0-a252fa508422">害於事則危。</p><div id="_fbad3b9d-492a-d478-8c93-982e3d95fcc6" class="Note"><p><span class="note_label">注記 38　</span>國不安也。</p></div>
+
+
+
+<p id="_dd66299b-7427-614d-ddf7-dc45f5b84338">故《論語》曰：「危而不持，顛而不扶，則將焉用彼相矣？」</p><div id="_39ba98cc-ccae-33c6-e8d9-45f05d0e2269" class="Note"><p><span class="note_label">注記 39　</span>鄭玄曰：相，扶工者也。</p></div>
+
+
+
+<p id="_80157d77-7dbb-4bce-1e62-0f92b17cc84f">然則，扶危之道莫過於諫，</p><div id="_41d679bf-80a9-98a9-1645-d32792b887d2" class="Note"><p><span class="note_label">注記 40　</span>諫則無傾危也。</p></div>
+
+
+
+<p id="_dc6fcfb5-1b40-5d2e-d3c1-a56c0fef6086">是以國之將興，貴在諫臣；家之將興，貴在諫子。若君父有非，臣子不諫，欲求國泰家榮，不可得也。」</p><div id="_d36c5fb7-c64e-f9b1-54d1-6e6fbc5fb04f" class="Note"><p><span class="note_label">注記 41　</span>《孝經》曰：「子不可以不諍於父，臣不可以不諍於君。」鄭玄曰：「君父有不義，臣子不諫諍，則亡國破家之道也。」</p></div>
+
+
+
+<p id="_858345aa-3955-bbb9-3709-ff3949a13d0d">臣軌上終</p>
+</div></div><div id="_418c78f9-72fb-341e-88b7-b0f44346f11f"><h1 id="_4eecfc83-71c9-40ce-8444-047190607d8a"><a class="anchor" href="#_418c78f9-72fb-341e-88b7-b0f44346f11f"></a><a class="header" href="#_418c78f9-72fb-341e-88b7-b0f44346f11f">三　卷　下</a></h1><div id="_98f95b56-2d99-c86d-b3a1-959995a4a3dc"><h2 id="_945f00a5-5259-4695-96df-0908dbeee148"><a class="anchor" href="#_98f95b56-2d99-c86d-b3a1-959995a4a3dc"></a><a class="header" href="#_98f95b56-2d99-c86d-b3a1-959995a4a3dc">三・一　卷下·誠信章</a></h2>
+
+<p id="_0c1e154d-1dad-a9f1-b7c2-0fa12e649290">凡人之情，莫不愛於誠信。</p><div id="_11874616-7b66-547b-71cf-9269e462351d" class="Note"><p><span class="note_label">注記 1　</span>誠謂無虛操，信謂不愆期。言能忠誠信實者，則人皆愛矣。</p></div>
+
+
+
+<p id="_b65edfc0-430a-d6e2-ee66-ad6c448441cf">誠信者，即其心易知。</p><div id="_ecf977bc-f7e6-fa53-c85e-4a70f469516a" class="Note"><p><span class="note_label">注記 2　</span>言無誠信者，則不可知矣。</p></div>
+
+
+
+<p id="_ef6c7af6-9449-6377-2d15-3476c7a413a8">故孔子曰：「為上易事，為下易知。」</p><div id="_ca2cea3a-8b53-07dd-b9f6-4807b2626406" class="Note"><p><span class="note_label">注記 3　</span>上有誠信則易事，下有誠信則易知。</p></div>
+
+
+
+<p id="_54d3271d-f2ec-2a2f-96f3-6ebc9a8d7892">非誠信無以取愛於其君，非誠信無以取親於百姓。</p><div id="_cf356fae-ca1f-0594-bc9a-4a9c23d54d33" class="Note"><p><span class="note_label">注記 4　</span>人有誠信，則君愛之，君有誠信則人親之，言致親愛唯在誠信也。</p></div>
+
+
+
+<p id="_a7822c4c-95cd-ac00-31ff-f160e6db12da">故上下通誠者，則暗相信而不疑；其誠不通者，則近懷疑而不信。</p><div id="_1b9495ad-cc89-6029-8fd0-c0c87deb3fa3" class="Note"><p><span class="note_label">注記 5　</span>言君臣誠通者，則暗合而無疑；誠異者，則雖近而不信也。</p></div>
+
+
+
+<p id="_5fb44577-e585-84c0-7d4d-80be174c3991">孔子曰：「人而無信，不知其可。</p><div id="_5371aafd-ce37-143f-1695-48c964e72330" class="Note"><p><span class="note_label">注記 6　</span>鄭玄曰：「不知其可者，言不可行也。」</p></div>
+
+
+
+<p id="_32d7d277-53f0-8eef-1a00-55f04f3a2992">大車無輗，小車無軏，其何以行之哉？」</p><div id="_e5f4eb03-fbf4-500b-ac8f-41929f8c05b0" class="Note"><p><span class="note_label">注記 7　</span>鄭玄曰：大車柏車，小車羊車。輗穿轅端著之，軏因轅端節之。車待輗軏而行，猶人之行不可無信也。</p></div>
+
+
+
+<p id="_c62d88ab-e233-15e6-7317-b19a0a995520">《呂氏春秋》曰：「信之為功大矣。</p><div id="_f3793bda-ba59-d102-9519-edae2baee9d4" class="Note"><p><span class="note_label">注記 8　</span>謂天地、四時、君臣、父子、兄弟、朋友皆待信而成，故曰大也。</p></div>
+
+
+
+<p id="_12b23ada-5f8c-06df-3d58-3a0165158ca4">天行不信則不能成歲；地行不信則草木不大。春之德風，風不信則其花不成；夏之德暑，暑不信則其物不長；秋之德雨，雨不信則其穀不堅；冬之德寒，寒不信則其地不剛。夫以天地之大，四時之化，猶不能以不信成物，況於人乎！</p><div id="_43e6f564-6265-5df7-c53e-2aa51865c18c" class="Note"><p><span class="note_label">注記 9　</span>言人不可以無信也。</p></div>
+
+
+
+<p id="_06b6dacf-5318-014c-4fb6-beb986fbc94a">故君臣不信，則國政不安；</p><div id="_2b0f7425-9aed-4932-1259-bf4373daa84a" class="Note"><p><span class="note_label">注記 10　</span>有傾危也。</p></div>
+
+
+
+<p id="_c8303ea3-ec37-60d8-df55-a887fa368071">父子不信，則家道不睦；</p><div id="_e299f201-85e9-8f93-4b73-1bbf1d53ad83" class="Note"><p><span class="note_label">注記 11　</span>失孝慈也。</p></div>
+
+
+
+<p id="_923e12f1-4320-5566-a9db-b9b774118ffc">兄弟不信，則其情不親；</p><div id="_eec9d16f-2628-b170-8c94-f957a9489b82" class="Note"><p><span class="note_label">注記 12　</span>無恭友也。</p></div>
+
+
+
+<p id="_072c804c-af2f-018e-fef4-788617a79b11">朋友不信，則其交易絕。</p><div id="_79b1b8e5-70b2-f96f-d83f-d3539509c4b7" class="Note"><p><span class="note_label">注記 13　</span>不能久也。</p></div>
+
+
+
+<p id="_fa8175b8-7092-5f73-9597-6b18f91ed566">夫可與為始、可與為終者，其唯信乎！</p><div id="_7cdfcb14-bea0-3449-ce5c-b8b94f25d407" class="Note"><p><span class="note_label">注記 14　</span>信則終始不二。</p></div>
+
+
+
+<p id="_09d4f09b-8ed7-8973-bc65-980a347e670c">信而又信，重襲於身，</p><div id="_645848ad-e85f-dd10-afb3-02892cd2ba44" class="Note"><p><span class="note_label">注記 15　</span>襲猶服也。</p></div>
+
+
+
+<p id="_29ffa8d7-59b7-836b-5c81-8353637a39b0">則可以暢於神明，通於天地矣。」</p><div id="_f65bfbfa-06cd-0369-5452-32ed7688b037" class="Note"><p><span class="note_label">注記 16　</span>暢亦通也。</p></div>
+
+
+
+<p id="_84dd50f5-076d-298d-43a1-e1914fec435c">昔魯哀公問於孔子曰：「請問取人之道。」孔子對曰：「弓調而後求勁焉；馬服而後求良焉。士必愨信而後求智焉。</p><div id="_3f0bf465-113c-17c8-8dd6-0f2f159a5f8c" class="Note"><p><span class="note_label">注記 17　</span>言弓不調而勁，則摧折；馬不服而良，則泛佚；士不信而智，則虛詐也。</p></div>
+
+
+
+<p id="_8c996592-6c43-535f-893a-7f043b5ce92c">若士不愨信而有智能，譬之豺狼不可近也。」</p><div id="_89772a3d-e3b8-0254-9909-9882f1edd0c4" class="Note"><p><span class="note_label">注記 18　</span>夫士無愨信而有智能，適足助其奸雄之材而為亂君父師，比豺狼而縱虐，其可近哉。</p></div>
+
+
+
+<p id="_b5beca56-beab-c9e9-9268-89bafd4dbb9a">昔子貢問政。子曰：「足食，足兵，人信之矣。」</p><div id="_8b2ffd88-3e71-13da-f661-26e2a07f408f" class="Note"><p><span class="note_label">注記 19　</span>鄭玄曰：「政有此三者，則國強也。」</p></div>
+
+
+
+<p id="_9d468de5-f59a-7685-0617-98c59b951e73">子貢曰：「必不得已而去，於斯三者何先？」曰：「去兵。」子貢曰：「必不得已而去，於斯二者何先？」曰：「去食。自古皆有死，人無信不立。」</p><div id="_e2e4381c-cb0b-d5d2-e318-c88642937b0f" class="Note"><p><span class="note_label">注記 20　</span>鄭玄曰：「言人所特急者，食也。自古皆有死，必不得已，食又可去也。」</p></div>
+
+
+
+<p id="_fa2958e1-3e21-cfac-33cc-9e7c89019713">《體論》曰：「君子修身，莫善於誠信。</p><div id="_2b5de2f3-35bc-47a6-7d42-54ce839f276a" class="Note"><p><span class="note_label">注記 21　</span>言誠信乃修身之本。</p></div>
+
+
+
+<p id="_65bab71b-a887-bc8d-57c8-d807566d4631">夫誠信者，君子所以事君上，懷下人也。</p><div id="_c26a052e-8213-2fab-3396-768fc8d8b6a9" class="Note"><p><span class="note_label">注記 22　</span>懷，歸也。</p></div>
+
+
+
+<p id="_ba576838-b303-6cee-91ae-e7bbcec4f2ec">天不言而人推高焉，地不言而人推厚焉，四時不言而人與期焉，</p><div id="_7cb4b52f-f48b-0b4d-1097-329ce890445d" class="Note"><p><span class="note_label">注記 23　</span>有信故也。</p></div>
+
+
+
+<p id="_775aecdb-2e1c-a7ab-66f2-a206e143a84a">此以誠信為本者也。故誠信者，天地之所守而君子之所貴也。</p><div id="_f8e37b52-d276-bd57-08d5-039459eee6fb" class="Note"><p><span class="note_label">注記 24　</span>天地有誠信，然後萬物成；君子有誠信，然後百行著。故天地所守，君子所貴也。」</p></div>
+
+
+
+<p id="_dde9b3d7-0516-41e8-839b-533e514c4879">《傅子》曰：「言出於口，結於心。</p><div id="_450ab187-ec8d-7c4e-cdee-11b1678c4a69" class="Note"><p><span class="note_label">注記 25　</span>結謂纏結。</p></div>
+
+
+
+<p id="_3398c64d-0147-dbef-1b83-f57f50bcb82a">守以不移，以立其身。</p><div id="_d210de5f-f91b-dd24-6bf3-a1409dc7a8dc" class="Note"><p><span class="note_label">注記 26　</span>謂守其前言而不移易也。</p></div>
+
+
+
+<p id="_f3d46ced-e2d8-6503-5a85-7dc8dc692920">此君子之信也。故為臣不信不足以奉君；為子不信不足以事父。</p><div id="_ff252b62-872e-b4e8-3654-d19ab71618cd" class="Note"><p><span class="note_label">注記 27　</span>奉，又事也。言事君事父不可以無信。</p></div>
+
+
+
+<p id="_1c0d82db-56f9-b7b7-2e0e-da2175154c50">故臣以信忠其君，則君臣之道逾睦；子以信孝其父，則父子之情益隆。</p><div id="_be996811-a74f-3115-d1b1-ecd7c0a556d2" class="Note"><p><span class="note_label">注記 28　</span>言臣不能以信忠於其君，則君臣之道離貳；子不能以信孝於其父，則父子之情衰薄也。</p></div>
+
+
+
+<p id="_f30738ef-1b09-86b8-b1d1-12e406cc19c4">夫仁者不妄為，</p><div id="_3535858f-9836-1ad6-f9db-a244c5acdd8e" class="Note"><p><span class="note_label">注記 29　</span>為得其時。</p></div>
+
+
+
+<p id="_db04abcf-58f9-340a-ddfa-45627e57aadd">知者不妄動。</p><div id="_be13b82a-7be6-9d6f-53be-c16350390637" class="Note"><p><span class="note_label">注記 30　</span>動合於禮。</p></div>
+
+
+
+<p id="_4d648e06-7214-3213-0985-5e4286d7cf82">擇是而為之，</p><div id="_c9a02842-147d-984a-f215-3f21cea59838" class="Note"><p><span class="note_label">注記 31　</span>不為非也。</p></div>
+
+
+
+<p id="_915dda5e-b62a-42e7-8e04-a9968bdd225e">計義而行之。</p><div id="_10e38c66-a57f-08f7-da3d-aa4e81dbc7bc" class="Note"><p><span class="note_label">注記 32　</span>計合於義而後行之。</p></div>
+
+
+
+<p id="_37b12ee5-3346-0735-557f-b71331f246a7">故事立而功足恃也，身沒而名足稱也。</p><div id="_7386a47a-a500-5351-14f8-c5a69c069599" class="Note"><p><span class="note_label">注記 33　</span>由其動為不失故也。</p></div>
+
+
+
+<p id="_bd9ee1c6-29bb-796e-24ad-b4e2295c3f63">雖有仁智，必以誠信為本。故以誠信為本者，謂之君子；</p><div id="_15b862e6-550e-227c-3c7e-e06fa6b828c6" class="Note"><p><span class="note_label">注記 34　</span>言雖有仁智，苟無誠信則不可以為君子也。</p></div>
+
+
+
+<p id="_20e0e2ce-6c38-3417-2aac-3a2ab190c9c7">以詐偽為本者，謂之小人。</p><div id="_d4102d41-3cc6-1062-08eb-77c22df2b8cb" class="Note"><p><span class="note_label">注記 35　</span>言小人必無誠信也。</p></div>
+
+
+
+<p id="_2d1cb915-34df-49b5-5c68-6bce320990c8">君子雖殞，善名不減；</p><div id="_724fe841-5725-8013-980e-9be11de18fc3" class="Note"><p><span class="note_label">注記 36　</span>身沒而名揚也。</p></div>
+
+
+
+<p id="_123c9c07-21a4-12d7-3665-4769b74af330">小人雖貴，惡名不除。」</p><div id="_0f66d9f3-888c-1929-35ec-8173c2b092b6" class="Note"><p><span class="note_label">注記 37　</span>位隆而惡著也。</p></div>
+
+
+</div><div id="_2b1a008b-55d1-54bd-f725-9600b1d5912d"><h2 id="_dd8f1008-659b-4d40-a89f-07cae611221a"><a class="anchor" href="#_2b1a008b-55d1-54bd-f725-9600b1d5912d"></a><a class="header" href="#_2b1a008b-55d1-54bd-f725-9600b1d5912d">三・二　卷下·慎密章</a></h2>
+
+<p id="_5c922072-792b-40f6-d340-8b86318085d0">夫修身正行不可以不慎，</p><div id="_66d99f61-2f4f-53ff-62e5-88da1501a4bf" class="Note"><p><span class="note_label">注記 1　</span>謂若曾參、顏回之儔。</p></div>
+
+
+
+<p id="_30a77fa9-f8f8-3f5e-68bf-4b6b1e3447b1">謀慮機權不可以不密。</p><div id="_57828918-9a0d-375d-ae60-cc90eddc1bf4" class="Note"><p><span class="note_label">注記 2　</span>謂若孔光、陳寵之儔。</p></div>
+
+
+
+<p id="_8705020d-f5d4-8142-b679-8dcd5b319873">憂患生於所忽，</p><div id="_374e8e4a-807d-65e4-a075-c89f999fd8ef" class="Note"><p><span class="note_label">注記 3　</span>忽，輕也。《周書》苪良夫曰：「惟禍發於人所忽也。」</p></div>
+
+
+
+<p id="_4f75b718-fd79-eda6-7c74-6f68cf1d0206">禍害興於細微。</p><div id="_cb1e5106-44f0-465f-7f75-a86a084da3d3" class="Note"><p><span class="note_label">注記 4　</span>言禍害之事，皆從細微而起，故蟻溜漂都突煙樊邑也。</p></div>
+
+
+
+<p id="_c0c4af45-cc0a-9285-1573-1232977ec6de">人臣不慎密者，多有終身之悔。</p><div id="_bda4378a-16b8-461b-e2cd-f76d2265d346" class="Note"><p><span class="note_label">注記 5　</span>夫不慎於始，則禍成於末，雖終身積悔，其可及哉！故孟德長恨於英雄，智伯永慚於水灌也。</p></div>
+
+
+
+<p id="_a73ecec0-943d-4e89-4848-ddaf7494bfa3">故言易泄者，召禍之媒也；事不慎者，取敗之道也。明者視於無形，聰者聽於無聲，謀者謀於未兆；慎者慎於未成。不困在於早慮；不窮在於早豫。</p><div id="_1604b185-f635-3e46-d406-9a3a69c5b941" class="Note"><p><span class="note_label">注記 6　</span>早慮則不因，早豫則不窮。故《書》曰：「敬戒無虞。」《易》曰：「思患豫防」。</p></div>
+
+
+
+<p id="_7d6988ed-a4a6-ca25-c3cf-63be36e1f602">非所言勿言，以避其患；非所為勿為，以避其危。</p><div id="_eee5e950-c44b-1481-9a5b-5b388d60dbae" class="Note"><p><span class="note_label">注記 7　</span>為所非為，必致傾危。</p></div>
+
+
+
+<p id="_edfef2a1-b3bd-898a-9642-c94674984b95">孔子曰：「終日言，不遺己之憂；終日行，不遺己之患，</p><div id="_182cb978-02fc-eaa4-f457-300b89b4ac7f" class="Note"><p><span class="note_label">注記 8　</span>口無擇言，身無擇行，故憂患不至，而吉乃大來也。</p></div>
+
+
+
+<p id="_cc020117-1d10-fc17-6645-31f906af51d6">唯智者能之。」</p><div id="_f0392ad5-0776-dc32-ca76-ae69d67a37a6" class="Note"><p><span class="note_label">注記 9　</span>若非智者，則必有其憂患也。</p></div>
+
+
+
+<p id="_fcf75998-076d-58c3-fad3-9b1ca35fc951">故恐懼戰兢所以除患也，恭敬靜密所以遠難也。終身為善，一言敗之，可不慎乎！</p><div id="_719f1f68-14e4-b319-dbc7-ff5cd69a1ba3" class="Note"><p><span class="note_label">注記 10　</span>失之毫厘，以差千裏。成之難，毀之易。雖終為善，而一言敗之，不可不慎也。</p></div>
+
+
+
+<p id="_58b28f9d-cf50-ec21-1fec-0269e329d288">夫口者，關也；舌者，機也。出言不當，駟馬不能追也。</p><div id="_30f15044-de35-194c-ba45-c111f539325e" class="Note"><p><span class="note_label">注記 11　</span>《論語》曰：「駟不及舌。」鄭玄曰：「君子過言出口，駟馬追之不及也。」</p></div>
+
+
+
+<p id="_65a199a3-8b3b-67dd-f391-f7fa54d5a057">口者，關也；舌者，兵也。出言不當，反自傷也。</p><div id="_ebc07c0f-d3c1-8517-ee11-1e7c03d7c294" class="Note"><p><span class="note_label">注記 12　</span>人之出言，若不當於理，則及自傷己，同於兵刃也。</p></div>
+
+
+
+<p id="_a9b3b2ec-7c2e-e10d-ac8b-a3ce77f62d1e">言出於己，不可止於人；行發於邇，不可止於遠。</p><div id="_edc0a9ee-a05f-ad3c-1c29-50105fd84059" class="Note"><p><span class="note_label">注記 13　</span>邇，近也。若言布於人，行流於遠，雖欲復止，其可得乎？故君子慎之也。</p></div>
+
+
+
+<p id="_fae52281-1afd-95fe-d5f6-c9e2e514b1c5">夫言行者，君子之樞機。</p><div id="_ac9cf433-003e-0d9f-51af-c5d1b8b0f45c" class="Note"><p><span class="note_label">注記 14　</span>韓康伯曰：「樞機，製動之至。」</p></div>
+
+
+
+<p id="_ade7ee28-b900-d5b9-3e50-3a81ebb2b0a2">樞機之發，榮辱之主。夫君子戒慎乎其所不睹，恐懼乎其所不聞，</p><div id="_9badc5f8-08b2-1a4a-4d04-97cfba1718cd" class="Note"><p><span class="note_label">注記 15　</span>言於未睹未聞之前而戒懼之，故能免於患難也。</p></div>
+
+
+
+<p id="_d75ab6bb-032d-c5d4-efec-e6c9f72dec15">莫見乎隱，莫顯乎微，</p><div id="_99145438-c9f0-1964-dec9-181cbb59694b" class="Note"><p><span class="note_label">注記 16　</span>言隱微尤為顯見，以其無隱不彰，無微不著故也。</p></div>
+
+
+
+<p id="_401d6488-28af-70c3-d3c2-d628f512f207">是故君子慎其獨。</p><div id="_be16e6e3-290d-d84b-1b80-c58891a8e753" class="Note"><p><span class="note_label">注記 17　</span>獨謂獨居。</p></div>
+
+
+
+<p id="_83722436-6110-ef1e-4e76-41f694077b1b">在獨猶慎，況於事君乎！況於處眾乎！</p><div id="_a6cd53f4-11a3-c07a-f77c-ad3fbe2c6266" class="Note"><p><span class="note_label">注記 18　</span>言事君處眾，則慎之彌甚也。</p></div>
+
+
+
+<p id="_a667fc63-4442-cd0d-586c-563dd99ba837">昔關尹謂列子曰：「言美則響美，言惡則響惡。身長則影長，身短則影短。」</p><div id="_db6edbe8-5c0e-8acb-65ac-011db0e1e7a4" class="Note"><p><span class="note_label">注記 19　</span>響隨言而美惡，影隨身而短長，以逾憂患寵榮，亦隨人所行也。</p></div>
+
+
+
+<p id="_c54d7f71-011c-2488-7bad-541d0b3f9d03">言者所以召響也，身者所以致影也。</p><div id="_4d663939-4e40-4ac8-195b-84dedd25f3cb" class="Note"><p><span class="note_label">注記 20　</span>言之所以召響，身之所以致影，亦猶慎之所以致福，慢之所以召禍也。</p></div>
+
+
+
+<p id="_23ec4496-94d0-c844-1a96-7f52fac0eaf0">是故慎而言，將有和之；慎而身，將有隨之。」</p><div id="_350f3dbb-e968-52b6-d7df-76c156a1d72c" class="Note"><p><span class="note_label">注記 21　</span>而，汝也。言禍福之理既由人而興，故當慎汝之言，慎汝之身。</p></div>
+
+
+
+<p id="_72b1496c-b398-f4a7-9ba9-511e925fb555">昔賢臣之事君也，入則造膝而言，出則詭詞而對。</p><div id="_fc3c2950-60bf-f2d9-340f-858abf318bcf" class="Note"><p><span class="note_label">注記 22　</span>人或問之，則不告以實也。《風俗通》曰：「禮諫有五，諷為上。故入則造膝，出則詭詞。辭善則其稱君，過則其稱己也。」</p></div>
+
+
+
+<p id="_c0a232d4-0eec-1494-0270-b966ae71ed36">其進人也，唯畏人之知，不欲思從己出；其圖事也，必推明於君，不欲謀自己造。畏權而惡寵，</p><div id="_78f02e6f-9de5-fb65-f3a8-336c22b9b061" class="Note"><p><span class="note_label">注記 23　</span>畏其威權，惡其貴寵，而不欲居之。</p></div>
+
+
+
+<p id="_8425f3ca-6122-ef5d-23cd-60cf24aea5b0">晦智而韜名。</p><div id="_546abeac-6907-581a-d873-39f30c6aa144" class="Note"><p><span class="note_label">注記 24　</span>晦其深智，藏其美名，不欲使人知之。韜，藏。</p></div>
+
+
+
+<p id="_4e5939cf-19de-7154-1a8a-cb452c93fbaf">不覺事之在身，不覺榮之在己。</p><div id="_2d22f3ad-6605-54a0-5d6b-05265f0b648f" class="Note"><p><span class="note_label">注記 25　</span>言能混齊榮辱。</p></div>
+
+
+
+<p id="_4d99a319-d71d-700e-8994-7449eafc772d">人閉其口，我閉其心；人密其外，我密其裏。</p><div id="_7c1e8e7a-4631-c3f8-ea4f-441cad8e1fca" class="Note"><p><span class="note_label">注記 26　</span>裏猶內也。心尚閉之，況其口乎？內尚密之，況其外乎？</p></div>
+
+
+
+<p id="_1d94d898-eb02-573c-9ef0-52411417ac04">不慎而慎，不恭而恭，</p><div id="_ea01de16-3b4c-c43e-1840-bf75357e3fe4" class="Note"><p><span class="note_label">注記 27　</span>或於無形。</p></div>
+
+
+
+<p id="_8a6d7e6b-d20b-35bd-5878-7be356dc4869">斯大慎之人也。故大慎者，心知不欲口知；其次慎者，口知不欲人知。</p><div id="_f8356334-cb86-0562-0c81-75ac6827ca52" class="Note"><p><span class="note_label">注記 28　</span>口知，謂口言也。</p></div>
+
+
+
+<p id="_2ce61f9f-ff19-7b46-478d-89144eb7383f">故大慎者閉心；次慎者閉口；下慎者閉門。昔孔光稟性周密，凡典樞機十有餘年，時有所言，輒削草稿。</p><div id="_2c08c42a-c3e6-59dd-e40f-b9a470d7645b" class="Note"><p><span class="note_label">注記 29　</span>謂進言於其君也。削草稿者，懼其事泄於外。</p></div>
+
+
+
+<p id="_7d69aecf-ff2f-7703-c6e2-91e44b324836">沐日歸休，兄弟妻子燕語，終不及朝省政事。</p><div id="_910996cb-c9d5-0bdf-19e5-e4c5c72edbd7" class="Note"><p><span class="note_label">注記 30　</span>言其義慎深也。</p></div>
+
+
+
+<p id="_ba6999e8-c35b-d591-dc5d-53a63b90722a">或問光：「溫室省中樹皆何木也？」</p><div id="_3bd8cbed-c1d5-5473-a869-aed713264e7b" class="Note"><p><span class="note_label">注記 31　</span>溫室，殿名也。在長樂宮中。</p></div>
+
+
+
+<p id="_feb4ce2e-58d2-627c-2c9a-f79a559524be">光默而不應，更答以他語。</p><div id="_1885646b-4efe-9d19-a645-cfdc5458f09f" class="Note"><p><span class="note_label">注記 32　</span>舍溫室之樹而別以他語答之。</p></div>
+
+
+
+<p id="_2ec2e203-2031-b6de-f20d-a2b64f713808">若孔光者，可謂至慎矣，故能終身無過，享其榮祿。</p><div id="_a99c33c3-0c6f-3f06-de4d-196af6fa3a63" class="Note"><p><span class="note_label">注記 33　</span>周密故無過，至慎故享祿也。</p></div>
+
+
+</div><div id="_d96e0f69-396a-d5c8-693a-bc69d6736cc4"><h2 id="_094430e4-836f-44c0-a8d8-7bd2e3c4e3e7"><a class="anchor" href="#_d96e0f69-396a-d5c8-693a-bc69d6736cc4"></a><a class="header" href="#_d96e0f69-396a-d5c8-693a-bc69d6736cc4">三・三　卷下·廉潔章</a></h2>
+
+<p id="_e88312b6-8f3b-aca8-2c79-d8a58dd2a4cb">清靜無為，則天與之時；</p><div id="_77c09f58-1841-6098-836f-d30c4bcf7075" class="Note"><p><span class="note_label">注記 1　</span>清靜無為，天之德也。人能體之，則天與之時，所謂用天之道矣。</p></div>
+
+
+
+<p id="_e25db1fa-17a6-0216-7e67-908654e1b6ca">恭廉守節，則地與之財。</p><div id="_9e931697-764a-a9f3-c4cc-f7933ae8683a" class="Note"><p><span class="note_label">注記 2　</span>恭廉守節，地之德也。人能體之，則地與之時，所謂分地之利矣。</p></div>
+
+
+
+<p id="_30c7eed3-dda3-1d43-9ea3-5649f87d3bde">君子雖富貴，不以養傷身；雖貧賤，不以利毀廉。</p><div id="_c7b6cff6-9835-6d86-7ddf-6a34d9e256d5" class="Note"><p><span class="note_label">注記 3　</span>言君子之人，雖處富貴，不以奢侈之養而傷其身；雖居貧賤，不以無義之利而毀其廉。言所為必合於道也。</p></div>
+
+
+
+<p id="_c94c2586-9945-f071-24bd-3163f82d0e1d">知為吏者，奉法以利人；不知為吏者，枉法以侵人。</p><div id="_ee981a0c-e502-21aa-f389-9afdee9b0e07" class="Note"><p><span class="note_label">注記 4　</span>言知為吏之道者，則奉公法以利人；不知為吏之道者，則枉公法以侵人也。</p></div>
+
+
+
+<p id="_a06db7ce-44fc-b5c5-9e21-501b266984e0">理官莫如平，臨財莫如廉。廉平之德，吏之寶也。</p><div id="_624bb06b-ee5d-2aeb-653a-051c7a21adf7" class="Note"><p><span class="note_label">注記 5　</span>吏能廉平，則患難遠己，故為寶也。</p></div>
+
+
+
+<p id="_7b8926b5-cb80-c94e-2ede-257ffb840a60">非其路而行之，雖勞不至；非其有而求之，雖強不得。</p><div id="_15151a0a-d55f-3769-a7ca-2a9678ba84e9" class="Note"><p><span class="note_label">注記 6　</span>越分故也。</p></div>
+
+
+
+<p id="_e17473fc-d2a2-7fd3-db66-655ea610d240">知者不為非其事，廉者不求非其有，</p><div id="_6725c262-a3ea-da99-ba23-041cdb9c5614" class="Note"><p><span class="note_label">注記 7　</span>知其不可故也。</p></div>
+
+
+
+<p id="_c1acc7cb-58ae-dcd1-bc00-92eb3f2d6eaf">是以遠害而名彰也。故君子行廉以全其真，守清以保其身。富財不如義多，高位不如德尊。</p><div id="_6ad77d89-9abc-bb8f-9f8d-72610ee40a12" class="Note"><p><span class="note_label">注記 8　</span>夫不義而處富財，必招卻奪之患，無德而居高位，必踐傾危之災。故富財不如義多，高位不如德尊也。</p></div>
+
+
+
+<p id="_f12669d3-e3ff-2e31-b951-6a1d5709b23c">季文子相魯，妾不衣帛，馬不食粟。</p><div id="_a0cfb427-2e2c-a77b-e91a-6f5219405547" class="Note"><p><span class="note_label">注記 9　</span>性廉潔也。</p></div>
+
+
+
+<p id="_8c5b73ab-e7a0-6341-aafa-6ab489f6772d">仲孫它諫曰：「子為魯上卿，妾不衣帛，馬不食粟，人其以子為吝，且不顯國也。」</p><div id="_e01a54b3-cdcb-55e1-3315-ec5197de4c8f" class="Note"><p><span class="note_label">注記 10　</span>仲孫不曉文子之意，故發此言。</p></div>
+
+
+
+<p id="_d5291d7f-d4cc-72bc-36b7-b02fa0000a83">文子曰：「然吾觀國人之父母，衣粗食蔬，吾是以不敢。</p><div id="_3f8b0a73-c9fd-5d60-2686-44b3bdb14d8a" class="Note"><p><span class="note_label">注記 11　</span>欲與國人同其好惡。</p></div>
+
+
+
+<p id="_4d0762aa-2eb1-21a2-9e1a-14319ef9e207">且吾聞君子以德顯國，不聞以妾與馬者。夫德者，得之於我，又得於彼，故可行也。</p><div id="_d8ede1ca-2110-b9ad-89ec-15ea04c9bdc2" class="Note"><p><span class="note_label">注記 12　</span>若唯自得，則不足以行矣。</p></div>
+
+
+
+<p id="_8941e4aa-1ba1-fdd2-15a7-aaf0b03554d9">若獨貪於奢侈，好於文章，是不德也。何以相國？」</p><div id="_daef09f7-3b7f-05c3-cde0-3d1bd2f336f2" class="Note"><p><span class="note_label">注記 13　</span>文章，謂錦綺之屬也。</p></div>
+
+
+
+<p id="_29f27d67-6635-d297-3baf-219969c81961">仲孫慚而退。韓宣子憂貧，叔向賀之。</p><div id="_4b5ee130-77c5-b4c9-978d-507fb97be3fb" class="Note"><p><span class="note_label">注記 14　</span>賀其貧也。</p></div>
+
+
+
+<p id="_484bd86a-68d9-203a-5e59-8abdae93aea9">宣子問其故。對曰：「昔欒武子貴而能貧，故能垂德於後。今吾子之貧，是武子之德，能守廉靜者，致福之道也。吾所以賀。」宣子再拜，受其言。宋人或得玉，獻諸司城子罕。子罕不受。獻玉者曰：「以示玉人，</p><div id="_1ae3c2e6-db74-9ba9-ee66-acb04ec680e4" class="Note"><p><span class="note_label">注記 15　</span>杜預曰：「玉人，能治玉者也。</p></div>
+
+
+
+<p id="_4f1af641-de35-65d4-3c75-a11fec527435">玉人以為寶，故敢獻之。」子罕曰：「我以不貪為寶，爾以玉為寶。若以與我，皆喪寶也，不若人有其寶。」公儀休為魯相，使食公祿者不得與下人爭利，</p><div id="_2ccfbfff-83bd-0df5-dcd5-206c82d7d429" class="Note"><p><span class="note_label">注記 16　</span>爭商賈之利也。</p></div>
+
+
+
+<p id="_fcde86e1-d31a-adff-8e10-a7e67f9bbe84">受大者不得取小，</p><div id="_48457cff-8af9-8df0-3b89-d243bea58d4e" class="Note"><p><span class="note_label">注記 17　</span>大謂君祿，小謂人利也。</p></div>
+
+
+
+<p id="_e9421d94-1b5b-ca29-d837-a1fcbde6f694">客有遺相魚者，相不受。客曰：「聞君嗜魚，故遺君魚。何故不受？’公儀休曰：「以嗜魚，故不受也。今為相，能自給魚。</p><div id="_0e60406a-ee9e-f99b-3796-99ae670096bf" class="Note"><p><span class="note_label">注記 18　</span>言己為相，祿足以自給其魚。</p></div>
+
+
+
+<p id="_9d10e651-7032-13db-aedf-85a25c31a817">今受魚而免相，誰復給我魚者？吾故不受也。」</p>
+</div><div id="_56c683c1-bdc4-58a3-6302-762f57c24346"><h2 id="_fc4fc974-44e7-44ad-bb6f-40b77260eec2"><a class="anchor" href="#_56c683c1-bdc4-58a3-6302-762f57c24346"></a><a class="header" href="#_56c683c1-bdc4-58a3-6302-762f57c24346">三・四　卷下·良將章</a></h2>
+
+<p id="_54fc3063-a5fe-b329-b068-5ad4b8f48541">夫將者，君之所恃也；</p><div id="_329321ee-de08-c6ea-e04c-a3cf346012cf" class="Note"><p><span class="note_label">注記 1　</span>恃之以禦侮也。</p></div>
+
+
+
+<p id="_ffd7ae7b-88d9-c1d5-5af4-d2ba1933c660">兵者，將之所恃也。</p><div id="_581e7364-c964-8147-bb60-d53eabf7b070" class="Note"><p><span class="note_label">注記 2　</span>恃之以勝敵也。</p></div>
+
+
+
+<p id="_7f2761a2-6d08-e365-af9c-6b10df5d35dd">故君欲立功者，必推心於將；</p><div id="_72918a12-2fc7-fb47-ae87-c1a46d10104f" class="Note"><p><span class="note_label">注記 3　</span>推其誠心於將。</p></div>
+
+
+
+<p id="_f12db202-bc10-946b-6d1b-a90e4070fb40">將之求勝者，先致愛於兵。</p><div id="_d920d907-60d7-6148-5175-8597e1fcd93b" class="Note"><p><span class="note_label">注記 4　</span>致其慈愛於兵。</p></div>
+
+
+
+<p id="_2a6b34e3-bdb9-4e43-2c5c-73692fd80711">夫愛兵之道，務逸樂之，務豐厚之，不役力以為己，不貪財以殉私。內守廉平，外存憂恤。</p><div id="_10de07c1-87b8-d7b6-2702-01b637f48934" class="Note"><p><span class="note_label">注記 5　</span>言將愛兵之道，務使其逸樂、豐厚，不可役兵之力以為於己，不可貪兵之財以殉其私，內守廉平之性，外存憂恤之心也。</p></div>
+
+
+
+<p id="_4a29c80e-8e33-8c43-96fd-e07fe8ba557c">昔竇嬰為將，置金於廊下，任士卒取之。私金且猶散施，豈有侵之者乎！吳起為將，卒有病癰者，吳起親自吮之。其愛人也如此，豈有苦之者乎！夫將者，心也；兵，體者也。</p><div id="_ed11b6b4-f34e-0db1-eb39-f6b7189ed53e" class="Note"><p><span class="note_label">注記 6　</span>言兵將共為心體也。</p></div>
+
+
+
+<p id="_75166d3f-b293-3b17-279e-59299479d6ae">心不專一，則體不安；將不誠信，則卒不勇。</p><div id="_9296bfaa-3113-cffb-7fbb-21cf85210c89" class="Note"><p><span class="note_label">注記 7　</span>言心能專一，然後體安。將有誠信，然後卒勇也。</p></div>
+
+
+
+<p id="_6084dfef-0e4a-2326-614e-609c183c1309">古之善將者，必以其身先之。</p><div id="_ce709f39-2ec9-c417-e442-b7640fb9c9f0" class="Note"><p><span class="note_label">注記 8　</span>必以其身先於士卒，而不避矢石之害也。</p></div>
+
+
+
+<p id="_f0a12956-00c4-0204-931b-d7aa8c9957a5">暑不張蓋，寒不被裘。軍井未達，將不言渴；</p><div id="_8b577c6b-def5-9ff5-e64b-0c0b91f45818" class="Note"><p><span class="note_label">注記 9　</span>達謂遍得汲也。</p></div>
+
+
+
+<p id="_8baf3aad-c5d0-f83f-4044-ce07555d97c4">軍幕未辨，將不言倦。當其合戰，必立矢石之間，所以齊勞逸、共安危也。夫人之所樂者，生也；所惡者，死也。然而矢石若雨，白刃交揮，而士卒爭先者，非輕死而樂傷也。夫將視兵如子，則兵事將如父；將視兵如弟，則兵事將如兄。</p><div id="_d4f8cd0b-fdb7-d13b-5a98-28af45f9a239" class="Note"><p><span class="note_label">注記 10　</span>若將無子弟之恩，則兵無父兄之敬，皆由其將也。</p></div>
+
+
+
+<p id="_6ba27208-822a-cc2c-fb88-1f60c37fc86c">故語曰：「父子兄弟之軍，不可與鬥。」由其一心而相親也。是以古之將者，貴得眾心。</p><div id="_adcd710c-9404-4c64-8bb5-36239f13f3f7" class="Note"><p><span class="note_label">注記 11　</span>言以得眾心為貴也。</p></div>
+
+
+
+<p id="_e1963182-683b-8ff0-0158-773f26931aff">以情親之，則木石知感，況以愛率下，而不得其死力乎！</p><div id="_4ea22866-daa2-89fe-63b7-3ed7ca1f99d3" class="Note"><p><span class="note_label">注記 12　</span>言將若能以情親其士卒，則雖曰木石猶感應矣。況以仁愛率下，而不得其死力乎！言其必得之矣。</p></div>
+
+
+
+<p id="_00f35735-0773-8599-7780-fc913af1e589">《孫子兵法》曰：「兵形象水。水之行，避高而就下，兵之形，避實而擊虛。故水因地而製形，</p><div id="_7a38b5f9-2bda-afde-7add-2867179d9b97" class="Note"><p><span class="note_label">注記 13　</span>謂因地高下，製其避就之形也。</p></div>
+
+
+
+<p id="_c9de473e-14a5-b624-328c-837b60849e2b">兵因敵而製勝。</p><div id="_209d5e5e-ede0-da5f-fdaa-e4b8d453b197" class="Note"><p><span class="note_label">注記 14　</span>謂因敵虛實製其克捷之勝也。</p></div>
+
+
+
+<p id="_97752804-f788-6a3a-42b8-6d616bcc1348">兵無常道，</p><div id="_024c540b-5f64-9387-9909-17418867c27e" class="Note"><p><span class="note_label">注記 15　</span>隨時之變</p></div>
+
+
+
+<p id="_2c15d169-8620-1595-de6f-ec04b1e1b2b8">水無常形。」</p><div id="_1a4c60ae-5115-66f5-b1e7-2eed516b2e9a" class="Note"><p><span class="note_label">注記 16　</span>任地之勢。</p></div>
+
+
+
+<p id="_d5a63e9b-1e1e-2710-6bed-ea5d35048639">兵能隨敵變化而取勝者，謂之良將也。所謂虛者，上下有隙，將吏相疑者也；所謂實者，上下同心，意氣俱起者也。善將者，能實兵之氣以待人之虛；不善將者，乃虛兵之氣以待人之實。虛實之氣，不可不察。</p><div id="_5c552aa7-6228-d28e-cfdd-8103bb8aae46" class="Note"><p><span class="note_label">注記 17　</span>虛者，喪兵之本。實者，勝敵之源。得失由之，故不可不察。</p></div>
+
+
+
+<p id="_1da88a59-3696-2438-77c5-7cbd8861ca0e">昔魏武侯問吳起曰：「兵以何為勝？」吳子曰：「兵以整為勝。」武侯曰：「不在眾乎？」</p><div id="_a909f80f-58ac-f981-237a-7a87b3167fa2" class="Note"><p><span class="note_label">注記 18　</span>武侯之意，以眾為勝矣。</p></div>
+
+
+
+<p id="_00c99c2f-8611-1c31-a892-15b95796b53b">對曰：「若法令不明，賞罰不信。金之不止，鼓之不進，雖有百萬之師，何益於用。</p><div id="_50185e40-5f9d-65fc-7cd5-049a764cde7b" class="Note"><p><span class="note_label">注記 19　</span>杜預《左氏傳》曰：鼓以進軍，金以退軍。</p></div>
+
+
+
+<p id="_4ecf22ef-459d-1413-dec5-ae2a9ffb7f98">所謂整者，居則有禮，</p><div id="_12c607bd-03c9-e50e-d56a-5649caeecfdb" class="Note"><p><span class="note_label">注記 20　</span>有軍旅之禮也。</p></div>
+
+
+
+<p id="_6bcbd07e-43c8-7bdf-fae4-e488fc8bc5c5">動則有威；</p><div id="_5cad851c-54f9-3a14-c392-c75cdd2b057a" class="Note"><p><span class="note_label">注記 21　</span>有征伐之威也。</p></div>
+
+
+
+<p id="_168f7d16-5707-acaf-3835-85a14315c7bd">進不可當，退不可追；</p><div id="_66555a8a-caf9-fca5-88ef-2c5ea2f4eec6" class="Note"><p><span class="note_label">注記 22　</span>進退不失其宜故也。</p></div>
+
+
+
+<p id="_40d468b1-ab78-6735-b6fb-bf822d5018c9">前卻如節，左右應麾。</p><div id="_047d35b7-2b76-c4aa-7656-c7cfa80ae737" class="Note"><p><span class="note_label">注記 23　</span>謂得前卻之節，應左右之麾也。</p></div>
+
+
+
+<p id="_fbf2b3f2-01d7-a2c9-856c-0f5ce38a9dd0">與之安，與之危，其眾可合而不可離，可用而不可疲。」是之謂禮將也。吳起臨戰，左右進劍。吳子曰：「夫提鼓揮桴，臨難決疑，此將軍也。</p><div id="_137362de-4796-3cc2-7310-a945383da6ee" class="Note"><p><span class="note_label">注記 24　</span>軍法，合戰則將自鼓也。</p></div>
+
+
+
+<p id="_5ee79b68-3b72-4e2e-b4a7-624af58c21bd">劍之任非將事也。夫將有五材四義。知不可亂，明不可蔽，信不可欺，廉不可貨，直不可曲，此五材也。受命之日忘家，出門之日忘親，張軍鼓宿忘主，</p><div id="_5ebb1d78-d5d9-7779-655e-72274d19ee57" class="Note"><p><span class="note_label">注記 25　</span>宿謂止宿。鼓以進之。</p></div>
+
+
+
+<p id="_bab51696-f49d-fb3e-f5c1-2189155a8eae">援桴合戰忘身，此四義也。將有五材四義，百勝之術也。</p><div id="_854d4f01-d51b-bacd-3e73-577ce30f7439" class="Note"><p><span class="note_label">注記 26　</span>謂得百戰百勝之術。</p></div>
+
+
+
+<p id="_1607da08-154d-3e30-15e0-7539810de090">夫攻守之法，無恃其不來，恃吾有以待之；無恃其不攻，恃吾之不可攻也。</p><div id="_01eb0cf2-67b5-46d3-c4e6-9df7d8d77a91" class="Note"><p><span class="note_label">注記 27　</span>言攻戰守備之法，無恃其敵不來，當恃吾有備以待之；無恃其敵之不攻，當恃吾之兵整不可攻也。</p></div>
+
+
+
+<p id="_5c0d6df8-a3fc-ca2f-db4d-06381cd61b4a">夫將若能先事慮事，先防求防，如此者，守則不可攻，攻則不可守。</p><div id="_053fe654-e314-ec2e-716f-f8e0dfb29a51" class="Note"><p><span class="note_label">注記 28　</span>我守則彼不可攻，我攻則彼不能守，言其進退由己也。</p></div>
+
+
+
+<p id="_6bbfdcad-9c41-d473-1ddc-4c622a8b6ef7">若驕貪而輕於敵者，必為人所擒。</p><div id="_8cf62bb7-42ac-9a2f-7d12-abfce148a61f" class="Note"><p><span class="note_label">注記 29　</span>囗為敵人所擒虜也。</p></div>
+
+
+
+<p id="_4ffa7db4-16fb-18e9-b88e-f58bc31de9c5">昔子發為楚將攻秦，軍絕饋餉。</p><div id="_e2a204a9-b70d-d9e9-fb67-8862d941d054" class="Note"><p><span class="note_label">注記 30　</span>軍中饋餉，無後繼之也。</p></div>
+
+
+
+<p id="_10eed081-3241-e120-85ac-1e778a4659c0">使人請於王，因歸問其母。其母問使者曰：「士卒得無恙乎？」使者曰：「士卒升分菽粒而食之。」</p><div id="_970d6cb9-596c-d7d5-f254-be3d450ce2eb" class="Note"><p><span class="note_label">注記 31　</span>以其絕於饋餉，故用升分菽粒，言不能全菽也。杜預《左氏傳》注曰：「菽，大豆也。」孔安國《尚書傳》曰：「米食曰粒。」</p></div>
+
+
+
+<p id="_c6c14309-4ce8-8cfe-68ff-14cd9efaeacb">又問曰：「將軍得無恙乎？」對曰：「將軍朝夕芻豢黍粱。」</p><div id="_777311cf-9ac5-a0b6-c4e1-1aa11d4a1092" class="Note"><p><span class="note_label">注記 32　</span>牛羊曰芻，犬豕曰豢。</p></div>
+
+
+
+<p id="_723c08e7-5faa-3912-2b25-e8d8d23fccd1">後子發破秦而歸，母閉門而不納。</p><div id="_8d43033e-7115-36f2-599b-c26dfa3bed9c" class="Note"><p><span class="note_label">注記 33　</span>怒其失為將之道，故不許入門。</p></div>
+
+
+
+<p id="_16683582-3f32-d8db-28fd-feb15902817e">使人數之曰：「子不聞越王勾踐之伐吳歟？客有獻醇酒一器者，王使人注江上流，使士卒飲其下流。味不足加美，而士卒如有醉容，懷其德也。戰自五焉。</p><div id="_812f85a1-e9bd-eeba-c0a0-18ab80d87f42" class="Note"><p><span class="note_label">注記 34　</span>士卒懷其恩德，故至於戰陣，各自盡力，一當敵之五焉。</p></div>
+
+
+
+<p id="_6474bfe9-44ae-8c5a-930d-57534cf562e4">異日又有獻一囊糗糒者，</p><div id="_34526d8f-b9ca-c452-7f88-2330f78b258b" class="Note"><p><span class="note_label">注記 35　</span>《書》曰：「峙乃糗糧。」孔安國曰：「皆當貯峙汝糒糒之糧也。」</p></div>
+
+
+
+<p id="_fd42971e-0f89-7085-03fc-ac241a5b7bee">王又以賜軍士，軍士分而食之。甘不足逾嗌，</p><div id="_e1fb4609-e2d8-6fe7-5a32-f73157fb960a" class="Note"><p><span class="note_label">注記 36　</span>嗌，咽喉也。</p></div>
+
+
+
+<p id="_c26e1c79-0588-3d3d-9ef6-bc3153a0f14d">士卒如有飫容，</p><div id="_4385b965-43fe-5146-d8e7-ffe83dcbf188" class="Note"><p><span class="note_label">注記 37　</span>飫，飽也。</p></div>
+
+
+
+<p id="_f970452c-5d3c-30cf-3b83-f775090314f5">懷其恩也。戰自十焉。</p><div id="_9036900c-17d7-0654-4ab0-e74daf7e198e" class="Note"><p><span class="note_label">注記 38　</span>一當敵之十也。</p></div>
+
+
+
+<p id="_02403419-4ac0-6779-2eea-fc90a3490960">今子為將，士卒升分菽粒而食之，子獨朝夕芻豢黍粱，何也？夫使人入於死地而康樂於其上，</p><div id="_5a06f51b-24df-3de1-2163-408276649354" class="Note"><p><span class="note_label">注記 39　</span>死地，謂升分菽粒。康樂，謂芻豢黍。</p></div>
+
+
+
+<p id="_a24315ba-0194-a98c-1a50-da9f2026a7d2">雖復得勝，非其術也。</p><div id="_483c00ef-5339-54cb-cce6-1924e0cb8276" class="Note"><p><span class="note_label">注記 40　</span>言非為將之道術也。</p></div>
+
+
+
+<p id="_e31fa079-7242-53cb-592a-fbbb94c14fcd">子非吾子，無入吾門！」子發謝，然後得入。及後為將，乃與士卒同其甘苦，</p><div id="_25bced34-13f6-0402-9ea0-f0ddaddbefd9" class="Note"><p><span class="note_label">注記 41　</span>能齊其勞，共安危也。</p></div>
+
+
+
+<p id="_b21f5294-4ae9-bdd1-7a89-aeee58c3046f">人懷恩德，爭先矢石，</p><div id="_6fc33832-99e7-82b8-aff7-43dace06894c" class="Note"><p><span class="note_label">注記 42　</span>爭先犯於矢石。</p></div>
+
+
+
+<p id="_be489343-5a4b-26f0-8354-ee76a6ee1b74">遂功名日遠。若子發之母者，可謂知為將之道矣。昔趙孝成王時，秦攻趙。趙王使趙括代廉頗為將。括母上書曰：「括不可使將也。</p><div id="_22f8dbb2-2031-8b78-ad8c-99541887609c" class="Note"><p><span class="note_label">注記 43　</span>言括之才不任將帥。</p></div>
+
+
+
+<p id="_3519b2a8-0dd5-bdc9-31ab-02960520dfb1">始妾事其父，</p><div id="_9af10431-18ca-0dc0-3d97-fba7a63b1b5f" class="Note"><p><span class="note_label">注記 44　</span>括之父奢。</p></div>
+
+
+
+<p id="_d55b0acd-8417-8fb1-4f9c-e56c1638faa9">父時為將，身所奉飯而進食者，以十數；</p><div id="_b828174c-c284-1b99-56aa-72a7d9d3b7d2" class="Note"><p><span class="note_label">注記 45　</span>親自奉飯以十數者，所以厚養其士，欲盡其力。</p></div>
+
+
+
+<p id="_7b46de1d-dbd2-667c-5415-fba016e76a86">所交者，以百數。</p><div id="_657d58a8-67bc-5cb9-2cee-7b0943e941fb" class="Note"><p><span class="note_label">注記 46　</span>以友道交之者，又百數也。</p></div>
+
+
+
+<p id="_81f70f6f-c44f-ca63-c656-c8e8e1b8b05b">大王所賜金幣者，盡以與軍吏士大夫共之。</p><div id="_51fc13df-0a2e-c4f5-5220-2eb4eb1b7a5b" class="Note"><p><span class="note_label">注記 47　</span>不獨受君之賜。</p></div>
+
+
+
+<p id="_3edc1f5b-b224-cdee-5323-f81f20ee956d">受命之日，不問家事。</p><div id="_c55bb310-2cc2-991e-54d9-afddf87c2c5e" class="Note"><p><span class="note_label">注記 48　</span>專於君命。</p></div>
+
+
+
+<p id="_3fe91572-afb0-ea61-2a3f-f0f17e7f53ae">今括一旦為將，東向而朝，</p><div id="_db67cab7-8e32-abdc-c363-40af733f380a" class="Note"><p><span class="note_label">注記 49　</span>東向而朝者，避君之南面也。</p></div>
+
+
+
+<p id="_21c2ea26-0b41-7ad0-52dd-7d90ba667402">軍吏無敢仰視之者，</p><div id="_0e2e6203-dce3-3ff2-da7a-e2535e926f42" class="Note"><p><span class="note_label">注記 50　</span>言括不撫士，故軍吏懼也。</p></div>
+
+
+
+<p id="_382f20c0-56d9-ce35-7157-9a8bcde9940f">王所賜金帛，歸悉藏之。</p><div id="_ce31aca5-13fe-3001-55c5-dc007b1e6bcc" class="Note"><p><span class="note_label">注記 51　</span>不與士卒共之。</p></div>
+
+
+
+<p id="_02aa7565-87f2-3803-8fc6-457d9538b597">乃曰：「視便利田宅可買者。</p><div id="_0a7afff1-839b-47dd-0491-da8164927784" class="Note"><p><span class="note_label">注記 52　</span>欲取之以自益。</p></div>
+
+
+
+<p id="_ff5205c7-1756-066c-91bf-81c698f39043">父子不同，執心各異，</p><div id="_b253347b-16bf-beb3-e063-78f707e70436" class="Note"><p><span class="note_label">注記 53　</span>奢仁惠，括貪虐。</p></div>
+
+
+
+<p id="_25a7fb1a-820b-2c9c-b694-e535d6fff09f">願王勿遣。」</p><div id="_2e2f309b-adc8-bb0a-434f-92bc970bf76b" class="Note"><p><span class="note_label">注記 54　</span>勿遣代廉頗也。</p></div>
+
+
+
+<p id="_04484bc5-134c-bb1f-1c7f-c108f358f2dc">王曰：「吾計已決矣。」</p><div id="_a4190b54-03a0-96b4-f036-42b3b2448e62" class="Note"><p><span class="note_label">注記 55　</span>謂用括之心已定矣。</p></div>
+
+
+
+<p id="_29b16955-0b96-f3c2-c3cc-9c9624ac1b8a">括母曰：「王終遣之，即有不稱，妾得無隨坐乎？」</p><div id="_99a34204-8f3a-84f5-3d22-4b5aab6a9b98" class="Note"><p><span class="note_label">注記 56　</span>言括之有罪，必坐於己也。</p></div>
+
+
+
+<p id="_8257485a-50f5-5772-ac46-6554d3153777">王曰：「不也。」</p><div id="_5e21f4bf-aaea-7bb9-19c5-3682950a3a20" class="Note"><p><span class="note_label">注記 57　</span>言必不使罪相及也。</p></div>
+
+
+
+<p id="_89ae1f9b-ff50-ce86-e97f-323dfba211ea">括遂行，代廉頗為將四十餘日，趙兵果敗，括死軍覆。</p><div id="_8e90d975-4471-01b6-e153-243b8d176172" class="Note"><p><span class="note_label">注記 58　</span>終如括母之言也。杜預《左氏傳》注曰：「覆，謂威力兼備，若羅網所掩覆。一軍見擒製，故以覆為文也；」</p></div>
+
+
+
+<p id="_5f3863a0-0719-f927-9284-f964f4fb3098">王以括母先言，不加誅也。若趙括母者，可謂豫識成敗之機也。</p>
+</div><div id="_c57a0c23-6903-eaaa-846a-699f4d92f341"><h2 id="_bf4c5ea9-8ff5-4bd9-9d48-b04a7ac70d50"><a class="anchor" href="#_c57a0c23-6903-eaaa-846a-699f4d92f341"></a><a class="header" href="#_c57a0c23-6903-eaaa-846a-699f4d92f341">三・五　卷下·利人章</a></h2>
+
+<p id="_4729e2bc-8c94-26fb-9da9-656b35842d4a">夫黔首蒼生，天之所甚愛也。</p><div id="_ddd6cd43-a348-c3a6-351e-95d2e30df433" class="Note"><p><span class="note_label">注記 1　</span>《書》曰：「惟天惠人。」《史記》曰：「秦命人為黔首。」</p></div>
+
+
+
+<p id="_0ee35773-e131-e03c-bb58-3712d16319da">為其不能自理，故立君以理之。</p><div id="_fb3214ed-876e-3a55-60ba-89a895eca76a" class="Note"><p><span class="note_label">注記 2　</span>《左傳》曰：天生人而樹之君。</p></div>
+
+
+
+<p id="_afbd8533-c7b7-6e4e-559a-378d73944d6a">為君不能獨化，故為臣以佐之。</p><div id="_f938ee64-6b05-e6dc-ec61-83bdfb71d360" class="Note"><p><span class="note_label">注記 3　</span>《書》曰：樹後王君公，承以大夫師長。</p></div>
+
+
+
+<p id="_901c6638-5ce1-94b6-3c3c-969091031fcb">夫臣者，受君之重位，牧天之甚愛。</p><div id="_faed660b-2c14-70c7-ceea-f547914908c5" class="Note"><p><span class="note_label">注記 4　</span>牧，養也。</p></div>
+
+
+
+<p id="_46f97cf6-4694-8f00-e130-941951fd4183">焉可不安而利之，養而濟之哉！是以君子任職則思利人，事主則思安俗。故居上而下不重，處前而後不怨。</p><div id="_25acd8d4-13a6-5878-e72f-d50be07ad24e" class="Note"><p><span class="note_label">注記 5　</span>言君子既能利人安俗，故居上而下不以為重，處前而後不興其怨。</p></div>
+
+
+
+<p id="_2b5e52b0-11f4-3a14-b70b-7753419dca01">夫衣食者，人之本也。</p><div id="_b89afce7-1b4b-d858-eb1c-5147a0a865a5" class="Note"><p><span class="note_label">注記 6　</span>人非衣食不生，故為人之本也。</p></div>
+
+
+
+<p id="_cde02664-e008-3f01-076a-5c0b6327d031">人者，國之本。</p><div id="_491dd0ad-aeaa-3e43-3d8e-649d7d32d736" class="Note"><p><span class="note_label">注記 7　</span>國非人不立，故為國之本。</p></div>
+
+
+
+<p id="_89200d83-fc5a-ee84-fe48-a83ca7505e69">人恃衣食，猶魚之待水；國之恃人，如人之倚足，魚無水則不可以生，人無足則不可以步。故夏禹稱：「人無食則我不能使也。功成而不利於人，則我不能勸也。」</p><div id="_fa595e56-9d03-bcbd-1d54-a2ea5e08b555" class="Note"><p><span class="note_label">注記 8　</span>皆引過以歸也。</p></div>
+
+
+
+<p id="_7b2f8262-f5e8-7936-5d23-2776f04b3b45">是以為臣之忠者，先利於人。</p><div id="_9e20a0fc-cec5-33de-43a5-eda477ff5594" class="Note"><p><span class="note_label">注記 9　</span>利人，然後乃為忠也。</p></div>
+
+
+
+<p id="_e630f0ba-79b3-bd36-01c3-fa34d829572e">《管子》曰：「佐國之道，必先富人。人富則易化。是以七十九代之君，法製不一。</p><div id="_48a81f33-dacd-f80c-ceab-060f9d4b6f58" class="Note"><p><span class="note_label">注記 10　</span>不相襲也。</p></div>
+
+
+
+<p id="_bcbae51f-241f-340c-e6b1-025891639eb1">然俱王天下者，必國富而粟多。</p><div id="_f28fd7cd-2716-2457-d2f8-353120e997f5" class="Note"><p><span class="note_label">注記 11　</span>言國富粟多，乃可以王於天下。</p></div>
+
+
+
+<p id="_42be431d-d1de-cd58-7f7c-21dad0e70a9a">粟生於農，故先王貴之。</p><div id="_baa20e04-1913-d300-45fe-ac9a0963fe42" class="Note"><p><span class="note_label">注記 12　</span>貴其農也。</p></div>
+
+
+
+<p id="_753f035d-ce45-f820-2f07-809457325e51">勸農之急，必先禁末作；</p><div id="_a64882af-7644-f473-664d-9c5beaaacfc2" class="Note"><p><span class="note_label">注記 13　</span>末作謂雕文纂組也。</p></div>
+
+
+
+<p id="_3af60c89-1436-8a3f-f5d5-255b1c15db81">末作禁，則人無遊食；人無遊食，則務農；</p><div id="_d87c5d3f-273d-c4d5-5f7a-66c10f7b8d04" class="Note"><p><span class="note_label">注記 14　</span>務勤農業。</p></div>
+
+
+
+<p id="_fe37d162-30c9-9c45-6fc8-83deea27bc35">務農則田墾；</p><div id="_2c81dd56-1d2c-a3e0-db53-5d47c84f56c5" class="Note"><p><span class="note_label">注記 15　</span>墾，開也。</p></div>
+
+
+
+<p id="_58a7b3b6-58f7-4ee5-0fc2-36551497fa25">田墾則粟多；</p><div id="_c4066e47-a3fd-51ba-985c-ed4abfd97e9c" class="Note"><p><span class="note_label">注記 16　</span>倉廩實也。</p></div>
+
+
+
+<p id="_6b6f94ca-4334-32f6-928a-2114f69e9df5">粟多則人富。</p><div id="_424af6ed-5490-73f6-fa9a-abdd6d10f667" class="Note"><p><span class="note_label">注記 17　</span>百姓足也。</p></div>
+
+
+
+<p id="_c91b737c-9159-6ad4-b53f-a694c385e46f">是以古之禁末作者，所以利農事也。</p><div id="_9a5f777c-1863-24e7-c1e5-6c69b3519441" class="Note"><p><span class="note_label">注記 18　</span>末作妨於農事，故禁。</p></div>
+
+
+
+<p id="_bf6cd14b-6015-1985-f17c-f8964f890b1a">至如綺繡纂組，雕文刻鏤，或破金為碎，</p><div id="_7b865c4e-a52c-2e44-3758-15748df73d1a" class="Note"><p><span class="note_label">注記 19　</span>謂雕文刻鏤也。</p></div>
+
+
+
+<p id="_03c0902e-7c66-4d0e-f08a-ed966e92840a">或以易就難，</p><div id="_a518f086-5e30-ac62-54b7-f697c57ca5b8" class="Note"><p><span class="note_label">注記 20　</span>謂綺繡纂組也。</p></div>
+
+
+
+<p id="_2f9f7a4e-1481-db8c-4fdd-a8375fab5404">皆非久固之資，徒豔凡庸之目。如此之類，為害實深。故好農功者，雖利遲而後富；好末作者，雖利速而後貧。但常人之情，罕能遠計，棄本逐末，十室而九。</p><div id="_f4c37259-cd44-32e3-ad09-e0e63c2ada32" class="Note"><p><span class="note_label">注記 21　</span>本謂農功，末謂末作。</p></div>
+
+
+
+<p id="_477f33ba-4a43-f3c7-c4e3-f6e9151773e8">才逢水旱，儲蓄皆虛，良為此也。</p><div id="_d5c71ef0-cdc6-068d-0d3f-af2c1763315b" class="Note"><p><span class="note_label">注記 22　</span>為棄本逐未故也。</p></div>
+
+
+
+<p id="_b6aafb0a-fa2e-53fe-1623-7a3f0a56c203">故善為臣者，必先為君除害興利。所謂除害者，末作也；所謂興利者，農功也。夫足寒傷心，人勞傷國，自然之理也。養心者不寒其足，為國者不勞其人。</p><div id="_8ecabf94-a5cd-5f2e-f8f1-47291e361780" class="Note"><p><span class="note_label">注記 23　</span>為猶理也。</p></div>
+
+
+
+<p id="_0d39237c-02d7-49a5-c834-033afc8aded7">臣之與主，共養黎元，必當省徭輕賦，以廣人財；</p><div id="_7df8c933-3d68-adf2-7579-8f57f7d371c0" class="Note"><p><span class="note_label">注記 24　</span>謂省人徭役，十一而稅也。</p></div>
+
+
+
+<p id="_7280aaf7-979a-e3b3-b4c6-9cf41cc37ac0">不奪人時，以足人用。</p><div id="_c156e304-ea9b-7d54-7b70-68b891bddbec" class="Note"><p><span class="note_label">注記 25　</span>《論語》曰：「使人以時」。</p></div>
+
+
+
+<p id="_7468662e-8a27-9085-6578-d2fbf91d9eab">夫人之於君，猶子於父母，未有子貧而父母富，子富而父母貧。</p><div id="_6f6aca16-363e-3936-0ba7-de387b32748d" class="Note"><p><span class="note_label">注記 26　</span>言必同其貧富也。</p></div>
+
+
+
+<p id="_ac121879-2364-05ff-ca1e-0a8f66a6b273">故人足者，非獨人之足，國之足也；人匱者，非獨人之匱，國之匱也。是以《論語》云：「百姓不足，君孰與足？」</p><div id="_160802a0-ebae-1488-cc81-66f7732b5412" class="Note"><p><span class="note_label">注記 27　</span>孰，誰也。</p></div>
+
+
+
+<p id="_1428e9bf-f873-1e04-8d7e-84cc8add70e4">故助君而恤人者，至忠之遠謀也；損下而益上者，人臣之淺慮也。</p><div id="_23a1aebe-426c-3cd6-e88d-28f46f9b86cd" class="Note"><p><span class="note_label">注記 28　</span>謂減損下人而增益君上。</p></div>
+
+
+
+<p id="_52acf9cd-f78a-14e7-3c61-b545898f3b5a">《賈子》曰：「上古之代，務在勸農，故三年耕而餘一年之蓄，九年耕而餘三年之蓄，三十年耕而人餘十年之蓄。故堯水九年，湯旱七載，野無青草而人無饑色者，誠有此備也。」</p><div id="_95c7e5df-6ad8-fe38-156b-4058142e52a3" class="Note"><p><span class="note_label">注記 29　</span>有此勸農之備。</p></div>
+
+
+
+<p id="_f6a98481-e3a8-283a-d957-18adf294f89c">故建國之本，必在於農。忠臣之思利人者，務在勸導，家給人足，則國自安焉。論曰：夫君臣之道，上下相資，喻涉水之舟航，比翔空之羽翼。</p><div id="_5605c5a3-b4e8-0aac-e282-635e33707bda" class="Note"><p><span class="note_label">注記 30　</span>《管子》曰：「齊桓公歎曰：『孤之有仲父，若飛鴻之有羽翼也。』」</p></div>
+
+
+
+<p id="_18e016ac-f38a-c052-7f80-25ef21ba2b40">故至神攸契，則星象降於穹蒼；妙感潛通，則風雲彰於寤寐。</p><div id="_ad824eac-858e-0563-3a34-9c6eda2794c9" class="Note"><p><span class="note_label">注記 31　</span>《王文憲集·序》曰：「寤寐、風雲，穴是資人傑。」《易》曰：「雲從龍，風從虎。聖人作，而萬物睹。」</p></div>
+
+
+
+<p id="_e29f3529-84d1-e037-645e-4c00b9c99b2f">其同體也，則股肱耳目不足以匹其同；其益政也，則麹蘖鹽梅未可以方其益。</p><div id="_507f3121-53b9-f201-93c3-52fc7af999f0" class="Note"><p><span class="note_label">注記 32　</span>《書》曰：「若作酒醴，爾惟麹蘖，若作和羹，爾惟鹽梅。」</p></div>
+
+
+
+<p id="_2f5d868c-2cf1-e5fc-df3a-4d482f817aea">諒直之操由此而興，節義之風因斯以著。是知家與國而不異，君與親而一歸。顯己揚名，惟忠惟孝。每以宮闈暇景，博覽瓊編，觀往哲之弼諧，睹前言之龜鏡，</p><div id="_cddc06c3-2264-fe65-2bd9-357447d2b99c" class="Note"><p><span class="note_label">注記 33　</span>《書》曰「允迪厥德，謨明弼諧。」</p></div>
+
+
+
+<p id="_725059e2-5cc7-6b58-361b-4f3303e74116">未嚐不臨文嗟尚，撫卷循環。庶令匡翊之賢，更越夔、龍之美，</p><div id="_d4b8bab8-66e4-78a3-05f1-e1fa0a000b1c" class="Note"><p><span class="note_label">注記 34　</span>夔、龍，皆虞舜之臣也。</p></div>
+
+
+
+<p id="_ebb24a00-9952-2e3d-fdc0-7182c23eaeec">爰申翰墨，載列縑緗。何則？榮辱無門，惟人所召。</p><div id="_882ff6e1-a89e-fc1a-5286-2e29754d7bb9" class="Note"><p><span class="note_label">注記 35　</span>《左傳》曰：「禍福無門，惟人所召。」</p></div>
+
+
+
+<p id="_26a823f5-8086-a3e7-8343-c3dc8b4b6632">若使心歸大道，情切至忠，</p><div id="_c56272ca-05ec-5bd7-adb7-05af6b05da73" class="Note"><p><span class="note_label">注記 36　</span>《老子》曰：「大道甚夷，而人好徑。」</p></div>
+
+
+
+<p id="_249eb72e-1e0d-2919-5fe1-914ed39d359f">務守公平，貴敦誠信，抱廉潔而為行，懷慎密以修身，奉上崇匡諫之規，恤下思利人之術，</p><div id="_12c8d5db-64ec-e285-0a5c-071b20b7b05d" class="Note"><p><span class="note_label">注記 37　</span>《書》曰：「臣下不匡其刑墨。」《論語》曰：「因人之所利而利之。」</p></div>
+
+
+
+<p id="_913b6fe2-ca4c-eaea-13e1-38195593bc86">自然名實兼茂，祿位俱延，</p><div id="_f6f33c1b-1382-6ad0-ad26-2627be2097b9" class="Note"><p><span class="note_label">注記 38　</span>《莊子》曰：「名者實之賓。」</p></div>
+
+
+
+<p id="_b5681e50-b08e-4620-a03f-1c1189210bd0">榮不召而自來，辱不遣而斯去。然則忠正者致福之本，戒慎者集慶之源，若影隨形，猶聲逐響。</p><div id="_86e79fbc-1bdb-66fd-2aee-7aff9290c968" class="Note"><p><span class="note_label">注記 39　</span>《書》曰：「惠迪吉從逆凶，惟影響」。</p></div>
+
+
+
+<p id="_31ab12af-52b2-c18d-3977-4e866195baa6">凡百群彥，可不勖歟！</p>
+
+<p id="_30da55d7-51a6-02b9-3a47-188fe723170f">垂拱元年撰</p>
+
+<p id="_76f128f7-64e8-079a-fd2a-e7a29f1b6cff">臣軌下終</p>
+</div></div><div id="_1035ca09-bcc4-9374-8fa7-b1174c6a55eb"><h1 id="_efa351b2-552f-4f55-adb5-eee31178fca8"><a class="anchor" href="#_1035ca09-bcc4-9374-8fa7-b1174c6a55eb"></a><a class="header" href="#_1035ca09-bcc4-9374-8fa7-b1174c6a55eb">四　帝範臣軌⼆書跋</a></h1><p id="_98d5c39f-c1c5-222f-4dd7-9a94b3f4b453">帝範⼆卷臣軌⼆卷也者共成于唐帝。唐帝受隋氏弊，聰明神武[恶]幾成康，功德兼備。⾃漢以來未之有。⾃吁咨都嗟之後，⽽元首股肱互為治道。故所以帝範臣軌之有作者也。</p><p id="_4b1149b3-e742-45dc-fce2-877e2b0f5f60">本朝慱⼠讀之，尤尊之至。若鐮倉將軍家皆讀之，有助治道久。何啻中華⽽已哉。洛⼈林⽩⽔新鏤之梓，以欲⾏于世良有故哉。⽩⽔需書其後於是題之。</p><p id="_44a0b563-d36d-4317-5368-a41e98ebb534">寛⽂八年秋八⽉⽇</p><p id="_e4d7045e-6ca5-1f6f-f9c9-b8a39f80a288">柳⾕散⼈埜⼦苞⽗書</p><p id="_eb675521-7cfe-1baa-8fae-8d2e6ab5a257">林和泉掾版行</p></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const fullNavWidth = jqNav.outerWidth();
+        const navLeft = isNavVisible ? '-' + fullNavWidth + 'px' : '0px';
+        const bodyMarginLeft = isNavVisible ? '0px' : fullNavWidth + 'px';
+
+        // Stop current animations
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+
+        if(!isNavVisible) {
+            jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'marginLeft': bodyMarginLeft}, animationSpeed);
+
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>
