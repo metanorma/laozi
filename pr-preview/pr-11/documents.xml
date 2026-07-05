@@ -1,0 +1,229 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Sample document: Laozi with annotations in vertical format</title><contributor><role type='author'/><organization><name>Metanorma</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Imperial Model</title>
+  <title language="en" type="title-main">The Imperial Model</title>
+  <title language="ja" type="main">帝範</title>
+  <title language="ja" type="title-main">帝範</title>
+  <uri type="xml">./documents/difan.xml</uri>
+  <uri type="pdf">./documents/difan.pdf</uri>
+  <uri type="doc">./documents/difan.doc</uri>
+  <uri type="html">./documents/difan.html</uri>
+  <uri type="rxl">./documents/difan.rxl</uri>
+  <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
+  <docnumber>1001</docnumber>
+  <date type="published">
+    <on>2025-01-15</on>
+  </date>
+  <date type="announced">
+    <on>2025-01-15</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative organization</description>
+    </role>
+    <organization>
+      <name language="ja">欽定四庫全書</name>
+      <name language="en">Investigative Committee for the Compilation of the Complete Library in Four Sections</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative committee</description>
+    </role>
+    <organization>
+      <name>欽定四庫全書</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>ja</language>
+  <script>Jpan</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2025</from>
+    <owner>
+      <organization>
+        <name language="ja">早稲田大学図書館</name>
+        <name language="en">Waseda University Library</name>
+        <abbreviation>WUL</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.2">
+    <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
+    <structuredidentifier>
+      <project-number>1001</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Book of Laozi on Silk, Version A</title>
+  <title language="en" type="title-main">The Book of Laozi on Silk, Version A</title>
+  <title language="ja" type="main">帛書老子 甲本</title>
+  <title language="ja" type="title-main">帛書老子 甲本</title>
+  <uri type="xml">./documents/laozi.xml</uri>
+  <uri type="pdf">./documents/laozi.pdf</uri>
+  <uri type="doc">./documents/laozi.doc</uri>
+  <uri type="html">./documents/laozi.html</uri>
+  <uri type="rxl">./documents/laozi.rxl</uri>
+  <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
+  <docnumber>1001</docnumber>
+  <date type="published">
+    <on>2025-01-15</on>
+  </date>
+  <date type="announced">
+    <on>2025-01-15</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative organization</description>
+    </role>
+    <organization>
+      <name language="ja">欽定四庫全書</name>
+      <name language="en">Investigative Committee for the Compilation of the Complete Library in Four Sections</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative committee</description>
+    </role>
+    <organization>
+      <name>欽定四庫全書</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>ja</language>
+  <script>Jpan</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2025</from>
+    <owner>
+      <organization>
+        <name language="ja">早稲田大学図書館</name>
+        <name language="en">Waseda University Library</name>
+        <abbreviation>WUL</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.2">
+    <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
+    <structuredidentifier>
+      <project-number>1001</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Minister’s Guide</title>
+  <title language="en" type="title-main">The Minister’s Guide</title>
+  <title language="ja" type="main">臣軌</title>
+  <title language="ja" type="title-main">臣軌</title>
+  <uri type="xml">./documents/shengui.xml</uri>
+  <uri type="pdf">./documents/shengui.pdf</uri>
+  <uri type="doc">./documents/shengui.doc</uri>
+  <uri type="html">./documents/shengui.html</uri>
+  <uri type="rxl">./documents/shengui.rxl</uri>
+  <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
+  <docnumber>1001</docnumber>
+  <date type="published">
+    <on>2025-01-15</on>
+  </date>
+  <date type="announced">
+    <on>2025-01-15</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name language="ja">早稲田大学図書館</name>
+      <name language="en">Waseda University Library</name>
+      <abbreviation>WUL</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative organization</description>
+    </role>
+    <organization>
+      <name language="ja">欽定四庫全書</name>
+      <name language="en">Investigative Committee for the Compilation of the Complete Library in Four Sections</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Investigative committee</description>
+    </role>
+    <organization>
+      <name>欽定四庫全書</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>ja</language>
+  <script>Jpan</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2025</from>
+    <owner>
+      <organization>
+        <name language="ja">早稲田大学図書館</name>
+        <name language="en">Waseda University Library</name>
+        <abbreviation>WUL</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.2">
+    <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
+    <structuredidentifier>
+      <project-number>1001</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
