@@ -1,0 +1,27 @@
+<bibdata type="standard">
+<title language="en" type="main">The Book of Laozi on Silk, Version A</title>
+
+<title language="en" type="title-main">The Book of Laozi on Silk, Version A</title>
+
+<title language="ja" type="main">帛書老子 甲本</title>
+
+<title language="ja" type="title-main">帛書老子 甲本</title>
+<docidentifier type="JIS" primary="true">A 1001:2025</docidentifier><docnumber>1001</docnumber><date type="published"><on>2025-01-15</on></date><date type="announced"><on>2025-01-15</on></date><contributor><role type="author"/><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Investigative organization</description></role><organization>
+<name language="ja">欽定四庫全書</name>
+
+<name language="en">Investigative Committee for the Compilation of the Complete Library in Four Sections</name>
+</organization></contributor><contributor><role type="authorizer"><description>Investigative committee</description></role><organization>
+<name>欽定四庫全書</name>
+</organization></contributor><edition>1</edition><language>ja</language><script>Jpan</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2025</from><owner><organization>
+<name language="ja">早稲田大学図書館</name>
+
+<name language="en">Waseda University Library</name>
+<abbreviation>WUL</abbreviation></organization></owner></copyright><ext><doctype>japanese-industrial-standard</doctype><flavor>jis</flavor><structuredidentifier><project-number>1001</project-number></structuredidentifier></ext></bibdata>
