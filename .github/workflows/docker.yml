@@ -9,10 +9,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  pull-requests: write
+  contents: write
   pages: write
   id-token: write
-  packages: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
@@ -25,30 +25,23 @@ jobs:
       image: metanorma/metanorma:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: true
 
-      - name: Setup Metanorma with JIS flavor
-        uses: actions-mn/setup@v3
-        with:
-          installation-method: gem
-          extra-flavors: jis
-
-      - name: Setup Fonts
-        run: |
-          fontist update
-          fontist repo setup metanorma https://metanorma-ci:${{ secrets.METANORMA_CI_PAT_TOKEN }}@github.com/metanorma/fontist-formulas-private
-          fontist repo update metanorma
-          fontist install "Noto Serif JP"
-          fontist install "Noto Serif JP ExtraLight"
-          fontist install "Noto Serif JP Medium"
-          fontist install "Noto Serif JP Black"
-          fontist install "Noto Sans JP Thin"
-          fontist install "Noto Sans JP Medium"
-
       - name: Metanorma generate site
-        uses: actions-mn/build-and-publish@v1
+        id: build-and-publish
+        uses: actions-mn/build-and-publish@main
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           agree-to-terms: true
           destination: artifact
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions-mn/deploy-pages@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
