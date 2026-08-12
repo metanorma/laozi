@@ -1,13 +1,13 @@
-<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Sample document: Laozi with annotations in vertical format</title><contributor><role type='author'/><organization><name>Metanorma</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" format="text/plain" language="en">The Imperial Model</title>
-  <title type="title-main" format="text/plain" language="en">The Imperial Model</title>
-  <title type="main" format="text/plain" language="ja">帝範</title>
-  <title type="title-main" format="text/plain" language="ja">帝範</title>
-  <uri type="xml">documents/difan.xml</uri>
-  <uri type="pdf">documents/difan.pdf</uri>
-  <uri type="doc">documents/difan.doc</uri>
-  <uri type="html">documents/difan.html</uri>
-  <uri type="rxl">documents/difan.rxl</uri>
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Sample document: Laozi with annotations in vertical format</title><contributor><role type='author'/><organization><name>Metanorma</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Imperial Model</title>
+  <title language="en" type="title-main">The Imperial Model</title>
+  <title language="ja" type="main">帝範</title>
+  <title language="ja" type="title-main">帝範</title>
+  <uri type="xml">./documents/difan.xml</uri>
+  <uri type="pdf">./documents/difan.pdf</uri>
+  <uri type="doc">./documents/difan.doc</uri>
+  <uri type="html">./documents/difan.html</uri>
+  <uri type="rxl">./documents/difan.rxl</uri>
   <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
   <docnumber>1001</docnumber>
   <date type="published">
@@ -66,23 +66,24 @@
       </organization>
     </owner>
   </copyright>
-  <ext schema-version="v0.0.1">
+  <ext schema-version="v1.0.2">
     <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
     <structuredidentifier>
-      <docnumber/>
+      <project-number>1001</project-number>
     </structuredidentifier>
   </ext>
 </bibdata></relation>
-<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" format="text/plain" language="en">The Book of Laozi on Silk, Version A</title>
-  <title type="title-main" format="text/plain" language="en">The Book of Laozi on Silk, Version A</title>
-  <title type="main" format="text/plain" language="ja">帛書老子 甲本</title>
-  <title type="title-main" format="text/plain" language="ja">帛書老子 甲本</title>
-  <uri type="xml">documents/laozi.xml</uri>
-  <uri type="pdf">documents/laozi.pdf</uri>
-  <uri type="doc">documents/laozi.doc</uri>
-  <uri type="html">documents/laozi.html</uri>
-  <uri type="rxl">documents/laozi.rxl</uri>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Book of Laozi on Silk, Version A</title>
+  <title language="en" type="title-main">The Book of Laozi on Silk, Version A</title>
+  <title language="ja" type="main">帛書老子 甲本</title>
+  <title language="ja" type="title-main">帛書老子 甲本</title>
+  <uri type="xml">./documents/laozi.xml</uri>
+  <uri type="pdf">./documents/laozi.pdf</uri>
+  <uri type="doc">./documents/laozi.doc</uri>
+  <uri type="html">./documents/laozi.html</uri>
+  <uri type="rxl">./documents/laozi.rxl</uri>
   <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
   <docnumber>1001</docnumber>
   <date type="published">
@@ -141,23 +142,24 @@
       </organization>
     </owner>
   </copyright>
-  <ext schema-version="v0.0.1">
+  <ext schema-version="v1.0.2">
     <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
     <structuredidentifier>
-      <docnumber/>
+      <project-number>1001</project-number>
     </structuredidentifier>
   </ext>
 </bibdata></relation>
-<relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" format="text/plain" language="en">The Minister’s Guide</title>
-  <title type="title-main" format="text/plain" language="en">The Minister’s Guide</title>
-  <title type="main" format="text/plain" language="ja">臣軌</title>
-  <title type="title-main" format="text/plain" language="ja">臣軌</title>
-  <uri type="xml">documents/shengui.xml</uri>
-  <uri type="pdf">documents/shengui.pdf</uri>
-  <uri type="doc">documents/shengui.doc</uri>
-  <uri type="html">documents/shengui.html</uri>
-  <uri type="rxl">documents/shengui.rxl</uri>
+<relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">The Minister’s Guide</title>
+  <title language="en" type="title-main">The Minister’s Guide</title>
+  <title language="ja" type="main">臣軌</title>
+  <title language="ja" type="title-main">臣軌</title>
+  <uri type="xml">./documents/shengui.xml</uri>
+  <uri type="pdf">./documents/shengui.pdf</uri>
+  <uri type="doc">./documents/shengui.doc</uri>
+  <uri type="html">./documents/shengui.html</uri>
+  <uri type="rxl">./documents/shengui.rxl</uri>
   <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier>
   <docnumber>1001</docnumber>
   <date type="published">
@@ -216,10 +218,11 @@
       </organization>
     </owner>
   </copyright>
-  <ext schema-version="v0.0.1">
+  <ext schema-version="v1.0.2">
     <doctype>japanese-industrial-standard</doctype>
+    <flavor>jis</flavor>
     <structuredidentifier>
-      <docnumber/>
+      <project-number>1001</project-number>
     </structuredidentifier>
   </ext>
 </bibdata></relation>

@@ -1,11 +1,11 @@
 <bibdata type="standard">
-<title language="en" format="text/plain" type="main">The Minister’s Guide</title>
+<title language="en" type="main">The Minister’s Guide</title>
 
-<title language="en" format="text/plain" type="title-main">The Minister’s Guide</title>
+<title language="en" type="title-main">The Minister’s Guide</title>
 
-<title language="ja" format="text/plain" type="main">臣軌</title>
+<title language="ja" type="main">臣軌</title>
 
-<title language="ja" format="text/plain" type="title-main">臣軌</title>
+<title language="ja" type="title-main">臣軌</title>
 <docidentifier type="JIS" primary="true">A 1001:2025</docidentifier><docnumber>1001</docnumber><date type="published"><on>2025-01-15</on></date><date type="announced"><on>2025-01-15</on></date><contributor><role type="author"/><organization>
 <name language="ja">早稲田大学図書館</name>
 
@@ -24,4 +24,4 @@
 <name language="ja">早稲田大学図書館</name>
 
 <name language="en">Waseda University Library</name>
-<abbreviation>WUL</abbreviation></organization></owner></copyright><ext><doctype>japanese-industrial-standard</doctype><flavor>jis</flavor><editorialgroup><agency>WUL</agency></editorialgroup><approvalgroup><agency>JIS</agency></approvalgroup><structuredidentifier><project-number>1001</project-number></structuredidentifier></ext></bibdata>
+<abbreviation>WUL</abbreviation></organization></owner></copyright><ext><doctype>japanese-industrial-standard</doctype><flavor>jis</flavor><structuredidentifier><project-number>1001</project-number></structuredidentifier></ext></bibdata>
